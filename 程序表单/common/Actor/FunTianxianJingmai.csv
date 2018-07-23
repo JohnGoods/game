@@ -1,0 +1,13 @@
+名字,经脉位置索引,经脉id,经脉名,消耗物品id,属性加成
+Name_ks,Index_kn,jinmaiid_n,jinmainame_s,itemid_n,effects_t
+TianXianJingMai,1,1001,阳跷,60017,"{'maxhp',1240},{'demage',95}"
+TianXianJingMai,2,1002,阴跷,60017,"{'maxhp',1240},{'demage',95}"
+TianXianJingMai,3,1003,阳维,60017,"{'maxhp',1240},{'demage',95}"
+TianXianJingMai,4,1004,阴维,60017,"{'demage',125},{'hujia',125}"
+TianXianJingMai,5,1005,带脉,60017,"{'demage',125},{'hujia',125}"
+TianXianJingMai,6,1006,冲脉,60017,"{'demage',125},{'hujia',125}"
+TianXianJingMai,7,1007,太阳,60017,"{'demage',245},{'critrate',4}"
+TianXianJingMai,8,1008,太阴,60017,"{'demage',245},{'critratedec',4}"
+TianXianJingMai,9,1009,督脉,60017,"{'demage',245},{'hitrate',4}"
+TianXianJingMai,10,1010,任脉,60017,"{'demage',245},{'dodge',4}"
+TianXianJingMai,11,1011,突破,60018,"{'maxhp',1240},{'demage',325},{'hujia',120},{'speed',1}"

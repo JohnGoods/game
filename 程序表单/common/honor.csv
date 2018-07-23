@@ -1,0 +1,11 @@
+称号索引,称号名字,称号图标,提示,完成条件,目标,类型1普通2稀有3超稀有,奖励内容,奖励描述,效果,效果描述,称号时间过期时间(0永久86400一天)
+index_kn,name_s,icon_s,tips_s,condition_t,target,hType_n,prize_t,prizeDescribe_s,effect_t,describe_s,overTime
+10001,天下霸主,chengHao_icon06,公会争霸第一名,"rank=1,post=1",1,3,,,,,604800
+10002,王者无敌,chengHao_icon05,公会争霸第二名,"rank=2,post=1",1,3,,,,,604800
+10003,无人可挡,chengHao_icon04,公会争霸第三名,"rank=3,post=1",1,3,,,,,604800
+10004,天下霸主,chengHao_icon06,公会争霸第一名,"rank=1,post=2",1,3,,,,,604800
+10005,王者无敌,chengHao_icon05,公会争霸第二名,"rank=2,post=2",1,3,,,,,604800
+10006,无人可挡,chengHao_icon04,公会争霸第三名,"rank=3,post=2",1,3,,,,,604800
+10007,天下无双,chengHao_icon03,神兵排行第一名,itemEntryId=40130,1,3,,,,,
+10008,神兵利器,chengHao_icon02,神兵排行第二名,itemEntryId=40131,1,3,,,,,
+10009,名不虚传,chengHao_icon01,神兵排行第三名,itemEntryId=40132,1,3,,,,,

@@ -1,0 +1,2 @@
+index,跳出地图id,跳出地图名,跳出中心点X,跳出中心点Y,跳出区域宽度,跳出区域高度,跳入地图id,跳入地图名,跳入点X,跳入点Y,方向,类型(0普通跳转1npc跳转),npcid,npc名字,跳转点特效
+index_kn,sourceId,sourceName_c,sourceX,sourceY,width,heigh,destId,destName_c,destX,destY,direction,type,npcid,npc_s,transport_n

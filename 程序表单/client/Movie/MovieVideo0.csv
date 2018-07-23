@@ -1,0 +1,3 @@
+#顺序,动作,动作参数,重复执行action,说明, 
+ActionIndex_n,Action_s,Param_t,Repeat_n,des_c,
+1,PlayVideo,"[""videoName""]=""gougou"", ",1,,

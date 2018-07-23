@@ -1,0 +1,10 @@
+任务索引,任务名,次数上限,奖励经验,完成条件,任务链接按钮
+ID_kn,name_s,maxCount,exp,condition_t,finish_t
+100,帮会强盗奖励,2,10,"""FactionMonster"",1",{'huodong'}
+101,绿色收购,4,1,"""FactionExchange"",{quality=2}",{'shougou'}
+102,蓝色收购,4,2,"""FactionExchange"",{quality=3}",{'shougou'}
+103,紫色收购,4,3,"""FactionExchange"",{quality=4}",{'shougou'}
+104,帮会上香,1,15,"""FactionRenqi"",1","{'ClubFrame', 1}"
+105,帮会副本,5,3,"""FactionCopyFight"",1","{'ClubFrame',2}"
+106,帮会小怪,4,5,"""FactionSmallMonster"",1",{'enterclubmap'}
+107,帮会采集,4,5,"""FactioGather"",1",{'enterclubmap'}

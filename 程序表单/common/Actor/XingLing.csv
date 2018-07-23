@@ -1,0 +1,7 @@
+星灵（根据Recharge表）,阶,效果1(原属性为固定值，用乘法，系数）,效果2（原属性为百分比，用加法，固定值）
+id_kn,level_n,effects_t,constEff_t
+1300,1,"{'demage',0.1}","{'maxhp',8000},{'demage',3200},{'hujia',800}"
+1301,2,"{'demage',0.1},{'maxhp',0.1}","{'maxhp',24000},{'demage',9600},{'hujia',2400}"
+1302,3,"{'demage',0.1},{'hujia',0.2},{'maxhp',0.1}","{'maxhp',48000},{'demage',19200},{'hujia',4800}"
+1303,4,"{'demage',0.1},{'hujia',0.2},{'maxhp',0.1}","{'maxhp',80000},{'demage',32000},{'hujia',8000},{'critdamage',0.2}"
+1304,5,"{'demage',0.1},{'hujia',0.2},{'maxhp',0.1}","{'maxhp',128000},{'demage',51200},{'hujia',12800},{'critdamage',0.2},{'attinc',0.2}"

@@ -1,0 +1,942 @@
+名称,名称,ID,状态类型Buff DeBuff Null,技能伤害类型火FIRE 冰ICE 神圣HOLY 黑暗DARKLY 无NONE,状态系列,状态效果,持续时间(毫秒),替换规则,状态最大叠加数,是否发送到客户端,基础概率,成长参数,flag
+Name_s,title_c,Id_kn,Type_s,DamageElement_s,Series_t,Effects_t,Life,Stack_s,StackMax,Show,Rate,BuffGrow_t,falg_c
+A1,下回合伤害提升30%,10001,Buff,NONE,,"{'ChaLAPercent', 'attinc', 30, 0,Time='Apply'}",0,Replace,1,1,,,0
+A2,下回合伤害提升10%,10002,Buff,NONE,,"{'ChaLAPercent', 'attinc', 10, 0,Time='Apply'}",0,Replace,1,1,,,0
+A3,下回合伤害提升30%,10003,Buff,NONE,,"{'ChaLAPercent', 'attinc', 30, 0,Time='Apply'}",0,Replace,1,1,,,0
+A4,下回合伤害提升10%,10004,Buff,NONE,,"{'ChaLAPercent', 'attinc', 10, 0,Time='Apply'}",0,Replace,1,1,,,0
+A5,下回合伤害提升30%,10005,Buff,NONE,,"{'ChaLAPercent', 'attinc', 30, 0,Time='Apply'}",0,Replace,1,1,,,0
+A6,下回合伤害提升10%,10006,Buff,NONE,,"{'ChaLAPercent', 'attinc', 10, 0,Time='Apply'}",0,Replace,1,1,,,0
+A7,攻击触发命中提升,10007,Null,NONE,,"{'ProcBuff', {{'A8', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+A8,命中持续2回合,10008,Buff,NONE,,"{'ChaLAPercent', 'hitrate',  30}",2,Replace,1,1,,,0
+A9,攻击触发命中提升,10009,Null,NONE,,"{'ProcBuff', {{'A10', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+A10,命中持续2回合,10010,Buff,NONE,,"{'ChaLAPercent', 'hitrate',  30}",2,Replace,1,1,,,0
+A11,攻击触发命中提升,10011,Null,NONE,,"{'ProcBuff', {{'A12', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+A12,命中持续2回合,10012,Buff,NONE,,"{'ChaLAPercent', 'hitrate',  30}",2,Replace,1,1,,,0
+A13,攻击触发命中提升,10013,Null,NONE,,"{'ProcBuff', {{'A14', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+A14,命中持续2回合PVP,10014,Buff,NONE,,"{'ChaLAPercent', 'hitrate',  30, PVP=1}",2,Replace,1,1,,,0
+A15,攻击时有概率提升30%PVE防御持续2回合,10015,Null,NONE,,"{'ProcBuff', {{'A16', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+A16,防御,10016,Buff,NONE,,"{'ChaLAPercent', 'hujia',  30, PVE=1}",2,Replace,1,1,,,0
+A17,攻击时有概率提升30%PVE伤害持续2回合,10017,Null,NONE,,"{'ProcBuff', {{'A18', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+A18,伤害,10018,Buff,NONE,,"{'ChaLAPercent', 'attinc',  30, PVE=1}",2,Replace,1,1,,,0
+A19,攻击时有概率提升50%PVP伤害持续2回合,10019,Null,NONE,,"{'ProcBuff', {{'A20', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+A20,伤害,10020,Buff,NONE,,"{'ChaLAPercent', 'attinc',  50, PVP=1}",2,Replace,1,1,,,0
+A21,攻击时有概率提升50%PVP防御持续2回合,10021,Null,NONE,,"{'ProcBuff', {{'A22', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+A22,防御,10022,Buff,NONE,,"{'ChaLAPercent', 'hujia',  50, PVP=1}",2,Replace,1,1,,,0
+A23,攻击时有概率提升50%攻击持续2回合,10023,Null,NONE,,"{'ProcBuff', {{'A24', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+A24,攻击,10024,Buff,NONE,,"{'ChaLAPercent', 'demage',  30}",2,Replace,1,1,,,0
+A25,攻击时有概率提升30%闪避持续2回合,10025,Null,NONE,,"{'ProcBuff', {{'A26', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+A26,闪避,10026,Buff,NONE,,"{'ChaLAPercent', 'dodge',  30}",2,Replace,1,1,,,0
+A27,攻击时有概率提升30%PVP伤减持续2回合,10027,Null,NONE,,"{'ProcBuff', {{'A28', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+A28,伤害减免,10028,Buff,NONE,,"{'AbsorbDamage', 30,Time='Apply', PVP=1},",2,Replace,1,1,,,0
+A29,攻击时有概率提升30%pve伤减持续2回合,10029,Null,NONE,,"{'ProcBuff', {{'A30', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+A30,伤害增加,10030,Buff,NONE,,"{'ChaLAPercent', 'attinc',  30, PVE=1}",2,Replace,1,1,,,0
+B1,攻击触发伤害降低,20001,Null,NONE,,"{'ProcBuff', {{'B2', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B2,伤害降低,20002,DeBuff,NONE,,"{'ChaLAPercent', 'attdec',  15}",0,Replace,1,1,,,0
+B3,攻击触发伤害降低,20003,Null,NONE,,"{'ProcBuff', {{'B4', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B4,伤害降低,20004,DeBuff,NONE,,"{'ChaLAPercent', 'attdec',  18}",0,Replace,1,1,,,0
+B5,攻击触发伤害降低,20005,Null,NONE,,"{'ProcBuff', {{'B6', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B6,伤害降低,20006,DeBuff,NONE,,"{'ChaLAPercent', 'attdec',  21}",0,Replace,1,1,,,0
+B7,攻击触发伤害降低,20007,Null,NONE,,"{'ProcBuff', {{'B8', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B8,伤害降低,20008,DeBuff,NONE,,"{'ChaLAPercent', 'attdec',  24}",0,Replace,1,1,,,0
+B9,攻击触发伤害降低,20009,Null,NONE,,"{'ProcBuff', {{'B10', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B10,伤害降低,20010,DeBuff,NONE,,"{'ChaLAPercent', 'attdec',  27}",0,Replace,1,1,,,0
+B11,攻击触发伤害降低,20011,Null,NONE,,"{'ProcBuff', {{'B12', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B12,伤害降低,20012,DeBuff,NONE,,"{'ChaLAPercent', 'attdec',  30}",0,Replace,1,1,,,0
+B13,攻击触发伤害降低,20013,Null,NONE,,"{'ProcBuff', {{'B14', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B14,伤害降低,20014,DeBuff,NONE,,"{'ChaLAPercent', 'attdec',  33}",0,Replace,1,1,,,0
+B15,攻击触发防御降低,20015,Null,NONE,,"{'ProcBuff', {{'B16', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B16,防御降低,20016,DeBuff,NONE,,"{'ChaLAPercent', 'hujia',  -30}",0,Replace,1,1,,,0
+B17,攻击触发防御降低,20017,Null,NONE,,"{'ProcBuff', {{'B18', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B18,防御降低,20018,DeBuff,NONE,,"{'ChaLAPercent', 'hujia',  -35}",0,Replace,1,1,,,0
+B19,攻击触发防御降低,20019,Null,NONE,,"{'ProcBuff', {{'B20', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B20,防御降低,20020,DeBuff,NONE,,"{'ChaLAPercent', 'hujia',  -40}",0,Replace,1,1,,,0
+B21,攻击触发防御降低,20021,Null,NONE,,"{'ProcBuff', {{'B22', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B22,防御降低,20022,DeBuff,NONE,,"{'ChaLAPercent', 'hujia',  -45}",0,Replace,1,1,,,0
+B23,攻击触发防御降低,20023,Null,NONE,,"{'ProcBuff', {{'B24', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B24,防御降低,20024,DeBuff,NONE,,"{'ChaLAPercent', 'hujia',  -50}",0,Replace,1,1,,,0
+B25,攻击触发防御降低,20025,Null,NONE,,"{'ProcBuff', {{'B26', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B26,防御降低,20026,DeBuff,NONE,,"{'ChaLAPercent', 'hujia',  -55}",0,Replace,1,1,,,0
+B27,攻击触发防御降低,20027,Null,NONE,,"{'ProcBuff', {{'B28', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B28,防御降低,20028,DeBuff,NONE,,"{'ChaLAPercent', 'hujia',  -60}",0,Replace,1,1,,,0
+B29,攻击触发暴击提升,20029,Null,NONE,,"{'ProcBuff', {{'B30', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B30,下回合暴击提升20%,20030,Buff,NONE,,"{'ChaLAPercent', 'critrate', 20, 0,Time='Apply'}",0,Replace,1,1,,,0
+B31,攻击触发暴击提升,20031,Null,NONE,,"{'ProcBuff', {{'B32', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B32,下回合暴击提升25%,20032,Buff,NONE,,"{'ChaLAPercent', 'critrate', 25, 0,Time='Apply'}",0,Replace,1,1,,,0
+B33,攻击触发暴击提升,20033,Null,NONE,,"{'ProcBuff', {{'B34', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B34,下回合暴击提升30%,20034,Buff,NONE,,"{'ChaLAPercent', 'critrate', 30, 0,Time='Apply'}",0,Replace,1,1,,,0
+B35,攻击触发暴击提升,20035,Null,NONE,,"{'ProcBuff', {{'B36', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B36,下回合暴击提升35%,20036,Buff,NONE,,"{'ChaLAPercent', 'critrate', 35, 0,Time='Apply'}",0,Replace,1,1,,,0
+B37,攻击触发暴击提升,20037,Null,NONE,,"{'ProcBuff', {{'B38', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B38,下回合暴击提升40%,20038,Buff,NONE,,"{'ChaLAPercent', 'critrate', 40, 0,Time='Apply'}",0,Replace,1,1,,,0
+B39,攻击触发暴击提升,20039,Null,NONE,,"{'ProcBuff', {{'B40', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B40,下回合暴击提升45%,20040,Buff,NONE,,"{'ChaLAPercent', 'critrate', 45, 0,Time='Apply'}",0,Replace,1,1,,,0
+B41,攻击触发暴击提升,20041,Null,NONE,,"{'ProcBuff', {{'B42', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B42,下回合暴击提升50%,20042,Buff,NONE,,"{'ChaLAPercent', 'critrate', 50, 0,Time='Apply'}",0,Replace,1,1,,,0
+B43,攻击触发伤害转换生命,20043,Null,NONE,,"{'ProcBuff', {{'B44', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B44,转换8%的生命,20044,Buff,NONE,,"{'CureHP', 0.08,Param='Damage',Time='Apply'}",0,Replace,1,1,,,0
+B45,攻击触发伤害转换生命,20045,Null,NONE,,"{'ProcBuff', {{'B46', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B46,转换12%的生命,20046,Buff,NONE,,"{'CureHP', 0.12,Param='Damage',Time='Apply'}",0,Replace,1,1,,,0
+B47,攻击触发伤害转换生命,20047,Null,NONE,,"{'ProcBuff', {{'B48', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B48,转换16%的生命,20048,Buff,NONE,,"{'CureHP', 0.16,Param='Damage',Time='Apply'}",0,Replace,1,1,,,0
+B49,攻击触发伤害转换生命,20049,Null,NONE,,"{'ProcBuff', {{'B50', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B50,转换20%的生命,20050,Buff,NONE,,"{'CureHP', 0.20,Param='Damage',Time='Apply'}",0,Replace,1,1,,,0
+B51,攻击触发伤害转换生命,20051,Null,NONE,,"{'ProcBuff', {{'B52', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B52,转换24%的生命,20052,Buff,NONE,,"{'CureHP', 0.24,Param='Damage',Time='Apply'}",0,Replace,1,1,,,0
+B53,攻击触发伤害转换生命,20053,Null,NONE,,"{'ProcBuff', {{'B54', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B54,转换28%的生命,20054,Buff,NONE,,"{'CureHP', 0.28,Param='Damage',Time='Apply'}",0,Replace,1,1,,,0
+B55,攻击触发伤害转换生命,20055,Null,NONE,,"{'ProcBuff', {{'B56', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B56,转换32%的生命,20056,Buff,NONE,,"{'CureHP', 0.32,Param='Damage',Time='Apply'}",0,Replace,1,1,,,0
+B57,受到攻击触发伤害转换生命,20057,Null,NONE,,"{'ProcBuff', {{'B58', 10}, {'Nothing', 90}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B58,转换8%的生命,20058,Buff,NONE,,"{'AbsorbDamage', 8,Time='Apply'},",0,Replace,1,1,,,0
+B59,受到攻击触发伤害转换生命,20059,Null,NONE,,"{'ProcBuff', {{'B60', 10}, {'Nothing', 90}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B60,转换12%的生命,20060,Buff,NONE,,"{'AbsorbDamage', 12,Time='Apply'},",0,Replace,1,1,,,0
+B61,受到攻击触发伤害转换生命,20061,Null,NONE,,"{'ProcBuff', {{'B62', 10}, {'Nothing', 90}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B62,转换16%的生命,20062,Buff,NONE,,"{'AbsorbDamage', 16,Time='Apply'},",0,Replace,1,1,,,0
+B63,受到攻击触发伤害转换生命,20063,Null,NONE,,"{'ProcBuff', {{'B64', 10}, {'Nothing', 90}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B64,转换20%的生命,20064,Buff,NONE,,"{'AbsorbDamage', 20,Time='Apply'},",0,Replace,1,1,,,0
+B65,受到攻击触发伤害转换生命,20065,Null,NONE,,"{'ProcBuff', {{'B66', 10}, {'Nothing', 90}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B66,转换24%的生命,20066,Buff,NONE,,"{'AbsorbDamage', 24,Time='Apply'},",0,Replace,1,1,,,0
+B67,受到攻击触发伤害转换生命,20067,Null,NONE,,"{'ProcBuff', {{'B68', 10}, {'Nothing', 90}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B68,转换28%的生命,20068,Buff,NONE,,"{'AbsorbDamage', 28,Time='Apply'},",0,Replace,1,1,,,0
+B69,受到攻击触发伤害转换生命,20069,Null,NONE,,"{'ProcBuff', {{'B70', 10}, {'Nothing', 90}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B70,转换32%的生命,20070,Buff,NONE,,"{'AbsorbDamage', 32,Time='Apply'},",0,Replace,1,1,,,0
+B71,受到攻击触发伤害提升,20071,Null,NONE,,"{'ProcBuff', {{'B72', 10}, {'Nothing', 90}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B72,提升15%,20072,Buff,NONE,,"{'ChaLAPercent', 'attinc', 15, 0,Time='Apply'}",0,Replace,1,1,,,0
+B73,受到攻击触发伤害提升,20073,Null,NONE,,"{'ProcBuff', {{'B74', 10}, {'Nothing', 90}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B74,提升18%,20074,Buff,NONE,,"{'ChaLAPercent', 'attinc', 18, 0,Time='Apply'}",0,Replace,1,1,,,0
+B75,受到攻击触发伤害提升,20075,Null,NONE,,"{'ProcBuff', {{'B76', 10}, {'Nothing', 90}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B76,提升21%,20076,Buff,NONE,,"{'ChaLAPercent', 'attinc', 21, 0,Time='Apply'}",0,Replace,1,1,,,0
+B77,受到攻击触发伤害提升,20077,Null,NONE,,"{'ProcBuff', {{'B78', 10}, {'Nothing', 90}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B78,提升24%,20078,Buff,NONE,,"{'ChaLAPercent', 'attinc', 24, 0,Time='Apply'}",0,Replace,1,1,,,0
+B79,受到攻击触发伤害提升,20079,Null,NONE,,"{'ProcBuff', {{'B80', 10}, {'Nothing', 90}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B80,提升27%,20080,Null,NONE,,"{'ChaLAPercent', 'attinc', 27, 0,Time='Apply'}",0,Replace,1,1,,,0
+B81,受到攻击触发伤害提升,20081,Buff,NONE,,"{'ProcBuff', {{'B82', 10}, {'Nothing', 90}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B82,提升30%,20082,Null,NONE,,"{'ChaLAPercent', 'attinc', 30, 0,Time='Apply'}",0,Replace,1,1,,,0
+B83,受到攻击触发伤害提升,20083,Buff,NONE,,"{'ProcBuff', {{'B84', 10}, {'Nothing', 90}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B84,提升33%,20084,Null,NONE,,"{'ChaLAPercent', 'attinc', 33, 0,Time='Apply'}",0,Replace,1,1,,,0
+B85,受到攻击触发伤害减免,20085,Null,NONE,,"{'ProcBuff', {{'B86', 10}, {'Nothing', 90}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B86,伤害减免15%,20086,Buff,NONE,,"{'AbsorbDamage', 15,Time='Apply'},",0,Replace,1,1,,,0
+B87,受到攻击触发伤害减免,20087,Null,NONE,,"{'ProcBuff', {{'B88', 10}, {'Nothing', 90}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B88,伤害减免18%,20088,Buff,NONE,,"{'AbsorbDamage', 18,Time='Apply'},",0,Replace,1,1,,,0
+B89,受到攻击触发伤害减免,20089,Null,NONE,,"{'ProcBuff', {{'B90', 10}, {'Nothing', 90}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B90,伤害减免21%,20090,Buff,NONE,,"{'AbsorbDamage', 21,Time='Apply'},",0,Replace,1,1,,,0
+B91,受到攻击触发伤害减免,20091,Null,NONE,,"{'ProcBuff', {{'B92', 10}, {'Nothing', 90}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B92,伤害减免24%,20092,Buff,NONE,,"{'AbsorbDamage', 24,Time='Apply'},",0,Replace,1,1,,,0
+B93,受到攻击触发伤害减免,20093,Null,NONE,,"{'ProcBuff', {{'B94', 10}, {'Nothing', 90}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B94,伤害减免27%,20094,Null,NONE,,"{'AbsorbDamage', 27,Time='Apply'},",0,Replace,1,1,,,0
+B95,受到攻击触发伤害减免,20095,Buff,NONE,,"{'ProcBuff', {{'B96', 10}, {'Nothing', 90}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B96,伤害减免30%,20096,Null,NONE,,"{'AbsorbDamage', 30,Time='Apply'},",0,Replace,1,1,,,0
+B97,受到攻击触发伤害减免,20097,Buff,NONE,,"{'ProcBuff', {{'B98', 10}, {'Nothing', 90}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B98,伤害减免33%,20098,Null,NONE,,"{'AbsorbDamage', 33,Time='Apply'},",0,Replace,1,1,,,0
+B99,攻击触发额外伤害,20099,Null,NONE,,"{'ProcBuff', {{'B100', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B100,伤害增加18%,20100,Buff,NONE,,"{'ChaLAPercent', 'attinc', 18, 0,Time='Apply'}",0,Replace,1,1,,,0
+B101,攻击触发额外伤害,20101,Null,NONE,,"{'ProcBuff', {{'B102', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B102,伤害增加22%,20102,Buff,NONE,,"{'ChaLAPercent', 'attinc', 22, 0,Time='Apply'}",0,Replace,1,1,,,0
+B103,攻击触发额外伤害,20103,Null,NONE,,"{'ProcBuff', {{'B104', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B104,伤害增加26%,20104,Buff,NONE,,"{'ChaLAPercent', 'attinc', 26, 0,Time='Apply'}",0,Replace,1,1,,,0
+B105,攻击触发额外伤害,20105,Null,NONE,,"{'ProcBuff', {{'B106', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B106,伤害增加30%,20106,Buff,NONE,,"{'ChaLAPercent', 'attinc', 30, 0,Time='Apply'}",0,Replace,1,1,,,0
+B107,攻击触发额外伤害,20107,Null,NONE,,"{'ProcBuff', {{'B108', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B108,伤害增加34%,20108,Buff,NONE,,"{'ChaLAPercent', 'attinc', 34, 0,Time='Apply'}",0,Replace,1,1,,,0
+B109,攻击触发额外伤害,20109,Null,NONE,,"{'ProcBuff', {{'B110', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B110,伤害增加38%,20110,Buff,NONE,,"{'ChaLAPercent', 'attinc', 38, 0,Time='Apply'}",0,Replace,1,1,,,0
+B111,攻击触发额外伤害,20111,Null,NONE,,"{'ProcBuff', {{'B112', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B112,伤害增加42%,20112,Buff,NONE,,"{'ChaLAPercent', 'attinc', 42, 0,Time='Apply'}",0,Replace,1,1,,,0
+B113,攻击触发眩晕,20113,Null,NONE,,"{'ProcBuff', {{'B114', 6}, {'Nothing', 94}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B114,眩晕,20114,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+B115,攻击触发眩晕,20115,Null,NONE,,"{'ProcBuff', {{'B116', 65}, {'Nothing', 935}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B116,眩晕,20116,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+B117,攻击触发眩晕,20117,Null,NONE,,"{'ProcBuff', {{'B118', 7}, {'Nothing', 93}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B118,眩晕,20118,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+B119,攻击触发眩晕,20119,Null,NONE,,"{'ProcBuff', {{'B120', 75}, {'Nothing', 925}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B120,眩晕,20120,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+B121,攻击触发眩晕,20121,Null,NONE,,"{'ProcBuff', {{'B122', 8}, {'Nothing', 92}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B122,眩晕,20122,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+B123,攻击触发眩晕,20123,Null,NONE,,"{'ProcBuff', {{'B124', 85}, {'Nothing', 915}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B124,眩晕,20124,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+B125,攻击触发眩晕,20125,Null,NONE,,"{'ProcBuff', {{'B126', 9}, {'Nothing', 91}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B126,眩晕,20126,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+B127,受到攻击触发反击,20127,Null,NONE,,"{'ProcBuff', {{'B128', 50}, {'Nothing', 950}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B128,反击,20128,Buff,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+B129,受到攻击触发反击,20129,Null,NONE,,"{'ProcBuff', {{'B130', 55}, {'Nothing', 945}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B130,反击,20130,Buff,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+B131,受到攻击触发反击,20131,Null,NONE,,"{'ProcBuff', {{'B132', 60}, {'Nothing', 940}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B132,反击,20132,Buff,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+B133,受到攻击触发反击,20133,Null,NONE,,"{'ProcBuff', {{'B134', 65}, {'Nothing', 935}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B134,反击,20134,Buff,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+B135,受到攻击触发反击,20135,Null,NONE,,"{'ProcBuff', {{'B136', 70}, {'Nothing', 930}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B136,反击,20136,Buff,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+B137,受到攻击触发反击,20137,Null,NONE,,"{'ProcBuff', {{'B138', 75}, {'Nothing', 925}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B138,反击,20138,Buff,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+B139,受到攻击触发反击,20139,Null,NONE,,"{'ProcBuff', {{'B140', 80}, {'Nothing', 920}}, Time='BeSingleCast'}",0,Replace,1,1,,,0
+B140,反击,20140,Buff,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+B141,攻击触发额外伤害,20141,Null,NONE,,"{'ProcBuff', {{'B142', 50}, {'Nothing', 950}}, Time='AllCast'}",0,Replace,1,1,,,0
+B142,伤害增加,20142,DeBuff,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+B143,攻击触发额外伤害,20143,Null,NONE,,"{'ProcBuff', {{'B144', 55}, {'Nothing', 945}}, Time='AllCast'}",0,Replace,1,1,,,0
+B144,伤害增加,20144,DeBuff,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+B145,攻击触发额外伤害,20145,Null,NONE,,"{'ProcBuff', {{'B146', 60}, {'Nothing', 940}}, Time='AllCast'}",0,Replace,1,1,,,0
+B146,伤害增加,20146,DeBuff,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+B147,攻击触发额外伤害,20147,Null,NONE,,"{'ProcBuff', {{'B148', 65}, {'Nothing', 935}}, Time='AllCast'}",0,Replace,1,1,,,0
+B148,伤害增加,20148,DeBuff,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+B149,攻击触发额外伤害,20149,Null,NONE,,"{'ProcBuff', {{'B150', 70}, {'Nothing', 930}}, Time='AllCast'}",0,Replace,1,1,,,0
+B150,伤害增加,20150,DeBuff,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+B151,攻击触发额外伤害,20151,Null,NONE,,"{'ProcBuff', {{'B152', 75}, {'Nothing', 925}}, Time='AllCast'}",0,Replace,1,1,,,0
+B152,伤害增加,20152,DeBuff,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+B153,攻击触发额外伤害,20153,Null,NONE,,"{'ProcBuff', {{'B154', 80}, {'Nothing', 920}}, Time='AllCast'}",0,Replace,1,1,,,0
+B154,伤害增加,20154,DeBuff,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+B155,攻击触发伤害降低,20155,Null,NONE,,"{'ProcBuff', {{'B156', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B156,伤害降低,20156,DeBuff,NONE,,"{'ChaLAPercent', 'attdec',  6}",0,Replace,1,1,,,0
+B157,攻击触发伤害降低,20157,Null,NONE,,"{'ProcBuff', {{'B158', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B158,伤害降低,20158,DeBuff,NONE,,"{'ChaLAPercent', 'attdec',  8}",0,Replace,1,1,,,0
+B159,攻击触发伤害降低,20159,Null,NONE,,"{'ProcBuff', {{'B160', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B160,伤害降低,20160,DeBuff,NONE,,"{'ChaLAPercent', 'attdec',  10}",0,Replace,1,1,,,0
+B161,攻击触发伤害降低,20161,Null,NONE,,"{'ProcBuff', {{'B162', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B162,伤害降低,20162,DeBuff,NONE,,"{'ChaLAPercent', 'attdec',  12}",0,Replace,1,1,,,0
+B163,攻击触发伤害降低,20163,Null,NONE,,"{'ProcBuff', {{'B164', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B164,伤害降低,20164,DeBuff,NONE,,"{'ChaLAPercent', 'attdec',  14}",0,Replace,1,1,,,0
+B165,攻击触发伤害降低,20165,Null,NONE,,"{'ProcBuff', {{'B166', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B166,伤害降低,20166,DeBuff,NONE,,"{'ChaLAPercent', 'attdec',  16}",0,Replace,1,1,,,0
+B167,攻击触发伤害降低,20167,Null,NONE,,"{'ProcBuff', {{'B168', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B168,伤害降低,20168,DeBuff,NONE,,"{'ChaLAPercent', 'attdec',  18}",0,Replace,1,1,,,0
+B169,攻击触发防御降低,20169,Null,NONE,,"{'ProcBuff', {{'B170', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B170,防御降低,20170,DeBuff,NONE,,"{'ChaLAPercent', 'hujia',  -20}",0,Replace,1,1,,,0
+B171,攻击触发防御降低,20171,Null,NONE,,"{'ProcBuff', {{'B172', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B172,防御降低,20172,DeBuff,NONE,,"{'ChaLAPercent', 'hujia',  -23}",0,Replace,1,1,,,0
+B173,攻击触发防御降低,20173,Null,NONE,,"{'ProcBuff', {{'B174', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B174,防御降低,20174,DeBuff,NONE,,"{'ChaLAPercent', 'hujia',  -26}",0,Replace,1,1,,,0
+B175,攻击触发防御降低,20175,Null,NONE,,"{'ProcBuff', {{'B176', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B176,防御降低,20176,DeBuff,NONE,,"{'ChaLAPercent', 'hujia',  -29}",0,Replace,1,1,,,0
+B177,攻击触发防御降低,20177,Null,NONE,,"{'ProcBuff', {{'B178', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B178,防御降低,20178,DeBuff,NONE,,"{'ChaLAPercent', 'hujia',  -32}",0,Replace,1,1,,,0
+B179,攻击触发防御降低,20179,Null,NONE,,"{'ProcBuff', {{'B180', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B180,防御降低,20180,DeBuff,NONE,,"{'ChaLAPercent', 'hujia',  -35}",0,Replace,1,1,,,0
+B181,攻击触发防御降低,20181,Null,NONE,,"{'ProcBuff', {{'B182', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B182,防御降低,20182,DeBuff,NONE,,"{'ChaLAPercent', 'hujia',  -38}",0,Replace,1,1,,,0
+B183,攻击触发暴击提升,20183,Null,NONE,,"{'ProcBuff', {{'B184', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B184,下回合暴击提升20%,20184,Buff,NONE,,"{'ChaLAPercent', 'critrate', 20, 0,Time='Apply'}",0,Replace,1,1,,,0
+B185,攻击触发暴击提升,20185,Null,NONE,,"{'ProcBuff', {{'B186', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B186,下回合暴击提升25%,20186,Buff,NONE,,"{'ChaLAPercent', 'critrate', 25, 0,Time='Apply'}",0,Replace,1,1,,,0
+B187,攻击触发暴击提升,20187,Null,NONE,,"{'ProcBuff', {{'B188', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B188,下回合暴击提升30%,20188,Buff,NONE,,"{'ChaLAPercent', 'critrate', 30, 0,Time='Apply'}",0,Replace,1,1,,,0
+B189,攻击触发暴击提升,20189,Null,NONE,,"{'ProcBuff', {{'B190', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B190,下回合暴击提升35%,20190,Buff,NONE,,"{'ChaLAPercent', 'critrate', 35, 0,Time='Apply'}",0,Replace,1,1,,,0
+B191,攻击触发暴击提升,20191,Null,NONE,,"{'ProcBuff', {{'B192', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B192,下回合暴击提升40%,20192,Buff,NONE,,"{'ChaLAPercent', 'critrate', 40, 0,Time='Apply'}",0,Replace,1,1,,,0
+B193,攻击触发暴击提升,20193,Null,NONE,,"{'ProcBuff', {{'B194', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B194,下回合暴击提升45%,20194,Buff,NONE,,"{'ChaLAPercent', 'critrate', 45, 0,Time='Apply'}",0,Replace,1,1,,,0
+B195,攻击触发暴击提升,20195,Null,NONE,,"{'ProcBuff', {{'B196', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B196,下回合暴击提升50%,20196,Buff,NONE,,"{'ChaLAPercent', 'critrate', 50, 0,Time='Apply'}",0,Replace,1,1,,,0
+B197,攻击触发伤害转换生命,20197,Null,NONE,,"{'ProcBuff', {{'B198', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B198,转换生命,20198,Buff,NONE,,"{'CureHP', 0.06,Param='Damage',Time='Apply'}",0,Replace,1,1,,,0
+B199,攻击触发伤害转换生命,20199,Null,NONE,,"{'ProcBuff', {{'B200', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B200,转换生命,20200,Buff,NONE,,"{'CureHP', 0.08,Param='Damage',Time='Apply'}",0,Replace,1,1,,,0
+B201,攻击触发伤害转换生命,20201,Null,NONE,,"{'ProcBuff', {{'B202', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B202,转换生命,20202,Buff,NONE,,"{'CureHP', 0.1,Param='Damage',Time='Apply'}",0,Replace,1,1,,,0
+B203,攻击触发伤害转换生命,20203,Null,NONE,,"{'ProcBuff', {{'B204', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B204,转换生命,20204,Buff,NONE,,"{'CureHP', 0.12,Param='Damage',Time='Apply'}",0,Replace,1,1,,,0
+B205,攻击触发伤害转换生命,20205,Null,NONE,,"{'ProcBuff', {{'B206', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B206,转换生命,20206,Buff,NONE,,"{'CureHP', 0.14,Param='Damage',Time='Apply'}",0,Replace,1,1,,,0
+B207,攻击触发伤害转换生命,20207,Null,NONE,,"{'ProcBuff', {{'B208', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B208,转换生命,20208,Buff,NONE,,"{'CureHP', 0.16,Param='Damage',Time='Apply'}",0,Replace,1,1,,,0
+B209,攻击触发伤害转换生命,20209,Null,NONE,,"{'ProcBuff', {{'B210', 10}, {'Nothing', 90}}, Time='AllCast'}",0,Replace,1,1,,,0
+B210,转换生命,20210,Buff,NONE,,"{'CureHP', 0.18,Param='Damage',Time='Apply'}",0,Replace,1,1,,,0
+B211,受到攻击触发伤害转换生命,20211,Null,NONE,,"{'ProcBuff', {{'B212', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B212,转换生命,20212,Buff,NONE,,"{'AbsorbDamage', 6,Time='Apply'},",0,Replace,1,1,,,0
+B213,受到攻击触发伤害转换生命,20213,Null,NONE,,"{'ProcBuff', {{'B214', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B214,转换生命,20214,Buff,NONE,,"{'AbsorbDamage', 8,Time='Apply'},",0,Replace,1,1,,,0
+B215,受到攻击触发伤害转换生命,20215,Null,NONE,,"{'ProcBuff', {{'B216', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B216,转换生命,20216,Buff,NONE,,"{'AbsorbDamage', 10,Time='Apply'},",0,Replace,1,1,,,0
+B217,受到攻击触发伤害转换生命,20217,Null,NONE,,"{'ProcBuff', {{'B218', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B218,转换生命,20218,Buff,NONE,,"{'AbsorbDamage', 12,Time='Apply'},",0,Replace,1,1,,,0
+B219,受到攻击触发伤害转换生命,20219,Null,NONE,,"{'ProcBuff', {{'B220', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B220,转换生命,20220,Buff,NONE,,"{'AbsorbDamage', 14,Time='Apply'},",0,Replace,1,1,,,0
+B221,受到攻击触发伤害转换生命,20221,Null,NONE,,"{'ProcBuff', {{'B222', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B222,转换生命,20222,Buff,NONE,,"{'AbsorbDamage', 16,Time='Apply'},",0,Replace,1,1,,,0
+B223,受到攻击触发伤害转换生命,20223,Null,NONE,,"{'ProcBuff', {{'B224', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B224,转换32%的生命,20224,Buff,NONE,,"{'AbsorbDamage', 18,Time='Apply'},",0,Replace,1,1,,,0
+B225,受到攻击触发伤害提升,20225,Null,NONE,,"{'ProcBuff', {{'B226', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B226,提升伤害,20226,Buff,NONE,,"{'ChaLAPercent', 'attinc', 6, 0,Time='Apply'}",0,Replace,1,1,,,0
+B227,受到攻击触发伤害提升,20227,Null,NONE,,"{'ProcBuff', {{'B228', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B228,提升伤害,20228,Buff,NONE,,"{'ChaLAPercent', 'attinc', 8, 0,Time='Apply'}",0,Replace,1,1,,,0
+B229,受到攻击触发伤害提升,20229,Null,NONE,,"{'ProcBuff', {{'B230', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B230,提升伤害,20230,Buff,NONE,,"{'ChaLAPercent', 'attinc', 10, 0,Time='Apply'}",0,Replace,1,1,,,0
+B231,受到攻击触发伤害提升,20231,Null,NONE,,"{'ProcBuff', {{'B232', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B232,提升伤害,20232,Buff,NONE,,"{'ChaLAPercent', 'attinc', 12, 0,Time='Apply'}",0,Replace,1,1,,,0
+B233,受到攻击触发伤害提升,20233,Null,NONE,,"{'ProcBuff', {{'B234', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B234,提升伤害,20234,Null,NONE,,"{'ChaLAPercent', 'attinc', 14, 0,Time='Apply'}",0,Replace,1,1,,,0
+B235,受到攻击触发伤害提升,20235,Buff,NONE,,"{'ProcBuff', {{'B236', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B236,提升伤害,20236,Null,NONE,,"{'ChaLAPercent', 'attinc', 16, 0,Time='Apply'}",0,Replace,1,1,,,0
+B237,受到攻击触发伤害提升,20237,Buff,NONE,,"{'ProcBuff', {{'B238', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B238,提升伤害,20238,Null,NONE,,"{'ChaLAPercent', 'attinc', 18, 0,Time='Apply'}",0,Replace,1,1,,,0
+B239,受到攻击触发伤害减免,20239,Null,NONE,,"{'ProcBuff', {{'B240', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B240,伤害减免,20240,Buff,NONE,,"{'AbsorbDamage', 6,Time='Apply'},",0,Replace,1,1,,,0
+B241,受到攻击触发伤害减免,20241,Null,NONE,,"{'ProcBuff', {{'B242', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B242,伤害减免,20242,Buff,NONE,,"{'AbsorbDamage', 8,Time='Apply'},",0,Replace,1,1,,,0
+B243,受到攻击触发伤害减免,20243,Null,NONE,,"{'ProcBuff', {{'B244', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B244,伤害减免,20244,Buff,NONE,,"{'AbsorbDamage', 10,Time='Apply'},",0,Replace,1,1,,,0
+B245,受到攻击触发伤害减免,20245,Null,NONE,,"{'ProcBuff', {{'B246', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B246,伤害减免,20246,Buff,NONE,,"{'AbsorbDamage', 12,Time='Apply'},",0,Replace,1,1,,,0
+B247,受到攻击触发伤害减免,20247,Null,NONE,,"{'ProcBuff', {{'B248', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B248,伤害减免,20248,Buff,NONE,,"{'AbsorbDamage', 14,Time='Apply'},",0,Replace,1,1,,,0
+B249,受到攻击触发伤害减免,20249,Null,NONE,,"{'ProcBuff', {{'B250', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B250,伤害减免,20250,Buff,NONE,,"{'AbsorbDamage', 16,Time='Apply'},",0,Replace,1,1,,,0
+B251,受到攻击触发伤害减免,20251,Null,NONE,,"{'ProcBuff', {{'B252', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B252,伤害减免,20252,Buff,NONE,,"{'AbsorbDamage', 18,Time='Apply'},",0,Replace,1,1,,,0
+B253,攻击触发额外伤害,20253,Null,NONE,,"{'ProcBuff', {{'B254', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B254,伤害增加,20254,Buff,NONE,,"{'ChaLAPercent', 'attinc', 16, 0,Time='Apply'}",0,Replace,1,1,,,0
+B255,攻击触发额外伤害,20255,Null,NONE,,"{'ProcBuff', {{'B256', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B256,伤害增加,20256,Buff,NONE,,"{'ChaLAPercent', 'attinc', 19, 0,Time='Apply'}",0,Replace,1,1,,,0
+B257,攻击触发额外伤害,20257,Null,NONE,,"{'ProcBuff', {{'B258', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B258,伤害增加,20258,Buff,NONE,,"{'ChaLAPercent', 'attinc', 22, 0,Time='Apply'}",0,Replace,1,1,,,0
+B259,攻击触发额外伤害,20259,Null,NONE,,"{'ProcBuff', {{'B260', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B260,伤害增加,20260,Buff,NONE,,"{'ChaLAPercent', 'attinc', 25, 0,Time='Apply'}",0,Replace,1,1,,,0
+B261,攻击触发额外伤害,20261,Null,NONE,,"{'ProcBuff', {{'B262', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B262,伤害增加,20262,Buff,NONE,,"{'ChaLAPercent', 'attinc', 28, 0,Time='Apply'}",0,Replace,1,1,,,0
+B263,攻击触发额外伤害,20263,Null,NONE,,"{'ProcBuff', {{'B264', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B264,伤害增加,20264,Buff,NONE,,"{'ChaLAPercent', 'attinc', 31, 0,Time='Apply'}",0,Replace,1,1,,,0
+B265,攻击触发额外伤害,20265,Null,NONE,,"{'ProcBuff', {{'B266', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B266,伤害增加,20266,Buff,NONE,,"{'ChaLAPercent', 'attinc', 34, 0,Time='Apply'}",0,Replace,1,1,,,0
+B267,攻击触发眩晕,20267,Null,NONE,,"{'ProcBuff', {{'B268', 35}, {'Nothing', 965}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B268,眩晕,20268,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+B269,攻击触发眩晕,20269,Null,NONE,,"{'ProcBuff', {{'B270', 40}, {'Nothing', 960}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B270,眩晕,20270,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+B271,攻击触发眩晕,20271,Null,NONE,,"{'ProcBuff', {{'B272', 45}, {'Nothing', 955}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B272,眩晕,20272,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+B273,攻击触发眩晕,20273,Null,NONE,,"{'ProcBuff', {{'B274', 50}, {'Nothing', 950}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B274,眩晕,20274,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+B275,攻击触发眩晕,20275,Null,NONE,,"{'ProcBuff', {{'B276', 55}, {'Nothing', 945}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B276,眩晕,20276,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+B277,攻击触发眩晕,20277,Null,NONE,,"{'ProcBuff', {{'B278', 60}, {'Nothing', 940}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B278,眩晕,20278,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+B279,攻击触发眩晕,20279,Null,NONE,,"{'ProcBuff', {{'B280', 65}, {'Nothing', 935}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+B280,眩晕,20280,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+B281,受到攻击触发反击,20281,Null,NONE,,"{'ProcBuff', {{'B282', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B282,反击,20282,Buff,NONE,,"{'Damage', Param='demage', Rate=0.35, Tag='Target',Time='Apply'}",0,Replace,1,1,,,0
+B283,受到攻击触发反击,20283,Null,NONE,,"{'ProcBuff', {{'B284', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B284,反击,20284,Buff,NONE,,"{'Damage', Param='demage', Rate=0.4, Tag='Target',Time='Apply'}",0,Replace,1,1,,,0
+B285,受到攻击触发反击,20285,Null,NONE,,"{'ProcBuff', {{'B286', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B286,反击,20286,Buff,NONE,,"{'Damage', Param='demage', Rate=0.45, Tag='Target',Time='Apply'}",0,Replace,1,1,,,0
+B287,受到攻击触发反击,20287,Null,NONE,,"{'ProcBuff', {{'B288', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B288,反击,20288,Buff,NONE,,"{'Damage', Param='demage', Rate=0.5, Tag='Target',Time='Apply'}",0,Replace,1,1,,,0
+B289,受到攻击触发反击,20289,Null,NONE,,"{'ProcBuff', {{'B290', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B290,反击,20290,Buff,NONE,,"{'Damage', Param='demage', Rate=0.55, Tag='Target',Time='Apply'}",0,Replace,1,1,,,0
+B291,受到攻击触发反击,20291,Null,NONE,,"{'ProcBuff', {{'B292', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B292,反击,20292,Buff,NONE,,"{'Damage', Param='demage', Rate=0.6, Tag='Target',Time='Apply'}",0,Replace,1,1,,,0
+B293,受到攻击触发反击,20293,Null,NONE,,"{'ProcBuff', {{'B294', 10}, {'Nothing', 90}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+B294,反击,20294,Buff,NONE,,"{'Damage', Param='demage', Rate=0.65, Tag='Target',Time='Apply'}",0,Replace,1,1,,,0
+B295,攻击触发额外伤害,20295,Null,NONE,,"{'ProcBuff', {{'B296', 50}, {'Nothing', 950}}, Time='AllCast'}",0,Replace,1,1,,,0
+B296,伤害增加,20296,DeBuff,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+B297,攻击触发额外伤害,20297,Null,NONE,,"{'ProcBuff', {{'B298', 55}, {'Nothing', 945}}, Time='AllCast'}",0,Replace,1,1,,,0
+B298,伤害增加,20298,DeBuff,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+B299,攻击触发额外伤害,20299,Null,NONE,,"{'ProcBuff', {{'B300', 60}, {'Nothing', 940}}, Time='AllCast'}",0,Replace,1,1,,,0
+B300,伤害增加,20300,DeBuff,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+B301,攻击触发额外伤害,20301,Null,NONE,,"{'ProcBuff', {{'B302', 65}, {'Nothing', 935}}, Time='AllCast'}",0,Replace,1,1,,,0
+B302,伤害增加,20302,DeBuff,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+B303,攻击触发额外伤害,20303,Null,NONE,,"{'ProcBuff', {{'B304', 70}, {'Nothing', 930}}, Time='AllCast'}",0,Replace,1,1,,,0
+B304,伤害增加,20304,DeBuff,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+B305,攻击触发额外伤害,20305,Null,NONE,,"{'ProcBuff', {{'B306', 75}, {'Nothing', 925}}, Time='AllCast'}",0,Replace,1,1,,,0
+B306,伤害增加,20306,DeBuff,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+B307,攻击触发额外伤害,20307,Null,NONE,,"{'ProcBuff', {{'B308', 80}, {'Nothing', 920}}, Time='AllCast'}",0,Replace,1,1,,,0
+B308,伤害增加,20308,DeBuff,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+B309,增加1200生命,20309,Buff,NONE,,"{'ChaLA', 'maxhp', 1200, Time='Apply'}",0,Replace,1,1,,,0
+B310,增加1800生命,20310,Buff,NONE,,"{'ChaLA', 'maxhp', 1800, Time='Apply'}",0,Replace,1,1,,,0
+B311,增加2500生命,20311,Buff,NONE,,"{'ChaLA', 'maxhp', 2500, Time='Apply'}",0,Replace,1,1,,,0
+B312,增加3800生命,20312,Buff,NONE,,"{'ChaLA', 'maxhp', 3800, Time='Apply'}",0,Replace,1,1,,,0
+B313,增加6000生命,20313,Buff,NONE,,"{'ChaLA', 'maxhp', 6000, Time='Apply'}",0,Replace,1,1,,,0
+B314,增加9100生命,20314,Buff,NONE,,"{'ChaLA', 'maxhp', 9100, Time='Apply'}",0,Replace,1,1,,,0
+B315,增加14500生命,20315,Buff,NONE,,"{'ChaLA', 'maxhp', 14500, Time='Apply'}",0,Replace,1,1,,,0
+B316,增加120攻击,20316,Buff,NONE,,"{'ChaLA', 'demage', 120, Time='Apply'}",0,Replace,1,1,,,0
+B317,增加180攻击,20317,Buff,NONE,,"{'ChaLA', 'demage', 180, Time='Apply'}",0,Replace,1,1,,,0
+B318,增加250攻击,20318,Buff,NONE,,"{'ChaLA', 'demage', 250, Time='Apply'}",0,Replace,1,1,,,0
+B319,增加380攻击,20319,Buff,NONE,,"{'ChaLA', 'demage', 380, Time='Apply'}",0,Replace,1,1,,,0
+B320,增加600攻击,20320,Buff,NONE,,"{'ChaLA', 'demage', 600, Time='Apply'}",0,Replace,1,1,,,0
+B321,增加910攻击,20321,Buff,NONE,,"{'ChaLA', 'demage', 910, Time='Apply'}",0,Replace,1,1,,,0
+B322,增加1450攻击,20322,Buff,NONE,,"{'ChaLA', 'demage', 1450, Time='Apply'}",0,Replace,1,1,,,0
+B323,增加120防御,20323,Buff,NONE,,"{'ChaLA', 'hujia', 120, Time='Apply'}",0,Replace,1,1,,,0
+B324,增加180防御,20324,Buff,NONE,,"{'ChaLA', 'hujia', 180, Time='Apply'}",0,Replace,1,1,,,0
+B325,增加250防御,20325,Buff,NONE,,"{'ChaLA', 'hujia', 250, Time='Apply'}",0,Replace,1,1,,,0
+B326,增加380防御,20326,Buff,NONE,,"{'ChaLA', 'hujia', 380, Time='Apply'}",0,Replace,1,1,,,0
+B327,增加600防御,20327,Buff,NONE,,"{'ChaLA', 'hujia', 600, Time='Apply'}",0,Replace,1,1,,,0
+B328,增加910防御,20328,Buff,NONE,,"{'ChaLA', 'hujia', 910, Time='Apply'}",0,Replace,1,1,,,0
+B329,增加1450防御,20329,Buff,NONE,,"{'ChaLA', 'hujia', 1450, Time='Apply'}",0,Replace,1,1,,,0
+B330,增加5速度,20330,Buff,NONE,,"{'ChaLA', 'speed', 5, Time='Apply'}",0,Replace,1,1,,,0
+B331,增加7速度,20331,Buff,NONE,,"{'ChaLA', 'speed', 7, Time='Apply'}",0,Replace,1,1,,,0
+B332,增加10速度,20332,Buff,NONE,,"{'ChaLA', 'speed', 10, Time='Apply'}",0,Replace,1,1,,,0
+B333,增加15速度,20333,Buff,NONE,,"{'ChaLA', 'speed', 15, Time='Apply'}",0,Replace,1,1,,,0
+B334,增加24速度,20334,Buff,NONE,,"{'ChaLA', 'speed', 24, Time='Apply'}",0,Replace,1,1,,,0
+B335,增加36速度,20335,Buff,NONE,,"{'ChaLA', 'speed', 36, Time='Apply'}",0,Replace,1,1,,,0
+B336,增加58速度,20336,Buff,NONE,,"{'ChaLA', 'speed', 58, Time='Apply'}",0,Replace,1,1,,,0
+B337,增加100闪避,20337,Buff,NONE,,"{'ChaLA', 'dodge', 100, Time='Apply'}",0,Replace,1,1,,,0
+B338,增加140闪避,20338,Buff,NONE,,"{'ChaLA', 'dodge', 140, Time='Apply'}",0,Replace,1,1,,,0
+B339,增加200闪避,20339,Buff,NONE,,"{'ChaLA', 'dodge', 200, Time='Apply'}",0,Replace,1,1,,,0
+B340,增加300闪避,20340,Buff,NONE,,"{'ChaLA', 'dodge', 300, Time='Apply'}",0,Replace,1,1,,,0
+B341,增加480闪避,20341,Buff,NONE,,"{'ChaLA', 'dodge', 480, Time='Apply'}",0,Replace,1,1,,,0
+B342,增加730闪避,20342,Buff,NONE,,"{'ChaLA', 'dodge', 730, Time='Apply'}",0,Replace,1,1,,,0
+B343,增加1160闪避,20343,Buff,NONE,,"{'ChaLA', 'dodge', 1160, Time='Apply'}",0,Replace,1,1,,,0
+B344,增加100命中,20344,Buff,NONE,,"{'ChaLA', 'hitrate', 100, Time='Apply'}",0,Replace,1,1,,,0
+B345,增加140命中,20345,Buff,NONE,,"{'ChaLA', 'hitrate', 140, Time='Apply'}",0,Replace,1,1,,,0
+B346,增加200命中,20346,Buff,NONE,,"{'ChaLA', 'hitrate', 200, Time='Apply'}",0,Replace,1,1,,,0
+B347,增加300命中,20347,Buff,NONE,,"{'ChaLA', 'hitrate', 300, Time='Apply'}",0,Replace,1,1,,,0
+B348,增加480命中,20348,Buff,NONE,,"{'ChaLA', 'hitrate', 480, Time='Apply'}",0,Replace,1,1,,,0
+B349,增加730命中,20349,Buff,NONE,,"{'ChaLA', 'hitrate', 730, Time='Apply'}",0,Replace,1,1,,,0
+B350,增加1160命中,20350,Buff,NONE,,"{'ChaLA', 'hitrate', 1160, Time='Apply'}",0,Replace,1,1,,,0
+B351,增加100暴击,20351,Buff,NONE,,"{'ChaLA', 'critrate', 100, Time='Apply'}",0,Replace,1,1,,,0
+B352,增加140暴击,20352,Buff,NONE,,"{'ChaLA', 'critrate', 140, Time='Apply'}",0,Replace,1,1,,,0
+B353,增加200暴击,20353,Buff,NONE,,"{'ChaLA', 'critrate', 200, Time='Apply'}",0,Replace,1,1,,,0
+B354,增加300暴击,20354,Buff,NONE,,"{'ChaLA', 'critrate', 300, Time='Apply'}",0,Replace,1,1,,,0
+B355,增加480暴击,20355,Buff,NONE,,"{'ChaLA', 'critrate', 480, Time='Apply'}",0,Replace,1,1,,,0
+B356,增加730暴击,20356,Buff,NONE,,"{'ChaLA', 'critrate', 730, Time='Apply'}",0,Replace,1,1,,,0
+B357,增加1160暴击,20357,Buff,NONE,,"{'ChaLA', 'critrate', 1160, Time='Apply'}",0,Replace,1,1,,,0
+B358,增加100抗暴,20358,Buff,NONE,,"{'ChaLA', 'critratedec', 100, Time='Apply'}",0,Replace,1,1,,,0
+B359,增加140抗暴,20359,Buff,NONE,,"{'ChaLA', 'critratedec', 140, Time='Apply'}",0,Replace,1,1,,,0
+B360,增加200抗暴,20360,Buff,NONE,,"{'ChaLA', 'critratedec', 200, Time='Apply'}",0,Replace,1,1,,,0
+B361,增加300抗暴,20361,Buff,NONE,,"{'ChaLA', 'critratedec', 300, Time='Apply'}",0,Replace,1,1,,,0
+B362,增加480抗暴,20362,Buff,NONE,,"{'ChaLA', 'critratedec', 480, Time='Apply'}",0,Replace,1,1,,,0
+B363,增加730抗暴,20363,Buff,NONE,,"{'ChaLA', 'critratedec', 730, Time='Apply'}",0,Replace,1,1,,,0
+B364,增加1160抗暴,20364,Buff,NONE,,"{'ChaLA', 'critratedec', 1160, Time='Apply'}",0,Replace,1,1,,,0
+B365,增加47无视防御,20365,Buff,NONE,,"{'ChaLA', 'chuanjia', 47, Time='Apply'}",0,Replace,1,1,,,0
+B366,增加65无视防御,20366,Buff,NONE,,"{'ChaLA', 'chuanjia', 65, Time='Apply'}",0,Replace,1,1,,,0
+B367,增加94无视防御,20367,Buff,NONE,,"{'ChaLA', 'chuanjia', 94, Time='Apply'}",0,Replace,1,1,,,0
+B368,增加141无视防御,20368,Buff,NONE,,"{'ChaLA', 'chuanjia', 141, Time='Apply'}",0,Replace,1,1,,,0
+B369,增加225无视防御,20369,Buff,NONE,,"{'ChaLA', 'chuanjia', 225, Time='Apply'}",0,Replace,1,1,,,0
+B370,增加342无视防御,20370,Buff,NONE,,"{'ChaLA', 'chuanjia', 342, Time='Apply'}",0,Replace,1,1,,,0
+B371,增加580无视防御,20371,Buff,NONE,,"{'ChaLA', 'chuanjia', 580, Time='Apply'}",0,Replace,1,1,,,0
+B372,增加47减免无视,20372,Buff,NONE,,"{'ChaLA', 'chuanjiadec', 47, Time='Apply'}",0,Replace,1,1,,,0
+B373,增加65减免无视,20373,Buff,NONE,,"{'ChaLA', 'chuanjiadec', 65, Time='Apply'}",0,Replace,1,1,,,0
+B374,增加94减免无视,20374,Buff,NONE,,"{'ChaLA', 'chuanjiadec', 94, Time='Apply'}",0,Replace,1,1,,,0
+B375,增加141减免无视,20375,Buff,NONE,,"{'ChaLA', 'chuanjiadec', 141, Time='Apply'}",0,Replace,1,1,,,0
+B376,增加225减免无视,20376,Buff,NONE,,"{'ChaLA', 'chuanjiadec', 225, Time='Apply'}",0,Replace,1,1,,,0
+B377,增加342减免无视,20377,Buff,NONE,,"{'ChaLA', 'chuanjiadec', 342, Time='Apply'}",0,Replace,1,1,,,0
+B378,增加580减免无视,20378,Buff,NONE,,"{'ChaLA', 'chuanjiadec', 580, Time='Apply'}",0,Replace,1,1,,,0
+C1,增加800点无视防御,20379,Buff,NONE,,"{'ChaLA', 'chuanjia', 800, Time='Apply'}",30,Replace,1,1,,,0
+C2,增加900点无视防御,20380,Buff,NONE,,"{'ChaLA', 'chuanjia', 900, Time='Apply'}",30,Replace,1,1,,,0
+C3,增加1000点无视防御,20381,Buff,NONE,,"{'ChaLA', 'chuanjia', 1000, Time='Apply'}",30,Replace,1,1,,,0
+C4,增加1100点无视防御,20382,Buff,NONE,,"{'ChaLA', 'chuanjia', 1100, Time='Apply'}",30,Replace,1,1,,,0
+C5,增加1200点无视防御,20383,Buff,NONE,,"{'ChaLA', 'chuanjia', 1200, Time='Apply'}",30,Replace,1,1,,,0
+C6,增加800点减免无视,20384,Buff,NONE,,"{'ChaLA', 'chuanjiadec', 800, Time='Apply'}",30,Replace,1,1,,,0
+C7,增加900点减免无视,20385,Buff,NONE,,"{'ChaLA', 'chuanjiadec', 900, Time='Apply'}",30,Replace,1,1,,,0
+C8,增加1000点减免无视,20386,Buff,NONE,,"{'ChaLA', 'chuanjiadec', 1000, Time='Apply'}",30,Replace,1,1,,,0
+C9,增加1100点减免无视,20387,Buff,NONE,,"{'ChaLA', 'chuanjiadec', 1100, Time='Apply'}",30,Replace,1,1,,,0
+C10,增加1200点减免无视,20388,Buff,NONE,,"{'ChaLA', 'chuanjiadec', 1200, Time='Apply'}",30,Replace,1,1,,,0
+C11,增加2%pvp伤加,20389,Buff,NONE,,"{'ChaLAPercent', 'pvpattinc',0.02, PVP=1}",30,Replace,1,1,,,0
+C12,增加2.5%pvp伤加,20390,Buff,NONE,,"{'ChaLAPercent', 'pvpattinc',0.025, PVP=1}",30,Replace,1,1,,,0
+C13,增加3%pvp伤加,20391,Buff,NONE,,"{'ChaLAPercent', 'pvpattinc',0.03, PVP=1}",30,Replace,1,1,,,0
+C14,增加3.5%pvp伤加,20392,Buff,NONE,,"{'ChaLAPercent', 'pvpattinc',0.035, PVP=1}",30,Replace,1,1,,,0
+C15,增加4%pvp伤加,20393,Buff,NONE,,"{'ChaLAPercent', 'pvpattinc',0.04, PVP=1}",30,Replace,1,1,,,0
+C16,增减2%pvp伤减,20394,Buff,NONE,,"{'ChaLAPercent', 'pvpattdec',0.02, PVP=1}",30,Replace,1,1,,,0
+C17,增减2.5%pvp伤减,20395,Buff,NONE,,"{'ChaLAPercent', 'pvpattdec',0.025, PVP=1}",30,Replace,1,1,,,0
+C18,增减3%pvp伤减,20396,Buff,NONE,,"{'ChaLAPercent', 'pvpattdec',0.03, PVP=1}",30,Replace,1,1,,,0
+C19,增减3.5%pvp伤减,20397,Buff,NONE,,"{'ChaLAPercent', 'pvpattdec',0.035, PVP=1}",30,Replace,1,1,,,0
+C20,增减4%pvp伤减,20398,Buff,NONE,,"{'ChaLAPercent', 'pvpattdec',0.04, PVP=1}",30,Replace,1,1,,,0
+C21,攻击时有10%概率全队减伤12%两回合,20399,Null,NONE,,"{'ProcBuff', {{'C22', 10}, {'Nothing', 90}}, Time='AllCast', Tag='CastList'}",0,Unique,1,1,,,0
+C22,伤害减免,20400,Buff,NONE,,"{'AcceptDAdd', -12}",2,Unique,1,1,,,0
+C23,攻击时有10%概率全队减伤14%两回合,20401,Null,NONE,,"{'ProcBuff', {{'C24', 10}, {'Nothing', 90}}, Time='AllCast', Tag='CastList'}",0,Unique,1,1,,,0
+C24,伤害减免,20402,Buff,NONE,,"{'AcceptDAdd', -14}",2,Unique,1,1,,,0
+C25,攻击时有10%概率全队减伤16%两回合,20403,Null,NONE,,"{'ProcBuff', {{'C26', 10}, {'Nothing', 90}}, Time='AllCast', Tag='CastList'}",0,Unique,1,1,,,0
+C26,伤害减免,20404,Buff,NONE,,"{'AcceptDAdd', -16}",2,Unique,1,1,,,0
+C27,攻击时有10%概率全队减伤18%两回合,20405,Null,NONE,,"{'ProcBuff', {{'C28', 10}, {'Nothing', 90}}, Time='AllCast', Tag='CastList'}",0,Unique,1,1,,,0
+C28,伤害减免,20406,Buff,NONE,,"{'AcceptDAdd', -18}",2,Unique,1,1,,,0
+C29,攻击时有10%概率全队减伤20%两回合,20407,Null,NONE,,"{'ProcBuff', {{'C30', 10}, {'Nothing', 90}}, Time='AllCast', Tag='CastList'}",0,Unique,1,1,,,0
+C30,伤害减免,20408,Buff,NONE,,"{'AcceptDAdd', -20}",2,Unique,1,1,,,0
+C31,攻击时有4%概率所有目标眩晕一回合,20409,Null,NONE,,"{'ProcBuff', {{'C32', 10}, {'Nothing', 960}}, Time='AllCast', Tag='Target'}",0,Unique,1,1,,,0
+C32,眩晕,20410,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Unique,1,1,,,0
+C33,攻击时有4.2%概率所有目标眩晕一回合,20411,Null,NONE,,"{'ProcBuff', {{'C34', 10}, {'Nothing', 958}}, Time='AllCast', Tag='Target'}",0,Unique,1,1,,,0
+C34,眩晕,20412,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Unique,1,1,,,0
+C35,攻击时有4.4%概率所有目标眩晕一回合,20413,Null,NONE,,"{'ProcBuff', {{'C36', 10}, {'Nothing', 956}}, Time='AllCast', Tag='Target'}",0,Unique,1,1,,,0
+C36,眩晕,20414,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Unique,1,1,,,0
+C37,攻击时有4.7%概率所有目标眩晕一回合,20415,Null,NONE,,"{'ProcBuff', {{'C38', 10}, {'Nothing', 953}}, Time='AllCast', Tag='Target'}",0,Unique,1,1,,,0
+C38,眩晕,20416,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Unique,1,1,,,0
+C39,攻击时有5%概率所有目标眩晕一回合,20417,Null,NONE,,"{'ProcBuff', {{'C40', 10}, {'Nothing', 950}}, Time='AllCast', Tag='Target'}",0,Unique,1,1,,,0
+C40,眩晕,20418,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Unique,1,1,,,0
+C41,攻击时有10%概率给予所有敌人%d+%d点伤害,20419,Null,NONE,,"{'ProcBuff', {{'C42', 10}, {'Nothing', 90}}, Time='AllCast', Tag='TargetList'},{'ProcBuff', {{'C43', 10}, {'Nothing', 90}}, Time='AllCast', Tag='CastList'}",0,Unique,1,1,,,0
+C42,所有敌人%d+%d点伤害,20420,Buff,NONE,,"{'Damage', Param='demage', FixValue=3500, Rate=0.17, Time='Apply'}",1,Replace,1,1,,,0
+C43,无视40%防御两回合,20421,Buff,NONE,,"{'ChaLAPercent', 'chuanjia', 0.4}",2,Unique,1,1,,,0
+C44,攻击时有10%概率给予所有敌人%d+%d点伤害,20422,Null,NONE,,"{'ProcBuff', {{'C45', 10}, {'Nothing', 90}}, Time='AllCast', Tag='TargetList'},{'ProcBuff', {{'C43', 10}, {'Nothing', 90}}, Time='AllCast', Tag='CastList'}",0,Unique,1,1,,,0
+C45,所有敌人%d+%d点伤害,20423,Buff,NONE,,"{'Damage', Param='demage', FixValue=4000, Rate=0.19, Time='Apply'}",1,Replace,1,1,,,0
+C46,攻击时有10%概率给予所有敌人%d+%d点伤害,20424,Null,NONE,,"{'ProcBuff', {{'C47', 10}, {'Nothing', 90}}, Time='AllCast', Tag='TargetList'},{'ProcBuff', {{'C43', 10}, {'Nothing', 90}}, Time='AllCast', Tag='CastList'}",0,Unique,1,1,,,0
+C47,所有敌人%d+%d点伤害,20425,Buff,NONE,,"{'Damage', Param='demage', FixValue=4500, Rate=0.21, Time='Apply'}",1,Replace,1,1,,,0
+C48,攻击时有10%概率给予所有敌人%d+%d点伤害,20426,Null,NONE,,"{'ProcBuff', {{'C49', 10}, {'Nothing', 90}}, Time='AllCast', Tag='TargetList'},{'ProcBuff', {{'C43', 10}, {'Nothing', 90}}, Time='AllCast', Tag='CastList'}",0,Unique,1,1,,,0
+C49,所有敌人%d+%d点伤害,20427,Buff,NONE,,"{'Damage', Param='demage', FixValue=5000, Rate=0.23, Time='Apply'}",1,Replace,1,1,,,0
+C50,攻击时有10%概率给予所有敌人%d+%d点伤害,20428,Null,NONE,,"{'ProcBuff', {{'C51', 10}, {'Nothing', 90}}, Time='AllCast', Tag='TargetList'},{'ProcBuff', {{'C43', 10}, {'Nothing', 90}}, Time='AllCast', Tag='CastList'}",0,Unique,1,1,,,0
+C51,所有敌人%d+%d点伤害,20429,Buff,NONE,,"{'Damage', Param='demage', FixValue=5500, Rate=0.25, Time='Apply'}",1,Replace,1,1,,,0
+C52,攻击时有10%概率给予所有敌人%d+%d点伤害,20430,Null,NONE,,"{'ProcBuff', {{'C53', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Unique,1,1,,,0
+C53,两连击，每次造成%d+%d点伤害,20431,Buff,NONE,,"{'Damage', Param='demage', FixValue=4000, Rate=0.27, Time='Apply'}",1,Replace,1,1,,,0
+C54,攻击时有10%概率给予所有敌人%d+%d点伤害,20432,Null,NONE,,"{'ProcBuff', {{'C55', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Unique,1,1,,,0
+C55,两连击，每次造成%d+%d点伤害,20433,Buff,NONE,,"{'Damage', Param='demage', FixValue=5000, Rate=0.29, Time='Apply'}",1,Replace,1,1,,,0
+C56,攻击时有10%概率给予所有敌人%d+%d点伤害,20434,Null,NONE,,"{'ProcBuff', {{'C57', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Unique,1,1,,,0
+C57,两连击，每次造成%d+%d点伤害,20435,Buff,NONE,,"{'Damage', Param='demage', FixValue=6000, Rate=0.31, Time='Apply'}",1,Replace,1,1,,,0
+C58,攻击时有10%概率给予所有敌人%d+%d点伤害,20436,Null,NONE,,"{'ProcBuff', {{'C59', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Unique,1,1,,,0
+C59,两连击，每次造成%d+%d点伤害,20437,Buff,NONE,,"{'Damage', Param='demage', FixValue=7000, Rate=0.33, Time='Apply'}",1,Replace,1,1,,,0
+C60,攻击时有10%概率给予所有敌人%d+%d点伤害,20438,Null,NONE,,"{'ProcBuff', {{'C61', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Unique,1,1,,,0
+C61,两连击，每次造成%d+%d点伤害,20439,Buff,NONE,,"{'Damage', Param='demage', FixValue=8000, Rate=0.35, Time='Apply'}",1,Replace,1,1,,,0
+C62,增加2%PVE伤加,20440,Buff,NONE,,"{'ChaLAPercent', 'pveattinc',0.02, PVE=1}",30,Replace,1,1,,,0
+C63,增加2.5%PVE伤加,20441,Buff,NONE,,"{'ChaLAPercent', 'pveattinc',0.025, PVE=1}",30,Replace,1,1,,,0
+C64,增加3%PVE伤加,20442,Buff,NONE,,"{'ChaLAPercent', 'pveattinc',0.03, PVE=1}",30,Replace,1,1,,,0
+C65,增加3.5%PVE伤加,20443,Buff,NONE,,"{'ChaLAPercent', 'pveattinc',0.035, PVE=1}",30,Replace,1,1,,,0
+C66,增加4%PVE伤加,20444,Buff,NONE,,"{'ChaLAPercent', 'pveattinc',0.04, PVE=1}",30,Replace,1,1,,,0
+C67,增减2%PVE伤减,20445,Buff,NONE,,"{'ChaLAPercent', 'pveattdec',0.02, PVE=1}",30,Replace,1,1,,,0
+C68,增减2.5%PVE伤减,20446,Buff,NONE,,"{'ChaLAPercent', 'pveattdec',0.025, PVE=1}",30,Replace,1,1,,,0
+C69,增减3%PVE伤减,20447,Buff,NONE,,"{'ChaLAPercent', 'pveattdec',0.03, PVE=1}",30,Replace,1,1,,,0
+C70,增减3.5%PVE伤减,20448,Buff,NONE,,"{'ChaLAPercent', 'pveattdec',0.035, PVE=1}",30,Replace,1,1,,,0
+C71,增减4%PVE伤减,20449,Buff,NONE,,"{'ChaLAPercent', 'pveattdec',0.04, PVE=1}",30,Replace,1,1,,,0
+C72,增加%d暴伤加成,20450,Buff,NONE,,"{'ChaLAPercent', 'critdamage',0.02, PVE=1}",30,Replace,1,1,,,0
+C73,增加%d暴伤加成,20451,Buff,NONE,,"{'ChaLAPercent', 'critdamage',0.025, PVE=1}",30,Replace,1,1,,,0
+C74,增加%d暴伤加成,20452,Buff,NONE,,"{'ChaLAPercent', 'critdamage',0.03, PVE=1}",30,Replace,1,1,,,0
+C75,增加%d暴伤加成,20453,Buff,NONE,,"{'ChaLAPercent', 'critdamage',0.035, PVE=1}",30,Replace,1,1,,,0
+C76,增加%d暴伤加成,20454,Buff,NONE,,"{'ChaLAPercent', 'critdamage',0.04, PVE=1}",30,Replace,1,1,,,0
+C77,增加%d暴伤减免,20455,Buff,NONE,,"{'ChaLAPercent', 'critdadec',0.02, PVE=1}",30,Replace,1,1,,,0
+C78,增加%d暴伤减免,20456,Buff,NONE,,"{'ChaLAPercent', 'critdadec',0.025, PVE=1}",30,Replace,1,1,,,0
+C79,增加%d暴伤减免,20457,Buff,NONE,,"{'ChaLAPercent', 'critdadec',0.03, PVE=1}",30,Replace,1,1,,,0
+C80,增加%d暴伤减免,20458,Buff,NONE,,"{'ChaLAPercent', 'critdadec',0.035, PVE=1}",30,Replace,1,1,,,0
+C81,增加%d暴伤减免,20459,Buff,NONE,,"{'ChaLAPercent', 'critdadec',0.04, PVE=1}",30,Replace,1,1,,,0
+C82,攻击时有10%概率全队减伤12%两回合,20460,Null,NONE,,"{'ProcBuff', {{'C83', 10}, {'Nothing', 90}}, Time='AllCast', Tag='CastList'}",0,Unique,1,1,,,0
+C83,伤害减免,20461,Buff,NONE,,"{'AcceptDAdd', -12}",2,Unique,1,1,,,0
+C84,攻击时有10%概率全队减伤14%两回合,20462,Null,NONE,,"{'ProcBuff', {{'C85', 10}, {'Nothing', 90}}, Time='AllCast', Tag='CastList'}",0,Unique,1,1,,,0
+C85,伤害减免,20463,Buff,NONE,,"{'AcceptDAdd', -14}",2,Unique,1,1,,,0
+C86,攻击时有10%概率全队减伤16%两回合,20464,Null,NONE,,"{'ProcBuff', {{'C87', 10}, {'Nothing', 90}}, Time='AllCast', Tag='CastList'}",0,Unique,1,1,,,0
+C87,伤害减免,20465,Buff,NONE,,"{'AcceptDAdd', -16}",2,Unique,1,1,,,0
+C88,攻击时有10%概率全队减伤18%两回合,20466,Null,NONE,,"{'ProcBuff', {{'C89', 10}, {'Nothing', 90}}, Time='AllCast', Tag='CastList'}",0,Unique,1,1,,,0
+C89,伤害减免,20467,Buff,NONE,,"{'AcceptDAdd', -18}",2,Unique,1,1,,,0
+C90,攻击时有10%概率全队减伤20%两回合,20468,Null,NONE,,"{'ProcBuff', {{'C91', 10}, {'Nothing', 90}}, Time='AllCast', Tag='CastList'}",0,Unique,1,1,,,0
+C91,伤害减免,20469,Buff,NONE,,"{'AcceptDAdd', -20}",2,Unique,1,1,,,0
+C92,攻击时有4%概率所有目标眩晕一回合,20470,Null,NONE,,"{'ProcBuff', {{'C93', 60}, {'Nothing', 940}}, Time='AllCast', Tag='Target'}",0,Unique,1,1,,,0
+C93,眩晕,20471,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Unique,1,1,,,0
+C94,攻击时有4.2%概率所有目标眩晕一回合,20472,Null,NONE,,"{'ProcBuff', {{'C95', 62}, {'Nothing', 938}}, Time='AllCast', Tag='Target'}",0,Unique,1,1,,,0
+C95,眩晕,20473,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Unique,1,1,,,0
+C96,攻击时有4.4%概率所有目标眩晕一回合,20474,Null,NONE,,"{'ProcBuff', {{'C97', 64}, {'Nothing', 936}}, Time='AllCast', Tag='Target'}",0,Unique,1,1,,,0
+C97,眩晕,20475,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Unique,1,1,,,0
+C98,攻击时有4.7%概率所有目标眩晕一回合,20476,Null,NONE,,"{'ProcBuff', {{'C99', 67}, {'Nothing', 933}}, Time='AllCast', Tag='Target'}",0,Unique,1,1,,,0
+C99,眩晕,20477,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Unique,1,1,,,0
+C100,攻击时有5%概率所有目标眩晕一回合,20478,Null,NONE,,"{'ProcBuff', {{'C101', 70}, {'Nothing', 930}}, Time='AllCast', Tag='Target'}",0,Unique,1,1,,,0
+C101,眩晕,20479,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Unique,1,1,,,0
+C102,攻击时有10%概率给予所有敌人%d+%d点伤害,20480,Null,NONE,,"{'ProcBuff', {{'C103', 10}, {'Nothing', 90}}, Time='AllCast', Tag='TargetList'},{'ProcBuff', {{'C104', 10}, {'Nothing', 90}}, Time='AllCast', Tag='CastList'}",0,Unique,1,1,,,0
+C103,所有敌人%d+%d点伤害,20481,Buff,NONE,,"{'Damage', Param='demage', FixValue=4000, Rate=0.22, Time='Apply'}",1,Replace,1,1,,,0
+C104,无视40%防御两回合,20482,Buff,NONE,,"{'ChaLAPercent', 'chuanjia', 0.4}",2,Unique,1,1,,,0
+C105,攻击时有10%概率给予所有敌人%d+%d点伤害,20483,Null,NONE,,"{'ProcBuff', {{'C106', 10}, {'Nothing', 90}}, Time='AllCast', Tag='TargetList'},{'ProcBuff', {{'C104', 10}, {'Nothing', 90}}, Time='AllCast', Tag='CastList'}",0,Unique,1,1,,,0
+C106,所有敌人%d+%d点伤害,20484,Buff,NONE,,"{'Damage', Param='demage', FixValue=4500, Rate=0.24, Time='Apply'}",1,Replace,1,1,,,0
+C107,攻击时有10%概率给予所有敌人%d+%d点伤害,20485,Null,NONE,,"{'ProcBuff', {{'C108', 10}, {'Nothing', 90}}, Time='AllCast', Tag='TargetList'},{'ProcBuff', {{'C104', 10}, {'Nothing', 90}}, Time='AllCast', Tag='CastList'}",0,Unique,1,1,,,0
+C108,所有敌人%d+%d点伤害,20486,Buff,NONE,,"{'Damage', Param='demage', FixValue=5000, Rate=0.26, Time='Apply'}",1,Replace,1,1,,,0
+C109,攻击时有10%概率给予所有敌人%d+%d点伤害,20487,Null,NONE,,"{'ProcBuff', {{'C110', 10}, {'Nothing', 90}}, Time='AllCast', Tag='TargetList'},{'ProcBuff', {{'C104', 10}, {'Nothing', 90}}, Time='AllCast', Tag='CastList'}",0,Unique,1,1,,,0
+C110,所有敌人%d+%d点伤害,20488,Buff,NONE,,"{'Damage', Param='demage', FixValue=5500, Rate=0.28, Time='Apply'}",1,Replace,1,1,,,0
+C111,攻击时有10%概率给予所有敌人%d+%d点伤害,20489,Null,NONE,,"{'ProcBuff', {{'C112', 10}, {'Nothing', 90}}, Time='AllCast', Tag='TargetList'},{'ProcBuff', {{'C104', 10}, {'Nothing', 90}}, Time='AllCast', Tag='CastList'}",0,Unique,1,1,,,0
+C112,所有敌人%d+%d点伤害,20490,Buff,NONE,,"{'Damage', Param='demage', FixValue=6000, Rate=0.3, Time='Apply'}",1,Replace,1,1,,,0
+C113,攻击时有10%概率给予所有敌人%d+%d点伤害,20491,Null,NONE,,"{'ProcBuff', {{'C114', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Unique,1,1,,,0
+C114,两连击，每次造成%d+%d点伤害,20492,Buff,NONE,,"{'Damage', Param='demage', FixValue=6000, Rate=0.32, Time='Apply'}",1,Replace,1,1,,,0
+C115,攻击时有10%概率给予所有敌人%d+%d点伤害,20493,Null,NONE,,"{'ProcBuff', {{'C116', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Unique,1,1,,,0
+C116,两连击，每次造成%d+%d点伤害,20494,Buff,NONE,,"{'Damage', Param='demage', FixValue=7000, Rate=0.34, Time='Apply'}",1,Replace,1,1,,,0
+C117,攻击时有10%概率给予所有敌人%d+%d点伤害,20495,Null,NONE,,"{'ProcBuff', {{'C118', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Unique,1,1,,,0
+C118,两连击，每次造成%d+%d点伤害,20496,Buff,NONE,,"{'Damage', Param='demage', FixValue=8000, Rate=0.36, Time='Apply'}",1,Replace,1,1,,,0
+C119,攻击时有10%概率给予所有敌人%d+%d点伤害,20497,Null,NONE,,"{'ProcBuff', {{'C120', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Unique,1,1,,,0
+C120,两连击，每次造成%d+%d点伤害,20498,Buff,NONE,,"{'Damage', Param='demage', FixValue=9000, Rate=0.38, Time='Apply'}",1,Replace,1,1,,,0
+C121,攻击时有10%概率给予所有敌人%d+%d点伤害,20499,Null,NONE,,"{'ProcBuff', {{'C122', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Unique,1,1,,,0
+C122,两连击，每次造成%d+%d点伤害,20500,Buff,NONE,,"{'Damage', Param='demage', FixValue=10000, Rate=0.4, Time='Apply'}",1,Replace,1,1,,,0
+D1,触发眩晕,20501,Null,NONE,,"{'ProcBuff', {{'D2', 12},{'Nothing', 88}}, Time='Apply'}",0,Replace,1,1,,,0
+D2,眩晕,20502,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+D3,受伤减免,20503,Buff,NONE,,"{'AcceptDAdd', -25}",2,Replace,1,1,,,0
+D4,受伤减免,20504,Buff,NONE,,"{'AcceptDAdd', -27}",2,Replace,1,1,,,0
+D5,受伤减免,20505,Buff,NONE,,"{'AcceptDAdd', -29}",2,Replace,1,1,,,0
+D6,受伤减免,20506,Buff,NONE,,"{'AcceptDAdd', -31}",2,Replace,1,1,,,0
+D7,受伤减免,20507,Buff,NONE,,"{'AcceptDAdd', -33}",2,Replace,1,1,,,0
+D8,受伤减免,20508,Buff,NONE,,"{'AcceptDAdd', -35}",2,Replace,1,1,,,0
+D9,受伤减免,20509,Buff,NONE,,"{'AcceptDAdd', -37}",2,Replace,1,1,,,0
+D10,受伤减免,20510,Buff,NONE,,"{'AcceptDAdd', -39}",2,Replace,1,1,,,0
+D11,受伤减免,20511,Buff,NONE,,"{'AcceptDAdd', -41}",2,Replace,1,1,,,0
+D12,受伤减免,20512,Buff,NONE,,"{'AcceptDAdd', -43}",2,Replace,1,1,,,0
+D13,受伤减免,20513,Buff,NONE,,"{'AcceptDAdd', -45}",2,Replace,1,1,,,0
+D14,受伤减免,20514,Buff,NONE,,"{'AcceptDAdd', -47}",2,Replace,1,1,,,0
+D15,受伤减免,20515,Buff,NONE,,"{'AcceptDAdd', -49}",2,Replace,1,1,,,0
+D16,受伤减免,20516,Buff,NONE,,"{'AcceptDAdd', -51}",2,Replace,1,1,,,0
+D17,受伤减免,20517,Buff,NONE,,"{'AcceptDAdd', -53}",2,Replace,1,1,,,0
+D18,连击伤害,20518,Buff,NONE,,"{'ChaLAPercent', 'attinc', 215, 0,Time='Apply'}",0,Replace,1,1,,,0
+D19,连击伤害,20519,Buff,NONE,,"{'ChaLAPercent', 'attinc', 330, 0,Time='Apply'}",0,Replace,1,1,,,0
+D20,连击伤害,20520,Buff,NONE,,"{'ChaLAPercent', 'attinc', 330, 0,Time='Apply'}",0,Replace,1,1,,,0
+D21,连击伤害,20521,Buff,NONE,,"{'ChaLAPercent', 'attinc', 450, 0,Time='Apply'}",0,Replace,1,1,,,0
+D22,连击伤害,20522,Buff,NONE,,"{'ChaLAPercent', 'attinc', 450, 0,Time='Apply'}",0,Replace,1,1,,,0
+D23,连击伤害,20523,Buff,NONE,,"{'ChaLAPercent', 'attinc', 575, 0,Time='Apply'}",0,Replace,1,1,,,0
+D24,连击伤害,20524,Buff,NONE,,"{'ChaLAPercent', 'attinc', 575, 0,Time='Apply'}",0,Replace,1,1,,,0
+D25,连击伤害,20525,Buff,NONE,,"{'ChaLAPercent', 'attinc', 705, 0,Time='Apply'}",0,Replace,1,1,,,0
+D26,连击伤害,20526,Buff,NONE,,"{'ChaLAPercent', 'attinc', 705, 0,Time='Apply'}",0,Replace,1,1,,,0
+D27,连击伤害,20527,Buff,NONE,,"{'ChaLAPercent', 'attinc', 840, 0,Time='Apply'}",0,Replace,1,1,,,0
+D28,连击伤害,20528,Buff,NONE,,"{'ChaLAPercent', 'attinc', 840, 0,Time='Apply'}",0,Replace,1,1,,,0
+D29,连击伤害,20529,Buff,NONE,,"{'ChaLAPercent', 'attinc', 840, 0,Time='Apply'}",0,Replace,1,1,,,0
+D30,连击伤害,20530,Buff,NONE,,"{'ChaLAPercent', 'attinc', 840, 0,Time='Apply'}",0,Replace,1,1,,,0
+D31,连击伤害,20531,Buff,NONE,,"{'ChaLAPercent', 'attinc', 840, 0,Time='Apply'}",0,Replace,1,1,,,0
+D32,连击伤害,20532,Buff,NONE,,"{'ChaLAPercent', 'attinc', 840, 0,Time='Apply'}",0,Replace,1,1,,,0
+D33,攻击触发连击,20533,Null,NONE,,"{'ProbCastSkill', 0, 'firstSkill', 1, Time='Apply'}",0,Replace,1,1,,,0
+E1,攻击触发命中降低,30001,Null,NONE,,"{'ProcBuff', {{'E2', 100}, {'Nothing', 0}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+E2,命中降低3回合,30002,DeBuff,NONE,,"{'ChaLAPercent', 'hitrate',  30}",3,Replace,1,1,,,0
+E3,攻击触发命中降低,30003,Null,NONE,,"{'ProcBuff', {{'E4', 100}, {'Nothing', 0}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+E4,命中降低3回合,30004,DeBuff,NONE,,"{'ChaLAPercent', 'hitrate',  25}",3,Replace,1,1,,,0
+E5,攻击触发命中降低,30005,Null,NONE,,"{'ProcBuff', {{'E6', 100}, {'Nothing', 0}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+E6,溅射伤害,30006,Buff,NONE,,"{'AdditionEffect', Target='Round', Effects={{'Damage',Rate=0.35}}}",0,Replace,1,1,,,0
+E7,无视防御,30007,Buff,NONE,,"{'ChaLAPercent', 'chuanjia', 50, 0,Time='Apply'}",0,Replace,1,1,,,0
+E8,无视防御,30008,Buff,NONE,,"{'ChaLAPercent', 'chuanjia', 100, 0,Time='Apply'}",0,Replace,1,1,,,0
+E9,必然暴击,30009,Buff,NONE,,{"CertainCrit"},0,Replace,1,1,,,0
+E10,伤害转换生命,30010,Null,NONE,,"{'ProcBuff', {{'E11', 100}, {'Nothing', 0}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+E11,转换25%的生命,30011,Buff,NONE,,"{'AbsorbDamage', 25,Time='Apply'},",0,Replace,1,1,,,0
+E12,伤害转换生命,30012,Null,NONE,,"{'ProcBuff', {{'E13', 100}, {'Nothing', 0}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+E13,转换15%的生命,30013,Buff,NONE,,"{'AbsorbDamage', 15,Time='Apply'},",0,Replace,1,1,,,0
+E14,闪避提升,30014,Buff,NONE,,"{'ChaLAPercent', 'dodge',  20}",0,Replace,1,1,,,0
+E15,伤害增加,30015,Buff,NONE,,"{'ChaLAPercent', 'attinc', 23, 0,Time='Apply'}",0,Replace,1,1,,,0
+E16,伤害增加,30016,Buff,NONE,,"{'ChaLAPercent', 'attinc', 5, 0,Time='Apply'}",0,Replace,1,1,,,0
+E17,回复生命,30017,Buff,NONE,,"{'ChaHPPercent', 5, Time='Interval', Interval=1, TriggerRound={1,1}}",0,Replace,1,1,,,
+E18,攻击触发伤害转换生命,30018,Null,NONE,,"{'ProcBuff', {{'E19', 100}, {'Nothing', 0}}, Time='AllCast'}",0,Replace,1,1,,,0
+E19,转换生命,30019,Buff,NONE,,"{'CureHP', 0.18,Param='Damage',Time='Apply'}",0,Replace,1,1,,,0
+E20,攻击触发伤害转换生命,30020,Null,NONE,,"{'ProcBuff', {{'E21', 100}, {'Nothing', 0}}, Time='AllCast'}",0,Replace,1,1,,,0
+E21,转换生命,30021,Buff,NONE,,"{'CureHP', 0.1,Param='Damage',Time='Apply'}",0,Replace,1,1,,,0
+E22,闪避提升,30022,Buff,NONE,,"{'ChaLAPercent', 'dodge',  20}",0,Replace,1,1,,,0
+E23,伤害增加,30023,Buff,NONE,,"{'ChaLAPercent', 'attinc', 30, 0,Time='Apply'}",0,Replace,1,1,,,0
+E24,伤害增加,30024,Buff,NONE,,"{'ChaLAPercent', 'attinc', 5, 0,Time='Apply'}",0,Replace,1,1,,,0
+E25,攻击触发生命降低,30025,Null,NONE,,"{'ProcBuff', {{'E26', 100}, {'Nothing', 0}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+E26,生命扣除,30026,DeBuff,NONE,,"{'ChaHPCurPercent', 8, Time='Interval', Interval=1}",3,Replace,1,1,,,0
+E27,强制保留生命,30027,Buff,NONE,,"{""NotDead"", 1, 1, Time=""HPChange"", Rate=0.3}",0,Replace,1,1,,,
+E28,强制保留生命,30028,Buff,NONE,,"{""NotDead"", 1, 1, Time=""HPChange"", Rate=0.2}",0,Replace,1,1,,,
+E29,回复生命,30029,Buff,NONE,,"{'ChaHPPercent', 6, Time='Interval', Interval=1, TriggerRound={1,1}}",0,Replace,1,1,,,
+E30,攻击触发眩晕,30030,Null,NONE,,"{'ProcBuff', {{'E31', 20}, {'Nothing', 80}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+E31,眩晕,30031,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+E32,攻击触发眩晕,30032,Null,NONE,,"{'ProcBuff', {{'E33', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+E33,眩晕,30033,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+E34,溅射伤害,30034,Buff,NONE,,"{'AdditionEffect', Target='Round', Effects={{'Damage',Rate=0.4}}}",0,Replace,1,1,,,0
+E35,背后伤害,30035,Buff,NONE,,"{'AdditionEffect', Target='Behind', Effects={{'Damage',Rate=0.25}}}",0,Replace,1,1,,,0
+E36,背后伤害,30036,Buff,NONE,,"{'AdditionEffect', Target='Behind', Effects={{'Damage',Rate=0.15}}}",0,Replace,1,1,,,0
+E37,攻击宠物,30037,Buff,NONE,,"{'Damage',Rate=1,DamageObjValue=0.3,TargetType={4},BattleType=2,Time='Apply'}",0,Replace,1,1,,,0
+E38,攻击触发眩晕,30038,Null,NONE,,"{'ProcBuff', {{'E39', 10}, {'Nothing', 90}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+E39,眩晕,30039,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+E40,伤害增加,30040,Buff,NONE,,"{'ChaLAPercent', 'attinc', 5, 0,Time='Apply'}",0,Replace,1,1,,,0
+E41,溅射伤害,30041,Buff,NONE,,"{'AdditionEffect', Target='Round', Effects={{'Damage',Rate=0.18}}}",0,Replace,1,1,,,0
+E42,攻击仙君,30042,Buff,NONE,,"{'Damage',Rate=1,DamageObjValue=0.8,TargetType={3},Time='Apply'}",0,Replace,1,1,,,0
+E43,攻击仙君,30043,Buff,NONE,,"{'Damage',Rate=1,DamageObjValue=0.4,TargetType={3},Time='Apply'}",0,Replace,1,1,,,0
+E44,攻击触发防御降低,30044,Null,NONE,,"{'ProcBuff', {{'E44', 100}, {'Nothing', 0}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+E45,防御降低,30045,DeBuff,NONE,,"{'ChaLAPercent', 'hujia',  -100}",2,Replace,1,1,,,0
+E46,防御提升,30046,Buff,NONE,,"{'ChaLAPercent', 'hujia',  80}",0,Replace,1,1,,,0
+E47,无视防御,30047,Buff,NONE,,"{'ChaLAPercent', 'chuanjia', 100, 0,Time='Apply'}",0,Replace,1,1,,,0
+E48,攻击触发眩晕,30048,Null,NONE,,"{'ProcBuff', {{'E49', 25}, {'Nothing', 75}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+E49,眩晕,30049,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+E50,伤害增加,30050,Buff,NONE,,"{'ChaLAPercent', 'attinc', 4, 0,Time='Apply'}",0,Replace,1,1,,,0
+E51,无视防御,30051,Buff,NONE,,"{'ChaLAPercent', 'chuanjia', 50, 0,Time='Apply'}",0,Replace,1,1,,,0
+E52,无视防御,30052,Buff,NONE,,"{'ChaLAPercent', 'chuanjia', 100, 0,Time='Apply'}",0,Replace,1,1,,,0
+E53,必然暴击,30053,Buff,NONE,,{"CertainCrit"},0,Replace,1,1,,,0
+E54,复活,30054,Buff,NONE,,"{'ChaHPPercent', 45, Time = 'BeforeDead', Rate=0.2, limitCount=3}",0,Replace,1,1,,,0
+E55,复活,30055,Buff,NONE,,"{'ChaHPPercent', 45, Time = 'BeforeDead', Rate=0.2, limitCount=3}",0,Replace,1,1,,,0
+E56,回复生命,30056,Buff,NONE,,"{'ChaHPPercent', 8, Time='Interval', Interval=1, TriggerRound={1,1}}",0,Replace,1,1,,,
+E57,受到攻击触发反击,30057,Null,NONE,,"{'ProcBuff', {{'E58', 100}, {'Nothing', 0}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+E58,反击,30058,Buff,NONE,,"{'Damage', Param='demage', Rate=0.22, Tag='Target',Time='Apply'}",0,Replace,1,1,,,0
+E59,受到攻击触发反击,30059,Null,NONE,,"{'ProcBuff', {{'E60', 100}, {'Nothing', 0}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+E60,反击,30060,Buff,NONE,,"{'Damage', Param='demage', Rate=0.13, Tag='Target',Time='Apply'}",0,Replace,1,1,,,0
+E61,受到攻击触发伤害减免,30061,Null,NONE,,"{'ProcBuff', {{'E62', 100}, {'Nothing', 0}}, Time='BeAOECast'}",0,Replace,1,1,,,0
+E62,伤害减免PVP,30062,Buff,NONE,,"{'ChaLAPercent', 'pvpattdec',-0.02, PVP=1}",0,Replace,1,1,,,0
+E63,生命扣除,30063,DeBuff,NONE,,"{'ChaHPCurPercent', -5, Time='Interval', Interval=1}",3,Replace,1,1,,,0
+E64,生命扣除,30064,DeBuff,NONE,,"{'ChaHPCurPercent', -2, Time='Interval', Interval=1}",3,Replace,1,1,,,0
+E65,伤害增加,30065,Buff,NONE,,"{'ChaLAPercent', 'attinc', 3, 0,Time='Apply'}",0,Replace,1,1,,,0
+E66,伤害增加,30066,Buff,NONE,,"{'ChaLAPercent', 'attinc', 200, 0,Time='Apply'}",0,Replace,1,1,,,0
+E67,伤害增加,30067,Buff,NONE,,"{'ChaLAPercent', 'attinc', 80, 0,Time='Apply'}",0,Replace,1,1,,,0
+E68,必中,30068,Buff,NONE,,{'CertainHit'},0,Replace,1,1,,,0
+F1,开场触发状态,30069,Null,NONE,,"{'ProcBuff', {{'F2', 20}, {'Nothing', 80}}, Time='Apply'}",0,Replace,1,1,,,0
+F2,嘲讽,30070,DeBuff,NONE,,"{'forceTarget'},{'ProcBuff', {{'F3', 100}, {'Nothing', 0}}, Time='Apply'}",0,Replace,1,1,,,0
+F3,受伤减免,30071,Buff,NONE,,"{'AcceptDAdd', -30}",1,Replace,1,1,,,0
+F4,触发眩晕,30072,Null,NONE,,"{'ProcBuff', {{'F4', 16}, {'Nothing', 84}},  Time='Interval', Interval=1, TriggerRound={3,30}, Tag='SelfRoundEx'}",0,Replace,1,1,,,0
+F5,眩晕,30073,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+F6,添加状态,30074,Null,NONE,,"{'ProcBuff', 'F7',Tag={'SELF'}},{'ProcBuff', 'F7',Tag={'AHEAD'}} ",0,Replace,1,1,,,0
+F7,状态触发,30075,Null,NONE,,"{'ProcBuff',{{'F8', 23}, {'Nothing', 76}},Time='SingleCast',Tag='Target'}",0,Replace,1,1,,,0
+F8,混乱,30076,DeBuff,NONE,,"{'Betray',MainFirst=1}",1,Replace,1,1,,,0
+F9,状态触发,30077,Null,NONE,,"{'RecordDamage',Time = 'HPChange',RoundLimit=1},{'ProBuffEndRound','F10', Time = 'EndRound',CoolRound=2,TargetCount=2, BeDamageCount=5}",0,Replace,1,1,,,0
+F10,眩晕,30078,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",2,Replace,1,1,,,0
+F11,状态触发,30079,Null,NONE,,"{'CondTagProcBuffs', {{'HPPercent', 0, 40}}, 'F12', Time='Damage', TriggerRound={3,30}, MainFirst=1}",0,Replace,1,1,,,0
+F12,攻击提升,30080,Buff,NONE,,"{'ChaLAPercent', 'demage',  17.8}",0,Replace,1,1,,,0
+F13,攻击触发生命降低,30081,Null,NONE,,"{'ProcBuff', {{'F14', 33}, {'Nothing', 67}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+F14,中毒,30082,DeBuff,NONE,,"{'ChaHPCurPercent', 5, Time='EndRound',CoolRound=2}",2,Replace,1,1,,,0
+F15,真实伤害,30083,Buff,NONE,,"{'RecordDamage',Time = 'HPChange',RoundLimit=1},{'Damage', Param='demage', Rate=0.34, Time='RoundEnd', RealDamage=true, RecordDamage=0, Tag='MainFirst'}",0,Replace,1,1,,,0
+F16,状态连击,30084,Null,NONE,,"{'DoubleCast', 0.3333, CastCount=2,TriggerRound={3,30}}",0,Replace,1,1,,,0
+F17,状态添加,30085,Null,NONE,,"{'ProcBuff', 'F18',Tag={'SELF'}},{'ProcBuff', 'F18',Tag={'AHEAD'}}",0,Replace,1,1,,,0
+F18,状态触发,30086,Null,NONE,,"{'CounterHP', 16, 'F19', Time='BeDamage',CoolRound=5, TriggerRound={1,30},Tag='TargetList'}",0,Replace,1,1,,,0
+F19,生命扣除,30087,DeBuff,NONE,,"{'ChaHPCurPercent', 14, Time='Interval', Interval=1}",2,Replace,1,1,,,0
+F20,状态触发,30088,Null,NONE,,"{'ProcBuff', {{'F21', 10}, {'Nothing', 90}},  Time='Damage', TriggerRound={4,30}, Tag='SelfRound'}   ",0,Replace,1,1,,,0
+F21,生命恢复,30089,Buff,NONE,,"{'ChaHPPercent', 74.45, Time = 'Apply', Tag='CastMinHp'}",0,Replace,1,1,,,0
+F22,状态添加,30090,Null,NONE,,"{'ProcBuff', {{'F23', 16}, {'Nothing', 84}},  Time='Interval', Interval=1, TriggerRound={3,30}, Tag='SelfRoundEx'}",0,Replace,1,1,,,0
+F23,状态触发,30091,Null,NONE,,"{'ProcBuff', {{'F24', 100}},  Time='Apply',  Tag='Target'}",0,Replace,1,1,,,0
+F24,不能恢复生命,30092,DeBuff,NONE,,{'NoRestore'},2,Replace,1,1,,,0
+F25,状态触发,30093,Null,NONE,,"{'CounterOnly', Time='BeDamage'},{'ProCounterEffect', 6, 'F26', Time='EndRound', NotCondClear=1}",0,Replace,1,1,,,0
+F26,恢复生命,30094,Buff,NONE,,"{'ChaHPPercent', 10, Time='EndRound', Tag='CastList'}",0,Replace,1,1,,,0
+F27,反弹伤害,30095,Buff,NONE,,"{'ReboundDamage', 0.2, Time=""BeDamage""}",0,Replace,1,1,,,0
+F28,伤害增加,30096,Buff,NONE,,"{'CondBuffDamage', {2}, 0.11}",0,Replace,1,1,,,0
+F29,状态添加,30097,Null,NONE,,"{'ProcBuff', 'F30',Tag={'SELF'}},{'ProcBuff', 'F30',Tag={'AHEAD'}}",0,Replace,1,1,,,0
+F30,状态触发,30098,Null,NONE,,"{'ProcBuff',{{'F31', 20}, {'Nothing', 80}},Time='SingleCast',Tag='Target'}",0,Replace,1,1,,,0
+F31,额外伤害,30099,DeBuff,NONE,,"{'Damage',Rate=0.32,Time='Apply'}",0,Replace,1,1,,,0
+F32,秒杀,30100,DeBuff,NONE,,"{'ChaHPPercent', 100, Rate=0.33, Time = 'Apply', EffectHPRange={0,10}},{'CondProcBuff', 'HPPercent', 11, 100, 'F286'}",0,Replace,1,1,,,0
+F33,负面状态,30101,Buff,NONE,,"{'ChaLAPercent', 'demage', -11, Time='ApplyDebuff'}",1,Replace,1,1,,,0
+F34,死亡触发,30102,Null,NONE,,"{'AddDelayBuff', 'F35', 1, Time='Dead', Tag='Target'}, ",0,Replace,1,1,,,0
+F35,概率复活,30103,Null,NONE,,"{'forceTarget'},{'ReviveKillFighter',Rate=0.3, HPPercent=0.12, Time='EndRound'}   ",0,Replace,1,1,,,0
+F36,集火,30104,Buff,NONE,,"{'ProcBuff', {{'F287', 100}},  Time='Apply'},{'ProcBuff', {{'F287', 100}}, Tag='Ahead', Time='Apply'}",0,Replace,1,1,,,0
+F37,状态添加,30105,Null,NONE,,"{'CondBuffAddBuff', {2}, 'F38', Time='Damage'}",0,Replace,1,1,,,0
+F38,状态触发,30106,Null,NONE,,"{'ProcBuff', {{'F39', 3333}, {'Nothing', 6667}}, Time='Apply'}",0,Replace,1,1,,,0
+F39,降低防攻,30107,DeBuff,NONE,,"{'ChaLAPercent', 'demage',  -20},{'ChaLAPercent', 'hujia',  -20}",1,Replace,1,1,,,0
+F40,状态添加,30108,Null,NONE,,"{'CounterOnly', Time='Damage'},{'ProCounterEffect', 6, 'F41', Time='EndRound', NotCondClear=1}",0,Replace,1,1,,,0
+F41,生命恢复,30109,Buff,NONE,,"{'ChaHPPercent', 2, Time='EndRound', Tag='CastList'}",2,Replace,1,1,,,0
+F42,状态添加,30110,Null,NONE,,"{'CondProcBuff', 'HPPercent', 0, 30, 'F43', Time='EndRound'}",0,Replace,1,1,,,0
+F43,攻击提升,30111,Buff,NONE,,"{'ChaLAPercent', 'demage', 12, Time='Apply'}",30,Replace,1,1,,,0
+F44,状态触发,30112,Null,NONE,,"{'AddDelayBuff', 'F45',Time=""BeCure"",Rate=0.5}",0,Replace,1,1,,,0
+F45,暴击提升,30113,Buff,NONE,,"{'ChaLAPercent', 'critrate', 100, Time='Apply'},{'ChaLAPercent', 'critdamage', 28, Time='Apply'}",0,Replace,1,1,,,0
+F46,状态添加,30114,Null,NONE,,"{'ProcBuff', {{'F47', 100}}, Time='Kill',CoolRound=1}",0,Replace,1,1,,,0
+F47,再次伤害,30115,Buff,NONE,,"{'Damage',Rate=1,Time='Apply',Tag='RandEnemy'}",0,Replace,1,1,,,0
+F48,治疗攻击,30116,Null,NONE,,"{'CureHPDamge', 0.4, Time='BeCure',Tag='RandEnemy'}",0,Replace,1,1,,,0
+F49,状态添加,30117,Null,NONE,,"{'RecordDamage',Time = 'HPChange',RoundLimit=1},{'ProBuffByRecordDamage','F51', Time='EndRound', LimitDamage=0.2,Tag='LeftAndRight'},{'ProBuffByRecordDamage','F50', Time='EndRound', LimitDamage=0.2}",0,Replace,1,1,,,0
+F50,免伤,30118,Buff,NONE,,{'ShareDamage'},0,Replace,1,1,,,0
+F51,防御提升,30119,Buff,NONE,,"{'ChaLAPercent', 'hujia',  52}",0,Replace,1,1,,,0
+F52,伤害总额,30120,Null,NONE,,"{'RecordDamageEach', Time='Damage', RoundLimit=1},{'SortDamageProBuff', 0.4, 'F53', Time='EndRound'}",0,Replace,1,1,,,0
+F53,攻击提升,30121,Buff,NONE,,"{'ChaLAPercent', 'demage', 23, Time='Apply'}",0,Replace,1,1,,,0
+F54,状态添加,30122,Null,NONE,,"{'CondBuffAddBuff', {2}, 'F55', Time='Damage'}",0,Replace,1,1,,,0
+F55,必暴、暴击提升,30123,Buff,NONE,,"{'CertainCrit'}, {'ChaLAPercent', 'critdamage', 43, Time='Apply'}",0,Replace,1,1,,,0
+F56,状态添加,30124,Null,NONE,,"{'CondProcBuff', 'HPPercent', 60, 100, 'F57',TriggerRound={3,30}} ",0,Replace,1,1,,,0
+F57,分摊伤害,30125,Buff,NONE,,"{'TransferDamage', 0.25},{'RecordDamage',Time = 'HPChange'}",0,Replace,1,1,,,0
+F58,开场触发状态,30126,Null,NONE,,"{'ProcBuff', {{'F59', 20}, {'Nothing', 80}}, Time='Apply'}",0,Replace,1,1,,,0
+F59,嘲讽,30127,DeBuff,NONE,,"{'forceTarget'},{'ProcBuff', {{'F60', 100}, {'Nothing', 0}}, Time='Apply'}",0,Replace,1,1,,,0
+F60,受伤减免,30128,Buff,NONE,,"{'AcceptDAdd', -6}",1,Replace,1,1,,,0
+F61,触发眩晕,30129,Null,NONE,,"{'ProcBuff', {{'F62', 32}, {'Nothing', 968}},  Time='Interval', Interval=1, TriggerRound={3,30}, Tag='SelfRoundEx'}",0,Replace,1,1,,,0
+F62,眩晕,30130,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+F63,添加状态,30131,Null,NONE,,"{'ProcBuff', 'F64',Tag={'SELF'}},{'ProcBuff', 'F64',Tag={'AHEAD'}} ",0,Replace,1,1,,,0
+F64,状态触发,30132,Null,NONE,,"{'ProcBuff',{{'F65', 46}, {'Nothing', 954}},Time='SingleCast',Tag='Target'}",0,Replace,1,1,,,0
+F65,混乱,30133,DeBuff,NONE,,"{'Betray',MainFirst=1}",1,Replace,1,1,,,0
+F66,状态触发,30134,Null,NONE,,"{'RecordDamage',Time = 'HPChange',RoundLimit=1},{'ProBuffEndRound','F67', Time = 'EndRound',CoolRound=2,TargetCount=2, BeDamageCount=8}",0,Replace,1,1,,,0
+F67,眩晕,30135,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+F68,状态触发,30136,Null,NONE,,"{'CondTagProcBuffs', {{'HPPercent', 0, 40}}, 'F69', Time='Damage', TriggerRound={3,30}, MainFirst=1}",0,Replace,1,1,,,0
+F69,攻击提升,30137,Buff,NONE,,"{'ChaLAPercent', 'demage',  3.56}",0,Replace,1,1,,,0
+F70,攻击触发生命降低,30138,Null,NONE,,"{'ProcBuff', {{'F71', 33}, {'Nothing', 67}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+F71,中毒,30139,DeBuff,NONE,,"{'ChaHPCurPercent', 1, Time='EndRound',CoolRound=2}",2,Replace,1,1,,,0
+F72,真实伤害,30140,Buff,NONE,,"{'RecordDamage',Time = 'HPChange',RoundLimit=1},{'Damage', Param='demage', Rate=0.068, Time='RoundEnd', RealDamage=true, RecordDamage=0, Tag='MainFirst'}",0,Replace,1,1,,,0
+F73,状态连击,30141,Null,NONE,,"{'DoubleCast', 0.0666, CastCount=2,TriggerRound={3,30}}",0,Replace,1,1,,,0
+F74,状态添加,30142,Null,NONE,,"{'ProcBuff', 'F75',Tag={'SELF'}},{'ProcBuff', 'F75',Tag={'AHEAD'}}",0,Replace,1,1,,,0
+F75,状态触发,30143,Null,NONE,,"{'CounterHP', 16, 'F76', Time='BeDamage',CoolRound=5, TriggerRound={1,30},Tag='TargetList'}",0,Replace,1,1,,,0
+F76,生命扣除,30144,DeBuff,NONE,,"{'ChaHPCurPercent', 2.8, Time='Interval', Interval=1}",2,Replace,1,1,,,0
+F77,状态触发,30145,Null,NONE,,"{'ProcBuff', {{'F78', 10}, {'Nothing', 90}},  Time='Damage', TriggerRound={4,30}, Tag='SelfRound'}   ",0,Replace,1,1,,,0
+F78,生命恢复,30146,Buff,NONE,,"{'ChaHPPercent', 14.95, Time = 'Apply', Tag='CastMinHp'}",0,Replace,1,1,,,0
+F79,状态添加,30147,Null,NONE,,"{'ProcBuff', {{'F80', 32}, {'Nothing', 968}},  Time='Interval', Interval=1, TriggerRound={3,30}, Tag='SelfRoundEx'}",0,Replace,1,1,,,0
+F80,状态触发,30148,Null,NONE,,"{'ProcBuff', {{'F81', 100}},  Time='Apply',  Tag='Target'}",0,Replace,1,1,,,0
+F81,不能恢复生命,30149,DeBuff,NONE,,{'NoRestore'},2,Replace,1,1,,,0
+F82,状态触发,30150,Null,NONE,,"{'CounterOnly', Time='BeDamage'},{'ProCounterEffect', 6, 'F83', Time='EndRound', NotCondClear=1}",0,Replace,1,1,,,0
+F83,恢复生命,30151,Buff,NONE,,"{'ChaHPPercent', 2, Time='EndRound', Tag='CastList'}",0,Replace,1,1,,,0
+F84,反弹伤害,30152,Buff,NONE,,"{'ReboundDamage', 0.04, Time=""BeDamage""}",0,Replace,1,1,,,0
+F85,伤害增加,30153,Buff,NONE,,"{'CondBuffDamage', {2}, 0.022}",0,Replace,1,1,,,0
+F86,状态添加,30154,Null,NONE,,"{'ProcBuff', 'F87',Tag={'SELF'}},{'ProcBuff', 'F87',Tag={'AHEAD'}}",0,Replace,1,1,,,0
+F87,状态触发,30155,Null,NONE,,"{'ProcBuff',{{'F88', 20}, {'Nothing', 80}},Time='SingleCast',Tag='Target'}",0,Replace,1,1,,,0
+F88,额外伤害,30156,DeBuff,NONE,,"{'Damage',Rate=0.064,Time='Apply'}",0,Replace,1,1,,,0
+F89,秒杀,30157,DeBuff,NONE,,"{'ChaHPPercent', 100, Rate=0.066, Time = 'Apply', EffectHPRange={0,10}}",0,Replace,1,1,,,0
+F90,负面状态,30158,Buff,NONE,,"{'ChaLAPercent', 'demage', -2.2, Time='ApplyDebuff'}",1,Replace,1,1,,,0
+F91,死亡触发,30159,Null,NONE,,"{'AddDelayBuff', 'F92', 1, Time='Dead', Tag='Target'}, ",0,Replace,1,1,,,0
+F92,概率复活,30160,Null,NONE,,"{'forceTarget'},{'ReviveKillFighter',Rate=0.06, HPPercent=0.12, Time='EndRound'}   ",0,Replace,1,1,,,0
+F93,集火,30161,Buff,NONE,,"{'ForceMainTarget',TriggerRound={1,2}},{'ChaLAPercent', 'attinc', 5.6, 0,Time='Apply'}",0,Replace,1,1,,,0
+F94,状态添加,30162,Null,NONE,,"{'CondBuffAddBuff', {2}, 'F95', Time='Damage'}",0,Replace,1,1,,,0
+F95,状态触发,30163,Null,NONE,,"{'ProcBuff', {{'F96', 3333}, {'Nothing', 6667}}, Time='Apply'}",0,Replace,1,1,,,0
+F96,降低防攻,30164,DeBuff,NONE,,"{'ChaLAPercent', 'demage',  -4},{'ChaLAPercent', 'hujia',  -4}",1,Replace,1,1,,,0
+F97,状态添加,30165,Null,NONE,,"{'CounterOnly', Time='Damage'},{'ProCounterEffect', 6, 'F98', Time='EndRound', NotCondClear=1}",0,Replace,1,1,,,0
+F98,生命恢复,30166,Buff,NONE,,"{'ChaHPPercent', 0.4, Time='EndRound', Tag='CastList'}",2,Replace,1,1,,,0
+F99,状态添加,30167,Null,NONE,,"{'CondProcBuff', 'HPPercent', 0, 30, 'F100', Time='EndRound'}",30,Replace,1,1,,,0
+F100,攻击提升,30168,Buff,NONE,,"{'ChaLAPercent', 'demage', 2.4, Time='Apply'}",1,Replace,1,1,,,0
+F101,状态触发,30169,Null,NONE,,"{'AddDelayBuff', 'F102',Time=""BeCure"",Rate=0.1}",0,Replace,1,1,,,0
+F102,暴击提升,30170,Buff,NONE,,"{'ChaLAPercent', 'critrate', 100, Time='Apply'},{'ChaLAPercent', 'critdamage', 28, Time='Apply'}",0,Replace,1,1,,,0
+F103,状态添加,30171,Null,NONE,,"{'ProcBuff', {{'F104', 20}, {'Nothing', 80}}, Time='Kill',CoolRound=1}",0,Replace,1,1,,,0
+F104,再次伤害,30172,Buff,NONE,,"{'Damage',Rate=1,Time='Apply',Tag='RandEnemy'}",0,Replace,1,1,,,0
+F105,治疗攻击,30173,Null,NONE,,"{'CureHPDamge', 0.08, Time='BeCure',Tag='RandEnemy'}",0,Replace,1,1,,,0
+F106,状态添加,30174,Null,NONE,,"{'RecordDamage',Time = 'HPChange',RoundLimit=1},{'ProBuffByRecordDamage','F108', Time='EndRound', LimitDamage=0.2,Tag='LeftAndRight'},{'ProBuffByRecordDamage','F107', Time='EndRound', LimitDamage=0.2}",0,Replace,1,1,,,0
+F107,免伤,30175,Buff,NONE,,{'ShareDamage'},0,Replace,1,1,,,0
+F108,防御提升,30176,Buff,NONE,,"{'ChaLAPercent', 'hujia',  10.4}",0,Replace,1,1,,,0
+F109,伤害总额,30177,Null,NONE,,"{'RecordDamageEach', Time='Damage', RoundLimit=1},{'SortDamageProBuff', 0.4, 'F110', Time='EndRound'}",0,Replace,1,1,,,0
+F110,攻击提升,30178,Buff,NONE,,"{'ChaLAPercent', 'demage', 4.6, Time='Apply'}",0,Replace,1,1,,,0
+F111,状态添加,30179,Null,NONE,,"{'CondBuffAddBuff', {2}, 'F112', Time='Damage'}",0,Replace,1,1,,,0
+F112,必暴、暴击提升,30180,Buff,NONE,,"{'CertainCrit'}, {'ChaLAPercent', 'critdamage', 8.6, Time='Apply'}",0,Replace,1,1,,,0
+F113,状态添加,30181,Null,NONE,,"{'CondProcBuff', 'HPPercent', 60, 100, 'F114',TriggerRound={3,30}} ",0,Replace,1,1,,,0
+F114,分摊伤害,30182,Buff,NONE,,"{'TransferDamage', 0.05},{'RecordDamage',Time = 'HPChange'}",0,Replace,1,1,,,0
+F115,开场触发状态,30183,Null,NONE,,"{'ProcBuff', {{'F116', 20}, {'Nothing', 80}}, Time='Apply'}",0,Replace,1,1,,,0
+F116,嘲讽,30184,DeBuff,NONE,,"{'forceTarget'},{'ProcBuff', {{'F117', 100}, {'Nothing', 0}}, Time='Apply'}",0,Replace,1,1,,,0
+F117,受伤减免,30185,Buff,NONE,,"{'AcceptDAdd', -12}",1,Replace,1,1,,,0
+F118,触发眩晕,30186,Null,NONE,,"{'ProcBuff', {{'F119', 64}, {'Nothing', 936}},  Time='Interval', Interval=1, TriggerRound={3,30}, Tag='SelfRoundEx'}",0,Replace,1,1,,,0
+F119,眩晕,30187,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+F120,添加状态,30188,Null,NONE,,"{'ProcBuff', 'F121',Tag={'SELF'}},{'ProcBuff', 'F121',Tag={'AHEAD'}} ",0,Replace,1,1,,,0
+F121,状态触发,30189,Null,NONE,,"{'ProcBuff',{{'F122', 92}, {'Nothing', 908}},Time='SingleCast',Tag='Target'}",0,Replace,1,1,,,0
+F122,混乱,30190,DeBuff,NONE,,"{'Betray',MainFirst=1}",1,Replace,1,1,,,0
+F123,状态触发,30191,Null,NONE,,"{'RecordDamage',Time = 'HPChange',RoundLimit=1},{'ProBuffEndRound','F124', Time = 'EndRound',CoolRound=2,TargetCount=2, BeDamageCount=7}",0,Replace,1,1,,,0
+F124,眩晕,30192,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+F125,状态触发,30193,Null,NONE,,"{'CondTagProcBuffs', {{'HPPercent', 0, 40}}, 'F126', Time='Damage', TriggerRound={3,30}, MainFirst=1}",0,Replace,1,1,,,0
+F126,攻击提升,30194,Buff,NONE,,"{'ChaLAPercent', 'demage',  7.12}",0,Replace,1,1,,,0
+F127,攻击触发生命降低,30195,Null,NONE,,"{'ProcBuff', {{'F128', 33}, {'Nothing', 67}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+F128,中毒,30196,DeBuff,NONE,,"{'ChaHPCurPercent', 2, Time='EndRound',CoolRound=2}",2,Replace,1,1,,,0
+F129,真实伤害,30197,Buff,NONE,,"{'RecordDamage',Time = 'HPChange',RoundLimit=1},{'Damage', Param='demage', Rate=0.136, Time='RoundEnd', RealDamage=true, RecordDamage=0, Tag='MainFirst'}",0,Replace,1,1,,,0
+F130,状态连击,30198,Null,NONE,,"{'DoubleCast', 0.1333, CastCount=2,TriggerRound={3,30}}",0,Replace,1,1,,,0
+F131,状态添加,30199,Null,NONE,,"{'ProcBuff', 'F132',Tag={'SELF'}},{'ProcBuff', 'F132',Tag={'AHEAD'}}",0,Replace,1,1,,,0
+F132,状态触发,30200,Null,NONE,,"{'CounterHP', 16, 'F133', Time='BeDamage',CoolRound=5, TriggerRound={1,30},Tag='TargetList'}",0,Replace,1,1,,,0
+F133,生命扣除,30201,DeBuff,NONE,,"{'ChaHPCurPercent', 5.6, Time='Interval', Interval=1}",2,Replace,1,1,,,0
+F134,状态触发,30202,Null,NONE,,"{'ProcBuff', {{'F135', 10}, {'Nothing', 90}},  Time='Damage', TriggerRound={4,30}, Tag='SelfRound'}   ",0,Replace,1,1,,,0
+F135,生命恢复,30203,Buff,NONE,,"{'ChaHPPercent', 29.9, Time = 'Apply', Tag='CastMinHp'}",0,Replace,1,1,,,0
+F136,状态添加,30204,Null,NONE,,"{'ProcBuff', {{'F137', 64}, {'Nothing', 936}},  Time='Interval', Interval=1, TriggerRound={3,30}, Tag='SelfRoundEx'}",0,Replace,1,1,,,0
+F137,状态触发,30205,Null,NONE,,"{'ProcBuff', {{'F138', 100}},  Time='Apply',  Tag='Target'}",0,Replace,1,1,,,0
+F138,不能恢复生命,30206,DeBuff,NONE,,{'NoRestore'},2,Replace,1,1,,,0
+F139,状态触发,30207,Null,NONE,,"{'CounterOnly', Time='BeDamage'},{'ProCounterEffect', 6, 'F140', Time='EndRound', NotCondClear=1}",0,Replace,1,1,,,0
+F140,恢复生命,30208,Buff,NONE,,"{'ChaHPPercent', 4, Time='EndRound', Tag='CastList'}",0,Replace,1,1,,,0
+F141,反弹伤害,30209,Buff,NONE,,"{'ReboundDamage', 0.02, Time=""BeDamage""}",0,Replace,1,1,,,0
+F142,伤害增加,30210,Buff,NONE,,"{'CondBuffDamage', {2}, 0.044}",0,Replace,1,1,,,0
+F143,状态添加,30211,Null,NONE,,"{'ProcBuff', 'F144',Tag={'SELF'}},{'ProcBuff', 'F144',Tag={'AHEAD'}}",0,Replace,1,1,,,0
+F144,状态触发,30212,Null,NONE,,"{'ProcBuff',{{'F145', 20}, {'Nothing', 80}},Time='SingleCast',Tag='Target'}",0,Replace,1,1,,,0
+F145,额外伤害,30213,DeBuff,NONE,,"{'Damage',Rate=0.128,Time='Apply'}",0,Replace,1,1,,,0
+F146,秒杀,30214,DeBuff,NONE,,"{'ChaHPPercent', 100, Rate=0.132, Time = 'Apply', EffectHPRange={0,10}}",0,Replace,1,1,,,0
+F147,负面状态,30215,Buff,NONE,,"{'ChaLAPercent', 'demage', -4.4, Time='ApplyDebuff'}",1,Replace,1,1,,,0
+F148,死亡触发,30216,Null,NONE,,"{'AddDelayBuff', 'F149', 1, Time='Dead', Tag='Target'}, ",0,Replace,1,1,,,0
+F149,概率复活,30217,Null,NONE,,"{'forceTarget'},{'ReviveKillFighter',Rate=0.12, HPPercent=0.12, Time='EndRound'}   ",0,Replace,1,1,,,0
+F150,集火,30218,Buff,NONE,,"{'ForceMainTarget',TriggerRound={1,2}},{'ChaLAPercent', 'attinc', 11.2, 0,Time='Apply'}",0,Replace,1,1,,,0
+F151,状态添加,30219,Null,NONE,,"{'CondBuffAddBuff', {2}, 'F152', Time='Damage'}",0,Replace,1,1,,,0
+F152,状态触发,30220,Null,NONE,,"{'ProcBuff', {{'F153', 3333}, {'Nothing', 6667}}, Time='Apply'}",0,Replace,1,1,,,0
+F153,降低防攻,30221,DeBuff,NONE,,"{'ChaLAPercent', 'demage',  -8},{'ChaLAPercent', 'hujia',  -8}",1,Replace,1,1,,,0
+F154,状态添加,30222,Null,NONE,,"{'CounterOnly', Time='Damage'},{'ProCounterEffect', 6, 'F155', Time='EndRound', NotCondClear=1}",0,Replace,1,1,,,0
+F155,生命恢复,30223,Buff,NONE,,"{'ChaHPPercent', 0.8, Time='EndRound', Tag='CastList'}",2,Replace,1,1,,,0
+F156,状态添加,30224,Null,NONE,,"{'CondProcBuff', 'HPPercent', 0, 30, 'F157', Time='EndRound'}",0,Replace,1,1,,,0
+F157,攻击提升,30225,Buff,NONE,,"{'ChaLAPercent', 'demage', 4.8, Time='Apply'}",30,Replace,1,1,,,0
+F158,状态触发,30226,Null,NONE,,"{'AddDelayBuff', 'F159',Time=""BeCure"",Rate=0.2}",0,Replace,1,1,,,0
+F159,暴击提升,30227,Buff,NONE,,"{'ChaLAPercent', 'critrate', 100, Time='Apply'},{'ChaLAPercent', 'critdamage', 28, Time='Apply'}",0,Replace,1,1,,,0
+F160,状态添加,30228,Null,NONE,,"{'ProcBuff', {{'F161', 40}, {'Nothing', 60}}, Time='Kill',CoolRound=1}",0,Replace,1,1,,,0
+F161,再次伤害,30229,Buff,NONE,,"{'Damage',Rate=1,Time='Apply',Tag='RandEnemy'}",0,Replace,1,1,,,0
+F162,治疗攻击,30230,Null,NONE,,"{'CureHPDamge', 0.16, Time='BeCure',Tag='RandEnemy'}",0,Replace,1,1,,,0
+F163,状态添加,30231,Null,NONE,,"{'RecordDamage',Time = 'HPChange',RoundLimit=1},{'ProBuffByRecordDamage','F165', Time='EndRound', LimitDamage=0.2,Tag='LeftAndRight'},{'ProBuffByRecordDamage','F164', Time='EndRound', LimitDamage=0.2}",0,Replace,1,1,,,0
+F164,免伤,30232,Buff,NONE,,{'ShareDamage'},0,Replace,1,1,,,0
+F165,防御提升,30233,Buff,NONE,,"{'ChaLAPercent', 'hujia',  20.8}",0,Replace,1,1,,,0
+F166,伤害总额,30234,Null,NONE,,"{'RecordDamageEach', Time='Damage', RoundLimit=1},{'SortDamageProBuff', 0.4, 'F167', Time='EndRound'}",0,Replace,1,1,,,0
+F167,攻击提升,30235,Buff,NONE,,"{'ChaLAPercent', 'demage', 9.2, Time='Apply'}",0,Replace,1,1,,,0
+F168,状态添加,30236,Null,NONE,,"{'CondBuffAddBuff', {2}, 'F169', Time='Damage'}",0,Replace,1,1,,,0
+F169,必暴、暴击提升,30237,Buff,NONE,,"{'CertainCrit'}, {'ChaLAPercent', 'critdamage', 17.2, Time='Apply'}",0,Replace,1,1,,,0
+F170,状态添加,30238,Null,NONE,,"{'CondProcBuff', 'HPPercent', 60, 100, 'F171',TriggerRound={3,30}} ",0,Replace,1,1,,,0
+F171,分摊伤害,30239,Buff,NONE,,"{'TransferDamage', 0.1},{'RecordDamage',Time = 'HPChange'}",0,Replace,1,1,,,0
+F172,开场触发状态,30240,Null,NONE,,"{'ProcBuff', {{'F173', 20}, {'Nothing', 80}}, Time='Apply'}",0,Replace,1,1,,,0
+F173,嘲讽,30241,DeBuff,NONE,,"{'forceTarget'},{'ProcBuff', {{'F174', 100}, {'Nothing', 0}}, Time='Apply'}",0,Replace,1,1,,,0
+F174,受伤减免,30242,Buff,NONE,,"{'AcceptDAdd', -18}",1,Replace,1,1,,,0
+F175,触发眩晕,30243,Null,NONE,,"{'ProcBuff', {{'F175', 96}, {'Nothing', 904}},  Time='Interval', Interval=1, TriggerRound={3,30}, Tag='SelfRoundEx'}",0,Replace,1,1,,,0
+F176,眩晕,30244,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+F177,添加状态,30245,Null,NONE,,"{'ProcBuff', 'F178',Tag={'SELF'}},{'ProcBuff', 'F178',Tag={'AHEAD'}} ",0,Replace,1,1,,,0
+F178,状态触发,30246,Null,NONE,,"{'ProcBuff',{{'F179', 138}, {'Nothing', 962}},Time='SingleCast',Tag='Target'}",0,Replace,1,1,,,0
+F179,混乱,30247,DeBuff,NONE,,"{'Betray',MainFirst=1}",1,Replace,1,1,,,0
+F180,状态触发,30248,Null,NONE,,"{'RecordDamage',Time = 'HPChange',RoundLimit=1},{'ProBuffEndRound','F181', Time = 'EndRound',CoolRound=2,TargetCount=2, BeDamageCount=6}",0,Replace,1,1,,,0
+F181,眩晕,30249,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+F182,状态触发,30250,Null,NONE,,"{'CondTagProcBuffs', {{'HPPercent', 0, 40}}, 'F183', Time='Damage', TriggerRound={3,30}, MainFirst=1}",0,Replace,1,1,,,0
+F183,攻击提升,30251,Buff,NONE,,"{'ChaLAPercent', 'demage',  10.68}",0,Replace,1,1,,,0
+F184,攻击触发生命降低,30252,Null,NONE,,"{'ProcBuff', {{'F185', 33}, {'Nothing', 67}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+F185,中毒,30253,DeBuff,NONE,,"{'ChaHPCurPercent', 3, Time='EndRound',CoolRound=2}",2,Replace,1,1,,,0
+F186,真实伤害,30254,Buff,NONE,,"{'RecordDamage',Time = 'HPChange',RoundLimit=1},{'Damage', Param='demage', Rate=0.204, Time='RoundEnd', RealDamage=true, RecordDamage=0, Tag='MainFirst'}",0,Replace,1,1,,,0
+F187,状态连击,30255,Null,NONE,,"{'DoubleCast', 0.1999, CastCount=2,TriggerRound={3,30}}",0,Replace,1,1,,,0
+F188,状态添加,30256,Null,NONE,,"{'ProcBuff', 'F189',Tag={'SELF'}},{'ProcBuff', 'F189',Tag={'AHEAD'}}",0,Replace,1,1,,,0
+F189,状态触发,30257,Null,NONE,,"{'CounterHP', 16, 'F190', Time='BeDamage',CoolRound=5, TriggerRound={1,30},Tag='TargetList'}",0,Replace,1,1,,,0
+F190,生命扣除,30258,DeBuff,NONE,,"{'ChaHPCurPercent', 8.4, Time='Interval', Interval=1}",2,Replace,1,1,,,0
+F191,状态触发,30259,Null,NONE,,"{'ProcBuff', {{'F192', 10}, {'Nothing', 90}},  Time='Damage', TriggerRound={4,30}, Tag='SelfRound'}   ",0,Replace,1,1,,,0
+F192,生命恢复,30260,Buff,NONE,,"{'ChaHPPercent', 44.85, Time = 'Apply', Tag='CastMinHp'}",0,Replace,1,1,,,0
+F193,状态添加,30261,Null,NONE,,"{'ProcBuff', {{'F194', 96}, {'Nothing', 904}},  Time='Interval', Interval=1, TriggerRound={3,30}, Tag='SelfRoundEx'}",0,Replace,1,1,,,0
+F194,状态触发,30262,Null,NONE,,"{'ProcBuff', {{'F195', 100}},  Time='Apply',  Tag='Target'}",0,Replace,1,1,,,0
+F195,不能恢复生命,30263,DeBuff,NONE,,{'NoRestore'},2,Replace,1,1,,,0
+F196,状态触发,30264,Null,NONE,,"{'CounterOnly', Time='BeDamage'},{'ProCounterEffect', 6, 'F197', Time='EndRound', NotCondClear=1}",0,Replace,1,1,,,0
+F197,恢复生命,30265,Buff,NONE,,"{'ChaHPPercent', 6, Time='EndRound', Tag='CastList'}",0,Replace,1,1,,,0
+F198,反弹伤害,30266,Buff,NONE,,"{'ReboundDamage', 0.12, Time=""BeDamage""}",0,Replace,1,1,,,0
+F199,伤害增加,30267,Buff,NONE,,"{'CondBuffDamage', {2}, 0.066}",0,Replace,1,1,,,0
+F200,状态添加,30268,Null,NONE,,"{'ProcBuff', 'F201',Tag={'SELF'}},{'ProcBuff', 'F201',Tag={'AHEAD'}}",0,Replace,1,1,,,0
+F201,状态触发,30269,Null,NONE,,"{'ProcBuff',{{'F202', 20}, {'Nothing', 80}},Time='SingleCast',Tag='Target'}",0,Replace,1,1,,,0
+F202,额外伤害,30270,DeBuff,NONE,,"{'Damage',Rate=0.192,Time='Apply'}",0,Replace,1,1,,,0
+F203,秒杀,30271,DeBuff,NONE,,"{'ChaHPPercent', 100, Rate=0.198, Time = 'Apply', EffectHPRange={0,10}}",0,Replace,1,1,,,0
+F204,负面状态,30272,Buff,NONE,,"{'ChaLAPercent', 'demage', -6.6, Time='ApplyDebuff',Tag='TargetList'}",1,Replace,1,1,,,0
+F205,死亡触发,30273,Null,NONE,,"{'AddDelayBuff', 'F206', 1, Time='Dead', Tag='Target'}, ",0,Replace,1,1,,,0
+F206,概率复活,30274,Null,NONE,,"{'forceTarget'},{'ReviveKillFighter',Rate=0.18, HPPercent=0.12, Time='EndRound'}   ",0,Replace,1,1,,,0
+F207,集火,30275,Buff,NONE,,"{'ForceMainTarget',TriggerRound={1,2}},{'ChaLAPercent', 'attinc', 16.8, 0,Time='Apply'}",0,Replace,1,1,,,0
+F208,状态添加,30276,Null,NONE,,"{'CondBuffAddBuff', {2}, 'F209', Time='Damage'}",0,Replace,1,1,,,0
+F209,状态触发,30277,Null,NONE,,"{'ProcBuff', {{'F210', 3333}, {'Nothing', 6667}}, Time='Apply'}",0,Replace,1,1,,,0
+F210,降低防攻,30278,DeBuff,NONE,,"{'ChaLAPercent', 'demage',  -12},{'ChaLAPercent', 'hujia',  -12}",1,Replace,1,1,,,0
+F211,状态添加,30279,Null,NONE,,"{'CounterOnly', Time='Damage'},{'ProCounterEffect', 6, 'F212', Time='EndRound', NotCondClear=1}",0,Replace,1,1,,,0
+F212,生命恢复,30280,Buff,NONE,,"{'ChaHPPercent', 1.2, Time='EndRound', Tag='CastList'}",2,Replace,1,1,,,0
+F213,状态添加,30281,Null,NONE,,"{'CondProcBuff', 'HPPercent', 0, 30, 'F214', Time='EndRound'}",0,Replace,1,1,,,0
+F214,攻击提升,30282,Buff,NONE,,"{'ChaLAPercent', 'demage', 7.2, Time='Apply'}",30,Replace,1,1,,,0
+F215,状态触发,30283,Null,NONE,,"{'AddDelayBuff', 'F216',Time=""BeCure"",Rate=0.3}",0,Replace,1,1,,,0
+F216,暴击提升,30284,Buff,NONE,,"{'ChaLAPercent', 'critrate', 100, Time='Apply'},{'ChaLAPercent', 'critdamage', 28, Time='Apply'}",0,Replace,1,1,,,0
+F217,状态添加,30285,Null,NONE,,"{'ProcBuff', {{'F218', 60}, {'Nothing', 40}}, Time='Kill',CoolRound=1}",0,Replace,1,1,,,0
+F218,再次伤害,30286,Buff,NONE,,"{'Damage',Rate=1,Time='Apply',Tag='RandEnemy'}",0,Replace,1,1,,,0
+F219,治疗攻击,30287,Null,NONE,,"{'CureHPDamge', 0.24, Time='BeCure',Tag='RandEnemy'}",0,Replace,1,1,,,0
+F220,状态添加,30288,Null,NONE,,"{'RecordDamage',Time = 'HPChange',RoundLimit=1},{'ProBuffByRecordDamage','F222', Time='EndRound', LimitDamage=0.2,Tag='LeftAndRight'},{'ProBuffByRecordDamage','F221', Time='EndRound', LimitDamage=0.2}",0,Replace,1,1,,,0
+F221,免伤,30289,Buff,NONE,,{'ShareDamage'},0,Replace,1,1,,,0
+F222,防御提升,30290,Buff,NONE,,"{'ChaLAPercent', 'hujia',  31.2}",0,Replace,1,1,,,0
+F223,伤害总额,30291,Null,NONE,,"{'RecordDamageEach', Time='Damage', RoundLimit=1},{'SortDamageProBuff', 0.4, 'F224', Time='EndRound'}",0,Replace,1,1,,,0
+F224,攻击提升,30292,Buff,NONE,,"{'ChaLAPercent', 'demage', 13.8, Time='Apply'}",0,Replace,1,1,,,0
+F225,状态添加,30293,Null,NONE,,"{'CondBuffAddBuff', {2}, 'F226', Time='Damage'}",0,Replace,1,1,,,0
+F226,必暴、暴击提升,30294,Buff,NONE,,"{'CertainCrit'}, {'ChaLAPercent', 'critdamage', 25.8, Time='Apply'}",0,Replace,1,1,,,0
+F227,状态添加,30295,Null,NONE,,"{'CondProcBuff', 'HPPercent', 60, 100, 'F228',TriggerRound={3,30}} ",0,Replace,1,1,,,0
+F228,分摊伤害,30296,Buff,NONE,,"{'TransferDamage', 0.15},{'RecordDamage',Time = 'HPChange'}",0,Replace,1,1,,,0
+F229,开场触发状态,30297,Null,NONE,,"{'ProcBuff', {{'F230', 20}, {'Nothing', 80}}, Time='Apply'}",0,Replace,1,1,,,0
+F230,嘲讽,30298,DeBuff,NONE,,"{'forceTarget'},{'ProcBuff', {{'F231', 100}, {'Nothing', 0}}, Time='Apply'}",0,Replace,1,1,,,0
+F231,受伤减免,30299,Buff,NONE,,"{'AcceptDAdd', -24}",1,Replace,1,1,,,0
+F232,触发眩晕,30300,Null,NONE,,"{'ProcBuff', {{'F233', 128}, {'Nothing', 872}},  Time='Interval', Interval=1, TriggerRound={3,30}, Tag='SelfRoundEx'}",0,Replace,1,1,,,0
+F233,眩晕,30301,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+F234,添加状态,30302,Null,NONE,,"{'ProcBuff', 'F235',Tag={'SELF'}},{'ProcBuff', 'F235',Tag={'AHEAD'}} ",0,Replace,1,1,,,0
+F235,状态触发,30303,Null,NONE,,"{'ProcBuff',{{'F236', 184}, {'Nothing', 816}},Time='SingleCast',Tag='Target'}",0,Replace,1,1,,,0
+F236,混乱,30304,DeBuff,NONE,,"{'Betray',MainFirst=1}",1,Replace,1,1,,,0
+F237,状态触发,30305,Null,NONE,,"{'RecordDamage',Time = 'HPChange',RoundLimit=1},{'ProBuffEndRound','F238', Time = 'EndRound',CoolRound=2,TargetCount=2, BeDamageCount=5}",0,Replace,1,1,,,0
+F238,眩晕,30306,DeBuff,NONE,,"{'DamageBreak',Time='Apply'},{'Dizziness'}",1,Replace,1,1,,,0
+F239,状态触发,30307,Null,NONE,,"{'CondTagProcBuffs', {{'HPPercent', 0, 40}}, 'F240', Time='Damage', TriggerRound={3,30}, MainFirst=1}",0,Replace,1,1,,,0
+F240,攻击提升,30308,Buff,NONE,,"{'ChaLAPercent', 'demage',  14.24}",0,Replace,1,1,,,0
+F241,攻击触发生命降低,30309,Null,NONE,,"{'ProcBuff', {{'F242', 33}, {'Nothing', 67}}, Time='AllCast', Tag='Target'}",0,Replace,1,1,,,0
+F242,中毒,30310,DeBuff,NONE,,"{'ChaHPCurPercent', 4, Time='EndRound',CoolRound=2}",2,Replace,1,1,,,0
+F243,真实伤害,30311,Buff,NONE,,"{'RecordDamage',Time = 'HPChange',RoundLimit=1},{'Damage', Param='demage', Rate=0.272, Time='RoundEnd', RealDamage=true, RecordDamage=0, Tag='MainFirst'}",0,Replace,1,1,,,0
+F244,状态连击,30312,Null,NONE,,"{'DoubleCast', 0.2666, CastCount=2,TriggerRound={3,30}}",0,Replace,1,1,,,0
+F245,状态添加,30313,Null,NONE,,"{'ProcBuff', 'F246',Tag={'SELF'}},{'ProcBuff', 'F246',Tag={'AHEAD'}}",0,Replace,1,1,,,0
+F246,状态触发,30314,Null,NONE,,"{'CounterHP', 16, 'F247', Time='BeDamage',CoolRound=5, TriggerRound={1,30},Tag='TargetList'}",0,Replace,1,1,,,0
+F247,生命扣除,30315,DeBuff,NONE,,"{'ChaHPCurPercent', 11.2, Time='Interval', Interval=1}",2,Replace,1,1,,,0
+F248,状态触发,30316,Null,NONE,,"{'ProcBuff', {{'F249', 10}, {'Nothing', 90}},  Time='Damage', TriggerRound={4,30}, Tag='SelfRound'}   ",0,Replace,1,1,,,0
+F249,生命恢复,30317,Buff,NONE,,"{'ChaHPPercent', 59.8, Time = 'Apply', Tag='CastMinHp'}",0,Replace,1,1,,,0
+F250,状态添加,30318,Null,NONE,,"{'ProcBuff', {{'F251', 128}, {'Nothing', 872}},  Time='Interval', Interval=1, TriggerRound={3,30}, Tag='SelfRoundEx'}",0,Replace,1,1,,,0
+F251,状态触发,30319,Null,NONE,,"{'ProcBuff', {{'F252', 100}},  Time='Apply',  Tag='Target'}",0,Replace,1,1,,,0
+F252,不能恢复生命,30320,DeBuff,NONE,,{'NoRestore'},2,Replace,1,1,,,0
+F253,状态触发,30321,Null,NONE,,"{'CounterOnly', Time='BeDamage'},{'ProCounterEffect', 6, 'F254', Time='EndRound', NotCondClear=1}",0,Replace,1,1,,,0
+F254,恢复生命,30322,Buff,NONE,,"{'ChaHPPercent', 8, Time='EndRound', Tag='CastList'}",0,Replace,1,1,,,0
+F255,反弹伤害,30323,Buff,NONE,,"{'ReboundDamage', 0.16, Time=""BeDamage""}",0,Replace,1,1,,,0
+F256,伤害增加,30324,Buff,NONE,,"{'CondBuffDamage', {2}, 0.088}",0,Replace,1,1,,,0
+F257,状态添加,30325,Null,NONE,,"{'ProcBuff', 'F258',Tag={'SELF'}},{'ProcBuff', 'F258',Tag={'AHEAD'}}",0,Replace,1,1,,,0
+F258,状态触发,30326,Null,NONE,,"{'ProcBuff',{{'F259', 20}, {'Nothing', 80}},Time='SingleCast',Tag='Target'}",0,Replace,1,1,,,0
+F259,额外伤害,30327,DeBuff,NONE,,"{'Damage',Rate=0.256,Time='Apply'}",0,Replace,1,1,,,0
+F260,秒杀,30328,DeBuff,NONE,,"{'ChaHPPercent', 100, Rate=0.264, Time = 'Apply', EffectHPRange={0,10}}",0,Replace,1,1,,,0
+F261,负面状态,30329,Buff,NONE,,"{'ChaLAPercent', 'demage', -8.8, Time='ApplyDebuff'}",1,Replace,1,1,,,0
+F262,死亡触发,30330,Null,NONE,,"{'AddDelayBuff', 'F263', 1, Time='Dead', Tag='Target'}, ",0,Replace,1,1,,,0
+F263,概率复活,30331,Null,NONE,,"{'forceTarget'},{'ReviveKillFighter',Rate=0.24, HPPercent=0.12, Time='EndRound'}   ",0,Replace,1,1,,,0
+F264,集火,30332,Buff,NONE,,"{'ForceMainTarget',TriggerRound={1,2}},{'ChaLAPercent', 'attinc', 22.4, 0,Time='Apply'}",0,Replace,1,1,,,0
+F265,状态添加,30333,Null,NONE,,"{'CondBuffAddBuff', {2}, 'F266', Time='Damage'}",0,Replace,1,1,,,0
+F266,状态触发,30334,Null,NONE,,"{'ProcBuff', {{'F39', 3333}, {'Nothing', 6667}}, Time='Apply'}",0,Replace,1,1,,,0
+F267,降低防攻,30335,DeBuff,NONE,,"{'ChaLAPercent', 'demage',  -16},{'ChaLAPercent', 'hujia',  -16}",1,Replace,1,1,,,0
+F268,状态添加,30336,Null,NONE,,"{'CounterOnly', Time='Damage'},{'ProCounterEffect', 6, 'F269', Time='EndRound', NotCondClear=1}",0,Replace,1,1,,,0
+F269,生命恢复,30337,Buff,NONE,,"{'ChaHPPercent', 1.6, Time='EndRound', Tag='CastList'}",2,Replace,1,1,,,0
+F270,状态添加,30338,Null,NONE,,"{'CondProcBuff', 'HPPercent', 0, 30, 'F271', Time='EndRound'}",0,Replace,1,1,,,0
+F271,攻击提升,30339,Buff,NONE,,"{'ChaLAPercent', 'demage', 9.6, Time='Apply'}",30,Replace,1,1,,,0
+F272,状态触发,30340,Null,NONE,,"{'AddDelayBuff', 'F273',Time=""BeCure"",Rate=0.4}",0,Replace,1,1,,,0
+F273,暴击提升,30341,Buff,NONE,,"{'ChaLAPercent', 'critrate', 100, Time='Apply'},{'ChaLAPercent', 'critdamage', 28, Time='Apply'}",0,Replace,1,1,,,0
+F274,状态添加,30342,Null,NONE,,"{'ProcBuff', {{'F275', 80}, {'Nothing', 20}}, Time='Kill',CoolRound=1}",0,Replace,1,1,,,0
+F275,再次伤害,30343,Buff,NONE,,"{'Damage',Rate=1,Time='Apply',Tag='RandEnemy'}",0,Replace,1,1,,,0
+F276,治疗攻击,30344,Null,NONE,,"{'CureHPDamge', 0.32, Time='BeCure',Tag='RandEnemy'}",0,Replace,1,1,,,0
+F277,状态添加,30345,Null,NONE,,"{'RecordDamage',Time = 'HPChange',RoundLimit=1},{'ProBuffByRecordDamage','F279', Time='EndRound', LimitDamage=0.2,Tag='LeftAndRight'},{'ProBuffByRecordDamage','F278', Time='EndRound', LimitDamage=0.2}",0,Replace,1,1,,,0
+F278,免伤,30346,Buff,NONE,,{'ShareDamage'},0,Replace,1,1,,,0
+F279,防御提升,30347,Buff,NONE,,"{'ChaLAPercent', 'hujia',  41.6}",0,Replace,1,1,,,0
+F280,伤害总额,30348,Null,NONE,,"{'RecordDamageEach', Time='Damage', RoundLimit=1},{'SortDamageProBuff', 0.4, 'F281', Time='EndRound'}",0,Replace,1,1,,,0
+F281,攻击提升,30349,Buff,NONE,,"{'ChaLAPercent', 'demage', 18.4, Time='Apply'}",0,Replace,1,1,,,0
+F282,状态添加,30350,Null,NONE,,"{'CondBuffAddBuff', {2}, 'F283', Time='Damage'}",0,Replace,1,1,,,0
+F283,必暴、暴击提升,30351,Buff,NONE,,"{'CertainCrit'}, {'ChaLAPercent', 'critdamage', 34.4, Time='Apply'}",0,Replace,1,1,,,0
+F284,状态添加,30352,Null,NONE,,"{'CondProcBuff', 'HPPercent', 60, 100, 'F285',TriggerRound={3,30}} ",0,Replace,1,1,,,0
+F285,分摊伤害,30353,Buff,NONE,,"{'TransferDamage', 0.2},{'RecordDamage',Time = 'HPChange'}",0,Replace,1,1,,,0
+F286,伤害提升,30354,Buff,NONE,,"{'Damage', Rate=0.2, Time='Apply'}",0,Replace,1,1,,,0
+F287,状态触发,30355,Null,NONE,,"{'ProcBuff', {{'F288', 100}},  Time='Apply'}",0,Replace,1,1,,,0
+F288,伤害提升,30356,Buff,NONE,,"{'ChaLAPercent', 'demage', 28, Time='Apply'},{'ForceMainTarget'}",2,Replace,1,1,,,0
+G1,暴击,30357,Buff,NONE,,"{'AddDelayBuff', 'G2', 1, 50043, Time=""Critial""}",0,Replace,1,1,,,0
+G2,溅射伤害,30358,Buff,NONE,,"{'Damage', Rate=0.1672, Time='Apply',Tag='SelfRound'}",0,Replace,1,1,,,0
+G3,暴击,30359,Buff,NONE,,"{'AddDelayBuff', 'G4', 1, 50043, Time=""Critial""}",0,Replace,1,1,,,0
+G4,溅射伤害,30360,Buff,NONE,,"{'Damage', Rate=0.2, Time='Apply',Tag='SelfRound'}",0,Replace,1,1,,,0
+G5,暴击,30361,Buff,NONE,,"{'AddDelayBuff', 'G4', 1, 50043, Time=""Critial""}",0,Replace,1,1,,,0
+G6,真实伤害,30362,Buff,NONE,,"{'ChaLAPercent', 'chuanjia', 100, 0,Time='Apply'}",0,Replace,1,1,,,0
+G7,状态触发,30363,Null,NONE,,"{'CondProcBuff', 'HPPercent', 50, 100, 'G8', Time='HPChange',TriggerRound={3,30}}",0,Replace,1,1,,,0
+G8,嘲讽、防御,30364,Buff,NONE,,"{'forceTarget'},{'ChaLAPercent', 'hujia', 15, Time='Apply'}",0,Replace,1,1,,,0
+G9,状态触发,30365,Null,NONE,,"{'CondProcBuff', 'HPPercent', 50, 100, 'G10', Time='HPChange',TriggerRound={3,30}}",0,Replace,1,1,,,0
+G10,嘲讽、防御,30366,Buff,NONE,,"{'forceTarget'},{'ChaLAPercent', 'hujia', 20, Time='Apply'}",0,Replace,1,1,,,0
+G11,状态触发,30367,Null,NONE,,"{'RecordDamage',Time = 'HPChange',RoundLimit=1},{'ProBuffByRecordDamageCount','G12', Time='EndRound', BeDamageCount=5}",0,Replace,1,1,,,0
+G12,扣血全攻,30368,Buff,NONE,,"{'ChaHPCurPercent', -30, Time='Apply'},{'DamageByRecordTotalDamage',Rate=0.5, Time='Apply', Tag='TargetList'}",0,Replace,1,1,,,0
+G13,状态添加,30369,Null,NONE,,"{'ProcBuff', {{'G14', 100}}, Time='Interval', Interval=1, TriggerRound={4,30}}",0,Replace,1,1,,,0
+G14,状态触发,30370,Null,NONE,,"{'ProcBuff', {{'G15', 100}}, Time='EndRound'}",0,Replace,1,1,,,0
+G15,目标伤害,30371,Buff,NONE,,"{'Damage', Rate=0.3375, Time='Apply', TargetCount=2, Tag='TargetAttackMax'}",0,Replace,1,1,,,0
+G16,状态添加,30372,Null,NONE,,"{'ProcBuff', {{'G17', 100}}, Time='Interval', Interval=1, TriggerRound={4,30}}",0,Replace,1,1,,,0
+G17,状态触发,30373,Null,NONE,,"{'ProcBuff', {{'G18', 100}}, Time='EndRound'}",0,Replace,1,1,,,0
+G18,目标伤害,30374,Buff,NONE,,"{'Damage', Rate=0.405, Time='Apply', TargetCount=2, Tag='TargetAttackMax'}",0,Replace,1,1,,,0
+G19,状态添加,30375,Null,NONE,,"{'ProcBuff', {{'G20', 100}}, Time='Interval', Interval=1, TriggerRound={4,30}}",0,Replace,1,1,,,0
+G20,状态触发,30376,Null,NONE,,"{'ProcBuff', {{'G21', 100}}, Time='EndRound'}",0,Replace,1,1,,,0
+G21,目标伤害,30377,Buff,NONE,,"{'Damage', Rate=0.405, Time='Apply', TargetCount=3, Tag='TargetAttackMax'}",0,Replace,1,1,,,0

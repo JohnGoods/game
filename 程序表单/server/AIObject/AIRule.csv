@@ -1,0 +1,8 @@
+名称,索引,事件,规则
+Name_ks,Index_kn,Event_s,Rule_t
+Example1,1,HPChange,"{'DHPPercent', 0.5, {'Cast', 801}}"
+Example1,2,HPChange,"{'AHPPercent', 0.5, {'Cast', 801}}"
+Example1,3,RPChange,"{'DRP', 80, {'Cast', 801}}"
+Example1,4,RPChange,"{'ARP', 80, {'Cast', 801}}"
+Example2,1,HPChange,"{'HPPercent', 0.5, {'Cast', 801}}"
+Example3,1,HPChange,"{'HPPercent', 0.5, {'Cast', 801}}"

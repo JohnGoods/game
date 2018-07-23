@@ -1,0 +1,6 @@
+活动模板名字,渠道,活动名字,开始时间格式：xxxx-xx-xx xx:xx:xx,结束时间格式：xxxx-xx-xx xx:xx:xx,奖励模板名字,
+name_s,qudao_s,actkey_s,stime_s,etime_s,prizename_s,a_n
+SevenDay,all,abc,0,0,SevenDay7,0
+##QudaoPayReturn,mol,abc,0,0,molplayreturn10,0
+##QudaoPayReturn,gash,abc,0,0,gashplayreturn9,0
+##AllPayReturn_other_way,all,abc,0,0,allplayreturn6,0

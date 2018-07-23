@@ -1,0 +1,17 @@
+索引,图片名称（气泡，顶部icon）,解锁条件,描述
+index_kn,imgName_t,quest_t,desc_s
+1,"""hy_duiHuaDi01"",""""",,
+2,"""hy_VIPduiHuaDi06"",""hy_VIPduiHua06""","""item"",40034",请使用气泡卡解锁
+3,"""hy_VIPduiHuaDi07"",""hy_VIPduiHua07""","""item"",40076",请使用魅力气泡卡解锁
+4,"""hy_VIPduiHuaDi04"",""hy_VIPduiHua04""","""vip"",5",VIP5及以上可使用
+5,"""hy_VIPduiHuaDi01"",""hy_VIPduiHua01""","""vip"",7",VIP7及以上可使用
+6,"""hy_VIPduiHuaDi05"",""hy_VIPduiHua05""","""vip"",9",VIP9及以上可使用
+7,"""hy_VIPduiHuaDi02"",""hy_VIPduiHua02""","""vip"",11",VIP11及以上可使用
+8,"""hy_VIPduiHuaDi03"",""hy_VIPduiHua03""","""vip"",13",VIP13及以上可使用
+9,"""hy_VIPduiHuaDi08"",""hy_VIPduiHua08""","""item"",40098",请使用月饼气泡卡解锁
+10,"""hy_VIPduiHuaDi08"",""hy_VIPduiHua09""","""item"",40099",请使用玉兔气泡卡解锁
+11,"""hy_VIPduiHuaDi10"",""hy_VIPduiHua10""","""item"",40104",请使用公会争霸气泡卡解锁
+12,"""hy_VIPduiHuaDi11"",""hy_VIPduiHua11""","""item"",40105",请使用南瓜气泡卡解锁
+13,"""hy_VIPduiHuaDi12"",""hy_VIPduiHua12""","""item"",40106",请使用骷髅气泡卡解锁
+14,"""hy_VIPduiHuaDi14"",""hy_VIPduiHua14""","""item"",40133",请使用神兵气泡卡解锁
+15,"""hy_VIPduiHuaDi13"",""""","""item"",40134",请使用龙剑气泡卡解锁

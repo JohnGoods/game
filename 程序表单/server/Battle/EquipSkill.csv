@@ -1,0 +1,8 @@
+技能Id,说明,技能施法效果,值也对应的参数
+SkillId_kn,Readme_c,Effects_t,ValueToParam_t
+600177,释放绝技时有%s概率不消耗能量,"{""NO_CONSUME_RP"", 1}","""noconsumerp"", ""#"""
+600181,对敌人造成伤害时，产生吸血效果,"{""BUFF"", ""D1"", Tag=""SELF""}","""effectrate"", ""#"""
+600183,战斗时，每3秒恢复%s生命,"{""BUFF"", ""D7"", Tag=""SELF""}","""effectrate"", ""interval"""
+600184,开场时，抵御一切负面状态，持续%s秒,"{""BUFF"", ""D8"", Tag=""SELF""}","""life"", ""#"""
+600185,提高治疗效果,"{""HP_UP"", 1}","""uphprevise"", ""#"""
+600186,使自身的攻击有%s概率变为无视护甲，该效果不可叠加。,"{""IMMU_PHYDEF"",1}","""immuphydef"", ""#"""

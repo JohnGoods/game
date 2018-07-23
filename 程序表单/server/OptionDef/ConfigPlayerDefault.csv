@@ -1,0 +1,10 @@
+索引,注释,数据类型（1 数字，2 字符，3 表）,,,
+k_ks,coments_c,datatype_n,datanumber_n,datastring_s,datatable_t
+NEWBIE_ITEM_LIST,给什么物品,3,,,"{18002,1,2}"
+NEWBIE_FUNDS,游戏币,1,0,,
+NEWBIE_GOLD,元宝,1,0,,
+NEWBIE_BGOLD,绑定元宝,1,10000,,
+NEWBIE_PET_LIST,新手给什么宠物 ,3,,,20001
+NEWBIE_XIANLV_LIST,达到解锁等级后 给什么仙君,3,,,17002
+NEWBIE_TITLE_LIST,开放称号功能给于 称号索引,3,,,2
+NEWBIE_FASHION_LIST,开放时装功能给于 时装索引,3,,,2

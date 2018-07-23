@@ -1,0 +1,6 @@
+玩法名字,武器,,,,头盔,,,,项链,,,,衣服,,,,披肩,,,,腰带,,,,护腕,,,,戒指,,,,裤子,,,,鞋子,,,
+name_ks,namea1_s,a1_n,namea2_s,a2_n,nameb1_s,b1_n,nameb2_s,b2_n,namec1_s,c1_n,namec2_s,c2_n,named1_s,d1_n,named2_s,d2_n,namee1_s,e1_n,namee2_s,e2_n,namef1_s,f1_n,namef2_s,f2_n,nameg1_s,g1_n,nameg2_s,g2_n,nameh1_s,h1_n,nameh2_s,h2_n,namei1_s,i1_n,namei2_s,i2_n,namej1_s,j1_n,namej2_s,j2_n
+qianghua,maxhp,1,demage,1.52,demage,0.84,hujia,0.2,maxhp,3,demage,0.96,maxhp,6,hujia,0.6,demage,0.841,hujia,0.2,demage,0.841,hujia,0.2,maxhp,1,demage,1.201,maxhp,3,demage,0.96,maxhp,6,hujia,0.6,demage,0.841,hujia,0.2
+jinglian,maxhp,1,demage,1.52,demage,0.84,hujia,0.2,maxhp,3,demage,0.96,maxhp,6,hujia,0.6,demage,0.841,hujia,0.2,demage,0.841,hujia,0.2,maxhp,1,demage,1.201,maxhp,3,demage,0.96,maxhp,6,hujia,0.6,demage,0.841,hujia,0.2
+duanlian,maxhp,1,demage,1.52,demage,0.84,hujia,0.2,maxhp,3,demage,0.96,maxhp,6,hujia,0.6,demage,0.841,hujia,0.2,demage,0.841,hujia,0.2,maxhp,1,demage,1.201,maxhp,3,demage,0.96,maxhp,6,hujia,0.6,demage,0.841,hujia,0.2
+baoshi,demage,1,,,hujia,0.5,,,demage,0.6,,,maxhp,5,,,hujia,0.5,,,demage,0.6,,,demage,0.6,,,demage,0.6,,,maxhp,5,,,demage,0.6,,

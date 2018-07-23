@@ -1,0 +1,6 @@
+索引,内容,判定条件,行为
+Id_kn,Content_c,Condition_t,Option_t
+1,捡起迷之宝箱,,RiddleBox=1
+2,挑战时空盗贼,,SpaceTime=1
+3,拾取鲜花,,pickFlower=1
+4,拾取新手宝箱,,newBieBox=11007

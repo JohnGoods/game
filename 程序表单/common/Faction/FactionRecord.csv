@@ -1,0 +1,8 @@
+记录类型,名称,描述
+ID_kn,name_s,des_s
+100,加入了帮会,#green%s#ublack加入了帮会
+101,被踢出了帮会,#green%s#ublack被踢出了帮会
+102,退出了帮会,#green%s#ublack退出了帮会
+103,帮会升级,帮会升级到#green%s级
+104,被任命,#green%s#ublack被任命为#green%s
+105,被降职,#green%s#ublack被降职
