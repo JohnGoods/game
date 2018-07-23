@@ -1,0 +1,13 @@
+{"file":"14_zhanDou.png","frames":{
+"zd_bai":{"x":0,"y":115,"w":175,"h":108,"offX":0,"offY":0,"sourceW":175,"sourceH":108},
+"zd_duiHuaDi01":{"x":177,"y":115,"w":141,"h":46,"offX":0,"offY":0,"sourceW":141,"sourceH":46},
+"zd_shengLi":{"x":0,"y":0,"w":200,"h":113,"offX":0,"offY":0,"sourceW":200,"sourceH":113},
+"zd_xing01":{"x":320,"y":115,"w":43,"h":43,"offX":0,"offY":0,"sourceW":43,"sourceH":43},
+"zd_xing02":{"x":320,"y":160,"w":40,"h":43,"offX":0,"offY":0,"sourceW":40,"sourceH":43},
+"zd_xing03":{"x":177,"y":163,"w":40,"h":42,"offX":0,"offY":0,"sourceW":40,"sourceH":42},
+"zd_xingDi01":{"x":219,"y":163,"w":40,"h":39,"offX":1,"offY":2,"sourceW":43,"sourceH":43},
+"zd_xingDi02":{"x":219,"y":204,"w":37,"h":40,"offX":1,"offY":1,"sourceW":40,"sourceH":43},
+"zd_xingDi03":{"x":177,"y":207,"w":37,"h":38,"offX":2,"offY":2,"sourceW":40,"sourceH":42},
+"zd_xueTiao01":{"x":261,"y":163,"w":49,"h":10,"offX":1,"offY":1,"sourceW":51,"sourceH":12},
+"zd_xueTiao02":{"x":261,"y":175,"w":49,"h":10,"offX":1,"offY":1,"sourceW":51,"sourceH":12},
+"zd_xueTiaodi":{"x":258,"y":204,"w":51,"h":12,"offX":0,"offY":0,"sourceW":51,"sourceH":12}}}

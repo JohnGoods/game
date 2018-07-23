@@ -1,0 +1,11 @@
+{"file":"38_tianXiaDiYi.png","frames":{
+"txdy_diYiDi01":{"x":0,"y":158,"w":104,"h":90,"offX":0,"offY":0,"sourceW":104,"sourceH":90},
+"txdy_diYiShangDian":{"x":0,"y":0,"w":127,"h":156,"offX":0,"offY":0,"sourceW":127,"sourceH":156},
+"txdy_paiming":{"x":129,"y":73,"w":66,"h":71,"offX":4,"offY":8,"sourceW":70,"sourceH":80},
+"txdy_roleNameDi01":{"x":230,"y":73,"w":22,"h":22,"offX":0,"offY":0,"sourceW":22,"sourceH":22},
+"txdy_roleNameDi02":{"x":230,"y":97,"w":22,"h":22,"offX":0,"offY":0,"sourceW":22,"sourceH":22},
+"txdy_textDi01":{"x":197,"y":204,"w":43,"h":43,"offX":0,"offY":0,"sourceW":43,"sourceH":43},
+"txdy_textDi02":{"x":197,"y":73,"w":31,"h":26,"offX":0,"offY":0,"sourceW":31,"sourceH":26},
+"txdy_vs":{"x":106,"y":158,"w":85,"h":88,"offX":0,"offY":0,"sourceW":85,"sourceH":88},
+"txdy_ya":{"x":129,"y":0,"w":71,"h":71,"offX":0,"offY":0,"sourceW":71,"sourceH":71},
+"txdy_yiYa":{"x":193,"y":146,"w":36,"h":56,"offX":0,"offY":0,"sourceW":36,"sourceH":56}}}

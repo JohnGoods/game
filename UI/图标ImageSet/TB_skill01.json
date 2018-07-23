@@ -1,0 +1,16 @@
+{"file":"TB_skill01.png","frames":{
+"skill_31001":{"x":84,"y":336,"w":82,"h":82,"offX":0,"offY":0,"sourceW":82,"sourceH":82},
+"skill_31002":{"x":0,"y":420,"w":82,"h":82,"offX":0,"offY":0,"sourceW":82,"sourceH":82},
+"skill_31003":{"x":0,"y":336,"w":82,"h":82,"offX":0,"offY":0,"sourceW":82,"sourceH":82},
+"skill_31004":{"x":168,"y":252,"w":82,"h":82,"offX":0,"offY":0,"sourceW":82,"sourceH":82},
+"skill_31005":{"x":84,"y":252,"w":82,"h":82,"offX":0,"offY":0,"sourceW":82,"sourceH":82},
+"skill_32001":{"x":0,"y":252,"w":82,"h":82,"offX":0,"offY":0,"sourceW":82,"sourceH":82},
+"skill_32002":{"x":168,"y":168,"w":82,"h":82,"offX":0,"offY":0,"sourceW":82,"sourceH":82},
+"skill_32003":{"x":84,"y":168,"w":82,"h":82,"offX":0,"offY":0,"sourceW":82,"sourceH":82},
+"skill_32004":{"x":0,"y":168,"w":82,"h":82,"offX":0,"offY":0,"sourceW":82,"sourceH":82},
+"skill_32005":{"x":168,"y":84,"w":82,"h":82,"offX":0,"offY":0,"sourceW":82,"sourceH":82},
+"skill_33001":{"x":84,"y":84,"w":82,"h":82,"offX":0,"offY":0,"sourceW":82,"sourceH":82},
+"skill_33002":{"x":0,"y":84,"w":82,"h":82,"offX":0,"offY":0,"sourceW":82,"sourceH":82},
+"skill_33003":{"x":168,"y":0,"w":82,"h":82,"offX":0,"offY":0,"sourceW":82,"sourceH":82},
+"skill_33004":{"x":84,"y":0,"w":82,"h":82,"offX":0,"offY":0,"sourceW":82,"sourceH":82},
+"skill_33005":{"x":0,"y":0,"w":82,"h":82,"offX":0,"offY":0,"sourceW":82,"sourceH":82}}}
