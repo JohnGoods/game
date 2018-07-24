@@ -1,0 +1,12 @@
+{"file":"shoushou.png","frames":{
+"shoushou_01":{"x":0,"y":420,"w":66,"h":72,"offX":55,"offY":51,"sourceW":121,"sourceH":123},
+"shoushou_02":{"x":185,"y":415,"w":66,"h":72,"offX":55,"offY":51,"sourceW":121,"sourceH":123},
+"shoushou_03":{"x":100,"y":415,"w":83,"h":80,"offX":38,"offY":42,"sourceW":121,"sourceH":123},
+"shoushou_04":{"x":108,"y":229,"w":102,"h":97,"offX":19,"offY":25,"sourceW":121,"sourceH":123},
+"shoushou_05":{"x":0,"y":229,"w":106,"h":102,"offX":15,"offY":20,"sourceW":121,"sourceH":123},
+"shoushou_06":{"x":0,"y":120,"w":109,"h":107,"offX":12,"offY":16,"sourceW":121,"sourceH":123},
+"shoushou_07":{"x":123,"y":117,"w":114,"h":110,"offX":7,"offY":13,"sourceW":121,"sourceH":123},
+"shoushou_08":{"x":123,"y":0,"w":118,"h":115,"offX":3,"offY":8,"sourceW":121,"sourceH":123},
+"shoushou_10":{"x":108,"y":328,"w":98,"h":85,"offX":23,"offY":38,"sourceW":121,"sourceH":123},
+"shoushou_11":{"x":0,"y":333,"w":98,"h":85,"offX":23,"offY":38,"sourceW":121,"sourceH":123},
+"shoushou_09":{"x":0,"y":0,"w":121,"h":118,"offX":0,"offY":5,"sourceW":121,"sourceH":123}}}
