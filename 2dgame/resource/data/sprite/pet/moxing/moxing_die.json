@@ -1,0 +1,7 @@
+{"file":"moxing_die.png","frames":{
+"die_3_body_00":{"x":161,"y":0,"w":108,"h":110,"offX":101,"offY":102,"sourceW":320,"sourceH":320},
+"die_3_body_01":{"x":0,"y":0,"w":159,"h":81,"offX":57,"offY":116,"sourceW":320,"sourceH":320},
+"die_3_body_02":{"x":271,"y":0,"w":125,"h":87,"offX":114,"offY":166,"sourceW":320,"sourceH":320},
+"die_7_body_00":{"x":161,"y":112,"w":108,"h":109,"offX":115,"offY":118,"sourceW":320,"sourceH":320},
+"die_7_body_01":{"x":0,"y":83,"w":159,"h":75,"offX":108,"offY":130,"sourceW":320,"sourceH":320},
+"die_7_body_02":{"x":0,"y":160,"w":124,"h":89,"offX":85,"offY":164,"sourceW":320,"sourceH":320}}}

@@ -1,0 +1,9 @@
+{"file":"kongju_idle.png","frames":{
+"idle_0_body_00":{"x":0,"y":535,"w":537,"h":513,"offX":87,"offY":106,"sourceW":640,"sourceH":640},
+"idle_0_body_01":{"x":0,"y":0,"w":576,"h":533,"offX":35,"offY":106,"sourceW":640,"sourceH":640},
+"idle_0_body_02":{"x":1090,"y":0,"w":493,"h":555,"offX":90,"offY":85,"sourceW":640,"sourceH":640},
+"idle_0_body_03":{"x":0,"y":1050,"w":487,"h":537,"offX":74,"offY":26,"sourceW":640,"sourceH":640},
+"idle_0_body_04":{"x":578,"y":0,"w":510,"h":543,"offX":62,"offY":61,"sourceW":640,"sourceH":640},
+"idle_0_body_05":{"x":539,"y":545,"w":495,"h":538,"offX":70,"offY":74,"sourceW":640,"sourceH":640},
+"idle_0_body_06":{"x":1585,"y":0,"w":439,"h":499,"offX":94,"offY":114,"sourceW":640,"sourceH":640},
+"idle_0_body_07":{"x":0,"y":1589,"w":471,"h":284,"offX":84,"offY":338,"sourceW":640,"sourceH":640}}}

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainLayout" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:gui="gui.*" xmlns:tween="egret.tween.*">
+	<w:Declarations></w:Declarations>
+	<e:Group id="head_group" height="100" top="50" width="640" touchEnabled="false" horizontalCenter="0">
+		<e:Image source="01_zhuCheng.zjm_renWuDi" scaleX="1" scaleY="1" left="-1" bottom="0" scale9Grid="152,11,108,67" anchorOffsetX="0" width="311"/>
+		<gui:RichDisplayer id="name_rd" width="193" height="22.5" scaleX="1" scaleY="1" touchEnabled="false" left="114" top="16" anchorOffsetY="0" touchChildren="false" anchorOffsetX="0"/>
+		<gui:BatchImage id="force_batch" width="150" height="27" touchEnabled="false" x="149" top="46" touchChildren="false" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Group id="vip_wnd" width="57" height="100" x="308" y="0" scaleX="1" scaleY="1">
+			<gui:Button id="vip_btn" label="" x="0" y="0" scaleX="1" scaleY="1">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_Bt26"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<gui:BatchImage id="vip_batch" width="21" height="27" y="57" x="18" touchEnabled="false"/>
+		</e:Group>
+		<e:Group id="rank_wnd" width="57" height="100" x="368" y="0" scaleX="1" scaleY="1">
+			<gui:Button id="rank_btn" label="" x="0" y="0" scaleX="1" scaleY="1">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_Bt25"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+		</e:Group>
+		<gui:Button id="btn_playerDetails" label="" left="-8" top="-17">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zctx_90001"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<e:Group id="coin_group" height="50" top="0" width="640" horizontalCenter="0" touchEnabled="false">
+		<e:Image source="01_zhuCheng.zjm_downBg01" top="0" horizontalCenter="0" touchEnabled="false"/>
+		<e:Label id="copper_txt" text="" x="70" y="10" style="ht_24_lc_stroke" height="30" width="120" verticalAlign="middle"/>
+		<gui:Button id="copper_btn" label="" x="178" y="6">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zjm_bt_jia01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<e:Label id="silver_txt" text="" x="280" y="10" style="ht_24_lc_stroke" height="30" width="120" verticalAlign="middle"/>
+		<gui:Button id="silver_btn" label="" x="369" y="6" visible="false">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zjm_bt_jia01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<e:Label id="gold_txt" text="" x="480" y="10" style="ht_24_lc_stroke" height="30" width="120" verticalAlign="middle"/>
+		<gui:Button id="gold_btn" label="" x="588" y="3">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zjm_bt_jia03"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<e:Group id="new_chat_wnd_group" anchorOffsetY="0" height="220" width="640" touchEnabled="false" horizontalCenter="0" touchChildren="true" bottom="110">
+		<e:Group id="new_chat_wnd" anchorOffsetY="0" height="220" width="640" touchEnabled="false" horizontalCenter="0" touchChildren="true" x="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+		<e:Group id="group_tab" scaleX="1" scaleY="1" width="50" height="220" left="0" x="0" verticalCenter="0">
+		<e:Group id="group_system" y="0" anchorOffsetY="0" x="1" width="49" height="69">
+			<e:RadioButton id="channel4" label="全部" x="0" anchorOffsetX="0" anchorOffsetY="0" width="49" height="69" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_pingDao02" source.down="zjm_pingDao01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" text="全部" textColor.up="0x45332b" width="25" style="ht_22_lc" textAlign="center" verticalAlign="middle" y="8" style.up="ht_20_lc" style.down="ht_22_lc_stroke"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:Image id="unreadbg4" x="0" y="-5" source="ty_zhanLiHongDi01" touchEnabled="false" visible="false"/>
+			<e:Label id="unread4" text="4" x="5" y="3" style="ht_18_lc" width="24" height="24" textAlign="center" touchEnabled="false" visible="false"/>
+		</e:Group>
+		<e:Group id="group_world" y="70" x="1">
+			<e:RadioButton id="channel5" label="世界" x="0" anchorOffsetX="0" anchorOffsetY="0" width="49" height="69" scaleX="1" scaleY="1" y="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="zjm_pingDao02" source.down="zjm_pingDao01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" text="全部" textColor.up="0x45332b" width="25" style="ht_22_lc" textAlign="center" verticalAlign="middle" y="8" style.up="ht_20_lc" style.down="ht_22_lc_stroke" textColor.disabled="0x45332b"/>
+				</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:Image id="unreadbg5" x="0" y="-5" source="ty_zhanLiHongDi01" touchEnabled="false" visible="false"/>
+			<e:Label id="unread5" text="5" x="4" y="-2" style="ht_18_lc" width="24" height="24" textAlign="center" anchorOffsetY="-4" touchEnabled="false" visible="false"/>
+		</e:Group>
+		<e:Group id="group_faction" x="1" y="140">
+			<e:RadioButton id="channel3" label="帮派" x="0" anchorOffsetX="0" anchorOffsetY="0" width="49" height="69" scaleX="1" scaleY="1" y="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="zjm_pingDao02" source.down="zjm_pingDao01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" text="全部" width="25" style="ht_22_lc" textAlign="center" verticalAlign="middle" y="8" style.up="ht_20_lc" style.down="ht_22_lc_stroke" textColor.up="0x45332b" textColor.disabled="0x45332b"/>
+				</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:Image id="unreadbg3" x="0" y="-5" source="ty_zhanLiHongDi01" touchEnabled="false" visible="false"/>
+			<e:Label id="unread3" text="3" x="2" y="-2" style="ht_18_lc" width="24" height="24" textAlign="center" anchorOffsetY="-4" touchEnabled="false" visible="false"/>
+		</e:Group>
+		</e:Group>
+		<e:Group id="edit_bg" width="495" height="45" scaleX="1" scaleY="1" bottom="0" x="50">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" scale9Grid="18,9,11,18" scaleX="1" scaleY="1" width="495" x="0" height="45" y="0" source="ty_shuRuDi01"/>
+		<e:EditableText id="edit_input" width="455" height="35" text="" x="5" y="5" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" prompt="${CHAT_INPUT_SAYING}" fontFamily="Arial"/>
+		<gui:Button id="btn_biaoqing" label="" y="6" scaleX="1" scaleY="1" x="460">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lt_bt_biaoQing01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		</e:Group>
+		<gui:Button id="chat_ban_btn" label="" bottom="0" x="50" width="495" height="45">
+		</gui:Button>
+		<gui:Button id="btn_send" label="发送" bottom="0" x="545">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_20_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<gui:Button id="chat_btn" label="" right="0" y="95">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zjm_siLiao01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<e:Group id="bottom_group" bottom="0" horizontalCenter="0" height="120" width="640">
+		<e:Image source="01_zhuCheng.zjm_loading_jingYanDi" touchEnabled="false" bottom="0" horizontalCenter="0"/>
+		<e:Group id="scene_group" height="107" width="640" touchEnabled="false" horizontalCenter="0" bottom="9">
+			<e:RadioButton id="tab0" label="" x="178" y="85">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_Bt19" source.down="zjm_Bt19_xz"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="tab1" label="" x="188" y="95">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_Bt20" source.down="zjm_Bt20_xz"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="tab2" label="" x="198" y="105">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_Bt21" source.down="zjm_Bt21_xz"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="tab3" label="" x="208" y="115">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_Bt22" source.down="zjm_Bt22_xz"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="tab4" label="" x="218" y="125">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_Bt23" source.down="zjm_Bt23_xz"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="tab5" label="" x="228" y="135">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_Bt24" source.down="zjm_Bt24_xz"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:layout>
+			<e:HorizontalLayout paddingLeft="0" gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:ProgressBar id="role_exp" width="640" height="11" bottom="0" value="50" x="0">
+			<e:skinName>
+				<e:Skin minWidth="30" minHeight="18">
+				<e:Image source="" scale9Grid="1,1,4,4" width="100%" height="100%" verticalCenter="0"/>
+				<e:Image id="thumb" height="100%" width="100%" source="zjm_loading_jingYan01"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ProgressBar>
+		<e:Label id="role_exp_txt" text="" height="16" bottom="0" style="ht_16_lc_stroke" textAlign="center" verticalAlign="middle" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="fast_chat_wnd" width="460" height="210" horizontalCenter="0" bottom="160">
+		<e:Image width="460" height="210" source="boss_tiXingDi01" horizontalCenter="0" verticalCenter="0" scale9Grid="33,7,33,27"/>
+		<gui:Button id="hide_fast_chat_btn" label="" width="640" height="960" scaleX="1" scaleY="1" x="-94" y="-590"/>
+		<e:Group width="200" height="200" x="298" y="16" visible="false"/>
+		<e:Scroller width="450" anchorOffsetX="0" anchorOffsetY="0" x="5" y="5" scaleX="1" scaleY="1" height="185">
+			<e:List id="list_chat_fast" width="450" height="185" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

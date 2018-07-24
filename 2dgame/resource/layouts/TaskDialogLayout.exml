@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TaskDialogLayout" width="640" height="350" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" states="other,my,option" >
+	<e:Group id="group_root" width="640" height="290" x="2" anchorOffsetX="0" anchorOffsetY="0" bottom="0">
+		<e:Image source="ty_UIDi03" scale9Grid="52,45,14,13" left="0" right="0" top="0" bottom="0"/>
+		<e:Group id="group_content" width="330" height="230" x="259" y="23" x.my="26" height.option="154" y.option="-54">
+			<e:Image left="0" right="0" top="0" bottom="0" source="rwdh_duiHuaDi02" scale9Grid="33,30,7,6"/>
+			<e:Scroller id="scroller_content" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="15" right="15" top="10" bottom="10">
+				<gui:RichDisplayer id="rd_content">
+				</gui:RichDisplayer>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="group_actorview" width="20" height="20" x="105" y="221" x.my="510"/>
+		<e:Scroller id="scroller_btnlist" width="327" height="158" includeIn="option" x="259" y="108" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="group_btnlist">
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="center" verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

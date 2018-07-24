@@ -1,0 +1,13 @@
+{"file":"wenshen_spell.png","frames":{
+"spell_3_body_00":{"x":1764,"y":352,"w":217,"h":325,"offX":222,"offY":33,"sourceW":640,"sourceH":640},
+"spell_3_body_01":{"x":433,"y":0,"w":491,"h":361,"offX":28,"offY":39,"sourceW":640,"sourceH":640},
+"spell_3_body_02":{"x":1356,"y":0,"w":391,"h":367,"offX":78,"offY":63,"sourceW":640,"sourceH":640},
+"spell_3_body_03":{"x":0,"y":424,"w":423,"h":367,"offX":52,"offY":63,"sourceW":640,"sourceH":640},
+"spell_3_body_04":{"x":0,"y":0,"w":431,"h":422,"offX":80,"offY":10,"sourceW":640,"sourceH":640},
+"spell_3_body_05":{"x":926,"y":0,"w":428,"h":407,"offX":129,"offY":25,"sourceW":640,"sourceH":640},
+"spell_7_body_00":{"x":1749,"y":0,"w":228,"h":350,"offX":213,"offY":24,"sourceW":640,"sourceH":640},
+"spell_7_body_01":{"x":1356,"y":369,"w":406,"h":321,"offX":163,"offY":49,"sourceW":640,"sourceH":640},
+"spell_7_body_02":{"x":895,"y":409,"w":430,"h":303,"offX":114,"offY":66,"sourceW":640,"sourceH":640},
+"spell_7_body_03":{"x":433,"y":363,"w":460,"h":341,"offX":79,"offY":10,"sourceW":640,"sourceH":640},
+"spell_7_body_04":{"x":895,"y":714,"w":369,"h":338,"offX":100,"offY":25,"sourceW":640,"sourceH":640},
+"spell_7_body_05":{"x":425,"y":706,"w":309,"h":332,"offX":135,"offY":28,"sourceW":640,"sourceH":640}}}

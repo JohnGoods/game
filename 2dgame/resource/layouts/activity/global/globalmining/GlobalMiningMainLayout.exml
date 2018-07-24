@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GlobalMiningMainLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Rect id="gray_wnd" fillColor="0x000000" strokeAlpha="1" fillAlpha="0.5" height="1136" left="0" right="0" verticalCenter="0" visible="false"/>
+	<e:Group id="func_group" width="88" height="190" anchorOffsetY="0" left="0" top="153" touchEnabled="false">
+		<gui:Button id="rule_btn" label="" x="19" y="109">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="kfzb_shuoMing"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="teamInfo_btn" label="" x="9" y="99">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="kfzb_duiWu"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:layout>
+		<e:VerticalLayout horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="bottom_group" height="145" anchorOffsetY="0" touchEnabled="false" bottom="330" left="0" right="0">
+		<e:Image height="42" source="kfzb_textDi01" scale9Grid="48,23,1,1" scaleX="1" scaleY="1" bottom="0" width="640" horizontalCenter="0"/>
+		<e:Image height="47" source="kfzb_textDi01" scale9Grid="48,23,1,1" x="5" scaleX="1" scaleY="1" y="0" width="145"/>
+		<e:CheckBox id="follow_check" label="" x="11" y="-4">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:CheckBox>
+		<gui:Button id="btn_close" label="" scaleX="1" scaleY="1" right="0" x="557" bottom="40">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="backCamp_btn" label="${GLOBAL_MINING_TXT1}" x="11" y="48">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke" textAlign="center"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Label id="fllow_tips" text="${GLOBAL_MINING_TXT2}" x="54" y="13" width="90" textColor="0xffa07a" style="ht_20_lc_stroke"/>
+		<e:Group id="rank_group0" width="200" height="32" y="113" horizontalCenter="-206">
+			<e:Label id="rank_tl0" text="${GLOBAL_MINING_TXT3}" x="1" y="0" textColor="0xb8860b" width="99" scaleX="1" scaleY="1" style="ht_20_lc_stroke"/>
+			<e:Label id="rank_name0" text="${GLOBAL_MINING_TXT6}" x="75" y="0" width="140" scaleX="1" scaleY="1" style="ht_20_lc_stroke"/>
+			<e:Label id="rank_point0" text="333333" x="124" y="0" width="142" scaleX="1" scaleY="1" style="ht_20_lc_stroke"/>
+		</e:Group>
+		<e:Group width="200" height="32" y="113" id="rank_group1" horizontalCenter="0">
+			<e:Label id="rank_tl1" text="${GLOBAL_MINING_TXT4}" x="1" y="0" width="99" scaleX="1" scaleY="1" style="ht_20_lc_stroke" textColor="0xffffff"/>
+			<e:Label text="${GLOBAL_MINING_TXT6}" x="75" y="0" width="140" id="rank_name1" scaleX="1" scaleY="1" style="ht_20_lc_stroke"/>
+			<e:Label text="333333" x="124" y="0" id="rank_point1" width="142" scaleX="1" scaleY="1" style="ht_20_lc_stroke"/>
+		</e:Group>
+		<e:Group width="200" height="32" y="113" id="rank_group2" horizontalCenter="204">
+			<e:Label id="rank_tl2" text="${GLOBAL_MINING_TXT5}" x="1" y="0" width="99" scaleX="1" scaleY="1" style="ht_20_lc_stroke" textColor="0xffffff"/>
+			<e:Label text="${GLOBAL_MINING_TXT6}" x="75" y="0" width="140" id="rank_name2" scaleX="1" scaleY="1" style="ht_20_lc_stroke"/>
+			<e:Label text="333333" x="124" y="0" id="rank_point2" width="142" scaleX="1" scaleY="1" style="ht_20_lc_stroke"/>
+		</e:Group>
+		<gui:Button id="team_btn" label="" y="23" scaleX="1" scaleY="1" horizontalCenter="0">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="kfzb_duiWu"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<e:Group id="tips_group" width="200" height="143" y="62" anchorOffsetY="0" right="0" touchEnabled="false">
+		<e:Image height="71" source="kfzb_textDi01" scale9Grid="48,23,1,1" scaleX="1" scaleY="1" y="0" width="215" right="0"/>
+		<e:Label id="tips_tl0" text="${GLOBAL_MINING_TXT9}" x="-2" y="10" anchorOffsetX="0" width="142" style="ht_22_lc_stroke"/>
+		<e:Label id="tips_tl1" text="18:30" x="116" y="10" anchorOffsetX="0" width="98" style="ht_22_lc_stroke" textColor="0xfea500"/>
+		<e:Label id="tips_tl2" text="${GLOBAL_MINING_TXT10}" x="-6" y="39" width="199" textAlign="center" textColor="0xffa07a" style="ht_22_lc_stroke"/>
+		<e:Image height="46" source="kfzb_textDi01" scale9Grid="48,23,1,1" scaleX="1" scaleY="1" y="72" width="215" right="0"/>
+		<e:Label id="tips_tl3" text="${GLOBAL_MINING_TXT11}" x="-2" y="82" width="199" style="ht_22_lc_stroke" textAlign="left" textColor="0x00ff00"/>
+	</e:Group>
+</e:Skin>

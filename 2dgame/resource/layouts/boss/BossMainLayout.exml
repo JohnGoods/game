@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossMainLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*">
+	<w:Config id="161c1d1ca3e"/>
+	<e:Image scale9Grid="140,178,2,4" source="ty_uiDi01" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="label_wndName" text="" width="640" height="36" textAlign="center" verticalAlign="middle" style="ht_title_font" top="0" horizontalCenter="0"/>
+
+	<e:Group id="bottom_group_root" height="87" left="22" right="22" bottom="20">
+		<e:Image left="0" right="0" bottom="0" top="0" scale9Grid="22,22,1,1" source="ty_uiDi02"/>
+		<e:Group id="bottom_group" height="51" bottom="15" left="15" width="498">
+			<e:RadioButton id="geren_check" label="${BOSS_TXT1}" x="0" y="0" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="quanmin_check" label="${BOSS_TXT2}" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="yewaiBOSS" label="${BOSS_TXT3}" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="shengsijie" label="${BOSS_TXT4}" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:layout>
+			<e:HorizontalLayout gap="10" paddingLeft="0" horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="geren_group" anchorOffsetX="0" anchorOffsetY="0" top="41" bottom="116" left="20" right="23" visible="false">
+		<gui:Grid9Image source="ty_uiDi02" scale9Grid="19,19,5,3" anchorOffsetX="0" anchorOffsetY="0" top="15" bottom="5" left="14" right="12"/>
+		<e:Scroller anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" top="26" bottom="17" right="20" left="21">
+			<e:List id="geren_list"/>
+		</e:Scroller>
+
+
+		<gui:Button id="geren_shop" label="" x="-52" y="-41">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="boss_Bt_geren"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+
+
+		</gui:Button>
+	</e:Group>
+	<e:Group id="quanmin_group" width="597" x="30" anchorOffsetX="0" anchorOffsetY="0" top="51" bottom="106" visible="false">
+		<gui:Grid9Image source="ty_uiDi02" scale9Grid="19,19,5,3" anchorOffsetX="0" anchorOffsetY="0" top="72" bottom="13" left="5" right="22"/>
+		<e:Scroller anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" top="85" bottom="23" left="17" right="31">
+			<e:List id="quanmin_list">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+
+
+		<gui:RichDisplayer id="quanmin_chall_countrd" width="184" height="36" x="49" y="8" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label id="quanming_restore_left" text="Label" x="49" y="40" anchorOffsetX="0" width="183" style="ht_20_lc" textColor="0x009200"/>
+		<e:Label id="quanmin_boss_set" text="Label" x="315" y="34" anchorOffsetX="0" width="253" style="ht_24_lc" textAlign="right" textColor="0x009200"/>
+		<gui:Button id="quanmin_shop" label="" x="-62" y="-51">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="boss_Bt01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="quanmin_chall_add" label="" x="241" y="2">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_jiaIcon01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<e:Group id="yewai_group" anchorOffsetX="0" anchorOffsetY="0" top="51" bottom="106" left="30" right="13" visible="false">
+		<gui:Grid9Image source="ty_uiDi02" scale9Grid="19,19,5,3" anchorOffsetX="0" anchorOffsetY="0" top="-4" bottom="11" left="4" right="22"/>
+		<e:Scroller anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" top="6" bottom="18" left="11" right="28">
+			<e:List id="yewai_list">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+
+	</e:Group>
+	<e:Group id="jie_group" anchorOffsetX="0" anchorOffsetY="0" top="51" bottom="106" left="30" right="13" visible="false">
+		<gui:Grid9Image source="ty_uiDi02" scale9Grid="19,19,5,3" anchorOffsetX="0" anchorOffsetY="0" top="0" bottom="10" left="5" right="22"/>
+		<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" top="9" bottom="17" left="11" right="27">
+			<e:List id="jie_list">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+
+		<gui:Button id="jie_shop" label="" x="-62" y="-51">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="boss_Bt02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_back" label="" right="0" bottom="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

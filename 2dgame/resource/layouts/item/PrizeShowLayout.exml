@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PrizeShowLayout" width="640" height="660" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Image height="600" source="ty_uiDi05" scale9Grid="325,112,9,11" width="640" y="60" x="0"/>
+	<e:Image width="200" height="113" source="zd_shengLi" y="23" horizontalCenter="0" visible="false"/>
+	<e:Image width="115" height="189" x="-24" y="108" source="ty_uiDi06"/>
+	<e:Image width="115" height="189" x="549" y="108" source="ty_uiDi07"/>
+	<e:Image width="509" height="364" y="141" source="ty_uiDi02" scale9Grid="20,19,1,1" x="66"/>
+	<gui:Button id="return_btn" label="确定" y="543" horizontalCenter="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Group id="scroll_group" width="494" height="318" x="75" y="164" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

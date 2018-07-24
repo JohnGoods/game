@@ -1,0 +1,32 @@
+{
+	"debug": true,
+	"mode": 1,
+	"tool": 1,
+	"seachPkgFirst":true,
+	"guide":true,
+	"frecord":true,
+	"serverlist":false,
+	"dumpmsg":false,
+	"checkUpdate":false,
+
+
+	"language":{
+		"key":"zh-cn",
+		"exclude": [
+			"data/config/Task/keymapping/",
+			"data/config/MapClient/",
+			"data/config/Cns/",
+			"data/config/protocol/",
+
+			"data/config/xml_keyword.csv",
+			"data/config/image_set.csv",
+			"data/config/image_set_list.csv",
+			"data/config/ui_anim.csv",
+			"data/config/resource_group.csv",
+			"data/config/buttonTips.csv"
+		],
+		"include": [
+			"data/config/"
+		]
+	}
+}

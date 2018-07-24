@@ -1,0 +1,9 @@
+{"file":"qiangdao_spell.png","frames":{
+"spell_3_body_00":{"x":94,"y":420,"w":95,"h":72,"offX":106,"offY":139,"sourceW":320,"sourceH":320},
+"spell_3_body_01":{"x":189,"y":0,"w":64,"h":68,"offX":126,"offY":143,"sourceW":320,"sourceH":320},
+"spell_3_body_02":{"x":94,"y":309,"w":63,"h":109,"offX":126,"offY":106,"sourceW":320,"sourceH":320},
+"spell_3_body_03":{"x":0,"y":309,"w":92,"h":140,"offX":99,"offY":76,"sourceW":320,"sourceH":320},
+"spell_3_body_04":{"x":0,"y":159,"w":94,"h":148,"offX":94,"offY":68,"sourceW":320,"sourceH":320},
+"spell_3_body_05":{"x":0,"y":0,"w":93,"h":156,"offX":92,"offY":60,"sourceW":320,"sourceH":320},
+"spell_3_body_06":{"x":95,"y":0,"w":92,"h":157,"offX":99,"offY":60,"sourceW":320,"sourceH":320},
+"spell_3_body_07":{"x":159,"y":309,"w":78,"h":82,"offX":126,"offY":129,"sourceW":320,"sourceH":320}}}

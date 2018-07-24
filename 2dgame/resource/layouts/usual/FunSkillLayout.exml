@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FunSkillLayout" width="600" height="780" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Group id="bg" width="600" height="780" y="0" x="0">
+		<e:Image source="ty_uiDi01" scale9Grid="141,178,5,5" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" x="0" y="0"/>
+		<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0" visible="false"/>
+		<e:Label id="title" text="" height="35" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" left="0" right="0" top="0" style="ht_30_lc_stroke" x="0" y="0" visible="false"/>
+		<e:Group id="skill_group" width="426" height="84" y="100" horizontalCenter="0">
+			<e:layout>
+				<e:HorizontalLayout gap="30"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="name_wnd" width="230" height="39" y="218" horizontalCenter="0">
+			<e:Image source="ty_textDi03" y="0" width="230" scale9Grid="34,20,1,2" x="0" scaleX="1" scaleY="1"/>
+			<gui:RichDisplayer id="name_rd" height="30" left="0" right="0" y="7"/>
+		</e:Group>
+		<e:Label id="up_title" text="当前效果" y="280" height="30" width="200" verticalAlign="middle" textAlign="center" horizontalCenter="0" style="ht_24_lc_stroke"/>
+		<gui:RichDisplayer id="cur_attr_rd" width="450" height="30" y="323" horizontalCenter="0"/>
+		<e:Label id="down_title" text="下级效果" y="370" style="ht_24_lc_stroke" verticalAlign="middle" textAlign="center" width="200" height="30" horizontalCenter="0"/>
+		<gui:RichDisplayer id="next_attr_rd" width="450" height="30" y="412" horizontalCenter="0"/>
+		<e:Group id="group_bottom" height="210" anchorOffsetX="0" anchorOffsetY="0" y="480" width="600" x="0">
+			<e:Image id="line" source="cz_uiLine01" y="-26.329999999999984" scale9Grid="23,8,1,1" width="500" scaleX="1" scaleY="1" horizontalCenter="0"/>
+			<gui:RichDisplayer id="material_rd" width="200" height="60" x="262" y="23.670000000000016" scaleX="1" scaleY="1"/>
+			<gui:Button id="btn_upgrade" label="升级" y="132.67000000000002" horizontalCenter="0.5" x="227" scaleX="1" scaleY="1">
+				<gui:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<e:Image id="lock_icon" source="01_zhuCheng03.tz_text01" y="43.670000000000016" horizontalCenter="0.5" x="249" scaleX="1" scaleY="1"/>
+			<e:Label id="label_manji" text="${ROLE_TXT31}" anchorOffsetX="0" width="320" verticalAlign="middle" textAlign="center" textColor="0x00ff00" y="95" scaleX="1" scaleY="1" style="ht_26_lc_stroke" height="30" horizontalCenter="0"/>
+		</e:Group>
+		<gui:Button id="btn_close_top" label="" top="0" right="0" x="545" y="0" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</gui:Button>
+		<gui:Button id="btn_close" label="" right="0" bottom="0" x="517" y="716" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</gui:Button>
+	</e:Group>
+</e:Skin>

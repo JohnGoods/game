@@ -1,0 +1,9 @@
+{"file":"shuibaoji_idle.png","frames":{
+"idle_0_body_00":{"x":0,"y":193,"w":313,"h":165,"offX":157,"offY":179,"sourceW":640,"sourceH":640},
+"idle_0_body_01":{"x":682,"y":0,"w":338,"h":183,"offX":149,"offY":171,"sourceW":640,"sourceH":640},
+"idle_0_body_02":{"x":339,"y":0,"w":341,"h":186,"offX":143,"offY":171,"sourceW":640,"sourceH":640},
+"idle_0_body_03":{"x":0,"y":0,"w":337,"h":191,"offX":149,"offY":172,"sourceW":640,"sourceH":640},
+"idle_0_body_04":{"x":682,"y":185,"w":318,"h":180,"offX":149,"offY":172,"sourceW":640,"sourceH":640},
+"idle_0_body_05":{"x":339,"y":188,"w":296,"h":175,"offX":164,"offY":175,"sourceW":640,"sourceH":640},
+"idle_0_body_06":{"x":0,"y":360,"w":247,"h":160,"offX":188,"offY":180,"sourceW":640,"sourceH":640},
+"idle_0_body_07":{"x":249,"y":365,"w":141,"h":82,"offX":246,"offY":211,"sourceW":640,"sourceH":640}}}

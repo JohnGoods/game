@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WonderMysteryShopLayout" width="640" height="660" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="00_tongYong03.ty_uiDi02" top="0" bottom="0" horizontalCenter="0" scale9Grid="21,20,3,3" width="560" x="40" y="0" scaleX="1" scaleY="1"/>
+	<e:Scroller width="550" horizontalCenter="0" top="0" bottom="0" x="45" y="0" scaleX="1" scaleY="1">
+		<e:List id="scroll"/>
+	</e:Scroller>
+	<e:Label id="reset_time" text="${WONDER_SHOP_TXT2}" width="400" height="20" textAlign="center" verticalAlign="middle" horizontalCenter="0" y="673" style="ht_20_lc"/>
+	<e:Label id="reset_tips" text="${WONDER_SHOP_TXT1}" width="400" height="20" textAlign="center" verticalAlign="middle" horizontalCenter="0" y="696" style="ht_20_lc"/>
+</e:Skin>

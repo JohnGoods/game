@@ -1,0 +1,9 @@
+{"file":"muyuguai_spell.png","frames":{
+"spell_3_body_00":{"x":356,"y":324,"w":81,"h":96,"offX":112,"offY":129,"sourceW":320,"sourceH":320},
+"spell_3_body_01":{"x":273,"y":213,"w":81,"h":114,"offX":115,"offY":109,"sourceW":320,"sourceH":320},
+"spell_3_body_02":{"x":396,"y":172,"w":81,"h":150,"offX":111,"offY":93,"sourceW":320,"sourceH":320},
+"spell_3_body_03":{"x":396,"y":0,"w":114,"h":170,"offX":101,"offY":83,"sourceW":320,"sourceH":320},
+"spell_3_body_04":{"x":0,"y":210,"w":137,"h":181,"offX":92,"offY":83,"sourceW":320,"sourceH":320},
+"spell_3_body_05":{"x":214,"y":0,"w":180,"h":211,"offX":92,"offY":77,"sourceW":320,"sourceH":320},
+"spell_3_body_06":{"x":0,"y":0,"w":212,"h":208,"offX":90,"offY":57,"sourceW":320,"sourceH":320},
+"spell_3_body_07":{"x":139,"y":213,"w":132,"h":142,"offX":100,"offY":83,"sourceW":320,"sourceH":320}}}

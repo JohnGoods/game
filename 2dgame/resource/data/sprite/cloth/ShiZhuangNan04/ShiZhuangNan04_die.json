@@ -1,0 +1,7 @@
+{"file":"ShiZhuangNan04_die.png","frames":{
+"die_3_body_00":{"x":0,"y":0,"w":94,"h":108,"offX":122,"offY":140,"sourceW":320,"sourceH":320},
+"die_3_body_01":{"x":96,"y":102,"w":94,"h":103,"offX":122,"offY":146,"sourceW":320,"sourceH":320},
+"die_3_body_02":{"x":0,"y":110,"w":94,"h":79,"offX":122,"offY":170,"sourceW":320,"sourceH":320},
+"die_7_body_00":{"x":96,"y":0,"w":101,"h":100,"offX":93,"offY":134,"sourceW":320,"sourceH":320},
+"die_7_body_01":{"x":0,"y":207,"w":99,"h":89,"offX":92,"offY":142,"sourceW":320,"sourceH":320},
+"die_7_body_02":{"x":101,"y":207,"w":107,"h":61,"offX":92,"offY":170,"sourceW":320,"sourceH":320}}}

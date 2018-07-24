@@ -1,0 +1,13 @@
+{"file":"ShengWuNanQiCheng_attack.png","frames":{
+"attack_3_body_00":{"x":0,"y":118,"w":82,"h":117,"offX":116,"offY":103,"sourceW":320,"sourceH":320},
+"attack_3_body_01":{"x":234,"y":345,"w":77,"h":113,"offX":111,"offY":108,"sourceW":320,"sourceH":320},
+"attack_3_body_02":{"x":79,"y":345,"w":77,"h":114,"offX":112,"offY":106,"sourceW":320,"sourceH":320},
+"attack_3_body_03":{"x":88,"y":0,"w":83,"h":114,"offX":120,"offY":107,"sourceW":320,"sourceH":320},
+"attack_3_body_04":{"x":84,"y":118,"w":87,"h":109,"offX":120,"offY":113,"sourceW":320,"sourceH":320},
+"attack_3_body_05":{"x":0,"y":237,"w":90,"h":106,"offX":121,"offY":117,"sourceW":320,"sourceH":320},
+"attack_7_body_00":{"x":158,"y":345,"w":74,"h":118,"offX":129,"offY":97,"sourceW":320,"sourceH":320},
+"attack_7_body_01":{"x":387,"y":345,"w":72,"h":94,"offX":131,"offY":121,"sourceW":320,"sourceH":320},
+"attack_7_body_02":{"x":313,"y":345,"w":72,"h":96,"offX":129,"offY":118,"sourceW":320,"sourceH":320},
+"attack_7_body_03":{"x":0,"y":345,"w":77,"h":115,"offX":118,"offY":100,"sourceW":320,"sourceH":320},
+"attack_7_body_04":{"x":173,"y":0,"w":81,"h":114,"offX":114,"offY":102,"sourceW":320,"sourceH":320},
+"attack_7_body_05":{"x":0,"y":0,"w":86,"h":116,"offX":110,"offY":101,"sourceW":320,"sourceH":320}}}

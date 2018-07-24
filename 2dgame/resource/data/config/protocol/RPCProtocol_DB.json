@@ -1,0 +1,383 @@
+{
+    "type":{
+    		"Email":[
+    			"id:uint32",
+    			"title:uint32",
+    			"status:uint32",
+    			"send_name:string",
+    			"send_time:uint32",
+    			"recv_time:uint32",
+    			"recv_name:string",
+    			"recv_id:uint32",
+    			"valid_time:uint32",
+    			"context:string",
+    			"data:table",
+    			"etype:uint32",
+    			"annex:table",
+    			"isDelete:uint8"
+    		],
+			
+    		"ActorRole":[
+				"entryid:uint32",
+				"stage:uint16",
+				"stageexp:intbig",
+				"skilllevellist:table",
+				"skillorderlist:table",
+				"titleindex:uint16",
+				"unlocktitlelist:table",
+				"fashionindex:uint16",
+				"unlockfashionlist:table",
+				"equiplist:table"
+			],
+		
+    		"ActorPet":[
+				"entryid:uint32",
+				"stage:uint16",
+				"stageexp:uint32",
+				"combatpos:uint8",
+				"name:string",
+				"growexp:uint16",
+				"washskillnum:uint16",
+				"passskilllist:table",
+				"washskilllist:table",
+				"flystageexp:uint32"
+			],
+			
+			"SimpleCellFun":[
+				"entyid:uint32",
+				"danyaodatalist:table",
+				"jingmaidatalist:table"
+			],
+			
+			
+    		"ActorXianlv":[
+				"entryid:uint32",
+				"stage:uint16",
+				"stageexp:uint32",
+				"combatpos:uint8",
+				"start:uint16"
+			],
+			
+    		"ActorTempCell":[
+				"entryid:uint32",
+				"showindex:uint32",
+				"stage:uint16",
+				"stageexp:uint32",
+				"skilllevellist:table",
+				"equiplist:table",
+				"drugnum:uint16",
+				"curskin:uint16",
+				"skinlist:table",
+				"curshape:uint16"
+			],
+			
+			"ActorSimpleCell":[
+				"entryid:uint32",
+				"danyaodatalist:table",
+				"jingmaidatalist:table"
+			],
+			
+			"ActivityData":[
+				"activityName:string",
+				"roleId:uint32",
+				"activityData:table"
+			],
+			
+			
+			"PlayerInfo":[
+				"name:string",
+				"vipLevel:uint8",
+				"vipExp:uint32",
+				"level:uint16",
+				"exp_s:string",
+				"vocation:uint32",
+				"faction:uint32",
+				"power:uint32",
+				"body:uint32",
+				"map_id:uint32",
+				"map_x:uint16",
+				"map_y:uint16",
+				"reservefunds:string",
+				"fightRecord:uint32",
+				"jjcPoint:uint32",
+				"newbie:uint16",
+				"gold:uint32",
+				"bgold:uint32",
+				"TotalConsume:uint32",
+				"championSchedule:uint32",
+				"sex:uint32",
+				"combatForce:uint32",
+				"moneyTable:string",
+				"facActiveData:string",
+				"facSkillData:string",
+				"xiyouLevel:uint16",
+				"xiyouExp:uint16",
+				"spouseId:uint32",
+				"hourseData:string",
+				"totalContri:uint32",
+				"clorEgg:string"
+			],
+			
+			"DBRecord":[
+				"saveRecord:string",
+				"localRecord:string"
+			],
+			
+			"OtherPlayerInfoOne":[
+				"errantry:string",
+				"livebuffs:string",
+				"battleQueue:string",
+				"championRecord:string",
+				"applyFactionList:string",
+				"sellList:table",
+				"bossData:string"
+			],
+			
+			"OtherPlayerInfoTwo":[
+				"operateActData:string",
+				"appearInfo:string",
+				"tudiData:string",
+				"shifuData:string",
+				"applyList:string",
+				"dragonBoss:string",
+				"heavenTrial:string",
+				"lifeAndDeathBoss:string",
+				"smallThunderTemple:string",
+				"excitingPoint:string",
+				"xinglinglist:string",
+				"petCompRecord:string"
+				
+			],
+			
+			"ConstPlayerInfo":[
+				"groupIndex:uint32"
+			],
+			
+			"UserInfo":[
+				"lastLogoutTime:string",
+				"createTime:string",
+				"QD_Key:string",
+				"QD_Code1:string",
+				"banStatus:uint16",
+				"banReason:string",
+				"banEndTime:string"
+			],
+
+			"FriendInfo":[
+				"friendId:uint32",
+				"friendName:string",
+				"level:uint32",
+				"factionName:string",
+				"vocation:uint32",
+				"friendShip:uint32",
+				"groupId:uint32",
+				"addState:uint32",
+				"force:uint32",
+				"onlineTime:uint32",
+				"sex:uint32",
+				"icon:string"
+			],
+			"ApplyFriend":[
+				"applyId:uint32",
+				"applyName:string",
+				"level:uint32",
+				"factionName:string",
+				"vocation:uint32",
+				"friendShip:uint32",
+				"addState:uint32",
+				"time:uint32",
+				"force:uint32",
+				"sex:uint32",
+				"icon:string"
+			],
+			"TaskInfo":[
+				"record:string",
+				"mainTask:string",
+				"branchTask:string",
+				"otherTask:string"
+			],
+			
+			"ItemInfo":[
+				"packetCount:uint32",
+				"packSmelt:uint8",
+				"packets1:string",
+				"packets2:string",
+				"packets3:string",
+				"packets4:string",
+				"packets5:string",
+				"packets6:string"
+			],
+			
+			"SaveItemInfo":[
+				"packetCount:uint32",
+				"packSmelt:uint8",
+				"index:uint8",
+				"packets:string"
+				
+			],
+				
+			"CampaignInfo":[
+				"campaignRecord:string"
+			],
+			
+			"InviteFriend":[
+				"inviteList:string"
+			],		
+			
+			"EquipForge":[
+				"qianghua:table",
+				"jinglian:table",
+				"duanlian:table",
+				"baoshi:table"
+			],
+			
+			"Talisman":[
+			"talismanLevelList:table",
+			"talismanlist:table"
+			],
+			
+			
+			"Shenhun":[
+			"shenhunlist:table"
+			],
+			
+			
+			"Faction":[
+				"id:uint32",
+				"groupIndex:uint32",
+				"logo:uint32",
+				"name:string",
+				"level:uint32",
+				"force:uint32",
+				"creater:string",
+				"createTime:string",
+				"degree:uint32",
+				"notice:string",
+				"introduction:string",
+				"dailyData:table",
+				"facSet:uint32",
+				
+				"renqiRecord:table",
+				
+				"isDelete:uint8",
+				"facRecord:table"
+			],
+			"StrongholdInfo":[
+				"sId:uint8",
+				"occupyList:string"
+			],
+			
+			
+    		"nouse":[]
+    },
+
+
+    "method":{
+        "G2D_EmailListLoad":"string;uint32",
+        "D2G_EmailListLoad":"Email[]",
+        "G2D_EmailSave":"Email[]",
+
+		
+		"G2D_CharQuery":"",
+		"D2G_CharQuery":"packet[]",
+		
+		"D2G_LoadPlayerInfo":"PlayerInfo",
+		"D2G_LoadConstPlayerInfo":"ConstPlayerInfo",
+		"D2G_LoadPlayerDBRecord":"DBRecord",
+		"D2G_LoadOtherPlayerOneInfo":"OtherPlayerInfoOne",
+		"D2G_LoadOtherPlayerTwoInfo":"OtherPlayerInfoTwo",
+		"D2G_LoadUserInfo":"UserInfo",
+		"D2G_LoadFriendList":"FriendInfo[]",
+		"D2G_LoadApplyFriend":"ApplyFriend[]",
+		"D2G_LoadInviteFriend":"InviteFriend",
+		"D2G_LoadTaskInfo":"TaskInfo",
+		"D2G_LoadItemInfo":"ItemInfo",
+		"D2G_LoadCampaignInfo":"CampaignInfo",
+		"D2G_LoadActorRole":"ActorRole[]",
+		"D2G_LoadActorPet":"ActorPet[]",
+		"D2G_LoadActorXianlv":"ActorXianlv[]",
+		"D2G_LoadActorTempCell":"ActorTempCell[]",
+		"D2G_LoadActorSimpleCell":"ActorSimpleCell[]",
+		
+		"D2G_LoadEquipForge":"EquipForge",
+		
+		"G2D_SavePlayerInfo":"PlayerInfo",
+		"G2D_SaveDBRecordPlayerInfo":"DBRecord",
+		"G2D_SaveOtherPlayerInfoOne":"OtherPlayerInfoOne",
+		"G2D_SaveOtherPlayerInfoTwo":"OtherPlayerInfoTwo",
+		"G2D_SaveItemInfo":"SaveItemInfo",
+		"G2D_SaveTaskInfo":"TaskInfo",
+		"G2D_SaveFriendList":"FriendInfo[]",
+		"G2D_SaveApplyFriend":"ApplyFriend[]",
+		"G2D_SaveInviteFriend":"InviteFriend",
+		"G2D_SaveCampaignInfo":"CampaignInfo",
+		"G2D_SaveActorRole":"ActorRole[]",
+		"G2D_SaveActorPet":"ActorPet[]",
+		"G2D_SaveActorXianlv":"ActorXianlv[]",
+		"G2D_SaveActorTempCell":"ActorTempCell[]",	
+		"G2D_SaveActorSimpleCell":"ActorSimpleCell[]",	
+		"G2D_SaveEquipForge":"EquipForge",
+		"G2D_SaveOfflineBattleData":"string",
+		"G2D_QueryOfflineBattleData":"uint32;string",
+		"D2G_QueryOfflineBattle":"uint32;string",
+		
+		"G2D_SaveActivityData":"ActivityData[]",
+		"G2D_LoadActivityData":"string",
+		"D2G_LoadActivityData":"string;ActivityData[]",
+		
+		"G2D_FactionCreate":"string;string;uint32;uint32;uint32",
+		"D2G_FactionCreate":"uint32;uint32;string;string;uint32;string;uint32",
+		"G2D_FactionSave":"Faction",
+		"G2D_FactionMemberSave1":"uint32;table",
+		"G2D_FactionMemberSave2":"uint32;table",
+		"G2D_FactionMemberSave3":"uint32;table",
+		"G2D_FactionWarhouseSave":"uint32;table",
+		"G2D_FactionApplyList":"uint32;uint32",
+		"G2D_FactionList":"",
+		"D2G_FactionList":"uint32[]",
+		"G2D_FactionQuery":"uint32",
+		"D2G_FactionQuery":"Faction;table;table;table;table",
+		
+		
+		"G2D_ChampionCount":"uint32",
+		"D2G_ChampionCount":"uint32;string",
+		"G2D_ChampionData":"uint32;uint32",
+		"D2G_ChampionData":"uint32;string",
+		"G2D_QueryChampionTodayRank":"uint32",
+		"D2G_QueryChampionTodayRank":"uint32;string",
+		"G2D_SaveChampionTodayRank":"uint32;string",
+		"G2D_SaveChampionData":"uint32;uint32;string",
+		
+		"D2G_LoadTalisman":"Talisman",
+		"G2D_SaveTalisman":"Talisman",
+		
+		"D2G_LoadShenHun":"Shenhun",
+		"G2D_SaveShenHun":"Shenhun",
+		
+		"G2D_SaveOperateData":"string;uint32;string;string",
+		"D2G_LoadOperateData":"string;string;string",
+		"G2D_LoadOperateData":"string",
+		
+		"G2D_SaveMissionRecData":"string;uint32;string",
+		"G2D_LoadMissionRecDataCount":"string",
+		"D2G_LoadMissionRecDataCount":"string;string",
+		"G2D_LoadMissionRecData":"string;uint32",
+		"D2G_LoadMissionRecData":"string;string",
+		
+		"G2D_StrongholdSave":"uint32;StrongholdInfo[]",
+		"G2D_StrongholdCount":"uint32",
+		"D2G_StrongholdCount":"uint32;string",
+		"G2D_StrongholdQuery":"uint32",
+		"D2G_StrongholdQuery":"uint32;StrongholdInfo[]",
+		
+		"G2D_QueryGroupGlobalData":"uint32;uint32",
+		"D2G_QueryGroupGlobalData":"uint32;uint32;string",
+		"G2D_SaveGroupGlobalData":"uint32;uint32;string",
+		
+		"G2D_RankSave":"uint32;uint16;uint16;string",
+		"G2D_RankAppearInfoSave":"uint32;uint16;uint16;string",
+		
+		"nouse":""
+        
+    }
+}

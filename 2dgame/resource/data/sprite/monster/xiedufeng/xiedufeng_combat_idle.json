@@ -1,0 +1,7 @@
+{"file":"xiedufeng_combat_idle.png","frames":{
+"combat_idle_3_body_00":{"x":0,"y":0,"w":111,"h":145,"offX":89,"offY":72,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_01":{"x":0,"y":389,"w":113,"h":116,"offX":94,"offY":79,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_02":{"x":113,"y":144,"w":123,"h":118,"offX":83,"offY":73,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_03":{"x":108,"y":264,"w":110,"h":123,"offX":84,"offY":83,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_04":{"x":0,"y":147,"w":106,"h":130,"offX":89,"offY":86,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_05":{"x":113,"y":0,"w":104,"h":142,"offX":91,"offY":79,"sourceW":320,"sourceH":320}}}

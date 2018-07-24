@@ -1,0 +1,7 @@
+{"file":"shenbing_nan01_die.png","frames":{
+"die_3_weapon_00":{"x":118,"y":0,"w":114,"h":99,"offX":79,"offY":186,"sourceW":320,"sourceH":320},
+"die_3_weapon_01":{"x":0,"y":0,"w":116,"h":99,"offX":77,"offY":186,"sourceW":320,"sourceH":320},
+"die_3_weapon_02":{"x":180,"y":163,"w":45,"h":53,"offX":107,"offY":189,"sourceW":320,"sourceH":320},
+"die_7_weapon_00":{"x":0,"y":163,"w":178,"h":60,"offX":19,"offY":189,"sourceW":320,"sourceH":320},
+"die_7_weapon_01":{"x":0,"y":101,"w":179,"h":60,"offX":19,"offY":189,"sourceW":320,"sourceH":320},
+"die_7_weapon_02":{"x":0,"y":225,"w":117,"h":28,"offX":74,"offY":203,"sourceW":320,"sourceH":320}}}

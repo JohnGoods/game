@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayerDetailsLayout" width="564" height="710" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Group width="564" height="710" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" bottom="0">
+		<e:Image source="ty_uiDi01" right="0" left="0" top="0" bottom="0" scale9Grid="107,107,43,64"/>
+		<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+		<e:Label id="label_wndName" text="${PLAYER_DETAILS_TXT6}" horizontalCenter="0" top="0" style="ht_title_font" textAlign="center" verticalAlign="middle" height="36" width="564"/>
+		<e:Group id="group_wnd" anchorOffsetX="0" height="30" width="231" horizontalCenter="0" top="61">
+			<e:Image source="ty_zhanLiDi01" right="0" left="0" top="0" bottom="0" scale9Grid="24,3,145,24"/>
+			<gui:BatchImage id="bImage" xmlns:gui="gui.*" width="105" height="30" y="0" x="63"/>
+		</e:Group>
+		<e:Image horizontalCenter="0" x="120" scaleX="1" scaleY="1" top="113" source="wjxq_renWuDi01"/>
+		<e:Group id="actor" width="31" height="28" y="270" anchorOffsetX="0" anchorOffsetY="0" x="278"/>
+		<e:Label id="label_nickname" text="" anchorOffsetX="0" width="146.33" style="ht_24_lc_stroke" textAlign="center" horizontalCenter="0" top="315" height="20"/>
+		<e:Group width="470" height="253" horizontalCenter="0" top="372">
+			<e:Image scale9Grid="5,5,32,31" anchorOffsetY="0" anchorOffsetX="0" bottom="0" scaleX="1" scaleY="1" left="0" right="0" top="0" source="ty_uiDi02"/>
+			<e:Group width="152" height="160" scaleX="1" scaleY="1" left="3" top="5">
+			<e:Image scaleX="1" scaleY="1" top="-22" source="ty_renWuKuang01" width="140" height="140" left="0"/>
+			<e:Image id="image_player" scaleX="1" scaleY="1" left="0" top="-22" source="zctx_90001"/>
+			<gui:Button id="btn_VIP" label="" bottom="0" left="8">
+				<gui:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="wjxq_Bt_VIP"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<gui:Button id="btn_yueKa" label="" bottom="0" right="5">
+				<gui:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="wjxq_Bt_yueKa"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			</e:Group>
+			<gui:RichDisplayer id="rd_des" width="295" height="154" anchorOffsetX="0" anchorOffsetY="0" top="8" horizontalCenter="77.5"/>
+			<gui:RichDisplayer id="rd_copyname" width="90" height="20" anchorOffsetY="0" anchorOffsetX="0" top="12" right="13">
+				<e:Rect id="rect_name" height="2" fillColor="0x9acd32" strokeColor="0x9acd32" y="24" left="0" right="0"/>
+			</gui:RichDisplayer>
+			<e:Group height="83.34" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" bottom="0">
+				<gui:Button id="btn_changeName" label="${PALYER_DETAILS_TXT1}" scaleX="1" scaleY="1" bottom="13" x="40.000000000000014" y="6.669999999999959">
+					<gui:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+						</e:Skin>
+					</gui:skinName>
+				</gui:Button>
+				<gui:Button id="btn_changeHead" label="${PALYER_DETAILS_TXT2}" x="49.999999999999986" y="49.66999999999973" scaleX="1" scaleY="1">
+					<gui:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+						</e:Skin>
+					</gui:skinName>
+				</gui:Button>
+				<gui:Button id="btn_settings" label="${PALYER_DETAILS_TXT3}" x="59.999999999999986" y="59.669999999999845" scaleX="1" scaleY="1">
+					<gui:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+						</e:Skin>
+					</gui:skinName>
+				</gui:Button>
+				<e:layout>
+					<e:HorizontalLayout gap="9" horizontalAlign="center" verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<gui:Button id="btn_back" label="" right="0" bottom="0">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_close_top" label="" right="0" top="0" x="547" y="-141" scaleX="1" scaleY="1">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,8 @@
+{"file":"huo02_idle.png","frames":{
+"idle_0_body_00":{"x":149,"y":425,"w":152,"h":128,"offX":262,"offY":16,"sourceW":640,"sourceH":640},
+"idle_0_body_01":{"x":262,"y":0,"w":137,"h":123,"offX":288,"offY":21,"sourceW":640,"sourceH":640},
+"idle_0_body_02":{"x":122,"y":0,"w":138,"h":251,"offX":279,"offY":75,"sourceW":640,"sourceH":640},
+"idle_0_body_03":{"x":0,"y":0,"w":120,"h":307,"offX":276,"offY":175,"sourceW":640,"sourceH":640},
+"idle_0_body_04":{"x":0,"y":309,"w":147,"h":249,"offX":262,"offY":246,"sourceW":640,"sourceH":640},
+"idle_0_body_05":{"x":0,"y":560,"w":164,"h":183,"offX":247,"offY":296,"sourceW":640,"sourceH":640},
+"idle_0_body_06":{"x":149,"y":253,"w":118,"h":170,"offX":277,"offY":307,"sourceW":640,"sourceH":640}}}

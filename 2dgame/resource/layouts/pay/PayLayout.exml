@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PayLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image scaleX="1" scaleY="1" top="0" bottom="0" left="0" right="0" source="ty_uiDi01" scale9Grid="126,133,25,52"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="title" text="${PAY_TXT1}" verticalAlign="middle" textAlign="center" horizontalCenter="0" top="0" width="640" height="36" style="ht_title_font"/>
+	<e:Group id="power_wnd" width="550" height="60" horizontalCenter="0" top="50">
+		<e:Image id="vip_icon" scaleX="1" scaleY="1" left="-10" source="cz_vip00" verticalCenter="0"/>
+		<gui:Button id="btn_power" label="" right="10" bottom="0">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="cz_Bt01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:RichDisplayer id="rd_des" width="320" height="25" horizontalCenter="5" top="0"/>
+		<e:ProgressBar id="exp_imb" width="334" height="30" value="100" x="116" bottom="7">
+			<e:skinName>
+			<e:Skin minWidth="30" minHeight="18">
+				<e:Image scale9Grid="1,1,4,4" width="100%" height="100%" verticalCenter="0" source="cz_loadingDi01"/>
+				<e:Image id="thumb" height="100%" width="100%" source="cz_loading01"/>
+				<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle" size="15" fontFamily="Tahoma" horizontalCenter="0" verticalCenter="0" textColor="0xffffff" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ProgressBar>
+	</e:Group>
+	<e:Image horizontalCenter="0" source="cz_ztBg01" top="116"/>
+	<e:Group id="scroll_wnd" width="550" height="520" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" y="290">
+		<e:Image scale9Grid="5,5,32,31" anchorOffsetX="0" anchorOffsetY="0" top="0" source="ty_uiDi02" scaleX="1" scaleY="1" left="0" right="0" bottom="0"/>
+		<e:Scroller left="0" right="0" top="0" bottom="0">
+			<e:List id="scroll_list">
+				<e:layout>
+					<e:TileLayout requestedColumnCount="2"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Label id="tips_des" text="${PAY_TXT2}" verticalAlign="middle" width="550" textAlign="left" textColor="0x472a2a" y="830" horizontalCenter="0" style="ht_24_lc" height="30"/>
+	<gui:Button id="btn_close_top" label="" right="0" top="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close" label="" scaleX="1" scaleY="1" right="-3.96" bottom="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

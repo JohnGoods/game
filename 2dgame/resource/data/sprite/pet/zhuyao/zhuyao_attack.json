@@ -1,0 +1,13 @@
+{"file":"zhuyao_attack.png","frames":{
+"attack_3_body_00":{"x":189,"y":565,"w":211,"h":142,"offX":16,"offY":84,"sourceW":320,"sourceH":320},
+"attack_3_body_01":{"x":394,"y":385,"w":114,"h":178,"offX":88,"offY":40,"sourceW":320,"sourceH":320},
+"attack_3_body_02":{"x":0,"y":391,"w":187,"h":177,"offX":28,"offY":51,"sourceW":320,"sourceH":320},
+"attack_3_body_03":{"x":0,"y":0,"w":242,"h":204,"offX":78,"offY":79,"sourceW":320,"sourceH":320},
+"attack_3_body_04":{"x":244,"y":0,"w":212,"h":222,"offX":108,"offY":58,"sourceW":320,"sourceH":320},
+"attack_3_body_05":{"x":0,"y":570,"w":146,"h":198,"offX":117,"offY":88,"sourceW":320,"sourceH":320},
+"attack_7_body_00":{"x":148,"y":709,"w":206,"h":140,"offX":93,"offY":86,"sourceW":320,"sourceH":320},
+"attack_7_body_01":{"x":0,"y":770,"w":117,"h":185,"offX":114,"offY":45,"sourceW":320,"sourceH":320},
+"attack_7_body_02":{"x":205,"y":385,"w":187,"h":178,"offX":105,"offY":51,"sourceW":320,"sourceH":320},
+"attack_7_body_03":{"x":205,"y":224,"w":232,"h":159,"offX":0,"offY":69,"sourceW":320,"sourceH":320},
+"attack_7_body_04":{"x":0,"y":206,"w":203,"h":183,"offX":0,"offY":48,"sourceW":320,"sourceH":320},
+"attack_7_body_05":{"x":356,"y":709,"w":149,"h":149,"offX":55,"offY":78,"sourceW":320,"sourceH":320}}}

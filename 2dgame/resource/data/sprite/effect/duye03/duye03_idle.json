@@ -1,0 +1,8 @@
+{"file":"duye03_idle.png","frames":{
+"idle_0_body_00":{"x":0,"y":0,"w":282,"h":362,"offX":159,"offY":42,"sourceW":640,"sourceH":640},
+"idle_0_body_01":{"x":591,"y":422,"w":254,"h":241,"offX":182,"offY":152,"sourceW":640,"sourceH":640},
+"idle_0_body_02":{"x":284,"y":0,"w":305,"h":236,"offX":159,"offY":184,"sourceW":640,"sourceH":640},
+"idle_0_body_03":{"x":591,"y":0,"w":314,"h":216,"offX":155,"offY":202,"sourceW":640,"sourceH":640},
+"idle_0_body_04":{"x":0,"y":364,"w":335,"h":219,"offX":151,"offY":196,"sourceW":640,"sourceH":640},
+"idle_0_body_05":{"x":591,"y":218,"w":325,"h":202,"offX":151,"offY":211,"sourceW":640,"sourceH":640},
+"idle_0_body_06":{"x":0,"y":585,"w":306,"h":195,"offX":157,"offY":219,"sourceW":640,"sourceH":640}}}

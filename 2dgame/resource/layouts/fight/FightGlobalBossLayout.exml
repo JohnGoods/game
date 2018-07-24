@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightGlobalBossLayout" width="640" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Group width="223" height="203" y="40" left="0">
+		<e:Image source="qmboss_shangHaiDi" scale9Grid="15,13,1,1" scaleX="1" scaleY="1" top="0" bottom="0" left="0" right="0"/>
+		<gui:RichDisplayer id="rank_rd" height="114" anchorOffsetX="0" anchorOffsetY="0" y="29" x="14" width="201" scaleX="1" scaleY="1"/>
+		<gui:RichDisplayer id="myRank_rd" height="32" width="200" x="15" y="171" scaleX="1" scaleY="1"/>
+		<e:Image width="79" height="25" y="4" horizontalCenter="0" source="qmboss_text01"/>
+		<e:Image width="80" height="25" y="145" horizontalCenter="0" source="qmboss_text02"/>
+	</e:Group>
+	<gui:ProgressBar id="hp_pro" width="547" height="30" bottom="0" horizontalCenter="0"/>
+	<e:Image width="111" height="29" y="250" source="qmboss_text03" horizontalCenter="-208.5"/>
+</e:Skin>

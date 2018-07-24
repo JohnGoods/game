@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightInstructLayout" width="160" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="frame_bg2" left="0" right="0" top="0" bottom="0" scale9Grid="7,7,47,47" touchEnabled="false"/>
+	<gui:Button id="btn_refresh" label="${LOGIN_REFRESH}" y="7" anchorOffsetY="0" height="30" horizontalCenter="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="countbutton_default"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_casterMode" label="角色发动" y="220" anchorOffsetY="0" height="30" horizontalCenter="0.5">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="countbutton_default"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20"/>
+		</e:Skin>
+	</gui:Button>
+	<gui:Button id="btn_exchangeSide" label="交换位置" y="261" anchorOffsetY="0" height="30" horizontalCenter="-0.5">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="countbutton_default"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20"/>
+		</e:Skin>
+	</gui:Button>
+	<gui:ComboBox id="combox_posttype" width="135" height="29" y="178" horizontalCenter="0.5" x="23"/>
+	<gui:ComboBox id="combox_modeltype" width="135" height="29" y="134" x="13"/>
+	<gui:ComboBox id="combox_seattype" width="135" height="29" y="89" x="13"/>
+	<gui:ComboBox id="combox_attacktype" width="135" height="29" y="44" horizontalCenter="0.5"/>
+</e:Skin>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubExchangeLayout" width="580" height="520" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="580" height="520" x="0" y="0">
+		<e:Image source="ty_uiDi01" scale9Grid="142,190,3,6" left="0" bottom="0" top="0" right="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+		<e:Label id="title" text="${CLUB_TXT106}" style="ht_title_font" verticalAlign="middle" textAlign="center" width="580" height="36" top="0" horizontalCenter="0"/>
+		<gui:Button id="btn_close" label="" right="0" bottom="0" x="497.00000000000006" y="403" scaleX="1" scaleY="1">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_close_top" label="" top="0" right="0" x="525" y="0" scaleX="1" scaleY="1">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Group id="item_group" height="290" top="55" left="45" right="45">
+			<e:Group id="item_wnd0" width="240" height="140" x="58" y="57">
+				<e:Image source="ty_uiDi03" left="0" top="0" bottom="0" right="0" scale9Grid="25,30,5,5"/>
+				<e:Label id="item_name0" text="" height="30" width="120" textAlign="center" verticalAlign="middle" textColor="0x3d3d3d" left="0" top="10" style="ht_22_lc"/>
+				<e:Group id="item_pos0" width="80" height="80" bottom="12" left="20"/>
+				<gui:RichDisplayer id="cost_name_rd0" width="100" height="60" top="15" right="10"/>
+				<gui:RichDisplayer id="cost_count_rd0" width="100" height="60" top="15" right="10"/>
+				<gui:Button id="exchange_btn0" label="${ACCESS_TXT6}" right="17" bottom="12" width="86" height="41">
+					<gui:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_tongYongBt6"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+						</e:Skin>
+					</gui:skinName>
+				</gui:Button>
+			</e:Group>
+			<e:Group id="item_wnd1" width="240" height="140" x="68" y="67">
+				<e:Image source="ty_uiDi03" left="0" top="0" bottom="0" right="0" scale9Grid="25,30,5,5"/>
+				<e:Label id="item_name1" text="" height="30" width="120" textAlign="center" verticalAlign="middle" textColor="0x3D3D3D" left="0" top="10" style="ht_22_lc"/>
+				<e:Group id="item_pos1" width="80" height="80" bottom="12" left="20"/>
+				<gui:RichDisplayer id="cost_name_rd1" width="100" height="60" top="15" right="10"/>
+				<gui:RichDisplayer id="cost_count_rd1" width="100" height="60" top="15" right="10"/>
+				<gui:Button id="exchange_btn1" label="${ACCESS_TXT6}" right="17" bottom="12" width="86" height="41">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt6"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+					</e:Skin>
+				</gui:skinName>
+				</gui:Button>
+			</e:Group>
+			<e:Group id="item_wnd2" width="240" height="140" x="78" y="77">
+				<e:Image source="ty_uiDi03" left="0" top="0" bottom="0" right="0" scale9Grid="25,30,5,5"/>
+				<e:Label id="item_name2" text="" height="30" width="120" textAlign="center" verticalAlign="middle" textColor="0x3D3D3D" left="0" top="10" style="ht_22_lc"/>
+				<e:Group id="item_pos2" width="80" height="80" bottom="12" left="20"/>
+				<gui:RichDisplayer id="cost_name_rd2" width="100" height="60" top="15" right="10"/>
+				<gui:RichDisplayer id="cost_count_rd2" width="100" height="60" top="15" right="10"/>
+				<gui:Button id="exchange_btn2" label="${ACCESS_TXT6}" right="17" bottom="12" width="86" height="41">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt6"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+					</e:Skin>
+				</gui:skinName>
+				</gui:Button>
+			</e:Group>
+			<e:Group id="item_wnd3" width="240" height="140" x="88" y="87">
+				<e:Image source="ty_uiDi03" left="0" top="0" bottom="0" right="0" scale9Grid="25,30,5,5"/>
+				<e:Label id="item_name3" text="" height="30" width="120" textAlign="center" verticalAlign="middle" textColor="0x3D3D3D" left="0" top="10" style="ht_22_lc"/>
+				<e:Group id="item_pos3" width="80" height="80" bottom="12" left="20"/>
+				<gui:RichDisplayer id="cost_name_rd3" width="100" height="60" top="15" right="10"/>
+				<gui:RichDisplayer id="cost_count_rd3" width="100" height="60" top="15" right="10"/>
+				<gui:Button id="exchange_btn3" label="${ACCESS_TXT6}" right="17" bottom="12" width="86" height="41">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt6"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+					</e:Skin>
+				</gui:skinName>
+				</gui:Button>
+			</e:Group>
+			<e:layout>
+				<e:TileLayout horizontalGap="10" verticalGap="10"/>
+			</e:layout>
+		</e:Group>
+		<gui:RichDisplayer id="refresh_rd" height="60" left="45" right="45" top="355"/>
+		<gui:Button id="reset_btn" label="${CLUB_TXT107}" y="433" x="175" width="147" height="55">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:RichDisplayer id="reset_rd" width="160" height="30" x="330" y="450"/>
+	</e:Group>
+</e:Skin>

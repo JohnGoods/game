@@ -1,0 +1,7 @@
+{"file":"attacked02_idle.png","frames":{
+"idle_0_body_00":{"x":424,"y":0,"w":57,"h":56,"offX":133,"offY":141,"sourceW":320,"sourceH":320},
+"idle_0_body_01":{"x":0,"y":135,"w":117,"h":121,"offX":102,"offY":108,"sourceW":320,"sourceH":320},
+"idle_0_body_02":{"x":283,"y":0,"w":139,"h":130,"offX":86,"offY":105,"sourceW":320,"sourceH":320},
+"idle_0_body_03":{"x":142,"y":0,"w":139,"h":130,"offX":86,"offY":105,"sourceW":320,"sourceH":320},
+"idle_0_body_04":{"x":0,"y":0,"w":140,"h":133,"offX":81,"offY":101,"sourceW":320,"sourceH":320},
+"idle_0_body_05":{"x":142,"y":132,"w":133,"h":123,"offX":84,"offY":106,"sourceW":320,"sourceH":320}}}

@@ -1,0 +1,7 @@
+{"file":"shijuren_combat_idle.png","frames":{
+"combat_idle_3_body_00":{"x":118,"y":125,"w":116,"h":122,"offX":99,"offY":101,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_01":{"x":117,"y":249,"w":115,"h":120,"offX":100,"offY":102,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_02":{"x":0,"y":253,"w":115,"h":119,"offX":100,"offY":102,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_03":{"x":0,"y":128,"w":115,"h":123,"offX":100,"offY":99,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_04":{"x":0,"y":0,"w":116,"h":126,"offX":99,"offY":96,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_05":{"x":118,"y":0,"w":117,"h":123,"offX":98,"offY":99,"sourceW":320,"sourceH":320}}}

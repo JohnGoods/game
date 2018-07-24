@@ -1,0 +1,25 @@
+{
+  "anims":[
+    {
+      "dirs":[
+        0
+      ],
+      "frameCount":5,
+      "interval":100,
+      "name":"idle"
+    }
+  ],
+  "bodyparts":[
+    {
+      "name":"body",
+      "offx":160,
+      "offy":210,
+      "order":0,
+      "shows":[]
+    }
+  ],
+  "name":"baoji",
+  "textures":[
+    "baoji_idle.png"
+  ]
+}

@@ -1,0 +1,9 @@
+{"file":"lulidaxian_combat_idle.png","frames":{
+"combat_idle_3_body_00":{"x":658,"y":0,"w":202,"h":183,"offX":94,"offY":48,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_01":{"x":442,"y":0,"w":214,"h":189,"offX":82,"offY":49,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_02":{"x":0,"y":0,"w":223,"h":188,"offX":76,"offY":52,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_03":{"x":0,"y":190,"w":223,"h":188,"offX":77,"offY":51,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_00":{"x":653,"y":191,"w":212,"h":183,"offX":28,"offY":35,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_01":{"x":438,"y":194,"w":213,"h":190,"offX":28,"offY":35,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_02":{"x":225,"y":0,"w":215,"h":192,"offX":25,"offY":35,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_03":{"x":225,"y":194,"w":211,"h":192,"offX":25,"offY":34,"sourceW":320,"sourceH":320}}}

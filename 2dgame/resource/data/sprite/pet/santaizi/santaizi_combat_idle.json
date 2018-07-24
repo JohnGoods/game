@@ -1,0 +1,13 @@
+{"file":"santaizi_combat_idle.png","frames":{
+"combat_idle_3_body_00":{"x":737,"y":0,"w":178,"h":183,"offX":40,"offY":51,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_01":{"x":370,"y":183,"w":180,"h":181,"offX":38,"offY":51,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_02":{"x":370,"y":0,"w":183,"h":181,"offX":35,"offY":51,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_03":{"x":0,"y":0,"w":184,"h":182,"offX":34,"offY":50,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_04":{"x":186,"y":0,"w":182,"h":182,"offX":36,"offY":50,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_05":{"x":555,"y":0,"w":180,"h":182,"offX":38,"offY":50,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_00":{"x":168,"y":184,"w":168,"h":190,"offX":96,"offY":56,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_01":{"x":338,"y":366,"w":167,"h":191,"offX":95,"offY":57,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_02":{"x":168,"y":376,"w":167,"h":190,"offX":94,"offY":58,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_03":{"x":552,"y":184,"w":168,"h":192,"offX":95,"offY":57,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_04":{"x":722,"y":185,"w":168,"h":192,"offX":95,"offY":56,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_05":{"x":0,"y":184,"w":166,"h":193,"offX":95,"offY":54,"sourceW":320,"sourceH":320}}}

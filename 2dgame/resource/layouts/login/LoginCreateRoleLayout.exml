@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginCreateRoleLayout" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="dl_chuangJianDi01" y="0" right="0"/>
+	<e:Image source="dl_wu01" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="dl_chuangJianDi02" bottom="0" right="0"/>
+	<e:Image id="image_actor" source="dl_moTu01" bottom="335" horizontalCenter="0"/>
+	<e:Group width="600" height="360" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" bottom="58" touchEnabled="false">
+		<gui:Button id="btn_ensure" label="" x="188" y="251" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dl_kaiShi01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Image width="225" height="50" x="60" y="166" anchorOffsetX="0" anchorOffsetY="0" source="dl_textDi01" scale9Grid="9,11,5,3"/>
+		<e:EditableText id="edit_name" width="173" height="31" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle" y="175" x="70" prompt="${PLS_INPUT_PLAYERNAME}" scaleX="1" scaleY="1" textColor="0xf9f9f9" text=""/>
+		<gui:Button id="btn_random" label="" x="236.37" y="169.91" scaleX="1" scaleY="1">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dl_touZi01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Image y="15" source="dl_zhongZuDi01" horizontalCenter="0"/>
+		<e:RadioButton id="tab_voc_10001" label="" x="155" y="-13">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dl_zhongZu01_up" source.down="dl_zhongZu01_down"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="tab_voc_10002" label="" x="253" y="-13">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dl_zhongZu02_up" source.down="dl_zhongZu02_down"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="tab_voc_10003" label="" x="355" y="-13">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dl_zhongZu03_up" source.down="dl_zhongZu03_down"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="tab_sex_1" label="" x="295" y="142">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dl_xingBie01_up" source.down="dl_xingBie01_down"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="tab_sex_2" label="" x="408" y="142">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dl_xingBie02_up" source.down="dl_xingBie02_down"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+	</e:Group>
+	<gui:Button id="btn_close" label="" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" bottom="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dl_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_next" label="" bottom="617" right="10">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dl_jianTou02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_pre" label="" bottom="617" left="10">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dl_jianTou01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

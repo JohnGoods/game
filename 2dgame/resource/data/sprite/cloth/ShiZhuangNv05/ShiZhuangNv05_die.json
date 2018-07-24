@@ -1,0 +1,7 @@
+{"file":"ShiZhuangNv05_die.png","frames":{
+"die_3_body_00":{"x":0,"y":0,"w":81,"h":99,"offX":125,"offY":141,"sourceW":320,"sourceH":320},
+"die_3_body_01":{"x":0,"y":101,"w":81,"h":96,"offX":125,"offY":146,"sourceW":320,"sourceH":320},
+"die_3_body_02":{"x":169,"y":84,"w":81,"h":74,"offX":125,"offY":168,"sourceW":320,"sourceH":320},
+"die_7_body_00":{"x":83,"y":84,"w":84,"h":78,"offX":105,"offY":150,"sourceW":320,"sourceH":320},
+"die_7_body_01":{"x":83,"y":0,"w":88,"h":82,"offX":105,"offY":146,"sourceW":320,"sourceH":320},
+"die_7_body_02":{"x":0,"y":199,"w":95,"h":52,"offX":105,"offY":176,"sourceW":320,"sourceH":320}}}

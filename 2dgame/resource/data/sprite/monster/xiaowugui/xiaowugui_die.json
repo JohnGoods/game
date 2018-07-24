@@ -1,0 +1,9 @@
+{"file":"xiaowugui_die.png","frames":{
+"die_3_body_00":{"x":104,"y":0,"w":64,"h":44,"offX":130,"offY":176,"sourceW":320,"sourceH":320},
+"die_3_body_01":{"x":52,"y":0,"w":50,"h":61,"offX":128,"offY":137,"sourceW":320,"sourceH":320},
+"die_3_body_02":{"x":0,"y":0,"w":50,"h":70,"offX":123,"offY":121,"sourceW":320,"sourceH":320},
+"die_3_body_03":{"x":52,"y":63,"w":52,"h":55,"offX":109,"offY":146,"sourceW":320,"sourceH":320},
+"die_3_body_04":{"x":106,"y":46,"w":58,"h":46,"offX":89,"offY":145,"sourceW":320,"sourceH":320},
+"die_3_body_05":{"x":170,"y":41,"w":64,"h":42,"offX":84,"offY":146,"sourceW":320,"sourceH":320},
+"die_3_body_06":{"x":166,"y":85,"w":69,"h":34,"offX":85,"offY":153,"sourceW":320,"sourceH":320},
+"die_3_body_07":{"x":170,"y":0,"w":70,"h":39,"offX":89,"offY":152,"sourceW":320,"sourceH":320}}}

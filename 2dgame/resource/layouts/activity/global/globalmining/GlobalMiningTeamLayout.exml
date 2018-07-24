@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GlobalMiningTeamLayout" width="640" height="600" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*">
+	<w:Config id="161c1d1ca3e"/>
+	<e:Image scale9Grid="140,178,2,4" source="ty_uiDi01" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="label_wndName" text="" width="640" height="36" textAlign="center" verticalAlign="middle" style="ht_title_font" top="0" horizontalCenter="0"/>
+	<e:Image width="577" height="276" y="49" source="ty_uiDi02" scale9Grid="20,20,2,2" horizontalCenter="0"/>
+	<e:Label id="tl0" text="${GLOBAL_MINING_TXT21}" y="63" left="0" right="0" textAlign="center" textColor="0x45332b" style="ht_24_lc"/>
+	<e:Image width="488" height="16" y="90" source="cz_uiLine01" scale9Grid="21,2,1,12" horizontalCenter="0"/>
+
+	<e:Group id="team_group0" width="180" height="201" x="42" y="114" visible="false">
+		<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi03" scale9Grid="26,28,1,1"/>
+		<e:Image width="90" height="90" source="ty_renWuKuang01" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0"/>
+		<e:Image id="team_icon0" width="90" height="90" source="zctx_90001" left="0" top="0"/>
+		<e:Label id="team_name0" text="Label" x="10" y="107" textColor="0x45332b" width="169" style="ht_20_lc"/>
+		<e:Label id="team_level0" text="Label" x="10" y="137" textColor="0x45332B" width="169" style="ht_20_lc"/>
+		<e:Label id="team_force0" text="Label" x="10" y="168" textColor="0x45332B" width="169" style="ht_20_lc"/>
+		<e:Image width="40" height="68" x="81" y="8" source="bh_textDi04"/>
+		<e:Label id="captain_icon" text="队长" x="91" y="16" width="28" style="ht_22_lc_stroke"/>
+		<gui:ProgressBar id="hp_pro0" width="150" height="17" y="81" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="team_group1" width="180" height="201" x="230" y="114" visible="false">
+		<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi03" scale9Grid="26,28,1,1"/>
+		<e:Image width="90" height="90" source="ty_renWuKuang01" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0" x="-230" y="-526" scaleX="1" scaleY="1"/>
+		<e:Image id="team_icon1" width="90" height="90" source="zctx_90001" left="0" top="0" x="-230" y="-526" scaleX="1" scaleY="1"/>
+		<e:Label id="team_name1" text="Label" x="10" y="107" textColor="0x45332B" width="169" scaleX="1" scaleY="1" style="ht_20_lc"/>
+		<e:Label id="team_level1" text="Label" x="10" y="137" textColor="0x45332B" width="169" scaleX="1" scaleY="1" style="ht_20_lc"/>
+		<e:Label id="team_force1" text="Label" x="10" y="168" textColor="0x45332B" width="169" scaleX="1" scaleY="1" style="ht_20_lc"/>
+		<gui:ProgressBar width="150" height="17" y="81" horizontalCenter="0" id="hp_pro1"/>
+		<gui:Button id="team_tick1" label="踢" x="114" y="18">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt11"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+
+	</e:Group>
+	<e:Group id="team_group2" width="180" height="201" x="417" y="114" visible="false">
+		<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi03" scale9Grid="26,28,1,1"/>
+		<e:Image width="90" height="90" source="ty_renWuKuang01" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0" x="-417" y="-526" scaleX="1" scaleY="1"/>
+		<e:Image id="team_icon2" width="90" height="90" source="zctx_90001" left="0" top="0" x="-417" y="-526" scaleX="1" scaleY="1"/>
+		<e:Label id="team_name2" text="Label" x="10" y="107" textColor="0x45332B" width="169" scaleX="1" scaleY="1" style="ht_20_lc"/>
+		<e:Label id="team_level2" text="Label" x="10" y="137" textColor="0x45332B" width="169" scaleX="1" scaleY="1" style="ht_20_lc"/>
+		<e:Label id="team_force2" text="Label" x="10" y="168" textColor="0x45332B" width="169" scaleX="1" scaleY="1" style="ht_20_lc"/>
+		<gui:ProgressBar width="150" height="17" y="81" horizontalCenter="0" id="hp_pro2"/>
+		<gui:Button id="team_tick2" label="踢" x="114" y="18">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt11"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+
+	</e:Group>
+	<e:Image width="577" height="67" y="334" source="ty_uiDi02" scale9Grid="20,20,2,2" horizontalCenter="0"/>
+	<e:Label id="tl2" text="${GLOBAL_MINING_TXT17}" x="48" y="355" width="133" style="ht_22_lc_stroke"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" scale9Grid="18,9,11,18" scaleX="1" scaleY="1" width="220" x="163" height="45" y="346" source="ty_shuRuDi01"/>
+	<e:EditableText id="edit_input" width="207" height="35" text="" x="168" y="351" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	<gui:Button id="pick_btn" label="${GLOBAL_MINING_TXT18}" x="395" y="347" width="43" height="41">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt11"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Label id="tl3" text="${GLOBAL_MINING_TXT19}" x="443" y="357" style="ht_22_lc_stroke"/>
+	<e:Label id="tl1" text="${GLOBAL_MINING_TXT22}" y="480" left="0" right="0" textAlign="center" textColor="0xa52a2a" style="ht_28_lc"/>
+
+
+
+
+
+	<gui:Button id="cancel_btn" label="${GLOBAL_MINING_TXT45}" x="134" y="408" width="147" height="55">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+
+	</gui:Button>
+
+	<gui:Button id="call_btn" label="${GLOBAL_MINING_TXT46}" x="364" y="408" width="147" height="55">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt16"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+
+	</gui:Button>
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_back" label="" right="0" bottom="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+
+
+
+</e:Skin>

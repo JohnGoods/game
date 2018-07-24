@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WonderHolidayLayout" width="640" height="660" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*">
+	<w:Config id="161c1d1ca3e"/>
+	<e:Image y="0" width="564" height="197" scale9Grid="140,178,2,4" horizontalCenter="0" source="jchd_biaoTiDi02"/>
+	<e:Image width="564" horizontalCenter="0" source="ty_uiDi02" scale9Grid="21,20,1,1" top="202" bottom="3"/>
+	<e:Label id="time_txt" text="" x="50" y="166" width="280" height="30" verticalAlign="middle" textAlign="left"/>
+	<e:Label id="cost_txt" text="" x="340" y="166" width="250" height="30" textAlign="right" verticalAlign="middle"/>
+
+
+	<e:Scroller width="550" horizontalCenter="0" height="445" y="208">
+		<e:List id="scroll"/>
+	</e:Scroller>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

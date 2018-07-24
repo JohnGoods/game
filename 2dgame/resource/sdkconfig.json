@@ -1,0 +1,28 @@
+{
+	"GameKey" : "hxxyh5",
+    "GameName":"幻想西游",
+    "QD_Key":"allu",
+    "QD_Code1":5,
+    "QD_Code2":6,
+    "IsOfficialLogin":true,
+    "CheatPay":true,
+    "IsReLogin":true,
+    "a":"192.168.1.254",
+    "h5":"139.199.2.135",
+    "test":"47.92.89.237",
+    "AppId":"ca2234d1c1fc98291aeb18d96750bd37",
+    "ClientId":"7fea0de1ba18c02e6ceb49ba6f595e42",
+
+    "AuthUrl":"http://192.168.1.254/console/platform/account_auth.php",
+    "RegisterUrl":"http://192.168.1.254/console/platform/account_register.php",
+    "ServerUrl":"http://192.168.1.254/console/common/serverlist.php?platform=yixiuh5",
+    "BridgeUrl":"http://192.168.1.254/console/bridge/hxxy/allu.php",
+    
+    "PublicNoticeUrl":"http://192.168.1.254/console/common/get_notice_info.php",
+    "PublicNoticeContentUrl":"http://192.168.1.254/console/common/get_notice_detail.php",
+    "PublicNoticeUpdateUrl":"http://192.168.1.254/console/common/get_update_notice.php",
+	
+	"CheatReportUrl":"http://192.168.1.254/console/common/decheat.php",
+    "ReportUrl":"http://192.168.1.254/console/common/logic_error.php"
+
+}

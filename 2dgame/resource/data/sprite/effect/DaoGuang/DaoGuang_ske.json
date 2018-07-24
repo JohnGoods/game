@@ -1,0 +1,32 @@
+{
+  "anims":[
+    {
+      "dirs":[
+        3,
+        7
+      ],
+      "frameCount":11,
+      "interval":100,
+      "name":"idle"
+    }
+  ],
+  "bodyparts":[
+    {
+      "dirsOrder":{
+        "1":0,
+        "3":0,
+        "5":0,
+        "7":0
+      },
+      "name":"body",
+      "offx":160,
+      "offy":210,
+      "order":0,
+      "shows":[]
+    }
+  ],
+  "name":"DaoGuang",
+  "textures":[
+    "DaoGuang_idle.png"
+  ]
+}

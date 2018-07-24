@@ -1,0 +1,7 @@
+{"file":"yabiao04_idle.png","frames":{
+"idle_0_body_00":{"x":110,"y":296,"w":107,"h":146,"offX":87,"offY":171,"sourceW":320,"sourceH":320},
+"idle_0_body_01":{"x":0,"y":298,"w":105,"h":144,"offX":89,"offY":171,"sourceW":320,"sourceH":320},
+"idle_0_body_02":{"x":116,"y":0,"w":111,"h":146,"offX":88,"offY":170,"sourceW":320,"sourceH":320},
+"idle_0_body_03":{"x":0,"y":0,"w":114,"h":148,"offX":88,"offY":172,"sourceW":320,"sourceH":320},
+"idle_0_body_04":{"x":116,"y":148,"w":111,"h":146,"offX":88,"offY":171,"sourceW":320,"sourceH":320},
+"idle_0_body_05":{"x":0,"y":150,"w":108,"h":146,"offX":86,"offY":170,"sourceW":320,"sourceH":320}}}

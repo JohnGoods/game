@@ -1,0 +1,11 @@
+任务索引,任务名,次数上限,奖励经验,完成条件,找回每点消耗多少钱,"货币单位(1，银两,3，元宝,2，绑定元宝",任务链接按钮
+ID_kn,name_s,maxCount,exp,condition_t,needMoney_n,unity,finish_s
+100,经验妖魔,5,2,"""ActZongKuiFight"",1",6,3,
+101,组队副本,20,1,"""ActTeamCopyFight"",1",6,3,
+102,个人BOSS,5,5,"""ActPersonBossFight"",1",6,3,
+103,全民BOSS,10,1,"""ActAllpersonBossFight"",1",6,3,
+104,武林擂台,10,1,"""ActWulinleitaiFight"",1",6,3,
+105,材料副本,18,1,"""ActMaterialFightWin"",1",6,3,
+106,押镖,3,1,"""ActActivityEscort"",1",6,3,
+107,装备熔炼,20,1,"""RoleEqRonglian"",1",6,3,
+108,每天登陆,1,1,"""PlayerEnterGame"",1",6,3,

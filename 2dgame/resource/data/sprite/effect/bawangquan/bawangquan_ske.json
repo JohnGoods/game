@@ -1,0 +1,32 @@
+{
+  "anims":[
+    {
+      "dirs":[
+        3,
+        7
+      ],
+      "frameCount":5,
+      "interval":100,
+      "name":"idle"
+    }
+  ],
+  "bodyparts":[
+    {
+      "dirsOrder":{
+        "1":0,
+        "3":0,
+        "5":0,
+        "7":0
+      },
+      "name":"body",
+      "offx":320,
+      "offy":320,
+      "order":0,
+      "shows":[]
+    }
+  ],
+  "name":"bawangquan",
+  "textures":[
+    "bawangquan_idle.png"
+  ]
+}

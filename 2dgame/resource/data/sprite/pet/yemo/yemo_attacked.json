@@ -1,0 +1,5 @@
+{"file":"yemo_attacked.png","frames":{
+"attacked_3_body_00":{"x":0,"y":212,"w":151,"h":212,"offX":110,"offY":5,"sourceW":320,"sourceH":320},
+"attacked_3_body_01":{"x":0,"y":0,"w":162,"h":210,"offX":97,"offY":7,"sourceW":320,"sourceH":320},
+"attacked_7_body_00":{"x":153,"y":212,"w":141,"h":204,"offX":72,"offY":15,"sourceW":320,"sourceH":320},
+"attacked_7_body_01":{"x":296,"y":212,"w":141,"h":163,"offX":84,"offY":56,"sourceW":320,"sourceH":320}}}

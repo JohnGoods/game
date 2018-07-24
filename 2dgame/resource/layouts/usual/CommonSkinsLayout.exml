@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonSkinsLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi01" scale9Grid="122,107,25,70"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="title" text="" textAlign="center" verticalAlign="middle" top="0" horizontalCenter="0" style="ht_title_font" width="640" height="36"/>
+	<e:Group id="group_up" width="640" height="361.94" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="96">
+		<gui:RichDisplayer id="rd_3" width="519.7" height="40.91" anchorOffsetY="0" anchorOffsetX="0" bottom="9.94" horizontalCenter="0"/>
+		<e:Group width="339.4" height="309.09" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="-5">
+		<e:Image scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="hb_zuoQiDi01"/>
+			<e:Group id="actor_wnd" width="1" height="1" y="188" x="169"/>
+			<e:Group id="actor" width="1" height="1" x="179" y="187"/>
+			<e:Group id="group_rd2" width="307" height="76" y="234" horizontalCenter="0">
+				<e:Image scaleX="1" scaleY="1" source="ty_textDi04" left="0" right="0" top="0" bottom="0"/>
+				<gui:RichDisplayer id="rd_2" width="223.24" height="30" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" top="5" horizontalCenter="42"/>
+				<e:Group id="link_group" width="221.24" height="34.67" y="36" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="42"/>
+			</e:Group>
+			<gui:Button id="btn_unreal" label="幻化" horizontalCenter="0" bottom="0" x="97" y="311.94" scaleX="1" scaleY="1">
+				<gui:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+		</e:Group>
+		<e:Group id="group_config" width="171.21" height="164.55" anchorOffsetY="0" anchorOffsetX="0" right="17" top="1">
+		<e:Image id="bg" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" scale9Grid="9,8,33,33" source="ty_textDi02"/>
+		<gui:RichDisplayer id="rd_1" width="146.97" height="139.76" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" top="14"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="group_power" width="274.33" height="45.34" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="30" top="48">
+		<e:Group id="group_wnd" anchorOffsetX="0" height="30" width="192" verticalCenter="0" left="13">
+		<e:Image right="0" left="0" top="0" bottom="0" source="ty_zhanLiDi01"/>
+		<gui:BatchImage id="bImage" height="30" width="100" y="0" x="46"/>
+		</e:Group>
+		<gui:Button id="btn_search" label="" verticalCenter="0" left="206">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_xinXi01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<e:Group id="group_bottom" width="640" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" top="457" height="321">
+		<e:Group width="567" anchorOffsetX="0" top="0" bottom="0" horizontalCenter="0">
+			<e:Group id="group1" width="115" height="298" horizontalCenter="0" verticalCenter="0" x="202" y="12" scaleX="1" scaleY="1">
+				<e:Image id="bg1" source="03_huoBan.zq_piFu01" horizontalCenter="0" x="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+				<e:Image id="name1" verticalCenter="0" horizontalCenter="0" source="" width="41" height="222"/>
+				<e:Image id="select1" scaleX="1" scaleY="1" horizontalCenter="0" width="144" height="321" source="zq_xuanZhong01" y="-13"/>
+				<e:Image id="unreal1" source="01_zhuCheng03.hb_text01" horizontalCenter="0" top="0" touchEnabled="false"/>
+			</e:Group>
+			<e:Group id="group2" width="115" height="298" horizontalCenter="0" verticalCenter="0" x="222" y="32" scaleX="1" scaleY="1">
+				<e:Image id="bg2" source="03_huoBan.zq_piFu01" horizontalCenter="0" x="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+				<e:Image id="name2" verticalCenter="0" horizontalCenter="0" source="" width="41" height="222"/>
+				<e:Image id="select2" scaleX="1" scaleY="1" horizontalCenter="0" width="144" height="321" source="zq_xuanZhong01" y="-13"/>
+				<e:Image id="unreal2" source="01_zhuCheng03.hb_text01" horizontalCenter="0" top="0" touchEnabled="false"/>
+			</e:Group>
+			<e:Group id="group3" width="115" height="298" horizontalCenter="0" verticalCenter="0" x="232" y="42" scaleX="1" scaleY="1">
+				<e:Image id="bg3" source="03_huoBan.zq_piFu01" horizontalCenter="0" x="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+				<e:Image id="name3" verticalCenter="0" horizontalCenter="0" source="" width="41" height="222"/>
+				<e:Image id="select3" scaleX="1" scaleY="1" horizontalCenter="0" width="144" height="321" source="zq_xuanZhong01" y="-13"/>
+				<e:Image id="unreal3" source="01_zhuCheng03.hb_text01" horizontalCenter="0" top="0" touchEnabled="false"/>
+			</e:Group>
+			<e:Group id="group4" width="115" height="298" horizontalCenter="0" verticalCenter="0" x="242" y="52" scaleX="1" scaleY="1">
+				<e:Image id="bg4" source="03_huoBan.zq_piFu01" horizontalCenter="0" x="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+				<e:Image id="name4" verticalCenter="0" horizontalCenter="0" source="" width="41" height="222"/>
+				<e:Image id="select4" scaleX="1" scaleY="1" horizontalCenter="0" width="144" height="321" source="zq_xuanZhong01" y="-13"/>
+				<e:Image id="unreal4" source="01_zhuCheng03.hb_text01" horizontalCenter="0" top="0" touchEnabled="false"/>
+			</e:Group>
+			<e:Group id="group5" width="115" height="298" horizontalCenter="0" verticalCenter="0" x="252" y="62" scaleX="1" scaleY="1">
+				<e:Image id="bg5" source="03_huoBan.zq_piFu01" horizontalCenter="0" x="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+				<e:Image id="name5" verticalCenter="0" horizontalCenter="0" source="" width="41" height="222"/>
+				<e:Image id="select5" scaleX="1" scaleY="1" horizontalCenter="0" width="144" height="321" source="zq_xuanZhong01" y="-13"/>
+				<e:Image id="unreal5" source="01_zhuCheng03.hb_text01" horizontalCenter="0" top="0" touchEnabled="false"/>
+			</e:Group>
+			<e:layout>
+				<e:HorizontalLayout gap="0" horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<gui:Button id="btn_right" label="" scaleX="1" scaleY="1" verticalCenter="0" y="-31.579999999999927" right="0">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_jianTou02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_left" label="" scaleX="1" scaleY="1" verticalCenter="0" y="-31.579999999999927" left="0">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_jianTou01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<e:Group width="603.04" height="88.06" anchorOffsetY="0" anchorOffsetX="0" bottom="18" horizontalCenter="0">
+		<e:Image scale9Grid="6,5,31,31" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" source="ty_uiDi02"/>
+		<gui:Button id="btn_close" label="" scaleX="1" scaleY="1" right="0" bottom="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+	</e:Group>
+</e:Skin>

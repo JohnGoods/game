@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LuckyLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+	</w:Declarations>
+	<e:Image source="ty_uiDi01" scale9Grid="142,190,3,6" left="0" bottom="0" top="0" right="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="title" text="寻宝" top="0" horizontalCenter="0" width="640" textAlign="center" verticalAlign="middle" height="36" style="ht_title_font"/>
+	<e:Group id="group_tab1" width="565" height="739" y="50" horizontalCenter="0" visible="false">
+		<e:Image width="565" height="739" source="xb_ztBg01" horizontalCenter="0" x="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+		<e:Label id="tab_tip1" text="寻宝记录" width="200" textAlign="center" verticalAlign="middle" height="35" y="240" x="188" style="ht_28_lc" textColor="0x231010"/>
+		<e:Group width="80" height="80" x="25" y="255">
+			<e:Image width="125" height="108" source="SSSS_LiWuDi01" horizontalCenter="0" verticalCenter="0" scaleY="0.9" scaleX="0.9"/>
+			<e:Group id="item_group1" width="80" height="80" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="xunbao_select1" width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" top="1" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="60" y="145">
+			<e:Image width="125" height="108" source="SSSS_LiWuDi01" horizontalCenter="0" verticalCenter="0" scaleX="0.9" scaleY="0.9"/>
+			<e:Group id="item_group2" width="80" height="80" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+			<e:Image id="xunbao_select2" width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="175" y="85">
+			<e:Image width="125" height="108" source="SSSS_LiWuDi01" horizontalCenter="0" verticalCenter="0" scaleX="0.9" scaleY="0.9"/>
+			<e:Group id="item_group3" width="80" height="80" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+			<e:Image width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" id="xunbao_select3" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="305" y="85">
+			<e:Image width="125" height="108" source="SSSS_LiWuDi01" horizontalCenter="0" verticalCenter="0" scaleX="0.9" scaleY="0.9"/>
+			<e:Group id="item_group4" width="80" height="80" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+			<e:Image width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" id="xunbao_select4" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="420" y="145">
+			<e:Image width="125" height="108" source="SSSS_LiWuDi01" horizontalCenter="0" verticalCenter="0" scaleX="0.9" scaleY="0.9"/>
+			<e:Group id="item_group5" width="80" height="80" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+			<e:Image width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" id="xunbao_select5" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="455" y="255">
+			<e:Image width="125" height="108" source="SSSS_LiWuDi01" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group id="item_group6" width="80" height="80" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+			<e:Image width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" id="xunbao_select6" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="455" y="370">
+			<e:Image width="125" height="108" source="SSSS_LiWuDi01" horizontalCenter="0" verticalCenter="0" scaleX="0.9" scaleY="0.9"/>
+			<e:Group id="item_group7" width="80" height="80" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+			<e:Image width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" id="xunbao_select7" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="420" y="480">
+			<e:Image width="125" height="108" source="SSSS_LiWuDi01" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group id="item_group8" width="80" height="80" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+			<e:Image width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" id="xunbao_select8" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="305" y="535">
+			<e:Image width="125" height="108" source="SSSS_LiWuDi01" horizontalCenter="0" verticalCenter="0" scaleX="0.9" scaleY="0.9"/>
+			<e:Group id="item_group9" width="80" height="80" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+			<e:Image width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" id="xunbao_select9" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="175" y="535">
+			<e:Image width="125" height="108" source="SSSS_LiWuDi01" horizontalCenter="0" verticalCenter="0" scaleX="0.9" scaleY="0.9"/>
+			<e:Group id="item_group10" width="80" height="80" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" id="xunbao_select10" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="60" y="480">
+			<e:Image width="125" height="108" source="SSSS_LiWuDi01" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group id="item_group11" width="80" height="80" scaleX="1" scaleY="1" top="0" horizontalCenter="0"/>
+			<e:Image width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" id="xunbao_select11" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="25" y="370">
+			<e:Image width="125" height="108" source="SSSS_LiWuDi01" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group id="item_group12" width="80" height="80" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="xunbao_select12" width="113" height="113" horizontalCenter="0" verticalCenter="0" source="ty_xuanZhongKuang01" touchEnabled="false"/>
+		</e:Group>
+		<e:Scroller width="267" height="183" x="149" y="288" anchorOffsetX="0" anchorOffsetY="0">
+			<gui:RichDisplayer id="rd_xunbao_list"/>
+		</e:Scroller>
+		<gui:Button id="btn_shop" label="" x="0" y="35">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_Bt63"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<e:Group id="group_tab2" width="565" height="739" y="50" horizontalCenter="0" visible="false">
+		<e:Image width="565" height="739" horizontalCenter="0" x="0" scaleX="1" scaleY="1" verticalCenter="0" source="xb_ztBg02"/>
+		<e:Group width="80" height="80" x="70" y="222" scaleX="1" scaleY="1">
+			<e:Group id="lucky_item_group1" width="80" height="80" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0">
+			</e:Group>
+			<e:Image id="lucky_select1" width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="60" y="82" scaleX="1.2" scaleY="1.2">
+			<e:Group id="lucky_item_group2" width="80" height="80" scaleX="1.2" scaleY="1.2" verticalCenter="0" horizontalCenter="0" x="0" y="134"/>
+			<e:Image width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" id="lucky_select2" touchEnabled="false" scaleX="1.2" scaleY="1.2"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="188" y="88" scaleX="1" scaleY="1">
+			<e:Group id="lucky_item_group3" width="80" height="80" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" id="lucky_select3" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="300" y="88" scaleX="1" scaleY="1">
+			<e:Group id="lucky_item_group4" width="80" height="80" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" id="lucky_select4" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="412" y="82" scaleX="1.2" scaleY="1.2">
+			<e:Group id="lucky_item_group5" width="80" height="80" scaleX="1.2" scaleY="1.2" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" id="lucky_select5" touchEnabled="false" scaleX="1.2" scaleY="1.2"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="418" y="222" scaleX="1" scaleY="1">
+			<e:Group id="lucky_item_group6" width="80" height="80" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" id="lucky_select6" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="418" y="362" scaleX="1" scaleY="1">
+			<e:Group id="lucky_item_group7" width="80" height="80" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" id="lucky_select7" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="413" y="490" scaleX="1.2" scaleY="1.2">
+			<e:Group id="lucky_item_group8" width="80" height="80" scaleX="1.2" scaleY="1.2" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" id="lucky_select8" touchEnabled="false" scaleX="1.2" scaleY="1.2"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="300" y="498" scaleX="1" scaleY="1">
+			<e:Group id="lucky_item_group9" width="80" height="80" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" id="lucky_select9" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="188" y="498" scaleX="1" scaleY="1">
+			<e:Group id="lucky_item_group10" width="80" height="80" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" id="lucky_select10" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="63" y="490" scaleX="1.2" scaleY="1.2">
+			<e:Group id="lucky_item_group11" width="80" height="80" scaleX="1.2" scaleY="1.2" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" id="lucky_select11" touchEnabled="false" scaleX="1.2" scaleY="1.2"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="70" y="362" scaleX="1" scaleY="1">
+			<e:Group id="lucky_item_group12" width="80" height="80" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" id="lucky_select12" touchEnabled="false"/>
+		</e:Group>
+		<e:Scroller width="213" height="248" x="178" y="208" anchorOffsetX="0" anchorOffsetY="0">
+			<gui:RichDisplayer id="rd_lucky_list"/>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="group_tab3" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image width="603" height="739" x="0" scaleX="1" scaleY="1" y="50" source="xb_ztBg03"/>
+		<e:Group width="80" height="80" x="270" y="210" scaleX="1" scaleY="1" visible="false">
+		<e:Group id="god_pet_item_group0" width="80" height="80" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="god_pet_select0" width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" top="1" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="400" y="210" scaleX="1" scaleY="1" visible="false">
+		<e:Group id="god_pet_item_group1" width="80" height="80" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="god_pet_select1" width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" top="1" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="500" y="310" scaleX="1" scaleY="1" visible="false">
+		<e:Group id="god_pet_item_group2" width="80" height="80" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="god_pet_select2" width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" top="1" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="500" y="410" scaleX="1" scaleY="1" visible="false">
+		<e:Group id="god_pet_item_group3" width="80" height="80" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="god_pet_select3" width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" top="1" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="400" y="520" scaleX="1" scaleY="1" visible="false">
+		<e:Group id="god_pet_item_group4" width="80" height="80" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="god_pet_select4" width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" top="1" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="270" y="520" scaleX="1" scaleY="1" visible="false">
+		<e:Group id="god_pet_item_group5" width="80" height="80" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="god_pet_select5" width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" top="1" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="170" y="410" scaleX="1" scaleY="1" visible="false">
+		<e:Group id="god_pet_item_group6" width="80" height="80" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="god_pet_select6" width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" top="1" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="170" y="310" scaleX="1" scaleY="1" visible="false">
+		<e:Group id="god_pet_item_group7" width="80" height="80" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="god_pet_select7" width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" top="1" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="335" y="160" scaleX="1" scaleY="1">
+			<e:Image width="125" height="108" source="SSSS_LiWuDi01" horizontalCenter="0" verticalCenter="0" scaleY="0.9" scaleX="0.9" x="-71" y="241"/>
+			<e:Group id="new_god_pet_item_group0" width="80" height="80" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="new_god_pet_select0" width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" top="1" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="520" y="420" scaleX="1" scaleY="1">
+			<e:Image width="125" height="108" source="SSSS_LiWuDi01" horizontalCenter="0" verticalCenter="0" scaleY="0.9" scaleX="0.9" x="-201" y="-269"/>
+			<e:Group id="new_god_pet_item_group1" width="80" height="80" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="new_god_pet_select1" width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" top="1" touchEnabled="false"/>
+		</e:Group>
+		<e:Group width="80" height="80" x="170" y="420" scaleX="1" scaleY="1">
+			<e:Image width="125" height="108" source="SSSS_LiWuDi01" horizontalCenter="0" verticalCenter="0" scaleY="0.9" scaleX="0.9" x="94" y="-19"/>
+			<e:Group id="new_god_pet_item_group2" width="80" height="80" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="new_god_pet_select2" width="113" height="113" source="ty_xuanZhongKuang01" horizontalCenter="0" verticalCenter="0" top="1" touchEnabled="false"/>
+		</e:Group>
+		<e:Image id="arrows" width="63" height="186" x="378" y="405" source="xb_zhiZhen01" anchorOffsetX="33" anchorOffsetY="158"/>
+		<e:Image width="560" height="110" x="40" y="678" source="ty_tipsDi" scale9Grid="8,8,22,21"/>
+		<gui:Button id="lianyao_btn" label="炼妖" y="720" horizontalCenter="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<gui:RichDisplayer id="cur_lianyao_num_rd" width="300" height="25" y="690" horizontalCenter="0"/>
+		<e:Label id="god_pet_approach" text="获取炼妖壶" x="450" y="720" style="ht_24_lc" textColor="0xadff2f"/>
+		<e:Label id="lianyao_record" text="炼妖记录" x="480" y="60" style="ht_24_lc" textColor="0xadff2f"/>
+		<e:Rect width="96" height="2" x="480" y="90" strokeAlpha="0" fillColor="0xadff2f"/>
+		<e:Label id="reward_tip" text="奖励说明" x="480" y="110" style="ht_24_lc" textColor="0xadff2f"/>
+		<e:Rect width="96" height="2" x="480" y="140" strokeAlpha="0" fillColor="0xadff2f"/>
+		<e:Rect width="120" height="2" x="450" y="750" strokeAlpha="0" fillColor="0xadff2f"/>
+		<e:Image width="375" height="35" x="38" y="50" source="ty_huoDeDi01" scale9Grid="29,5,179,32"/>
+		<gui:RichDisplayer id="turn_pet_day_text" width="375" height="35" x="38" y="50"/>
+	</e:Group>
+	<e:Group id="xunbao_bottom_group" width="566" height="110" y="680" horizontalCenter="0" visible="false">
+		<e:Image width="566" height="110" source="ty_zhuangBeiBg01" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" scale9Grid="10,10,60,60"/>
+		<e:Group width="150" height="90" x="30" verticalCenter="0">
+		<gui:Button id="lucky_btn1" label="寻宝10次" horizontalCenter="0" bottom="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt5"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+			<gui:RichDisplayer id="lucky_rd1" width="147" height="30" y="8" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group width="150" height="90" x="212" verticalCenter="0">
+			<gui:Button id="lucky_btn2" label="寻宝1次" scaleX="1" scaleY="1" horizontalCenter="-1.5" bottom="2">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+					</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<gui:RichDisplayer width="147" height="30" y="8" horizontalCenter="0" id="lucky_rd2"/>
+		</e:Group>
+		<e:Group width="150" height="90" x="390" verticalCenter="0">
+			<gui:Button id="lucky_btn3" label="寻宝10次" scaleX="1" scaleY="1" horizontalCenter="0" bottom="0">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+					</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<gui:RichDisplayer width="147" height="30" y="8" horizontalCenter="0" id="lucky_rd3"/>
+		</e:Group>
+	</e:Group>
+	<e:Group height="51" bottom="35" left="35" width="498">
+		<e:RadioButton id="radio1" label="寻宝" x="0" y="0" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="radio2" label="幸运转盘" x="0" y="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="radio3" label="神宠转盘" x="10" y="10">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="left" gap="10"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="first_item_group" width="120" height="175" x="505" y="560" visible="false">
+		<e:Image width="120" height="175" source="xb_biZhongDi" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image width="102" height="33" y="5" source="xb_biZhongText" touchEnabled="false" horizontalCenter="0"/>
+		<e:Label id="first_item_name" text="XXX奖品" textAlign="center" width="100" height="25" touchEnabled="false" horizontalCenter="0" y="110" style="ht_20_lc_stroke"/>
+		<e:Group id="first_item_" width="80" height="80" horizontalCenter="0" y="32"/>
+	</e:Group>
+	<gui:Button id="btn_close" label="" right="0" bottom="1">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

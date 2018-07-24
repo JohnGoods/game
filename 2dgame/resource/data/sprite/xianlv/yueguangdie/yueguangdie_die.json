@@ -1,0 +1,11 @@
+{"file":"yueguangdie_die.png","frames":{
+"die_3_body_00":{"x":456,"y":196,"w":198,"h":188,"offX":28,"offY":43,"sourceW":320,"sourceH":320},
+"die_3_body_01":{"x":210,"y":386,"w":199,"h":171,"offX":23,"offY":62,"sourceW":320,"sourceH":320},
+"die_3_body_02":{"x":210,"y":212,"w":199,"h":172,"offX":21,"offY":59,"sourceW":320,"sourceH":320},
+"die_3_body_03":{"x":0,"y":421,"w":199,"h":168,"offX":19,"offY":61,"sourceW":320,"sourceH":320},
+"die_3_body_04":{"x":656,"y":196,"w":198,"h":168,"offX":18,"offY":59,"sourceW":320,"sourceH":320},
+"die_7_body_00":{"x":0,"y":0,"w":241,"h":204,"offX":63,"offY":47,"sourceW":320,"sourceH":320},
+"die_7_body_01":{"x":243,"y":0,"w":211,"h":210,"offX":80,"offY":47,"sourceW":320,"sourceH":320},
+"die_7_body_02":{"x":0,"y":206,"w":208,"h":213,"offX":85,"offY":46,"sourceW":320,"sourceH":320},
+"die_7_body_03":{"x":456,"y":0,"w":200,"h":194,"offX":95,"offY":67,"sourceW":320,"sourceH":320},
+"die_7_body_04":{"x":658,"y":0,"w":200,"h":194,"offX":97,"offY":69,"sourceW":320,"sourceH":320}}}

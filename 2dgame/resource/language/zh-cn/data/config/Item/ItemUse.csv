@@ -1,0 +1,8 @@
+物品Id,使用类型,使用说明,需要数量,产物,条件检测,容错列
+entryId_kn,uType_kn,read_c,count,product,check_s,flag_c
+50021,1,,50,40059,,0
+50021,2,,1,20013,CampaignPiece,0
+50022,1,,50,40061,,0
+50022,2,,1,20013,CampaignPiece,0
+50023,1,,50,40060,,0
+50023,2,,1,20013,CampaignPiece,0

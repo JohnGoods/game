@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyGhostLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" scale9Grid="142,190,3,6" width="640" source="ty_uiDi01" top="0" bottom="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="title" text="东海降妖" top="0" horizontalCenter="0" width="640" textAlign="center" verticalAlign="middle" height="36" style="ht_title_font"/>
+	<e:Group width="610" height="370" top="35" horizontalCenter="0">
+		<e:Image scaleX="1" scaleY="1" source="rc_ztBg04" top="0" horizontalCenter="0"/>
+		<e:Group id="actor" width="20" height="20" x="399" y="213"/>
+	</e:Group>
+	<e:Group height="168.67" left="30" right="30" anchorOffsetY="0" top="410">
+		<e:Image left="0" bottom="0" top="0" right="0" scale9Grid="21,21,2,2" source="ty_uiDi02" anchorOffsetY="0"/>
+		<gui:RichDisplayer id="rd_1" height="24" width="360" top="5" left="25" anchorOffsetX="0"/>
+		<gui:RichDisplayer id="rd_2" height="24" top="5" right="26" width="344" anchorOffsetX="0"/>
+		<e:Image width="64" height="30" source="rc_text02" left="25" top="28"/>
+		<gui:RichDisplayer id="rd_des" width="259" height="104" anchorOffsetX="0" anchorOffsetY="0" left="25" top="58"/>
+		<gui:RichDisplayer id="rd_right" width="259" height="104" anchorOffsetX="0" anchorOffsetY="0" left="312" top="58"/>
+	</e:Group>
+	<e:Group height="190" left="30" right="30" top="585">
+		<e:Image horizontalCenter="0" top="-1" source="rc_text03"/>
+		<e:Image left="0" right="0" scale9Grid="23,8,1,1" top="25" source="cz_uiLine01"/>
+		<e:Image horizontalCenter="0" top="114" source="gk_jiangLiDi01"/>
+		<e:Group id="group_prize" width="400" height="80" horizontalCenter="0" top="45">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Group width="345" height="39" horizontalCenter="0" top="145">
+			<e:Image anchorOffsetX="0" scale9Grid="34,20,1,2" scaleX="1" scaleY="1" left="0" right="0" verticalCenter="0" source="ty_textDi03"/>
+			<e:Image x="25" verticalCenter="0" source="rc_text01"/>
+			<e:Group width="189" height="26" verticalCenter="0" x="92">
+				<e:Image id="image_1" x="3" y="8" source="ty_star01"/>
+				<e:Image id="image_2" source="ty_star01" x="13" y="18"/>
+				<e:Image id="image_3" source="ty_star01" x="23" y="28"/>
+				<e:Image id="image_4" source="ty_star01" x="33" y="38"/>
+				<e:Image id="image_5" source="ty_star01" x="43" y="48"/>
+				<e:Image id="image_6" source="ty_star01" x="53" y="58"/>
+				<e:Image id="image_7" source="ty_star01" x="63" y="68"/>
+				<e:layout>
+					<e:HorizontalLayout gap="0"/>
+				</e:layout>
+			</e:Group>
+			<gui:Button id="btn_upstar" label="" right="15" verticalCenter="0">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_jiaIcon01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+		</e:Group>
+	</e:Group>
+	<e:Image scale9Grid="23,20,1,2" height="100" left="22" right="22" source="ty_uiDi02" top="780"/>
+	<gui:Button id="btn_challenge" label="挑战" horizontalCenter="0" top="792">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt10"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_30_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close" label="" right="0" bottom="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

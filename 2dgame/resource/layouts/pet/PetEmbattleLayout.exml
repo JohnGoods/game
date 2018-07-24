@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetEmbattleLayout" width="600" height="330" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image source="ty_uiDi01" left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1" scale9Grid="133,176,10,9"/>
+		<e:Label id="label_tips" text="宠物只能出战一个单位，死亡后备战单位出战" y="285" anchorOffsetX="0" width="475" horizontalCenter="40.5" textColor="0x46332C" textAlign="left" style="ht_22_lc"/>
+		<e:Image id="icon_tips" source="00_tongYong01.zjm_hongDian01" x="59" y="275" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+		<e:Label id="title" text="${PET_TXT24}" x="0" y="0" width="600" height="36" textAlign="center" verticalAlign="middle" style="ht_title_font"/>
+		<gui:Button id="btn_close" label="" top="0" right="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</gui:Button>
+		<e:Group width="411" height="200" y="70" anchorOffsetX="0" horizontalCenter="0">
+			<e:Group id="pos_wnd0" width="117" height="200" x="5" y="57">
+				<gui:Button id="btnBattle" label="${PET_TXT25}" bottom="0" horizontalCenter="0" width="117" height="51">
+					<gui:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+						</e:Skin>
+					</gui:skinName>
+				</gui:Button>
+				<e:Label id="name0" text="" width="117" horizontalCenter="0" height="25" textAlign="center" textColor="0x333333" bottom="82" verticalAlign="middle" style="ht_22_lc"/>
+				<e:Label id="lv0" text="" width="117" horizontalCenter="0" height="25" textAlign="center" textColor="0x333333" bottom="55" style="ht_22_lc" verticalAlign="middle"/>
+			</e:Group>
+			<e:Group id="pos_wnd1" width="117" height="200" x="15" y="67">
+				<gui:Button id="btnPrepare1" label="${PET_TXT26}" bottom="0" horizontalCenter="0" width="117" height="51" x="146.99999999999997" y="0" scaleX="1" scaleY="1">
+					<gui:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+					</e:Skin>
+					</gui:skinName>
+				</gui:Button>
+				<e:Label id="name1" text="" width="117" horizontalCenter="0" height="25" textAlign="center" textColor="0x333333" bottom="82" style="ht_22_lc" verticalAlign="middle"/>
+				<e:Label id="lv1" text="" width="117" horizontalCenter="0" height="25" textAlign="center" textColor="0x333333" bottom="55" style="ht_22_lc" verticalAlign="middle" x="10" y="10"/>
+			</e:Group>
+			<e:Group id="pos_wnd2" width="117" height="200" x="25" y="77">
+				<gui:Button id="btnPrepare2" label="${PET_TXT27}" bottom="0" horizontalCenter="0" width="117" height="51" x="147" y="0" scaleX="1" scaleY="1">
+					<gui:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+					</e:Skin>
+					</gui:skinName>
+				</gui:Button>
+				<e:Label id="name2" text="" width="117" horizontalCenter="0" height="25" textAlign="center" textColor="0x333333" bottom="82" style="ht_22_lc" verticalAlign="middle" x="147" y="0" scaleX="1" scaleY="1"/>
+				<e:Label id="lv2" text="" width="117" horizontalCenter="0" height="25" textAlign="center" textColor="0x333333" bottom="55" style="ht_22_lc" verticalAlign="middle" x="294" y="0" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:layout>
+				<e:HorizontalLayout gap="30"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

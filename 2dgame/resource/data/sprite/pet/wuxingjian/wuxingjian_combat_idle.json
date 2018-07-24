@@ -1,0 +1,9 @@
+{"file":"wuxingjian_combat_idle.png","frames":{
+"combat_idle_3_body_00":{"x":30,"y":122,"w":28,"h":119,"offX":146,"offY":83,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_01":{"x":0,"y":124,"w":28,"h":120,"offX":145,"offY":65,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_02":{"x":0,"y":0,"w":28,"h":122,"offX":144,"offY":46,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_03":{"x":30,"y":0,"w":28,"h":120,"offX":145,"offY":65,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_00":{"x":60,"y":0,"w":28,"h":119,"offX":146,"offY":83,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_01":{"x":60,"y":121,"w":28,"h":118,"offX":147,"offY":66,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_02":{"x":90,"y":120,"w":28,"h":117,"offX":148,"offY":49,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_03":{"x":90,"y":0,"w":28,"h":118,"offX":147,"offY":66,"sourceW":320,"sourceH":320}}}

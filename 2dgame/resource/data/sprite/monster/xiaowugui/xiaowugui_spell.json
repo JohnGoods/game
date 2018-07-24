@@ -1,0 +1,9 @@
+{"file":"xiaowugui_spell.png","frames":{
+"spell_3_body_00":{"x":101,"y":129,"w":61,"h":45,"offX":131,"offY":174,"sourceW":320,"sourceH":320},
+"spell_3_body_01":{"x":106,"y":213,"w":40,"h":38,"offX":150,"offY":169,"sourceW":320,"sourceH":320},
+"spell_3_body_02":{"x":0,"y":202,"w":35,"h":51,"offX":145,"offY":83,"sourceW":320,"sourceH":320},
+"spell_3_body_03":{"x":0,"y":129,"w":50,"h":71,"offX":134,"offY":52,"sourceW":320,"sourceH":320},
+"spell_3_body_04":{"x":52,"y":129,"w":47,"h":67,"offX":138,"offY":61,"sourceW":320,"sourceH":320},
+"spell_3_body_05":{"x":52,"y":198,"w":52,"h":56,"offX":136,"offY":74,"sourceW":320,"sourceH":320},
+"spell_3_body_06":{"x":0,"y":0,"w":80,"h":127,"offX":120,"offY":89,"sourceW":320,"sourceH":320},
+"spell_3_body_07":{"x":106,"y":176,"w":49,"h":35,"offX":139,"offY":172,"sourceW":320,"sourceH":320}}}

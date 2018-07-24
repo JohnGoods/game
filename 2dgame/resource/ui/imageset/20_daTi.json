@@ -1,0 +1,12 @@
+{"file":"20_daTi.png","frames":{
+"dt_Bt02":{"x":934,"y":0,"w":85,"h":73,"offX":2,"offY":6,"sourceW":88,"sourceH":80},
+"dt_Bt03":{"x":934,"y":75,"w":84,"h":73,"offX":2,"offY":6,"sourceW":88,"sourceH":80},
+"dt_cuo":{"x":948,"y":189,"w":40,"h":34,"offX":0,"offY":0,"sourceW":40,"sourceH":34},
+"dt_dui":{"x":948,"y":150,"w":39,"h":37,"offX":0,"offY":0,"sourceW":39,"sourceH":37},
+"dt_loading01":{"x":421,"y":176,"w":100,"h":12,"offX":0,"offY":0,"sourceW":100,"sourceH":12},
+"dt_paiMingDi":{"x":628,"y":0,"w":304,"h":167,"offX":0,"offY":0,"sourceW":304,"sourceH":167},
+"dt_tiMuDi":{"x":0,"y":0,"w":626,"h":174,"offX":0,"offY":0,"sourceW":626,"sourceH":174},
+"dt_tiShiDi01":{"x":0,"y":176,"w":129,"h":137,"offX":0,"offY":0,"sourceW":129,"sourceH":137},
+"dt_xuanXiang01":{"x":131,"y":176,"w":288,"h":55,"offX":15,"offY":16,"sourceW":318,"sourceH":87},
+"dt_xuanXiang02":{"x":131,"y":233,"w":288,"h":55,"offX":15,"offY":16,"sourceW":318,"sourceH":87},
+"dt_xuanXiang03":{"x":628,"y":169,"w":318,"h":87,"offX":0,"offY":0,"sourceW":318,"sourceH":87}}}

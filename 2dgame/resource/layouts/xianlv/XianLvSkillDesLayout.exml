@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XianLvSkillDesLayout" width="470" height="442" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="group_1" anchorOffsetX="0" anchorOffsetY="0" height="442" width="470" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ty_tipsDi" scale9Grid="8,8,23,23" left="0" right="0" top="0" bottom="0"/>
+		<gui:RichDisplayer id="rd_name" width="124" height="33.33" top="23" anchorOffsetY="0" left="144"/>
+		<gui:RichDisplayer id="rd_level" width="124" height="33.33" top="23" anchorOffsetY="0" right="41"/>
+		<e:Image source="cz_uiLine01" width="418" scale9Grid="14,8,19,1" top="110" horizontalCenter="0"/>
+		<gui:RichDisplayer id="rd_now" width="436" height="72" top="130" anchorOffsetY="0" horizontalCenter="0"/>
+		<e:Image id="image_2" source="cz_uiLine01" scale9Grid="14,8,19,1" width="419" top="206" horizontalCenter="0"/>
+		<gui:RichDisplayer id="rd_next" width="436" height="72" top="223" anchorOffsetY="0" horizontalCenter="0"/>
+		<e:Image id="image_3" source="cz_uiLine01" scale9Grid="14,8,19,1" width="419" top="300" horizontalCenter="0"/>
+		<gui:RichDisplayer id="rd_need" width="436" height="72" top="354" anchorOffsetY="0" horizontalCenter="0" x="-46" y="322" scaleX="1" scaleY="1"/>
+		<e:Label id="label_condition" text="${XIANLV_CONDITION}" y="318" left="0" right="0" verticalAlign="middle" textAlign="center" textColor="0xffff00" style="ht_24_lc"/>
+	</e:Group>
+</e:Skin>

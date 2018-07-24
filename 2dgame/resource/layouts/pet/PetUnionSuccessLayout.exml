@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetUnionSuccessLayout" width="640" height="500" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*">
+	<e:Group id="group_bg_view" width="10" height="10" horizontalCenter="0" verticalCenter="0" x="315" y="245" scaleX="1" scaleY="1"/>
+	<e:Image height="250" width="262" source="bz_petDi01" horizontalCenter="0" verticalCenter="0" x="189" y="125" scaleX="1" scaleY="1"/>
+	<gui:Button id="btn_close" label="确定" y="404" horizontalCenter="0" x="247" scaleX="1" scaleY="1">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Group id="group_actorview" width="10" height="10" y="300" horizontalCenter="0" x="315" scaleX="1" scaleY="1"/>
+	<e:Image width="280" height="40" y="336" horizontalCenter="0" source="bz_textDi01" scale9Grid="44,5,2,30" x="180" scaleX="1" scaleY="1"/>
+	<gui:RichDisplayer id="rd_gain" width="200" height="28" y="344" anchorOffsetY="0" horizontalCenter="0" x="220" scaleX="1" scaleY="1"/>
+</e:Skin>

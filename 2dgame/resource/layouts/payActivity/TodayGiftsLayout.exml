@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TodayGiftsLayout" width="640" height="820" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="18_sanShengSanShi.ssss_qiuHunDi01" x="9" y="267" anchorOffsetY="0" height="550" scale9Grid="77,108,464,60"/>
+	<e:Image y="291" source="jrhl_biaoTiText01" horizontalCenter="0"/>
+	<e:Image source="mrcz_uiDi01" y="356" anchorOffsetX="0" width="544" anchorOffsetY="0" height="295" scale9Grid="31,24,13,20" horizontalCenter="0"/>
+	<e:Image source="18_sanShengSanShi.ssss_dengLong01" x="-2" y="268"/>
+	<e:Image source="18_sanShengSanShi.ssss_dengLong02" x="532" y="271"/>
+	<gui:Button id="btn_close" label="" x="572" y="259">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Image id="img_prizebg" source="ty_textDi08" x="276" y="397" anchorOffsetX="0" width="299" anchorOffsetY="0" height="205" scale9Grid="6,4,10,15"/>
+	<e:Group id="group_prize" width="292" height="182" x="282" y="407" anchorOffsetX="0" anchorOffsetY="0">
+		<e:layout>
+			<e:TileLayout requestedRowCount="2" requestedColumnCount="3" horizontalGap="6" paddingLeft="10"/>
+		</e:layout>
+	</e:Group>
+	<gui:Button id="btn_pay" label="充点小钱" x="216" y="712">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt10"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="" style="ht_28_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:RichDisplayer id="rd_payinfo" width="341" height="39" y="667" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0"/>
+	<e:Image y="7" x="17" source="jrhl_npcDuiHua"/>
+	<e:Image x="65" y="404" source="jrhl_dan01"/>
+	<e:Image source="03_huoBan.hb_textDi03" x="60" y="386" visible="false"/>
+	<e:Label text="坐骑直升丹" x="67" y="410" anchorOffsetX="0" width="32" anchorOffsetY="0" height="119" textColor="0x000000" style="ht_28_lc" visible="false"/>
+	<e:Label id="label_info" text="直升丹获得后会在当天24点过期" x="88" y="596" anchorOffsetX="0" width="458" anchorOffsetY="0" height="32" textColor="0xe810b6" style="ht_26_lc" textAlign="center" visible="false"/>
+	<e:Group id="group_time" x="75" y="540" visible="false">
+		<e:Image source="ty_textDi01" x="8" y="0" anchorOffsetX="0" width="172" anchorOffsetY="0" height="33" scale9Grid="2,2,16,16"/>
+		<e:Label id="label_time" text="" x="0" y="2" anchorOffsetX="0" width="184" textColor="0x93f409" style="ht_20_lc_stroke" anchorOffsetY="0" height="25" textAlign="center" verticalAlign="middle"/>
+	</e:Group>
+</e:Skin>

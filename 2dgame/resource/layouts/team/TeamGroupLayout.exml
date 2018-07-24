@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeamGroupLayout" width="640" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*">
+	<w:Config id="161c1d1ca3e"/>
+	<e:Image scale9Grid="140,178,2,4" source="" left="0" right="0" top="0" bottom="0"/>
+	<e:Group id="team_group0" width="180" height="165" x="42" y="6">
+		<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi03" scale9Grid="26,28,1,1"/>
+		<e:Image width="90" height="90" source="ty_renWuKuang01" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0"/>
+		<e:Image id="team_icon0" width="90" height="90" source="zctx_90001" left="0" top="0"/>
+		<e:Label id="team_name0" text="Label" x="10" y="86" textColor="0x45332b" width="169" style="ht_20_lc"/>
+		<e:Label id="team_level0" text="Label" x="10" y="111" textColor="0x45332B" width="169" style="ht_20_lc"/>
+		<e:Label id="team_force0" text="Label" x="10" y="137" textColor="0x45332B" width="169" style="ht_20_lc"/>
+		<e:Image width="40" height="68" x="81" y="8" source="bh_textDi04"/>
+		<e:Label text="队长" x="91" y="16" width="28" style="ht_22_lc_stroke"/>
+	</e:Group>
+	<e:Group id="team_group1" width="180" height="165" x="230" y="6">
+		<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi03" scale9Grid="26,28,1,1"/>
+		<e:Image width="90" height="90" source="ty_renWuKuang01" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0" x="-230" y="-526" scaleX="1" scaleY="1"/>
+		<e:Image id="team_icon1" width="90" height="90" source="zctx_90001" left="0" top="0" x="-230" y="-526" scaleX="1" scaleY="1"/>
+		<e:Label id="team_name1" text="Label" x="10" y="86" textColor="0x45332B" width="169" scaleX="1" scaleY="1" style="ht_20_lc"/>
+		<e:Label id="team_level1" text="Label" x="10" y="111" textColor="0x45332B" width="169" scaleX="1" scaleY="1" style="ht_20_lc"/>
+		<e:Label id="team_force1" text="Label" x="10" y="137" textColor="0x45332B" width="169" scaleX="1" scaleY="1" style="ht_20_lc"/>
+		<gui:Button id="team_tick1" label="踢" x="114" y="18">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt11"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<e:Group id="team_group2" width="180" height="165" x="417" y="6">
+		<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi03" scale9Grid="26,28,1,1"/>
+		<e:Image width="90" height="90" source="ty_renWuKuang01" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0" x="-417" y="-526" scaleX="1" scaleY="1"/>
+		<e:Image id="team_icon2" width="90" height="90" source="zctx_90001" left="0" top="0" x="-417" y="-526" scaleX="1" scaleY="1"/>
+		<e:Label id="team_name2" text="Label" x="10" y="86" textColor="0x45332B" width="169" scaleX="1" scaleY="1" style="ht_20_lc"/>
+		<e:Label id="team_level2" text="Label" x="10" y="111" textColor="0x45332B" width="169" scaleX="1" scaleY="1" style="ht_20_lc"/>
+		<e:Label id="team_force2" text="Label" x="10" y="137" textColor="0x45332B" width="169" scaleX="1" scaleY="1" style="ht_20_lc"/>
+		<gui:Button id="team_tick2" label="踢" x="114" y="18" scaleX="1" scaleY="1">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt11"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+
+	<e:Group id="join_counter_group" width="275" height="55" x="322" y="182">
+		<e:Label id="join_counter" text="10秒后自动快速加入" x="1" y="12" textColor="0x45332b" style="ht_22_lc" anchorOffsetX="0" width="224" scaleX="1" scaleY="1" textAlign="right"/>
+		<e:CheckBox id="join_counter_check" label="" x="227" y="-3" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:CheckBox>
+	</e:Group>
+	<e:Group id="team_counter_group" width="270" height="55" x="9" y="182">
+		<e:Label id="team_counter" text="${TEAM_TXT2}" x="30" y="12" textColor="0x45332B" style="ht_22_lc" anchorOffsetX="0" width="196" scaleX="1" scaleY="1" textAlign="left"/>
+		<e:CheckBox id="team_counter_check" label="" x="185" y="-3" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:CheckBox>
+	</e:Group>
+	<e:Group id="fight_counter_group" width="270" height="55" x="323" y="182">
+		<e:Label id="fight_counter" text="10秒后自动快速加入" x="-7" y="12" textColor="0x45332B" style="ht_22_lc" anchorOffsetX="0" width="228" scaleX="1" scaleY="1" textAlign="right"/>
+		<e:CheckBox id="fight_counter_check" label="" x="228" y="-3" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:CheckBox>
+	</e:Group>
+	<gui:Button id="team_leave_btn" label="退出队伍" x="67" y="230">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt5"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="team_create_btn" label="创建队伍" x="67" y="230">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt5"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="team_join_btn" label="快速加入" x="432" y="230" width="147" height="55">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="fight_btn" label="开始挑战" x="432" y="230" width="147" height="55">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+
+
+</e:Skin>

@@ -1,0 +1,17 @@
+{"file":"yunshengshou_spell.png","frames":{
+"spell_3_body_00":{"x":421,"y":857,"w":169,"h":163,"offX":73,"offY":84,"sourceW":320,"sourceH":320},
+"spell_3_body_01":{"x":418,"y":494,"w":199,"h":190,"offX":37,"offY":58,"sourceW":320,"sourceH":320},
+"spell_3_body_02":{"x":421,"y":686,"w":188,"h":169,"offX":60,"offY":58,"sourceW":320,"sourceH":320},
+"spell_3_body_03":{"x":208,"y":763,"w":211,"h":194,"offX":81,"offY":0,"sourceW":320,"sourceH":320},
+"spell_3_body_04":{"x":0,"y":0,"w":223,"h":267,"offX":93,"offY":0,"sourceW":320,"sourceH":320},
+"spell_3_body_05":{"x":0,"y":523,"w":206,"h":270,"offX":114,"offY":15,"sourceW":320,"sourceH":320},
+"spell_3_body_06":{"x":0,"y":269,"w":221,"h":252,"offX":99,"offY":37,"sourceW":320,"sourceH":320},
+"spell_3_body_07":{"x":611,"y":686,"w":178,"h":178,"offX":88,"offY":71,"sourceW":320,"sourceH":320},
+"spell_7_body_00":{"x":808,"y":0,"w":169,"h":201,"offX":86,"offY":34,"sourceW":320,"sourceH":320},
+"spell_7_body_01":{"x":439,"y":231,"w":198,"h":182,"offX":87,"offY":66,"sourceW":320,"sourceH":320},
+"spell_7_body_02":{"x":619,"y":0,"w":187,"h":186,"offX":80,"offY":42,"sourceW":320,"sourceH":320},
+"spell_7_body_03":{"x":225,"y":0,"w":184,"h":227,"offX":67,"offY":0,"sourceW":320,"sourceH":320},
+"spell_7_body_04":{"x":0,"y":795,"w":186,"h":218,"offX":54,"offY":0,"sourceW":320,"sourceH":320},
+"spell_7_body_05":{"x":223,"y":269,"w":214,"h":223,"offX":17,"offY":0,"sourceW":320,"sourceH":320},
+"spell_7_body_06":{"x":418,"y":0,"w":197,"h":229,"offX":15,"offY":0,"sourceW":320,"sourceH":320},
+"spell_7_body_07":{"x":208,"y":523,"w":208,"h":238,"offX":39,"offY":0,"sourceW":320,"sourceH":320}}}

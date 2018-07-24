@@ -1,0 +1,9 @@
+{"file":"xiadu_idle.png","frames":{
+"idle_0_body_00":{"x":439,"y":0,"w":60,"h":78,"offX":130,"offY":125,"sourceW":320,"sourceH":320},
+"idle_0_body_01":{"x":0,"y":688,"w":164,"h":157,"offX":73,"offY":65,"sourceW":320,"sourceH":320},
+"idle_0_body_02":{"x":232,"y":497,"w":175,"h":204,"offX":63,"offY":16,"sourceW":320,"sourceH":320},
+"idle_0_body_03":{"x":244,"y":251,"w":210,"h":244,"offX":56,"offY":5,"sourceW":320,"sourceH":320},
+"idle_0_body_04":{"x":0,"y":0,"w":226,"h":244,"offX":44,"offY":6,"sourceW":320,"sourceH":320},
+"idle_0_body_05":{"x":228,"y":0,"w":209,"h":249,"offX":74,"offY":38,"sourceW":320,"sourceH":320},
+"idle_0_body_06":{"x":0,"y":465,"w":230,"h":221,"offX":61,"offY":53,"sourceW":320,"sourceH":320},
+"idle_0_body_07":{"x":0,"y":251,"w":242,"h":212,"offX":51,"offY":48,"sourceW":320,"sourceH":320}}}

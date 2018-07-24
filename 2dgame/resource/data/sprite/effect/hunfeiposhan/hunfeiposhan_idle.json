@@ -1,0 +1,9 @@
+{"file":"hunfeiposhan_idle.png","frames":{
+"idle_0_body_00":{"x":501,"y":0,"w":286,"h":268,"offX":173,"offY":320,"sourceW":640,"sourceH":640},
+"idle_0_body_01":{"x":535,"y":513,"w":292,"h":302,"offX":173,"offY":285,"sourceW":640,"sourceH":640},
+"idle_0_body_02":{"x":246,"y":513,"w":287,"h":427,"offX":178,"offY":153,"sourceW":640,"sourceH":640},
+"idle_0_body_03":{"x":246,"y":0,"w":253,"h":511,"offX":208,"offY":69,"sourceW":640,"sourceH":640},
+"idle_0_body_04":{"x":0,"y":0,"w":244,"h":580,"offX":217,"offY":0,"sourceW":640,"sourceH":640},
+"idle_0_body_05":{"x":789,"y":0,"w":163,"h":441,"offX":220,"offY":4,"sourceW":640,"sourceH":640},
+"idle_0_body_06":{"x":0,"y":582,"w":148,"h":413,"offX":244,"offY":25,"sourceW":640,"sourceH":640},
+"idle_0_body_07":{"x":829,"y":443,"w":108,"h":267,"offX":278,"offY":146,"sourceW":640,"sourceH":640}}}

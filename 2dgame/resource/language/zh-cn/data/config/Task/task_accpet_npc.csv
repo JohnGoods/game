@@ -1,0 +1,2 @@
+#NPCID,NPC名字,领取任务的对话ID，对话节点必须要有node=-1,任务名称,任务列表(同一个类型任务，可能会有多个),任务的接收条件
+NpcId_kn,NpcName_c,TalkId_kn,TaskName_c,TaskIdList_t,Accept_t

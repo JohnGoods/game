@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubPeopleInfoLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Group width="640" height="900" horizontalCenter="0" verticalCenter="0">
+		<e:Image scaleX="1" scaleY="1" source="ty_uiDi01" width="640" height="900" horizontalCenter="0" verticalCenter="0" scale9Grid="115,133,34,46"/>
+		<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+		<e:Label id="title" text="${CLUB_TXT25}" style="ht_title_font" verticalAlign="middle" textAlign="center" width="640" height="36" top="0" horizontalCenter="0"/>
+		<e:Group id="scroll_wnd" width="560" height="745" y="55" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:Image scaleX="1" scaleY="1" source="ty_uiDi02" scale9Grid="11,10,20,15" left="0" top="0" bottom="0" right="0"/>
+		</e:Group>
+		<e:Group id="bottom_group" width="490" height="41" scaleX="1" scaleY="1" left="45" bottom="35">
+			<gui:RichDisplayer id="my_rd" width="400" height="30" x="20" y="35" anchorOffsetX="0"/>
+			<gui:Button id="btn_exit" label="${CLUB_TXT26}" scaleX="1" scaleY="1" verticalCenter="0" width="86" height="41" x="400">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt6"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="" style="ht_22_lc_stroke"/>
+					</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<gui:Button id="btn_close_top" label="" right="0" top="0" x="565" y="800" scaleX="1" scaleY="1">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_close" label="" right="0" x="537" scaleX="1" scaleY="1" bottom="10">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+</e:Skin>

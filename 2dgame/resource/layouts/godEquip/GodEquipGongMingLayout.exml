@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GodEquipGongMingLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="530" height="470" horizontalCenter="0" verticalCenter="0" source="ty_tipsDi" scale9Grid="14,16,2,2"/>
+	<e:Group width="510" height="180" y="225" horizontalCenter="0">
+		<e:Image width="204" height="29" y="5" source="sz_text03" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<e:Image width="520" height="16" y="28" scaleX="1" scaleY="1" horizontalCenter="0" source="cz_uiLine01" scale9Grid="14,8,19,1"/>
+		<gui:RichDisplayer id="god_rd_tip1" width="460" height="26" y="45" horizontalCenter="0"/>
+		<gui:RichDisplayer id="level_gongming_rd" width="460" height="55" y="80" horizontalCenter="0">
+		</gui:RichDisplayer>
+		<gui:RichDisplayer id="god_rd_tip2" width="460" height="26" horizontalCenter="0" y="143"/>
+		<e:Label id="have_god_equip_tip1" text="尚未拥有神装" x="25" y="80" width="460" height="55" verticalAlign="middle" textAlign="center" textColor="0xff0000" style="ht_24_lc" visible="false"/>
+		<e:Label id="level_tip" text="神装等级达到100级开启共鸣" x="25" y="80" width="460" height="55" verticalAlign="middle" textAlign="center" textColor="0xFF0000" style="ht_24_lc" visible="false"/>
+	</e:Group>
+	<e:Group width="510" height="270" y="410" horizontalCenter="0">
+		<e:Image width="204" height="29" source="sz_text04" scaleX="1" scaleY="1" y="5" horizontalCenter="0"/>
+		<e:Image width="520" height="16" source="cz_uiLine01" scaleX="1" scaleY="1" horizontalCenter="0" scale9Grid="14,8,19,1" x="5" y="28"/>
+		<gui:RichDisplayer id="god_liansuo_rd1" width="240" height="190" y="45" x="20"/>
+		<gui:RichDisplayer id="god_liansuo_rd2" width="240" height="190" y="45" x="270"/>
+		<gui:RichDisplayer id="god_rd_tip3" width="460" height="26" horizontalCenter="0" y="240"/>
+		<e:Label id="have_god_equip_tip2" text="尚未拥有神装" x="25" width="460" height="55" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1" verticalCenter="0" textColor="0xff0000" style="ht_24_lc" visible="false"/>
+	</e:Group>
+	<gui:Button id="btn_close" label="" width="640" height="900" horizontalCenter="0" verticalCenter="-2">
+	</gui:Button>
+</e:Skin>

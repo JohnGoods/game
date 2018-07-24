@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WelfareLobbyLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ty_uiDi01" scale9Grid="142,190,3,6" left="0" bottom="0" top="0" right="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="title" text="福利大厅" top="0" horizontalCenter="0" width="640" textAlign="center" verticalAlign="middle" height="36" style="ht_title_font"/>
+	<e:Group id="group_tab1" width="565" height="650" y="160" horizontalCenter="0">
+		<e:Image y="0" scaleX="1" scaleY="1" source="fldt_biaoTiTu01" width="560" height="197" horizontalCenter="0"/>
+		<e:Image scaleX="1" scaleY="1" width="565" height="450" horizontalCenter="0" source="ty_uiDi02" scale9Grid="3,6,30,28" y="200"/>
+		<e:Label id="sign_day_git_text" text="累计登陆3天礼包" x="380" y="5" anchorOffsetX="0" width="180" anchorOffsetY="0" height="34" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" bold="true" textColor="0xf9c707" style="ht_18_lc_stroke"/>
+		<e:Group id="reward_list" width="565" height="450" horizontalCenter="0" x="13.000000000000007" scaleX="1" scaleY="1" y="200">
+		</e:Group>
+		<e:Group id="sign_reward_item_group" width="72" height="72" x="435" y="40"/>
+		<gui:Button id="btn_sign_get" label="" x="410" y="117" scaleX="1" scaleY="1">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Label id="sign_day_text" text="累计登陆3天" x="380" y="165" anchorOffsetX="0" width="180" anchorOffsetY="0" height="34" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" bold="true" textColor="0xffffff" style="ht_18_lc_stroke"/>
+	</e:Group>
+	<e:Group id="group_tab2" width="565" x="38" top="160" bottom="90" visible="false">
+		<e:Image scale9Grid="142,190,3,6" y="0" scaleX="1" scaleY="1" width="560" height="197" horizontalCenter="0" source="fldt_biaoTiTu02"/>
+		<e:Image source="ty_uiDi02" scale9Grid="3,6,30,28" scaleX="1" scaleY="1" width="565" height="450" bottom="0" horizontalCenter="0"/>
+		<e:Group id="level_list" width="565" x="0" scaleX="1" scaleY="1" bottom="0" top="200"/>
+	</e:Group>
+	<e:Group id="group_tab3" width="565" height="650" y="160" horizontalCenter="0" visible="false">
+		<e:Image scale9Grid="142,190,3,6" y="0" scaleX="1" scaleY="1" width="550" height="197" horizontalCenter="0" source="fldt_biaoTiTu03"/>
+		<e:Image source="ty_uiDi02" scale9Grid="3,6,30,28" scaleX="1" scaleY="1" width="565" height="450" bottom="0" horizontalCenter="0"/>
+		<e:Group width="565" height="450" horizontalCenter="0" x="13.000000000000007" scaleX="1" scaleY="1" bottom="0">
+			<e:Group width="550" height="140" y="8" horizontalCenter="0">
+				<e:Image scaleX="1" scaleY="1" width="550" height="140" x="0" y="0" source="ty_uiDi03" scale9Grid="14,14,19,20"/>
+				<e:Image scaleX="1" scaleY="1" width="228" height="136" x="0" y="-10" source="fldt_yueKaIcon01"/>
+				<e:Image scaleX="1" scaleY="1" width="280" height="35" x="250" y="10" source="fldt_textDi01" scale9Grid="3,6,19,20"/>
+				<e:Image source="fldt_textDi01" scale9Grid="3,6,19,20" scaleX="1" scaleY="1" width="280" height="35" x="250" y="50"/>
+				<e:Image source="fldt_textDi01" scale9Grid="3,6,19,20" scaleX="1" scaleY="1" width="280" height="35" x="250" y="90"/>
+				<e:Label id="month_tip0" text="元宝领不停" x="23" y="92" anchorOffsetX="0" width="180" anchorOffsetY="0" height="34" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" bold="true" textColor="0xFFFFFF" style="ht_24_lc_stroke"/>
+				<gui:RichDisplayer id="month_rd1" width="280" height="35" x="250" y="15"/>
+				<gui:RichDisplayer id="month_rd2" width="280" height="35" x="250" y="55"/>
+				<gui:RichDisplayer id="month_rd3" width="280" height="35" x="250" y="95"/>
+			</e:Group>
+			<e:Group width="550" height="140" y="153" horizontalCenter="0">
+				<e:Image source="ty_uiDi03" scaleX="1" scaleY="1" width="550" height="140" x="0" y="0" scale9Grid="12,15,21,19"/>
+				<e:Image scaleX="1" scaleY="1" width="228" height="136" x="0" y="-10" source="fldt_yueKaIcon02"/>
+				<e:Image source="fldt_textDi01" scale9Grid="3,6,19,20" scaleX="1" scaleY="1" width="280" height="35" x="249" y="30"/>
+				<e:Image source="fldt_textDi01" scale9Grid="3,6,19,20" scaleX="1" scaleY="1" width="280" height="35" x="249" y="75"/>
+				<e:Label id="month_tip2" text="成长加速" x="23" y="92" anchorOffsetX="0" width="180" anchorOffsetY="0" height="34" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" bold="true" style="ht_24_lc_stroke" textColor="0xFFFFFF"/>
+				<gui:RichDisplayer id="month_rd4" width="280" height="35" x="250" y="35" scaleX="1" scaleY="1"/>
+				<gui:RichDisplayer id="month_rd5" width="280" height="35" x="250" y="80" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group width="550" height="140" y="298" horizontalCenter="0">
+				<e:Image source="ty_uiDi03" scaleX="1" scaleY="1" width="550" height="140" x="0" y="0" scale9Grid="15,19,18,15"/>
+				<e:Image scaleX="1" scaleY="1" width="228" height="136" x="0" y="-10" source="fldt_yueKaIcon03"/>
+				<e:Image source="fldt_textDi01" scale9Grid="3,6,19,20" scaleX="1" scaleY="1" width="280" height="35" x="250" y="30"/>
+				<e:Image source="fldt_textDi01" scale9Grid="3,6,19,20" scaleX="1" scaleY="1" width="280" height="35" x="250" y="75"/>
+				<e:Label id="month_tip3" text="背包扩容" x="23" y="92" anchorOffsetX="0" width="180" anchorOffsetY="0" height="34" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" bold="true" style="ht_24_lc_stroke" textColor="0xFFFFFF"/>
+				<gui:RichDisplayer id="month_rd6" width="280" height="35" x="250" y="35" scaleX="1" scaleY="1"/>
+				<gui:RichDisplayer id="month_rd7" width="280" height="35" x="250" y="80" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Group id="group_tab4" width="565" height="650" y="160" horizontalCenter="0" visible="false">
+		<e:Image scale9Grid="142,190,3,6" y="0" scaleX="1" scaleY="1" width="560" height="197" horizontalCenter="0" source="fldt_biaoTiTu04"/>
+		<e:Image source="ty_uiDi02" scale9Grid="3,6,30,28" scaleX="1" scaleY="1" width="565" height="450" bottom="0" horizontalCenter="0"/>
+		<e:Group width="565" height="450" horizontalCenter="0" x="13.000000000000007" scaleX="1" scaleY="1" bottom="0">
+			<e:Group width="550" height="140" y="10" horizontalCenter="0" x="8" scaleX="1" scaleY="1">
+				<e:Image scaleX="1" scaleY="1" width="550" height="140" x="0" y="0" source="ty_uiDi03" scale9Grid="14,14,19,20"/>
+				<e:Image scaleX="1" scaleY="1" width="228" height="136" x="0" y="-10" source="fldt_yueKaIcon01"/>
+				<e:Image scaleX="1" scaleY="1" width="280" height="35" x="250" y="30" source="fldt_textDi01" scale9Grid="3,6,19,20"/>
+				<e:Image source="fldt_textDi01" scale9Grid="3,6,19,20" scaleX="1" scaleY="1" width="280" height="35" x="250" y="75"/>
+				<e:Label id="week_tip1" text="元宝领不停" x="23" y="92" anchorOffsetX="0" width="180" anchorOffsetY="0" height="34" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" bold="true" textColor="0xffffff" style="ht_24_lc_stroke"/>
+				<gui:RichDisplayer id="week_rd1" width="280" height="35" x="250" y="35"/>
+				<gui:RichDisplayer id="week_rd2" width="280" height="35" x="250" y="80"/>
+			</e:Group>
+		</e:Group>
+		<gui:Button id="week_card_btn" label="" horizontalCenter="0" y="360">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:RichDisplayer id="week_card_rd" width="300" height="20" y="430" horizontalCenter="0" x="132" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="group_tab5" width="565" height="650" y="160" horizontalCenter="0" visible="false">
+		<e:Image scale9Grid="142,190,3,6" y="0" scaleX="1" scaleY="1" width="560" height="197" horizontalCenter="0" source="fldt_biaoTiTu05"/>
+		<e:Image source="ty_uiDi02" scale9Grid="3,6,30,28" scaleX="1" scaleY="1" width="565" height="450" bottom="0" horizontalCenter="0"/>
+		<e:Label id="key_tip1" text="请输入要兑换的激活码" x="40" y="250" anchorOffsetX="0" width="250" anchorOffsetY="0" height="34" style="ht_24_lc" textAlign="left" verticalAlign="middle" textColor="0x380505" scaleX="1" scaleY="1" bold="true"/>
+		<e:Group id="edit_bg" width="480" height="45" y="300" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" scale9Grid="18,9,11,18" scaleX="1" scaleY="1" width="480" x="0" height="45" y="0" source="ty_shuRuDi01"/>
+			<e:EditableText id="edit_input" width="470" height="35" text="" x="5" y="5" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<gui:Button id="key_get_btn" label="领取奖励" y="370" scaleX="1" scaleY="1" horizontalCenter="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="领取奖励" style="ht_30_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Label id="key_tip2" text="欢迎来到游戏，领取福利礼包，结交各路仙友，了解游戏第一资讯" y="450" anchorOffsetX="0" width="500" anchorOffsetY="0" height="70" style="ht_24_lc" textAlign="left" verticalAlign="middle" textColor="0x380505" scaleX="1" scaleY="1" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="group_tab6" width="565" height="650" y="160" horizontalCenter="0" visible="false">
+		<e:Image scale9Grid="142,190,3,6" y="0" scaleX="1" scaleY="1" width="565" height="363" horizontalCenter="0" source="fldt_biaoTiTu06"/>
+		<e:Image source="ty_uiDi02" scale9Grid="3,6,30,28" scaleX="1" scaleY="1" width="565" height="298" horizontalCenter="0" y="370" anchorOffsetY="0"/>
+		<e:Image scaleX="1" scaleY="1" width="145" height="60" y="280" x="400" source="ty_zhuangBeiBg01" scale9Grid="17,16,46,48"/>
+		<e:Group id="role1" width="160" height="170" x="205" y="170" touchEnabled="false">
+			<e:Image source="fb_guaiWuDi01" scaleX="0.7" scaleY="0.7" width="242" verticalCenter="0" horizontalCenter="0"/>
+			<e:Image scaleX="1" scaleY="1" width="160" height="60" source="ty_textDi01" scale9Grid="4,6,11,8" horizontalCenter="0" bottom="0"/>
+			<e:Label id="welfare_name1" text="六个字的名字" x="0" scaleX="1" scaleY="1" textAlign="center" textColor="0xFFFFFF" width="160" height="30" verticalAlign="middle" y="110" style="ht_22_lc_stroke"/>
+			<e:Label id="welfare_level1" text="Lv.99" x="0" scaleX="1" scaleY="1" textAlign="center" textColor="0xFFFFFF" width="160" height="30" verticalAlign="middle" y="140" style="ht_22_lc_stroke"/>
+			<e:Group id="group_actorview1" width="20" height="20" y="64" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="role2" width="160" height="170" x="390" y="60" touchEnabled="false">
+			<e:Image source="fb_guaiWuDi01" scaleX="0.7" scaleY="0.7" width="242" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image scaleX="1" scaleY="1" width="160" height="60" source="ty_textDi01" scale9Grid="4,6,11,8" horizontalCenter="0" bottom="0"/>
+			<e:Label id="welfare_name2" text="六个字的名字" x="0" scaleX="1" scaleY="1" textAlign="center" textColor="0xFFFFFF" width="160" height="30" verticalAlign="middle" y="110" style="ht_22_lc_stroke"/>
+			<e:Label id="welfare_level2" text="Lv.99" x="0" scaleX="1" scaleY="1" textAlign="center" textColor="0xFFFFFF" width="160" height="30" verticalAlign="middle" bottom="0" style="ht_22_lc_stroke"/>
+			<e:Group id="group_actorview2" width="20" height="20" y="65" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="role3" width="160" height="170" x="20" y="60" touchEnabled="false">
+			<e:Image source="fb_guaiWuDi01" scaleX="0.7" scaleY="0.7" width="242" verticalCenter="0" horizontalCenter="0"/>
+			<e:Image scaleX="1" scaleY="1" width="160" height="60" horizontalCenter="0" bottom="0" source="ty_textDi01" scale9Grid="4,6,11,8"/>
+			<e:Label id="welfare_name3" text="六个字的名字" x="0" scaleX="1" scaleY="1" textAlign="center" textColor="0xFFFFFF" width="160" height="30" verticalAlign="middle" y="110" style="ht_22_lc_stroke"/>
+			<e:Label id="welfare_level3" text="Lv.99" x="0" scaleX="1" scaleY="1" textAlign="center" textColor="0xFFFFFF" width="160" height="30" verticalAlign="middle" bottom="0" style="ht_22_lc_stroke"/>
+			<e:Group id="group_actorview3" width="20" height="20" y="67" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		</e:Group>
+		<e:Label text="世界等级" x="416" y="285" scaleX="1" scaleY="1" textAlign="center" textColor="0xffffff" height="24" style="ht_20_lc_stroke" verticalAlign="middle"/>
+		<gui:RichDisplayer id="world_level_rd" width="96" height="24" x="408" y="310"/>
+		<gui:Button id="welfare_rule" label="" x="506" y="293" scaleX="0.6" scaleY="0.6">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_guiZhe"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Label id="today_jifen" text="今日西游历练积分:200" x="15" y="379" scaleX="1" scaleY="1" style="ht_24_lc" textColor="0x351212"/>
+		<e:Group width="560" height="70" y="421" scaleX="1" scaleY="1" horizontalCenter="0.5">
+			<gui:ProgressBar id="exp_progress" width="547" height="30" horizontalCenter="0" includeInLayout="true" y="10">
+			<gui:skinName>
+				<e:Skin minWidth="30" minHeight="18">
+				<e:Image scale9Grid="1,1,4,4" width="100%" height="100%" verticalCenter="0" source="hb_loadingDi01"/>
+				<e:Image id="thumb" height="100%" width="100%" source="hb_loading01"/>
+				<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle" size="15" fontFamily="Tahoma" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke" textColor="0xffffff" visible="false"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:ProgressBar>
+			<e:Group width="133" height="133" x="48" y="-40">
+			<gui:Button id="reward_btn1" label="" width="73" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="fb_baoXiang01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</gui:Button>
+			<e:Image id="reward_yilingqu1" scaleX="1" scaleY="1" width="85" height="26" verticalCenter="0.5" horizontalCenter="-7" x="10" y="10" source="ty_text02" touchEnabled="false"/>
+			<e:Image id="reward_btn_select1" scaleX="1" scaleY="1" source="hb_jiNengXuanZhong" verticalCenter="0" horizontalCenter="0" width="110" height="110"/>
+			<e:Label id="jinfen1" text="30" y="100" scaleX="1" scaleY="1" style="ht_24_lc" textColor="0x351212" width="73" textAlign="center" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group width="133" height="133" x="216" y="-40">
+			<gui:Button id="reward_btn2" label="" width="73" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="fb_baoXiang01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</gui:Button>
+			<e:Image id="reward_yilingqu2" scaleX="1" scaleY="1" width="85" height="26" source="ty_text02" verticalCenter="0.5" horizontalCenter="-7" x="-161" y="64" touchEnabled="false"/>
+			<e:Image scaleX="1" scaleY="1" width="110" height="110" source="hb_jiNengXuanZhong" id="reward_btn_select2" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="jinfen2" text="60" y="100" scaleX="1" scaleY="1" style="ht_24_lc" textColor="0x351212" width="73" textAlign="center" horizontalCenter="0"/>
+			</e:Group>
+			<e:Group width="133" height="133" x="440" y="-40">
+			<gui:Button id="reward_btn3" label="" width="73" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="fb_baoXiang01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</gui:Button>
+			<e:Image id="reward_yilingqu3" scaleX="1" scaleY="1" width="85" height="26" source="ty_text02" verticalCenter="0.5" horizontalCenter="-7" x="-136" y="54" touchEnabled="false"/>
+			<e:Image scaleX="1" scaleY="1" width="110" height="110" source="hb_jiNengXuanZhong" id="reward_btn_select3" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+			<e:Label id="jinfen3" text="100" y="100" scaleX="1" scaleY="1" style="ht_24_lc" textColor="0x351212" width="73" textAlign="center" horizontalCenter="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="welfare_item_group" width="80" height="80" scaleX="1" scaleY="1" horizontalCenter="0.5" y="504"/>
+		<gui:Button id="welfare_get_btn" label="领取" y="593" scaleX="1" scaleY="1" horizontalCenter="0" x="209">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="领取奖励" style="ht_30_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Label id="welfare_go_label" text="前往" x="505" y="380" scaleX="1" scaleY="1" style="ht_24_lc" textColor="0x008000"/>
+		<e:Rect width="48" height="2" x="505" y="405" scaleX="1" scaleY="1" fillColor="0x008000"/>
+	</e:Group>
+	<e:Group id="wealfare_list" width="560" height="120" y="40" x="40">
+		<e:RadioButton id="tab1" label="" x="0" y="0" scaleX="1" scaleY="1" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="fldt_Bt01" source.down="fldt_Bt01_down"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="tab2" label="" x="95" y="0" scaleX="1" scaleY="1" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="fldt_Bt02" source.down="fldt_Bt02_down"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="tab3" label="" x="190" y="0" scaleX="1" scaleY="1" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="fldt_Bt03" source.down="fldt_Bt03_down"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="tab4" label="" x="285" y="0" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="fldt_Bt04" source.down="fldt_Bt04_down"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="tab5" label="" x="380" y="0" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="fldt_Bt05" source.down="fldt_Bt05_down"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="tab6" label="" x="475" y="0" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="fldt_Bt06" source.down="fldt_Bt06_down"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</e:skinName>
+		</e:RadioButton>
+	</e:Group>
+	<gui:Button id="btn_close" label="" right="0" bottom="1">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_month_card" label="" y="830" x="330" visible="false">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt9"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="month_card_buy" label="续费" x="150" y="830" scaleX="1" scaleY="1" visible="false">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:RichDisplayer id="month_card_rd" width="300" height="20" y="810" horizontalCenter="0" visible="false"/>
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

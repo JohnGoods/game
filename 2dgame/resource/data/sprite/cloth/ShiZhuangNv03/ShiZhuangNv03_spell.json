@@ -1,0 +1,13 @@
+{"file":"ShiZhuangNv03_spell.png","frames":{
+"spell_3_body_00":{"x":151,"y":190,"w":80,"h":73,"offX":111,"offY":147,"sourceW":320,"sourceH":320},
+"spell_3_body_01":{"x":151,"y":265,"w":81,"h":68,"offX":104,"offY":150,"sourceW":320,"sourceH":320},
+"spell_3_body_02":{"x":0,"y":188,"w":78,"h":80,"offX":113,"offY":137,"sourceW":320,"sourceH":320},
+"spell_3_body_03":{"x":0,"y":97,"w":72,"h":86,"offX":116,"offY":132,"sourceW":320,"sourceH":320},
+"spell_3_body_04":{"x":153,"y":94,"w":69,"h":94,"offX":117,"offY":125,"sourceW":320,"sourceH":320},
+"spell_3_body_05":{"x":153,"y":0,"w":71,"h":92,"offX":117,"offY":128,"sourceW":320,"sourceH":320},
+"spell_7_body_00":{"x":0,"y":270,"w":72,"h":79,"offX":133,"offY":135,"sourceW":320,"sourceH":320},
+"spell_7_body_01":{"x":74,"y":275,"w":75,"h":67,"offX":130,"offY":156,"sourceW":320,"sourceH":320},
+"spell_7_body_02":{"x":80,"y":188,"w":69,"h":85,"offX":133,"offY":129,"sourceW":320,"sourceH":320},
+"spell_7_body_03":{"x":77,"y":96,"w":70,"h":90,"offX":133,"offY":124,"sourceW":320,"sourceH":320},
+"spell_7_body_04":{"x":77,"y":0,"w":74,"h":94,"offX":131,"offY":121,"sourceW":320,"sourceH":320},
+"spell_7_body_05":{"x":0,"y":0,"w":75,"h":95,"offX":130,"offY":122,"sourceW":320,"sourceH":320}}}

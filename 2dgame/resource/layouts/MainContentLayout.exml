@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainContentLayout" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:gui="gui.*" xmlns:tween="egret.tween.*">
+	<w:Declarations></w:Declarations>
+	<e:Group id="map_wnd" width="132" height="104" right="0" top="50">
+		<gui:Button id="btn_map" label="">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_diTuDi01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:RichDisplayer id="map_name" width="132" height="30" x="0" y="28" touchEnabled="false" touchChildren="false"/>
+		<gui:RichDisplayer id="map_xy" width="132" height="25" bottom="12" horizontalCenter="0" touchEnabled="false" touchChildren="false"/>
+		<e:Image id="map_tips" source="00_tongYong01.zjm_hongDian01" top="0" left="0" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="preview_wnd" width="150" height="150" right="0" top="170" visible="false">
+		<gui:Button id="preview_btn" label="" left="0" y="6">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_gongNengKaiQi"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Group id="preview_view_group" width="1" height="1" y="65" anchorOffsetX="0" anchorOffsetY="0" x="76" touchChildren="false" touchEnabled="false"/>
+		<gui:AnimBox id="preview_anim_box" width="106" height="106" x="20" y="12" anchorOffsetX="0" anchorOffsetY="0"/>
+		<gui:RichDisplayer id="open_level" width="128" height="30" x="10" y="107" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image id="preview_name_pic" source="01_zhuCheng.zjm_gongNengKaiQi02" x="-10" y="6"/>
+		<e:Label id="preview_name" text="时装" x="-23" y="15" style="ht_20_lc_stroke" width="88" height="22" textAlign="center" textColor="0xffd700"/>
+	</e:Group>
+	<gui:Button id="wing_rank_btn" label="" right="5" bottom="400" visible="false">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zjm_Bt31"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Group id="guanggao_group" width="283" height="165" top="150" left="70" visible="false">
+		<e:Image width="283" height="165" verticalCenter="0" horizontalCenter="0" source="ty_tianNvTiShiDi01"/>
+		<gui:Button id="tn_btn" label="" scaleX="1" scaleY="1" y="90" x="180">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_lingQuTianNv"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<gui:Button id="tn_close_btn" label="" scaleX="1" scaleY="1" x="248" y="0" visible="false">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back03"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<e:Group id="tast_wnd" height="28" y="136" width="283" x="0" visible="false">
+			<e:Image source="01_zhuCheng05.ty_tianNvTiYan" x="28" scaleX="1" scaleY="1" y="0"/>
+			<gui:BatchImage id="tast_batch" width="72" height="28" anchorOffsetX="0" x="184" scaleX="1" scaleY="1" y="0"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" gap="3" verticalAlign="bottom"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="group_xingling" width="283" height="165" top="316" left="70" visible="false">
+		<e:Image width="283" height="165" verticalCenter="0" horizontalCenter="0" source="xl_tiYanTiShi01"/>
+		<gui:Button id="xl_btn_charge" label="前往购买" scaleX="1" scaleY="1" y="90" x="180" width="96" height="40">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt9"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_20_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="xl_btn_close" label="" scaleX="1" scaleY="1" x="248" y="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back03"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<e:Group height="28" y="136" width="283" x="0">
+		<e:Image source="01_zhuCheng05.ty_tianNvTiYan" x="28" scaleX="1" scaleY="1" y="0"/>
+		<gui:BatchImage id="xl_bImage" width="72" height="28" anchorOffsetX="0" x="184" scaleX="1" scaleY="1" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" gap="3" verticalAlign="bottom"/>
+		</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="guanggao_group2" width="283" height="165" x="70" y="150" visible="false">
+		<e:Image source="ty_tianNvTiShiDi03" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<gui:Button id="tn_btn2" label="" scaleX="1" scaleY="1" y="90" x="180">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_lingQuTianNv"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Group id="tast_wnd2" height="28" y="136" width="283" x="0">
+			<e:Image source="01_zhuCheng05.ty_tianNvTiYan" x="28" scaleX="1" scaleY="1" y="0"/>
+			<gui:BatchImage id="tast_batch2" width="72" height="28" anchorOffsetX="0" x="184" scaleX="1" scaleY="1" y="0"/>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" gap="3" verticalAlign="bottom"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="activity_wnd" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" width="160" height="540" left="0" bottom="420">
+		<e:layout>
+			<e:TileLayout horizontalAlign="left" verticalAlign="bottom" rowAlign="top" columnAlign="left" orientation="columns" verticalGap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="func_wnd" width="70" height="160" anchorOffsetX="0" anchorOffsetY="0" left="0" bottom="445" visible="false">
+		<e:layout>
+		<e:VerticalLayout gap="0" verticalAlign="top" horizontalAlign="center"/>
+		</e:layout>
+		<gui:Button id="btn_bag" label="" x="0" y="-240" scaleX="1" scaleY="1" visible="false">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_Bt29"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_daily" label="" x="42" y="-335" scaleX="1" scaleY="1" visible="false">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_Bt36"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<e:Group id="task_wnd" width="397" height="91" left="0" bottom="324">
+		<e:Image id="task_pic" source="01_zhuCheng.zjm_renWuKuang01" x="0" y="0"/>
+		<gui:RichDisplayer id="task_rd" width="276" height="60" x="83" y="18" anchorOffsetX="0" anchorOffsetY="0"/>
+	</e:Group>
+	<e:Group id="rank_activity_wnd" width="124" height="119" right="4" bottom="478" visible="false">
+		<gui:Button id="rank_activity_btn" label="" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_Bt53"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Label id="camp_name" text="" x="6" y="12" style="ht_18_lc_stroke" width="80" textAlign="center" verticalAlign="middle" height="20"/>
+		<e:Label id="camp_index" text="" x="6" y="32" style="ht_18_lc_stroke" width="80" textAlign="center" verticalAlign="middle" height="20"/>
+		<e:Label id="camp_time" text="" x="6" y="52" width="80" textAlign="center" verticalAlign="middle" height="16" style="ht_16_lc_stroke"/>
+	</e:Group>
+	<e:Group id="auto_wnd" width="120" height="105" right="4" bottom="335">
+		<e:Image id="auto_pic" source="zjm_ZiDongBt01" horizontalCenter="0" top="0"/>
+		<e:Image id="auto_tip" source="01_zhuCheng.zjm_ZiDongTiShi" left="-10" top="-25"/>
+		<gui:Button id="auto_btn" label="" bottom="0" horizontalCenter="0">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_Bt33"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Group id="fire_wnd0" width="30" height="31" y="-15" x="50">
+		<e:Image source="01_zhuCheng.zjm_ZiDongTiShi02" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="fire0" source="01_zhuCheng.zjm_ZiDongTiShi03" bottom="-5" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="fire_wnd1" width="30" height="31" y="-2" x="73">
+		<e:Image source="01_zhuCheng.zjm_ZiDongTiShi02" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="fire1" source="01_zhuCheng.zjm_ZiDongTiShi03" bottom="-5" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="fire_wnd2" width="30" height="31" y="20" x="92">
+		<e:Image source="01_zhuCheng.zjm_ZiDongTiShi02" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="fire2" source="01_zhuCheng.zjm_ZiDongTiShi03" bottom="-5" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="enter_wnd" width="212" height="180" right="-19" bottom="310" visible="false">
+		<gui:Button id="enter_btn" label="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zjm_jinRuTiShi"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_18_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<e:Label id="level_lab" text="" x="60" y="108" style="ht_18_lc_stroke" width="128" textAlign="center" height="20" verticalAlign="middle"/>
+		<e:Label id="map_lab" text="" x="60" y="123" width="128" textAlign="center" height="30" verticalAlign="middle" style="ht_18_lc_stroke"/>
+	</e:Group>
+	<e:Group id="capture_group" width="73" height="69" x="417" bottom="336" touchEnabled="false">
+		<gui:Button id="capture_btn" label="" y="3" horizontalCenter="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zjm_tongZhi01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<gui:Button id="house_btn" label="" y="-68" horizontalCenter="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_tongZhi03"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:AnimBox id="capture_anim" width="93" height="99" x="-10" y="-15"/>
+	</e:Group>
+	<gui:Button id="btn_activity_rank" label="" bottom="637" right="8">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zjm_Bt64"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Group id="activity_start_group" width="182" height="151" right="0" bottom="600">
+		<e:Image width="182" height="151" source="ty_huoDongTiShiDi01" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<gui:Button id="activity_go_btn" label="" scaleX="1" scaleY="1" horizontalCenter="0" x="10" y="85">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_qianWangAnNiu"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="activity_close_btn" label="" scaleX="1" scaleY="1" x="126" y="-24">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Label id="answer_text" text="XXX开启" y="18" horizontalCenter="0" textAlign="left" verticalAlign="middle" touchEnabled="false" width="140" height="60" style="ht_20_lc" textColor="0xffffff"/>
+	</e:Group>
+	<e:Group id="tast_end_group" width="640" height="564" horizontalCenter="0" top="120" visible="false">
+		<e:Image verticalCenter="0" horizontalCenter="0" source="ty_tianNvTiShiDi02"/>
+		<gui:Button id="tast_end_close" label="" right="10" bottom="10">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="recharge_btn" label="" width="221" height="86" x="200" bottom="10">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="01_zhuCheng05.ty_lingQuTianNv02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<gui:Button id="btn_txdy" label="" left="348" bottom="328">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="txdy_paiming"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

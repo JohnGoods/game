@@ -1,0 +1,17 @@
+{"file":"qinglong_spell.png","frames":{
+"spell_3_body_00":{"x":346,"y":1161,"w":307,"h":297,"offX":125,"offY":95,"sourceW":640,"sourceH":640},
+"spell_3_body_01":{"x":655,"y":1177,"w":284,"h":305,"offX":146,"offY":86,"sourceW":640,"sourceH":640},
+"spell_3_body_02":{"x":308,"y":1460,"w":282,"h":303,"offX":149,"offY":88,"sourceW":640,"sourceH":640},
+"spell_3_body_03":{"x":602,"y":1484,"w":271,"h":298,"offX":165,"offY":92,"sourceW":640,"sourceH":640},
+"spell_3_body_04":{"x":0,"y":874,"w":344,"h":288,"offX":178,"offY":111,"sourceW":640,"sourceH":640},
+"spell_3_body_05":{"x":0,"y":0,"w":390,"h":307,"offX":149,"offY":119,"sourceW":640,"sourceH":640},
+"spell_3_body_06":{"x":392,"y":299,"w":389,"h":296,"offX":153,"offY":109,"sourceW":640,"sourceH":640},
+"spell_3_body_07":{"x":0,"y":1443,"w":305,"h":294,"offX":132,"offY":100,"sourceW":640,"sourceH":640},
+"spell_7_body_00":{"x":0,"y":1164,"w":326,"h":277,"offX":212,"offY":124,"sourceW":640,"sourceH":640},
+"spell_7_body_01":{"x":0,"y":1739,"w":306,"h":284,"offX":212,"offY":113,"sourceW":640,"sourceH":640},
+"spell_7_body_02":{"x":672,"y":874,"w":303,"h":301,"offX":211,"offY":90,"sourceW":640,"sourceH":640},
+"spell_7_body_03":{"x":308,"y":1765,"w":292,"h":281,"offX":206,"offY":118,"sourceW":640,"sourceH":640},
+"spell_7_body_04":{"x":0,"y":309,"w":343,"h":308,"offX":142,"offY":82,"sourceW":640,"sourceH":640},
+"spell_7_body_05":{"x":345,"y":597,"w":384,"h":275,"offX":129,"offY":125,"sourceW":640,"sourceH":640},
+"spell_7_body_06":{"x":392,"y":0,"w":388,"h":297,"offX":126,"offY":98,"sourceW":640,"sourceH":640},
+"spell_7_body_07":{"x":346,"y":874,"w":324,"h":285,"offX":208,"offY":113,"sourceW":640,"sourceH":640}}}

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubMapLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Rect id="gray_wnd" fillColor="0x000000" strokeAlpha="1" fillAlpha="0.5" height="1136" left="0" right="0" verticalCenter="0" visible="false"/>
+	<gui:Button id="btn_close" label="" scaleX="1" scaleY="1" right="0" bottom="335">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Group id="func_group" width="88" height="166" right="0" anchorOffsetY="0" y="160">
+		<gui:Button id="convene_btn" label="" x="19" y="109">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bh_Bt01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="purchase_btn" label="" x="9" y="99">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bh_Bt02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:layout>
+		<e:VerticalLayout horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="task_group" width="200" height="395" left="0" bottom="335">
+		<e:Group id="task_wnd" width="200" height="360" scaleX="1" scaleY="1" x="0" y="0">
+		<e:Group id="colt_wnd" width="200" height="180" y="0" horizontalCenter="0">
+			<e:Image width="200" height="180" source="bh_renWuDi01" horizontalCenter="0" verticalCenter="0" scale9Grid="5,4,30,31"/>
+			<e:Label id="colt_title" text="" width="200" height="30" top="3" horizontalCenter="0" verticalAlign="middle" textAlign="center" style="ht_20_lc"/>
+			<e:Group id="colt_prize_wnd" width="180" height="60" horizontalCenter="0" top="35">
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+			</e:Group>
+			<e:Group id="colt_ctrl_wnd" width="180" height="46" horizontalCenter="0" verticalCenter="33">
+			<e:CheckBox id="colt_check" label="" x="10" y="0" width="45" height="46">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:CheckBox>
+			<e:Label id="colt_auto_txt" text="${CLUB_TXT97}" x="55" y="15" width="49" height="30" verticalAlign="middle" style="ht_20_lc_stroke"/>
+			<gui:Button id="colt_btn" label="${CLUB_TXT98}" x="93" y="17" width="86" height="41">
+				<gui:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt6"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_18_lc_stroke"/>
+				</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+			</e:layout>
+			</e:Group>
+			<e:Group id="colt_get_wnd" width="180" height="46" horizontalCenter="0" verticalCenter="50">
+				<gui:Button id="colt_get_btn" label="${ACTIVITY_PAY_TXT6}" width="86" height="41" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0">
+					<gui:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_tongYongBt6"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_18_lc_stroke"/>
+					</e:Skin>
+					</gui:skinName>
+				</gui:Button>
+			</e:Group>
+			<e:Group id="colt_reset_wnd" width="180" height="46" horizontalCenter="0" verticalCenter="33">
+				<gui:Button id="colt_reset_btn" label="${CLUB_TXT105}" width="86" height="41" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt6"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_18_lc_stroke"/>
+					</e:Skin>
+				</gui:skinName>
+				</gui:Button>
+			</e:Group>
+			<gui:RichDisplayer id="colt_cost" height="30" scaleX="1" scaleY="1" bottom="0" right="15" width="170"/>
+		</e:Group>
+		<e:Group id="intr_wnd" width="200" height="180" y="10" horizontalCenter="0" x="10">
+			<e:Image width="200" height="180" source="bh_renWuDi01" horizontalCenter="0" verticalCenter="0" scale9Grid="5,4,30,31"/>
+			<e:Label id="intr_title" text="" width="200" height="30" top="3" horizontalCenter="0" verticalAlign="middle" textAlign="center" style="ht_20_lc"/>
+			<e:Group id="intr_prize_wnd" width="180" height="60" horizontalCenter="0" top="35">
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+			</e:Group>
+			<e:Group id="intr_ctrl_wnd" width="180" height="46" horizontalCenter="0" verticalCenter="33">
+			<e:CheckBox id="intr_check" label="" x="10" y="0" width="45" height="46">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:CheckBox>
+			<e:Label id="intr_auto_txt" text="${CLUB_TXT97}" x="55" y="15" width="49" height="30" verticalAlign="middle" style="ht_20_lc_stroke"/>
+			<gui:Button id="intr_btn" label="${CLUB_TXT98}" x="103" y="20" width="86">
+				<gui:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt6"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_18_lc_stroke"/>
+				</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="0"/>
+			</e:layout>
+			</e:Group>
+			<e:Group id="intr_get_wnd" width="180" height="46" horizontalCenter="0" verticalCenter="50">
+				<gui:Button id="intr_get_btn" label="${ACTIVITY_PAY_TXT6}" width="86" height="41" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0" x="0" y="3">
+					<gui:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_tongYongBt6"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_18_lc_stroke"/>
+					</e:Skin>
+					</gui:skinName>
+				</gui:Button>
+			</e:Group>
+			<e:Group id="intr_reset_wnd" width="180" height="46" horizontalCenter="0" verticalCenter="33">
+				<gui:Button id="intr_reset_btn" label="${CLUB_TXT105}" width="86" height="41" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0" x="47" y="-30">
+					<gui:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_tongYongBt6"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_18_lc_stroke"/>
+					</e:Skin>
+					</gui:skinName>
+				</gui:Button>
+			</e:Group>
+			<gui:RichDisplayer id="intr_cost" height="30" scaleX="1" scaleY="1" bottom="0" right="15" width="170"/>
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" gap="0"/>
+		</e:layout>
+		</e:Group>
+		<gui:Button id="control_btn" label="" bottom="0" horizontalCenter="0" width="43" height="35">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_shangLa02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<e:Group id="map_wnd" width="132" height="104" right="0" y="50">
+		<e:Image id="map_pic" source="01_zhuCheng.zjm_diTuDi01" x="0" y="0"/>
+		<gui:RichDisplayer id="map_name" width="132" height="30" x="0" y="28"/>
+		<gui:RichDisplayer id="map_xy" width="132" height="25" bottom="12" horizontalCenter="0"/>
+	</e:Group>
+	<gui:ProgressBar id="colt_progress" width="202" height="21" horizontalCenter="0" verticalCenter="-116">
+		<gui:skinName>
+			<e:Skin minWidth="30" minHeight="18">
+			<e:Image scale9Grid="1,1,4,4" width="100%" height="100%" verticalCenter="0" source="fb_loadingDi02"/>
+			<e:Image id="thumb" height="100%" width="100%" source="fb_loading02"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:ProgressBar>
+</e:Skin>

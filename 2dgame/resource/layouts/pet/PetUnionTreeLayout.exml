@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetUnionTreeLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ty_uiDi01" scale9Grid="142,190,3,6" left="0" bottom="0" top="0" right="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0" top="0"/>
+	<e:Label id="title" text="${PET_TUJIAN}" top="0" horizontalCenter="0" width="640" height="36" style="ht_title_font" textAlign="center" verticalAlign="middle"/>
+	<e:Group top="56" left="20" right="20" anchorOffsetY="0" bottom="110">
+		<e:Image source="00_tongYong03.ty_uiDi02" left="0" top="0" bottom="0" right="0" scale9Grid="20,20,3,4"/>
+		<e:Scroller width="570" height="730" y="2" x="15">
+			<e:List id="scroll"/>
+		</e:Scroller>
+	</e:Group>
+	<e:Label id="lab" text="${PET_UNION_TXT13}" y="800" left="25" height="50" anchorOffsetX="0" width="500" textColor="0x46332c" style="ht_24_lc"/>
+	<gui:Button id="btn_close" label="" right="0" bottom="10">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

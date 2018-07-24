@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetChangeNameLayout" width="600" height="450" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Group width="600" height="450" x="0" y="0">
+		<e:Image source="ty_uiDi01" scale9Grid="138,176,5,9" left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+		<e:Label id="title" text="${PET_TXT19}" x="0" y="0" width="600" height="36" textAlign="center" verticalAlign="middle" style="ht_title_font"/>
+		<e:Label id="tips" text="${PET_TXT20}" x="0" y="130" textAlign="center" width="600" style="ht_30_lc" textColor="0x333333" verticalAlign="middle"/>
+		<e:Label id="name" text="${PET_TXT21}" x="50" y="188" style="ht_30_lc" textColor="0x3d3d3d" width="100" textAlign="center" verticalAlign="middle" height="30"/>
+		<e:Group width="375" height="47" x="155" y="180">
+			<e:Image source="ty_shuRuDi01" x="0" y="0" scale9Grid="60,22,3,4" anchorOffsetX="0" width="375" scaleX="1" scaleY="1"/>
+			<e:EditableText id="edit_input" height="30" text="" verticalCenter="0" verticalAlign="bottom" left="10" right="10"/>
+		</e:Group>
+		<gui:Button id="cancel_btn" label="${CANCEL}" left="130" y="265">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</e:skinName>
+		</gui:Button>
+		<gui:Button id="sure_btn" label="${SURE}" right="130" y="265">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</e:skinName>
+		</gui:Button>
+		<gui:Button id="btn_close_top" label="" top="0" right="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</gui:Button>
+		<gui:Button id="btn_close" label="" right="0" bottom="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</gui:Button>
+	</e:Group>
+</e:Skin>

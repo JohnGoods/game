@@ -1,0 +1,9 @@
+{"file":"faZhen15_idle.png","frames":{
+"idle_3_effect_00":{"x":0,"y":264,"w":247,"h":262,"offX":35,"offY":0,"sourceW":320,"sourceH":320},
+"idle_3_effect_01":{"x":496,"y":528,"w":245,"h":263,"offX":36,"offY":0,"sourceW":320,"sourceH":320},
+"idle_3_effect_02":{"x":497,"y":0,"w":245,"h":263,"offX":36,"offY":0,"sourceW":320,"sourceH":320},
+"idle_3_effect_03":{"x":249,"y":264,"w":246,"h":262,"offX":36,"offY":0,"sourceW":320,"sourceH":320},
+"idle_3_effect_04":{"x":248,"y":528,"w":246,"h":263,"offX":35,"offY":0,"sourceW":320,"sourceH":320},
+"idle_3_effect_05":{"x":0,"y":528,"w":246,"h":263,"offX":36,"offY":0,"sourceW":320,"sourceH":320},
+"idle_3_effect_06":{"x":250,"y":0,"w":245,"h":262,"offX":36,"offY":0,"sourceW":320,"sourceH":320},
+"idle_3_effect_07":{"x":0,"y":0,"w":248,"h":262,"offX":33,"offY":0,"sourceW":320,"sourceH":320}}}

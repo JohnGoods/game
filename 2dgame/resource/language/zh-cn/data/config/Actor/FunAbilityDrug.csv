@@ -1,0 +1,14 @@
+名字,需要什么物品,需要多少个,每一级加多少属性
+Name_ks,itemid_n,itemnum_n,effects_t
+HeroRide,60033,1,"{'maxhp',1100},{'demage',440},{'hujia',110}"
+HeroWing,60034,1,"{'maxhp',1100},{'demage',440},{'hujia',110}"
+XianLvFaZhen,60035,1,"{'maxhp',1100},{'demage',440},{'hujia',110}"
+XianLvXianWei,60036,1,"{'maxhp',1100},{'demage',440},{'hujia',110}"
+PetTongLin,60037,1,"{'maxhp',1100},{'demage',440},{'hujia',110}"
+PetSouHun,60038,1,"{'maxhp',1100},{'demage',440},{'hujia',110}"
+TianXian,60039,1,"{'maxhp',1100},{'demage',440},{'hujia',110}"
+TianXianWeapon,60040,1,"{'maxhp',1100},{'demage',440},{'hujia',110}"
+TianNv,60041,1,"{'maxhp',1100},{'demage',440},{'hujia',110}"
+TianNvXianQi,60042,1,"{'maxhp',1100},{'demage',440},{'hujia',110}"
+TianNvHuaNian,60043,1,"{'maxhp',1100},{'demage',440},{'hujia',110}"
+TianNvLingQi,60044,1,"{'maxhp',1100},{'demage',440},{'hujia',110}"

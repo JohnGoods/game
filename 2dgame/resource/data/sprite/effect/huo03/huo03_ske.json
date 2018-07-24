@@ -1,0 +1,25 @@
+{
+  "anims":[
+    {
+      "dirs":[
+        0
+      ],
+      "frameCount":10,
+      "interval":100,
+      "name":"idle"
+    }
+  ],
+  "bodyparts":[
+    {
+      "name":"body",
+      "offx":320,
+      "offy":320,
+      "order":0,
+      "shows":[]
+    }
+  ],
+  "name":"huo03",
+  "textures":[
+    "huo03_idle.png"
+  ]
+}

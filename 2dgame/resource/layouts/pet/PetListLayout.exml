@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetListLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ty_uiDi01" scale9Grid="138,201,8,7" left="0" bottom="0" top="0" right="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0" top="0"/>
+	<e:Image source="ty_uiDi02" left="20" right="20" bottom="20" scale9Grid="22,21,1,1" height="80"/>
+	<e:Label id="title" text="${PET_TUJIAN}" x="0" y="0" height="36" width="640" textAlign="center" verticalAlign="middle" style="ht_title_font"/>
+	<e:Group id="pet_wnd1" width="640" height="900" x="0" y="0" visible="false">
+	</e:Group>
+	<e:Group id="pet_wnd2" height="900" width="640" x="0" y="0" visible="false">
+		<e:Group id="top_group" height="150" width="560" top="47" horizontalCenter="0">
+			<e:Image source="ty_uiDi02" top="0" bottom="0" scale9Grid="23,21,1,1" left="20" right="20"/>
+			<gui:Button id="left_btn" label="" left="0" verticalCenter="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_jianTou03"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<gui:Button id="right_btn" label="" right="0" verticalCenter="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_jianTou04"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<e:Group id="scroll_wnd" height="150" y="0" width="480" x="40"/>
+		</e:Group>
+		<gui:RichDisplayer id="elem_rd" width="100" height="30" left="60" bottom="620"/>
+		<e:Image scaleX="0.6" scaleY="0.6" bottom="416" left="75" source="cw_chongWuDi01"/>
+		<e:Group id="force_wnd" width="193" height="30" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0.5" y="205">
+			<e:Image source="ty_zhanLiDi01" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+			<gui:BatchImage id="force_num" height="32" width="165" x="14" y="-2"/>
+		</e:Group>
+		<e:Group id="actor_wnd" width="120" height="150" left="120" bottom="505"/>
+		<gui:RichDisplayer id="name_rd" width="250" height="30" anchorOffsetY="0" left="50" bottom="462"/>
+		<e:Group id="qua_group" width="41" height="85" y="285" x="263">
+			<e:Image id="qua_pic" source="cw_textDi01" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Label id="qua_txt" text="${PET_SHENCHONG}" x="0" y="0" anchorOffsetX="0" width="41" style="ht_24_lc_stroke" height="85" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="sk_skill_wnd" width="200" height="190" anchorOffsetY="0" anchorOffsetX="0" right="80" bottom="462">
+			<e:Group id="sk_wnd" width="100" height="99" x="50" y="15"/>
+			<e:Image id="sk_act_pic1" source="cw_text05" y="0" x="56"/>
+			<e:Image id="sk_act_pic2" y="98" x="40" source="ty_textDi05"/>
+			<gui:RichDisplayer id="sk_name" width="202" height="30" x="0" y="103"/>
+			<gui:RichDisplayer id="sk_des_rd" width="220" height="50" horizontalCenter="0" y="140"/>
+		</e:Group>
+		<e:Group id="sk_skill_group" width="540" height="240" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" bottom="200">
+			<e:Image source="cw_text06" top="-20" horizontalCenter="0"/>
+			<e:Image source="cz_uiLine01" left="0" right="0" scale9Grid="23,8,1,1" top="3"/>
+			<e:Group anchorOffsetX="0" anchorOffsetY="0" width="500" x="20" height="220" y="18">
+				<e:Group id="sk_group0" width="160" height="108" x="15" y="23">
+					<e:Group id="sk_wnd0" width="100" height="99" x="30" y="0">
+					</e:Group>
+					<e:Image id="sk_pic0" x="20" y="68" source="ty_textDi06"/>
+					<gui:RichDisplayer id="sk_name0" width="160" height="30" x="0" y="72"/>
+				</e:Group>
+				<e:Group id="sk_group1" width="160" height="108" x="25" y="33">
+					<e:Group id="sk_wnd1" width="100" height="99" x="30" y="0"/>
+					<e:Image id="sk_pic1" x="20" y="68" source="ty_textDi06"/>
+					<gui:RichDisplayer id="sk_name1" width="160" height="30" x="0" y="72"/>
+				</e:Group>
+				<e:Group id="sk_group2" width="160" height="108" x="35" y="43">
+					<e:Group id="sk_wnd2" width="100" height="99" x="30" y="0"/>
+					<e:Image id="sk_pic2" x="20" y="68" source="ty_textDi06"/>
+					<gui:RichDisplayer id="sk_name2" width="160" height="30" x="0" y="72"/>
+				</e:Group>
+				<e:Group id="sk_group3" width="160" height="108" x="45" y="53">
+					<e:Group id="sk_wnd3" width="100" height="99" x="30" y="0"/>
+					<e:Image id="sk_pic3" x="20" y="68" source="ty_textDi06"/>
+					<gui:RichDisplayer id="sk_name3" width="160" height="30" x="0" y="72"/>
+				</e:Group>
+				<e:Group id="sk_group4" width="160" height="108" x="55" y="63">
+					<e:Group id="sk_wnd4" width="100" height="99" x="30" y="0"/>
+					<e:Image id="sk_pic4" x="20" y="68" source="ty_textDi06"/>
+					<gui:RichDisplayer id="sk_name4" width="160" height="30" x="0" y="72"/>
+				</e:Group>
+				<e:Group id="sk_group5" width="160" height="108" x="65" y="73">
+					<e:Group id="sk_wnd5" width="100" height="99" x="30" y="0"/>
+					<e:Image id="sk_pic5" x="20" y="68" source="ty_textDi06"/>
+					<gui:RichDisplayer id="sk_name5" width="160" height="30" x="0" y="72"/>
+				</e:Group>
+				<e:layout>
+					<e:TileLayout horizontalGap="10" verticalGap="4" requestedRowCount="2" requestedColumnCount="3"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Group id="sk_attr_group" width="540" height="85" horizontalCenter="0" bottom="110">
+			<e:Image source="cw_text07" top="0" horizontalCenter="0.5"/>
+			<e:Image source="cz_uiLine01" y="23" left="0" right="0" scale9Grid="23,8,1,1"/>
+			<e:Group width="504" height="25" top="40" horizontalCenter="0">
+				<gui:RichDisplayer id="hp_rd" height="25" width="168" x="18" y="40" scaleX="1" scaleY="1"/>
+				<gui:RichDisplayer id="att_rd" height="25" width="168" x="168" y="40" scaleX="1" scaleY="1"/>
+				<gui:RichDisplayer id="def_rd" height="25" width="168" x="318" y="40" scaleX="1" scaleY="1"/>
+				<e:layout>
+					<e:HorizontalLayout gap="0"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:RadioButton id="pet_btn1" label="${PET_TUJIAN}" left="40" bottom="32" width="117" height="51">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="pet_btn2" label="${PET_SHENCHONG}" left="170" bottom="32" width="117" height="51">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<gui:Button id="btn_close_top" label="" right="0" top="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close" label="" bottom="13" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

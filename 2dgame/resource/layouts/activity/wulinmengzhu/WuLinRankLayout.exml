@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WuLinRankLayout" width="640" height="910" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*">
+	<w:Config id="161c1d1ca3e"/>
+	<e:Image scale9Grid="140,178,2,4" left="0" right="0" top="0" bottom="0" source="ty_uiDi01"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="label_wndName" text="排名" width="640" height="36" textAlign="center" verticalAlign="middle" style="ht_title_font" top="0" horizontalCenter="0"/>
+	<e:Image scale9Grid="22,22,1,1" y="54" width="560" anchorOffsetY="0" height="730" source="ty_uiDi02" horizontalCenter="0"/>
+	<e:Image scale9Grid="22,22,1,1" width="600" anchorOffsetY="0" height="85" source="ty_uiDi02" horizontalCenter="0" y="795"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_back" label="" right="0" bottom="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:RichDisplayer id="my_rank" width="100" height="60" x="34" y="810">
+	</gui:RichDisplayer>
+	<e:Group id="my_reward_group" width="360" height="80" x="170" y="800"/>
+	<e:Scroller width="560" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-0.5" y="54" height="730">
+		<e:List id="reward_list" width="560" height="730" anchorOffsetX="0" anchorOffsetY="0">
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+
+</e:Skin>

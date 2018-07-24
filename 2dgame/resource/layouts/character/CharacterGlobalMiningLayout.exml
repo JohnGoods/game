@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CharacterGlobalMiningLayout" width="214" height="227" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*">
+	<w:Config id="161c1d1ca3e"/>
+	<e:Group id="group0" width="72" height="72" horizontalCenter="0" verticalCenter="-44" touchEnabled="false" visible="false">
+		<e:Image id="memberBg0" source="kfzb_zhengYingKuang01" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		<e:Image id="member0" scale9Grid="140,178,2,4" source="kfzb_91002" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+
+		<e:Image width="116" height="25" y="67" horizontalCenter="0" source="ty_zhanLiDi01"/>
+		<e:Label id="memberName0" text="名字名字名字" y="70" horizontalCenter="0" height="22" width="111" textAlign="center" style="ht_16_lc_stroke"/>
+		<e:Image id="captureIcon" width="76" height="53" y="-18" source="kfzb_zhanLing" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group width="72" height="72" id="group1" horizontalCenter="-55" verticalCenter="34" touchEnabled="false" visible="false">
+		<e:Image id="memberBg1" source="kfzb_zhengYingKuang01" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		<e:Image scale9Grid="140,178,2,4" source="kfzb_91002" id="member1" left="0" bottom="0" scaleX="1" scaleY="1" right="0" top="0"/>
+		<e:Image width="116" height="25" y="67" horizontalCenter="0" source="ty_zhanLiDi01"/>
+		<e:Label text="名字名字名字" y="70" horizontalCenter="0" height="22" width="111" textAlign="center" style="ht_16_lc_stroke" id="memberName1"/>
+	</e:Group>
+	<e:Group width="72" height="72" id="group2" horizontalCenter="55" verticalCenter="34" touchEnabled="false" visible="false">
+		<e:Image id="memberBg2" source="kfzb_zhengYingKuang01" right="0" bottom="0" scaleX="1" scaleY="1" left="0" top="0"/>
+		<e:Image scale9Grid="140,178,2,4" source="kfzb_91002" id="member2" right="0" bottom="0" scaleX="1" scaleY="1" left="0" top="0"/>
+		<e:Image width="116" height="25" y="67" horizontalCenter="0" source="ty_zhanLiDi01"/>
+		<e:Label text="名字名字名字" y="70" horizontalCenter="0" height="22" width="111" textAlign="center" style="ht_16_lc_stroke" id="memberName2"/>
+	</e:Group>
+	<e:Group id="info_group" width="43" height="44" anchorOffsetX="0" anchorOffsetY="0" left="-20" top="-20" visible="false">
+		<gui:Button id="info_btn" label="" left="0" top="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_xinXi01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<e:Group id="collect_group" height="68" left="0" right="0" bottom="0" touchEnabled="false" visible="false">
+		<e:Label id="tl0" text="${GLOBAL_MINING_TXT29}" textAlign="center" style="ht_20_lc_stroke" bottom="24" width="214" horizontalCenter="0"/>
+		<gui:ProgressBar id="collect_pro" height="17" width="150" bottom="0" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="bottomTips_group" height="47" left="0" right="0" bottom="0" touchEnabled="false" visible="false">
+		<e:Image width="187" height="27" bottom="0" horizontalCenter="0" source="ty_textDi01" scale9Grid="9,8,1,1"/>
+		<e:Label id="bottomTips" text="" y="23" horizontalCenter="0" width="189" height="23" style="ht_18_lc_stroke" textAlign="center" textColor="0xadff30"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

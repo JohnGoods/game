@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CampaignRecordLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image scale9Grid="140,178,2,4" left="0" right="0" top="0" bottom="0" source="ty_uiDi01"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0" top="0"/>
+	<e:Label id="label_wndName" text="${CAMPAIGN_TXT1}" width="640" height="36" textAlign="center" verticalAlign="middle" style="ht_title_font" top="0" horizontalCenter="0"/>
+	<e:Image source="ty_uiDi02" bottom="20" scale9Grid="23,20,1,2" height="85" left="23" right="23"/>
+	<e:Group id="single_group" width="640" height="900" horizontalCenter="0" verticalCenter="0" x="10" y="10">
+		<e:Group width="565" height="197" y="50" horizontalCenter="0">
+			<e:Image source="gk_shouTongZTDi01" horizontalCenter="0" verticalCenter="0"/>
+			<gui:RichDisplayer id="my_pass_rd0" width="540" height="20" y="173" horizontalCenter="0"/>
+			<gui:RichDisplayer id="my_pass_time" width="540" height="20" y="173" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group width="565" height="535" y="252" horizontalCenter="0.5" anchorOffsetY="0">
+			<e:Image source="ty_uiDi02" bottom="0" scale9Grid="23,20,1,2" left="0" right="0" x="-14.999999999999996" scaleX="1" scaleY="1" top="0"/>
+			<e:Scroller id="single_scroller" left="5" top="5" bottom="5" right="5">
+				<e:List id="single_scroll"/>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+	<e:Group id="server_group" width="640" height="900" horizontalCenter="0" verticalCenter="0" x="20" y="20" visible="false">
+		<e:Group width="565" height="197" y="50" horizontalCenter="0">
+		<e:Image horizontalCenter="0" verticalCenter="0" source="gk_shouTongZTDi02"/>
+		<gui:RichDisplayer id="my_pass_rd1" width="540" height="20" y="173" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group width="565" height="535" y="252" horizontalCenter="0.5" anchorOffsetY="0">
+		<e:Image source="ty_uiDi02" bottom="0" scale9Grid="23,20,1,2" left="0" right="0" x="-14.999999999999996" scaleX="1" scaleY="1" top="0"/>
+		<e:Scroller left="5" top="5" bottom="5" right="5">
+			<e:List id="server_scroll"/>
+		</e:Scroller>
+		</e:Group>
+	</e:Group>
+	<e:Group id="rank_group" width="640" height="900" horizontalCenter="0" verticalCenter="0" visible="false">
+		<e:Image scale9Grid="22,22,1,1" y="54" x="35" width="571" anchorOffsetY="0" height="682" source="ty_uiDi02" scaleX="1" scaleY="1"/>
+		<e:Group id="scroll_group" width="556" height="617" x="42" y="108" scaleX="1" scaleY="1"/>
+		<e:Group id="my_rank_wnd" width="571" height="40" x="35" y="745">
+			<e:Image scale9Grid="22,22,1,1" y="0" width="571" anchorOffsetY="0" height="40" source="ty_uiDi02" scaleX="1" scaleY="1" x="0"/>
+			<e:Label id="my_rank" text="" x="20" y="5" scaleX="1" scaleY="1" height="30" textColor="0xffffff" style="ht_22_lc_stroke" textAlign="left" verticalAlign="middle" width="220"/>
+			<e:Label id="my_pass" text="" x="255" y="5" width="300" textAlign="left" scaleX="1" scaleY="1" textColor="0xffffff" verticalAlign="middle" height="30" style="ht_22_lc_stroke"/>
+		</e:Group>
+		<e:Image width="570" height="48" x="36" y="54" source="ty_textDi02" scale9Grid="21,22,5,5" scaleX="1" scaleY="1"/>
+		<e:Label id="tl1" text="${COPY_TXT9}" x="23.000000000000004" y="64" anchorOffsetX="0" width="121" style="ht_24_lc" textAlign="center" scaleX="1" scaleY="1"/>
+		<e:Label id="tl2" text="${COPY_TXT10}" x="123.00000000000001" y="64" anchorOffsetX="0" width="140" textAlign="center" style="ht_24_lc" scaleX="1" scaleY="1"/>
+		<e:Label id="tl3" text="${COPY_TXT11}" x="260" y="64" anchorOffsetX="0" width="121" style="ht_24_lc" textAlign="center" scaleX="1" scaleY="1"/>
+		<e:Label id="tl4" text="${CAMPAIGN_TXT2}" x="430" y="64" anchorOffsetX="0" width="121" style="ht_24_lc" textAlign="center" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="bottom_group" height="51" bottom="35" left="35" width="498">
+		<e:RadioButton id="tab0" label="${CAMPAIGN_TXT20}" x="0" y="0" scaleX="1" scaleY="1" width="117" height="51">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="tab1" label="${CAMPAIGN_TXT1}" x="0" y="0" width="117" height="51">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</e:skinName>
+		</e:RadioButton>
+		<e:layout>
+		<e:HorizontalLayout gap="10" paddingLeft="0" horizontalAlign="left" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:itemRender="itemRender.*">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close" label="" right="0" bottom="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:itemRender="itemRender.*">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

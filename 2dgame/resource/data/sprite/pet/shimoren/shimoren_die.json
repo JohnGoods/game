@@ -1,0 +1,7 @@
+{"file":"shimoren_die.png","frames":{
+"die_3_body_00":{"x":221,"y":427,"w":207,"h":186,"offX":19,"offY":45,"sourceW":320,"sourceH":320},
+"die_3_body_01":{"x":0,"y":427,"w":219,"h":189,"offX":0,"offY":42,"sourceW":320,"sourceH":320},
+"die_3_body_02":{"x":0,"y":0,"w":190,"h":263,"offX":68,"offY":42,"sourceW":320,"sourceH":320},
+"die_7_body_00":{"x":192,"y":208,"w":207,"h":217,"offX":93,"offY":45,"sourceW":320,"sourceH":320},
+"die_7_body_01":{"x":192,"y":0,"w":229,"h":206,"offX":91,"offY":42,"sourceW":320,"sourceH":320},
+"die_7_body_02":{"x":0,"y":265,"w":159,"h":140,"offX":70,"offY":100,"sourceW":320,"sourceH":320}}}

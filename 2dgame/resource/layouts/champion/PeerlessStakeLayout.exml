@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PeerlessStakeLayout" width="550" height="728" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image scaleX="1" scaleY="1" source="ty_uiDi01" scale9Grid="116,133,28,38" bottom="0" left="0" right="0" top="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="title" text="${JJC_TXT30}" textAlign="center" horizontalCenter="0" top="0" height="36" width="640" style="ht_title_font" verticalAlign="middle"/>
+	<e:Image source="txdy_ztUIDi02" horizontalCenter="0" top="53"/>
+	<e:Label id="tips" text="${JJC_ROUND_TIPS_TXT1}" textAlign="left" top="53" height="36" verticalAlign="middle" style="ht_20_lc_stroke" textColor="0x00ff00" width="462" horizontalCenter="17"/>
+	<e:Label id="tips_1" text="${JJC_ROUND_TIPS_TXT2}" textAlign="center" horizontalCenter="0" height="36" width="640" verticalAlign="middle" bottom="31" textColor="0x00ff00" style="ht_24_lc_stroke"/>
+	<e:Image width="505" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" source="ty_uiDi02" scale9Grid="5,5,32,31" bottom="89" height="240"/>
+	<e:Group width="474" height="225" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" bottom="102">
+		<e:Group id="group_low" top="0" bottom="0" width="140" left="0">
+			<gui:Button id="btn_low" label="${JJC_TXT25}" y="111" horizontalCenter="0" width="117">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+					</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<e:Group id="bottom_low" width="121" height="30" y="167" x="10">
+				<e:Image width="121" height="30" y="0" source="txdy_textDi02" scale9Grid="7,6,17,14" horizontalCenter="0" x="0" scaleX="1" scaleY="1"/>
+				<gui:RichDisplayer id="rd_low" height="24" width="140" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group id="item_low" width="80" height="80" x="30" y="20"/>
+			<e:Image id="ya_low" source="01_zhuCheng05.txdy_ya" x="-2" y="-7"/>
+		</e:Group>
+		<e:Group id="group_middle" top="0" bottom="0" width="140" left="0" x="10" y="10">
+			<gui:Button id="btn_middle" label="${JJC_TXT26}" y="111" horizontalCenter="0" width="117">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<e:Group id="bottom_middle" width="121" height="30" y="167" x="10">
+				<e:Image width="121" height="30" y="0" source="txdy_textDi02" scale9Grid="7,6,17,14" horizontalCenter="0" x="0" scaleX="1" scaleY="1"/>
+				<gui:RichDisplayer id="rd_middle" height="24" width="140" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group id="item_middle" width="80" height="80" x="30" y="20"/>
+			<e:Image id="ya_middle" source="01_zhuCheng05.txdy_ya" x="-2" y="-7"/>
+		</e:Group>
+		<e:Group id="group_height" top="0" bottom="0" width="140" left="0" x="20" y="20">
+			<gui:Button id="btn_height" label="${JJC_TXT27}" y="111" horizontalCenter="0" width="117">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<e:Group id="bottom_height" width="121" height="30" y="167" x="10">
+				<e:Image width="121" height="30" y="0" source="txdy_textDi02" scale9Grid="7,6,17,14" horizontalCenter="0" x="0" scaleX="1" scaleY="1"/>
+				<gui:RichDisplayer id="rd_height" height="24" width="140" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group id="item_height" width="80" height="80" x="30" y="20"/>
+			<e:Image id="ya_height" source="01_zhuCheng05.txdy_ya" x="-2" y="-7"/>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="21"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="label_hadStake" text="本轮已押注，请下轮比赛再来" style="ht_24_lc_stroke" verticalAlign="middle" textAlign="center" left="0" right="0" bottom="168" textColor="0x00ff00" visible="false"/>
+	<gui:Button id="btn_close_top" label="" right="0" top="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close" label="" scaleX="1" scaleY="1" right="-3.96" bottom="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Group id="group_contain" top="97" height="264" width="550" horizontalCenter="0"/>
+	<e:Image source="38_tianXiaDiYi.txdy_vs" y="172" horizontalCenter="0"/>
+</e:Skin>

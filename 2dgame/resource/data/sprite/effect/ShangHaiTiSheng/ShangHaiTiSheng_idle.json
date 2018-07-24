@@ -1,0 +1,12 @@
+{"file":"ShangHaiTiSheng_idle.png","frames":{
+"idle_0_body_00":{"x":0,"y":448,"w":118,"h":45,"offX":132,"offY":216,"sourceW":320,"sourceH":320},
+"idle_0_body_01":{"x":0,"y":304,"w":150,"h":142,"offX":85,"offY":153,"sourceW":320,"sourceH":320},
+"idle_0_body_02":{"x":0,"y":0,"w":150,"h":150,"offX":85,"offY":141,"sourceW":320,"sourceH":320},
+"idle_0_body_03":{"x":0,"y":152,"w":150,"h":150,"offX":85,"offY":141,"sourceW":320,"sourceH":320},
+"idle_0_body_04":{"x":388,"y":107,"w":98,"h":99,"offX":119,"offY":162,"sourceW":320,"sourceH":320},
+"idle_0_body_05":{"x":271,"y":0,"w":115,"h":106,"offX":109,"offY":158,"sourceW":320,"sourceH":320},
+"idle_0_body_06":{"x":152,"y":0,"w":117,"h":108,"offX":107,"offY":157,"sourceW":320,"sourceH":320},
+"idle_0_body_07":{"x":388,"y":0,"w":115,"h":105,"offX":108,"offY":158,"sourceW":320,"sourceH":320},
+"idle_0_body_08":{"x":271,"y":108,"w":91,"h":83,"offX":120,"offY":169,"sourceW":320,"sourceH":320},
+"idle_0_body_09":{"x":152,"y":110,"w":77,"h":71,"offX":127,"offY":176,"sourceW":320,"sourceH":320},
+"idle_0_body_10":{"x":152,"y":183,"w":71,"h":66,"offX":130,"offY":178,"sourceW":320,"sourceH":320}}}

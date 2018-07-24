@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LuckyPrizeLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image scaleX="1" scaleY="1" top="0" bottom="0" source="ty_uiDi01" left="0" right="0" scale9Grid="118,133,33,59"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="title" text="Label" style="ht_title_font" left="0" right="0" top="9" verticalAlign="middle" textAlign="center"/>
+	<e:Group id="group_gift" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image width="576" height="646.7" anchorOffsetX="0" anchorOffsetY="0" source="ty_uiDi02" scale9Grid="5,5,32,31" x="32" y="156" scaleX="1" scaleY="1"/>
+		<e:Group id="gift_scroll" width="560" height="629.69" y="168" anchorOffsetX="0" anchorOffsetY="0" x="40" scaleX="1" scaleY="1">
+		</e:Group>
+		<e:Label id="label_1" text="${LUCKY_PRIZE_REST_TIME}" style="ht_20_lc" textAlign="left" verticalAlign="middle" textColor="0x45332b" left="63" bottom="66" x="63" y="814" scaleX="1" scaleY="1"/>
+		<e:Label id="label_time" text="" style="ht_20_lc" textAlign="left" verticalAlign="middle" left="177" bottom="66" textColor="0x009201" height="20" width="253" x="177" y="814" scaleX="1" scaleY="1"/>
+		<gui:RichDisplayer id="rd_des" width="492" left="63" bottom="18" height="40" x="63" y="842" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="group_xianshi" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image id="image_bg" width="564" height="197" y="159" horizontalCenter="0" source="xyhl_zhanShiTu01"/>
+		<e:Image width="580" height="444" y="367" x="30" source="ty_uiDi02" scale9Grid="5,5,32,31"/>
+		<e:Group id="xianshi_scroll" width="564" height="433.33" y="371.52" anchorOffsetY="0" horizontalCenter="0" visible="false"/>
+		<e:Group id="huikui_scroll" width="564" height="433.33" y="371.52" anchorOffsetY="0" horizontalCenter="0" visible="false">
+			<e:Group height="150" y="3" left="0" right="0">
+				<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi03" scale9Grid="6,7,40,47"/>
+				<e:Image width="336" height="32" x="10" y="5" source="kfhd_textDi01"/>
+				<e:Group width="320" height="80" x="20" y="52"/>
+				<e:Image width="117" height="51" x="418" y="65" anchorOffsetX="0" anchorOffsetY="0" source="ty_tongYongBt3"/>
+				<e:Label text="限购（0/40）" x="401" y="31" style="ht_24_lc" verticalAlign="middle" textColor="0x009201" width="160" textAlign="center"/>
+			</e:Group>
+		</e:Group>
+		<e:Label id="label_des" text="${LUCKY_PRIZE_XIANSHI_DES}" x="379" y="205" style="ht_20_lc" anchorOffsetX="0" width="209" anchorOffsetY="0" height="95" textColor="0xfdf5e6"/>
+		<e:Label id="xianshi_time" text="${LUCKY_PRIZE_REST_TIME}" style="ht_20_lc" textAlign="left" verticalAlign="middle" scaleX="1" scaleY="1" x="380" y="178" textColor="0x009201"/>
+	</e:Group>
+	<e:Group id="top_scroll" width="563" height="106" y="44" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0"/>
+	<gui:Button id="btn_close" label="" right="0" bottom="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close_top" label="" right="0" top="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

@@ -1,0 +1,5 @@
+{"file":"wuduxie_combat_idle.png","frames":{
+"combat_idle_3_body_00":{"x":0,"y":0,"w":114,"h":157,"offX":106,"offY":68,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_01":{"x":116,"y":0,"w":115,"h":153,"offX":106,"offY":69,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_02":{"x":116,"y":155,"w":119,"h":145,"offX":106,"offY":76,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_03":{"x":0,"y":302,"w":116,"h":141,"offX":104,"offY":82,"sourceW":320,"sourceH":320}}}

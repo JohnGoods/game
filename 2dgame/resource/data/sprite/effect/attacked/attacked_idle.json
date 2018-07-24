@@ -1,0 +1,9 @@
+{"file":"attacked_idle.png","frames":{
+"idle_0_body_00":{"x":0,"y":254,"w":206,"h":238,"offX":58,"offY":42,"sourceW":320,"sourceH":320},
+"idle_0_body_01":{"x":200,"y":671,"w":223,"h":127,"offX":49,"offY":96,"sourceW":320,"sourceH":320},
+"idle_0_body_02":{"x":254,"y":252,"w":248,"h":248,"offX":36,"offY":37,"sourceW":320,"sourceH":320},
+"idle_0_body_03":{"x":0,"y":0,"w":252,"h":252,"offX":34,"offY":35,"sourceW":320,"sourceH":320},
+"idle_0_body_04":{"x":254,"y":0,"w":249,"h":250,"offX":36,"offY":36,"sourceW":320,"sourceH":320},
+"idle_0_body_05":{"x":0,"y":494,"w":196,"h":220,"offX":63,"offY":50,"sourceW":320,"sourceH":320},
+"idle_0_body_06":{"x":0,"y":716,"w":198,"h":208,"offX":63,"offY":53,"sourceW":320,"sourceH":320},
+"idle_0_body_07":{"x":198,"y":502,"w":181,"h":167,"offX":73,"offY":81,"sourceW":320,"sourceH":320}}}

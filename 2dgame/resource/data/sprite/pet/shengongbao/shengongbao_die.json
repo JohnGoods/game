@@ -1,0 +1,9 @@
+{"file":"shengongbao_die.png","frames":{
+"die_3_body_00":{"x":187,"y":424,"w":155,"h":201,"offX":67,"offY":30,"sourceW":320,"sourceH":320},
+"die_3_body_01":{"x":0,"y":0,"w":219,"h":207,"offX":6,"offY":23,"sourceW":320,"sourceH":320},
+"die_3_body_02":{"x":221,"y":0,"w":207,"h":195,"offX":9,"offY":27,"sourceW":320,"sourceH":320},
+"die_3_body_03":{"x":0,"y":395,"w":185,"h":175,"offX":20,"offY":35,"sourceW":320,"sourceH":320},
+"die_7_body_00":{"x":221,"y":197,"w":155,"h":225,"offX":98,"offY":4,"sourceW":320,"sourceH":320},
+"die_7_body_01":{"x":0,"y":209,"w":189,"h":184,"offX":107,"offY":44,"sourceW":320,"sourceH":320},
+"die_7_body_02":{"x":0,"y":572,"w":175,"h":171,"offX":116,"offY":53,"sourceW":320,"sourceH":320},
+"die_7_body_03":{"x":344,"y":424,"w":158,"h":153,"offX":126,"offY":62,"sourceW":320,"sourceH":320}}}

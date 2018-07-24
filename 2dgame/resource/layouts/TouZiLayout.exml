@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TouZiLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image scale9Grid="140,178,2,4" left="0" right="0" top="0" bottom="0" source="ty_uiDi01"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="title" text="" width="640" height="36" textAlign="center" verticalAlign="middle" top="0" horizontalCenter="0" style="ht_title_font"/>
+	<e:Image source="ty_uiDi02" bottom="20" scale9Grid="23,20,1,2" height="85" left="23" right="23"/>
+	<e:Group id="group_tab_1" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image id="image_bg" width="564" height="423" y="46" horizontalCenter="0" source="sc_zhanShiTu01"/>
+		<gui:BatchImage id="bImage" width="260" height="33" y="426" horizontalCenter="0"/>
+		<e:Group width="564" height="312" y="474" anchorOffsetY="0" horizontalCenter="0">
+			<e:Group id="pay_group" height="69" width="550" y="10" horizontalCenter="0" x="33" scaleX="1" scaleY="1">
+				<e:RadioButton id="pay_tab0" label="" x="0" y="0" scaleX="1" scaleY="1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_tongYongBt15" source.down="ty_tongYongBt14"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+						</e:Skin>
+					</e:skinName>
+				</e:RadioButton>
+				<e:RadioButton id="pay_tab1" label="" x="0" y="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_tongYongBt15" source.down="ty_tongYongBt14"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+						</e:Skin>
+					</e:skinName>
+				</e:RadioButton>
+				<e:RadioButton id="pay_tab2" label="" x="0" y="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_tongYongBt15" source.down="ty_tongYongBt14"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+						</e:Skin>
+					</e:skinName>
+				</e:RadioButton>
+				<e:RadioButton id="pay_tab3" label="" x="10" y="10">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_tongYongBt15" source.down="ty_tongYongBt14"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+						</e:Skin>
+					</e:skinName>
+				</e:RadioButton>
+				<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" gap="10"/>
+				</e:layout>
+			</e:Group>
+			<gui:RichDisplayer id="pay_rd1" width="125" height="60" x="10" y="18" touchEnabled="false" touchChildren="false">
+			</gui:RichDisplayer>
+			<gui:RichDisplayer id="pay_rd2" width="125" height="60" x="151" y="18" touchEnabled="false" touchChildren="false"/>
+			<gui:RichDisplayer id="pay_rd3" width="125" height="60" x="292" y="18" touchEnabled="false" touchChildren="false"/>
+			<gui:RichDisplayer id="pay_rd4" width="125" height="60" x="432" y="18" touchEnabled="false" touchChildren="false"/>
+			<e:Group id="red_point_group2" height="69" width="550" x="5" touchEnabled="false" y="10">
+				<e:Image id="shouchong_red_point1" width="40" height="40" x="90" source="zjm_hongDian01" y="0" touchEnabled="false"/>
+				<e:Image id="shouchong_red_point2" width="40" height="40" x="230" source="zjm_hongDian01" y="0" touchEnabled="false"/>
+				<e:Image id="shouchong_red_point3" width="40" height="40" x="370" source="zjm_hongDian01" y="0" touchEnabled="false"/>
+				<e:Image id="shouchong_red_point4" width="40" height="40" x="510" source="zjm_hongDian01" y="0" touchEnabled="false"/>
+				<e:layout>
+				<e:BasicLayout/>
+				</e:layout>
+			</e:Group>
+		<e:Image source="ty_uiDi02" scale9Grid="23,20,1,2" left="0" right="0" scaleX="1" scaleY="1" anchorOffsetY="0" top="79" height="232"/>
+		<e:Label id="label_value" text="价值29888元宝" scaleX="1" scaleY="1" top="84" left="0" right="0" verticalAlign="middle" textAlign="center" style="ht_24_lc_stroke"/>
+		<e:Image source="cz_uiLine01" scale9Grid="23,8,1,1" width="540" horizontalCenter="0" x="12" scaleX="1" scaleY="1" top="107"/>
+		<e:Group id="group_prize" width="540" height="74.67" y="130" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0">
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<gui:Button id="btn_charge" label="立即充值" horizontalCenter="0" top="215">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt9"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+			<e:Image id="shouchong_get_red_point" width="40" height="40" x="314" source="zjm_hongDian01" y="210" touchEnabled="false"/>
+		<gui:RichDisplayer id="adv_pay_rd" width="287" height="24" top="275" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="group_tab_2" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image width="550" height="197" horizontalCenter="0" top="58" source="sc_zcjjTu01"/>
+		<gui:Button id="btn_chengzhang" label="" right="98" top="149">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="sc_anNiu01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:RichDisplayer id="chengzhang_rd_time" width="254" height="24" top="220" right="71"/>
+		<e:Group id="group_chengzhang" anchorOffsetY="0" top="264" bottom="115" left="44" right="46">
+			<e:Image source="ty_uiDi02" scale9Grid="5,5,32,31" left="0" right="0" top="0" bottom="0"/>
+			<e:Scroller id="scroller_chengzhang" left="0" right="0" top="0" bottom="0">
+				<e:List id="list_chengzhang"/>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+	<e:Group id="group_tab_3" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image width="550" height="197" horizontalCenter="0" top="58" source="sc_tzjhTu01"/>
+		<gui:Button id="btn_touzi" label="投资8888元宝" right="98" top="149" x="332" y="149" scaleX="1" scaleY="1">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="sc_anNiu01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_touzi_red_tip" label="" right="98" top="149" x="342" y="159" scaleX="1" scaleY="1">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_hongDian01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:RichDisplayer id="rd_jihua_time" width="254" height="24" top="220" right="71"/>
+		<e:Group id="scroll_touzi" width="550" height="520" x="44" y="264" anchorOffsetY="0">
+			<e:Image source="ty_uiDi02" scale9Grid="5,5,32,31" scaleX="1" scaleY="1" height="520" width="550" horizontalCenter="0" x="1" y="0"/>
+		<e:Group width="270" height="128" x="8" y="7" anchorOffsetY="0" anchorOffsetX="0" visible="false">
+			<e:Image scale9Grid="5,5,32,31" top="0" bottom="0" scaleX="1" scaleY="1" source="ty_uiDi03" left="0" right="0"/>
+			<e:Group height="32" top="0" horizontalCenter="0" width="240">
+			<e:Image height="32" source="sc_biaoTiDi01" verticalCenter="0" scale9Grid="19,4,121,24" left="0" right="0"/>
+			<e:Label text="第一天返利" style="ht_24_lc_stroke" verticalAlign="middle" textAlign="center" left="0" right="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group height="80" y="36" horizontalCenter="0" width="260"/>
+		</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Group id="group_tab_4" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image width="564" height="668" horizontalCenter="0" x="45.00000000000001" scaleX="1" scaleY="1" source="sc_leiChongDi01" y="110"/>
+		<gui:BatchImage id="countdown" width="150" height="40" x="110" y="485"/>
+		<gui:RichDisplayer id="countdown_rd" width="110" height="30" x="130" y="495" visible="false"/>
+		<e:Group id="leichong_scroll" width="540" height="69" anchorOffsetX="540" horizontalCenter="0" y="40">
+		</e:Group>
+		<gui:Button id="btn_left" label="" y="58" scaleX="1" scaleY="1" left="10">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_jianTou03"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_right" label="" y="58" right="10">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_jianTou04"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<e:Group id="group_leiji_prize" width="260" height="160" x="275" y="430"/>
+		<gui:Button id="btn_leiji_charge" label="立即充值" top="621" horizontalCenter="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<gui:RichDisplayer id="rd_leiji_charge" width="120" height="48" x="410" y="625"/>
+		<gui:RichDisplayer id="rd_leiji_time" width="130" height="48" x="105" y="625"/>
+	</e:Group>
+	<e:Group id="group_tab_5" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image width="564" height="197" horizontalCenter="0" x="45.00000000000001" scaleX="1" scaleY="1" y="60" source="sclx_biaoTiDi01"/>
+		<e:Group width="560" height="510" y="270" horizontalCenter="0">
+			<e:Image width="560" height="510" horizontalCenter="0" verticalCenter="0" source="ty_uiDi02" scale9Grid="5,5,32,31"/>
+			<e:Scroller width="560" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" height="510" horizontalCenter="0" verticalCenter="0">
+				<e:List id="list_task" width="500" height="688.24" anchorOffsetX="0" anchorOffsetY="0">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<gui:RichDisplayer id="god_pet_time_rd" width="200" height="30" x="40" y="226"/>
+		<gui:RichDisplayer id="god_pet_value_rd" width="250" height="30" x="350" y="226"/>
+		<gui:Button id="god_pet_go_btn" label="炼妖壶商店" y="160" x="470">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt16"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_20_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<e:Group id="bottom_group" height="51" bottom="35" left="35" width="498">
+		<e:RadioButton id="tab1" label="首充" x="0" y="0" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="tab2" label="成长基金" x="0" y="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="tab3" label="投资计划" x="0" y="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="tab4" label="累计充值" x="10" y="10">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" gap="10"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="red_point_group" height="51" bottom="35" width="498" x="35" touchEnabled="false">
+		<e:Image id="red_point1" width="40" height="40" x="75" source="zjm_hongDian01" y="-5" touchEnabled="false" visible="false"/>
+		<e:Image id="red_point2" width="40" height="40" x="203" source="zjm_hongDian01" y="-5" touchEnabled="false" visible="false"/>
+		<e:Image id="red_point3" width="40" height="40" x="330" source="zjm_hongDian01" y="-5" touchEnabled="false" visible="false"/>
+		<e:Image id="red_point4" width="40" height="40" x="455" source="zjm_hongDian01" y="-5" touchEnabled="false" visible="false"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close" label="" right="0" bottom="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

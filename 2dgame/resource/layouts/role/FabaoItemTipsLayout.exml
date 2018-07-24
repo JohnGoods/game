@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FabaoItemTipsLayout" width="460" height="504" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Group id="equip_wnd" top="0" bottom="0" left="0" right="0">
+		<e:Image source="ty_tipsDi" scaleX="1" scaleY="1" top="0" bottom="0" scale9Grid="20,19,2,2" left="0" right="0" anchorOffsetY="0"/>
+		<e:Image id="hero_zu" source="sh_zhongZu03" right="7" top="0" visible="false"/>
+		<e:Group id="item" width="128" height="128" left="13" top="-4">
+		</e:Group>
+		<gui:RichDisplayer id="rd_name" width="230" height="26" anchorOffsetY="0" left="140" top="19"/>
+		<gui:RichDisplayer id="des" width="230" height="20" y="52" anchorOffsetY="0" left="140"/>
+		<gui:BatchImage id="bImage" width="300" height="30" left="140" top="87"/>
+		<e:Group id="group_base" width="420" height="100" y="130" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image source="cz_uiLine01" scale9Grid="22,8,2,1" scaleX="1" scaleY="1" horizontalCenter="0" width="410" x="1" top="0"/>
+		<gui:RichDisplayer id="rd_base" height="85" anchorOffsetY="0" scaleX="1" scaleY="1" top="20" left="10" width="410"/>
+		</e:Group>
+		<e:Group id="group_effect" width="420" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" height="81" y="248">
+		<e:Image source="cz_uiLine01" scale9Grid="22,8,2,1" scaleX="1" scaleY="1" horizontalCenter="0" width="410" x="1" top="4"/>
+		<gui:RichDisplayer id="rd_effect" height="60" width="410" anchorOffsetY="0" scaleX="1" scaleY="1" top="20" left="10" anchorOffsetX="0"/>
+		</e:Group>
+		<e:Group id="group_dazao" width="420" height="70" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" y="338">
+		<e:Image source="cz_uiLine01" scale9Grid="22,8,2,1" scaleX="1" scaleY="1" horizontalCenter="0" width="410" x="1" top="3"/>
+		<gui:RichDisplayer id="rd_dazao" height="20" width="430" anchorOffsetY="0" scaleX="1" scaleY="1" left="10" y="35"/>
+			<gui:Button id="btn_wear" label="${CHUANDAI}" bottom="0" y="0.339999999999975" scaleX="1" scaleY="1" right="0" x="256" visible="false">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+				</e:skinName>
+			</gui:Button>
+			<gui:Button id="btn_show" label="${ZHANSHI}" bottom="0" y="0.339999999999975" scaleX="1" scaleY="1" right="0" x="256" visible="false">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+				</e:skinName>
+			</gui:Button>
+		<e:Group id="btn_group" width="350" height="49" anchorOffsetY="0" anchorOffsetX="0" top="20" right="0">
+			<e:layout>
+			<e:HorizontalLayout gap="6" horizontalAlign="right" verticalAlign="middle" paddingRight="0"/>
+			</e:layout>
+		</e:Group>
+		</e:Group>
+		<e:Group id="group_shenhun" width="420" height="74" anchorOffsetX="0" anchorOffsetY="0" y="417" horizontalCenter="0" visible="false">
+			<e:Image source="cz_uiLine01" scale9Grid="22,8,2,1" scaleX="1" scaleY="1" horizontalCenter="0" width="410" x="1" top="3"/>
+			<e:Group id="group_btn" height="41" y="22" left="0" right="0">
+				<gui:Button id="btn_strong" label="${SHENHUN_TXT1}" bottom="10" y="1" scaleX="1" scaleY="1" left="79" width="86" height="41" x="79">
+					<gui:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_tongYongBt6"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+					</e:Skin>
+					</gui:skinName>
+				</gui:Button>
+				<gui:Button id="btn_xieke" label="${SHENHUN_TXT2}" bottom="10" y="1" scaleX="1" scaleY="1" right="74" x="260" width="86" height="41">
+					<gui:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_tongYongBt6"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+					</e:Skin>
+					</gui:skinName>
+				</gui:Button>
+				<gui:Button id="btn_zhanshi" label="${ZHANSHI}" bottom="10" y="11" scaleX="1" scaleY="1" right="74" x="270" width="86" height="41">
+					<gui:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_tongYongBt6"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+					</e:Skin>
+					</gui:skinName>
+				</gui:Button>
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="37"/>
+				</e:layout>
+			</e:Group>
+			<e:Label id="label_cant" text="${SHENHUN_TXT15}" y="33" style="ht_24_lc_stroke" horizontalCenter="0" textColor="0xfe0000"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

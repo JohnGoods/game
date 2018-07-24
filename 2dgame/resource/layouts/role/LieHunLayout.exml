@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LieHunLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ty_uiDi01" scale9Grid="142,190,3,6" left="0" bottom="0" top="0" right="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="title" text="${SHENHUN_TITLE_TXT3}" top="4" horizontalCenter="0" width="640" textAlign="center" verticalAlign="middle" height="36" style="ht_title_font"/>
+	<e:Image source="lh_lieHunBg01" height="730" scaleX="1" scaleY="1" y="49.91" horizontalCenter="0"/>
+	<e:Image source="lh_guiMenGuan01" y="59" horizontalCenter="0"/>
+	<e:Group width="200" left="34" top="672" height="45">
+		<e:CheckBox id="check_1" label="" x="15" bottom="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:CheckBox>
+		<e:Label id="lable_yuanbao" text="${SHENHUN_TXT6}" x="64" y="17" style="ht_24_lc_stroke"/>
+	</e:Group>
+	<e:Group width="200" left="34" top="718" height="45">
+		<e:CheckBox id="check_2" label="" x="15">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:CheckBox>
+		<e:Label id="label_bang" text="${SHENHUN_TXT7}" x="64" y="17" style="ht_24_lc_stroke"/>
+	</e:Group>
+	<gui:RichDisplayer id="rd_1" width="147" height="20" left="262" top="675"/>
+	<gui:Button id="btn_1" label="Button" left="262" top="702" height="55">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:RichDisplayer id="rd_2" width="147" left="437" top="675" height="20"/>
+	<gui:Button id="btn_2" label="Button" left="437" top="702">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Scroller id="srcoller" width="510" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" height="210" top="424">
+		<e:List id="item_list" width="510"/>
+	</e:Scroller>
+	<e:Group id="actor_deng" width="1" height="1" horizontalCenter="-121.5" top="216"/>
+	<e:Scroller width="590" height="325" y="59" horizontalCenter="0">
+		<e:Group>
+			<e:Group left="0" right="0" top="0" bottom="0">
+				<e:Group id="actor_body" width="1" height="1" x="282" y="324" scaleX="1" scaleY="1"/>
+				<e:Group id="actor_0" width="1" height="1" x="129" y="225" scaleX="1" scaleY="1" anchorOffsetX="0" rotation="326.6" anchorOffsetY="0">
+				</e:Group>
+				<e:Group id="actor_1" width="1" height="1" x="166" y="247" scaleX="1" scaleY="1" anchorOffsetX="0" rotation="326.6" anchorOffsetY="0">
+				</e:Group>
+				<e:Group id="actor_2" width="1" height="1" x="211" y="272.24" scaleX="1" scaleY="1" anchorOffsetX="0" rotation="326.6" anchorOffsetY="0">
+				</e:Group>
+				<e:Group id="actor_3" width="1" height="1" x="251" y="294.24" scaleX="1" scaleY="1" anchorOffsetX="0" rotation="326.6" anchorOffsetY="0"/>
+				<e:Group id="actor_4" width="1" height="1" x="285" y="316" scaleX="1" scaleY="1" anchorOffsetX="0" rotation="326.6" anchorOffsetY="0"/>
+				<e:Group id="actor_5" width="1" height="1" x="331" y="341" scaleX="1" scaleY="1" anchorOffsetX="0" rotation="326.6" anchorOffsetY="0"/>
+				<e:Group id="actor_hand" width="1" height="1" x="282" y="324" scaleX="1" scaleY="1"/>
+				<e:Group id="actor_qi" width="1" height="1" x="43" y="312" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+	</e:Scroller>
+	<e:Rect width="-0.04" height="617.29" x="156.39" y="285.04" fillColor="0x00ff00" rotation="299.55" anchorOffsetX="1.1" anchorOffsetY="2.95" strokeColor="0x00ff00" fillAlpha="0" strokeAlpha="0" visible="false"/>
+	<gui:RichDisplayer id="rd_hunbi" width="200" height="30" left="28" top="780"/>
+	<e:Label id="label_ps" text="${SHENHUN_TXT19}" horizontalCenter="0" y="510" style="ht_24_lc_stroke" textColor="0x00ff00"/>
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close" label="" right="0" bottom="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:RichDisplayer id="rd_tips" width="509" height="81" x="28" bottom="-5"/>
+</e:Skin>

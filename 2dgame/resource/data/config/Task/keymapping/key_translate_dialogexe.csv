@@ -1,0 +1,16 @@
+关键字段类型,#任务判断条件中文,判断条件ID,参数格式,备注
+kType_n,key_s,value_s,param_c,remark_c
+2,保存节点,FIELD_SAVE_NODE,,此表中的
+2,提交任务,FIELD_COMMIT_TASK,,
+2,触发战斗,FIELD_START_FIGHT,,
+2,记录npc,FIELD_FIND_NPC,,
+2,放弃任务,FIELD_CANCEL_TASK,,
+2,申请任务,FIELD_APPLY_TASk,taskType,"申请指定任务类型的任务。具体例子（下面的类似）：""申请任务"",[""param""]=3   其中3代表师门任务"
+2,帮会采集,FIELD_CLUB_MAP_COLLECT_TASK,,
+2,帮会小怪,FIELD_CLUB_MAP_INSTRUSION_TASK,,
+2,钟馗Npc,FIELD_ZHONGKUI_TASK,,
+2,武林大会Npc,FIELD_WULIN_TASK,,
+2,据点矿,FIELD_STRONGHOLD_NPC,,
+2,据点钥匙,FIELD_STRONGHOLD_KEY,,
+2,据点boss,FIELD_STRONGHOLD_BOSS,,
+2,据点宝箱,FIELD_STRONGHOLD_BOX,,

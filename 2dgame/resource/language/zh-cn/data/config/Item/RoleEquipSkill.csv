@@ -1,0 +1,3 @@
+索引,品质,技能效果,技能描述,激活条件,激活参数,激活条件描述
+ItemEntry_kn,Quality_kn,Effects_t,Des_s,Condition_s,Param_t,CondDes_s
+18801,5,"{'demage',2250}",攻击+2250,XianLvActive,{17004},需激活仙君孙悟空

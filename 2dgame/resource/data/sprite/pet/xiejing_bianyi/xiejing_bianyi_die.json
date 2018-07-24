@@ -1,0 +1,9 @@
+{"file":"xiejing_bianyi_die.png","frames":{
+"die_3_body_00":{"x":210,"y":229,"w":241,"h":162,"offX":24,"offY":63,"sourceW":320,"sourceH":320},
+"die_3_body_01":{"x":656,"y":0,"w":245,"h":152,"offX":22,"offY":70,"sourceW":320,"sourceH":320},
+"die_3_body_02":{"x":406,"y":0,"w":248,"h":153,"offX":20,"offY":64,"sourceW":320,"sourceH":320},
+"die_3_body_03":{"x":903,"y":120,"w":67,"h":121,"offX":124,"offY":82,"sourceW":320,"sourceH":320},
+"die_7_body_00":{"x":203,"y":0,"w":201,"h":227,"offX":100,"offY":68,"sourceW":320,"sourceH":320},
+"die_7_body_01":{"x":0,"y":249,"w":208,"h":237,"offX":96,"offY":60,"sourceW":320,"sourceH":320},
+"die_7_body_02":{"x":0,"y":0,"w":201,"h":247,"offX":104,"offY":51,"sourceW":320,"sourceH":320},
+"die_7_body_03":{"x":903,"y":0,"w":109,"h":118,"offX":133,"offY":100,"sourceW":320,"sourceH":320}}}

@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+        "target": "es5",
+		"locale": "zh-CN",
+        "outDir": "bin-debug",
+        "experimentalDecorators": true,
+        "lib": [
+            "es5",
+            "dom",
+            "es2015.promise"
+        ],
+        "types": []
+    },
+	
+   "exclude": [
+	  "node_modules"
+   ],
+   
+	"include": [
+      "src/**/*",
+	  "libs/**/*"
+   ]
+}

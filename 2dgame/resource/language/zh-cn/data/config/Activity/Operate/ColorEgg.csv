@@ -1,0 +1,6 @@
+索引,描述,类型,说明,彩蛋物品Id,概率,条件
+index_kn,typeIndex_s,ctype,,eggItemId_t,rate,cond_t
+1,MixLottery_A,1,寻宝,"{40057,100}",0,10
+2,CapturePet,1,宠物捕抓,"{40057,100}",0,10
+3,Campaign_help,1,关卡帮助,"{40057,100}",0,10
+4,Campaign_help,2,关卡帮助,"{40025,100},{40047,20}",0,10

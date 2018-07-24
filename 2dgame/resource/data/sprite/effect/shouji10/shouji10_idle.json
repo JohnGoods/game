@@ -1,0 +1,5 @@
+{"file":"shouji10_idle.png","frames":{
+"idle_0_body_00":{"x":604,"y":238,"w":81,"h":78,"offX":122,"offY":80,"sourceW":320,"sourceH":320},
+"idle_0_body_01":{"x":0,"y":0,"w":320,"h":236,"offX":0,"offY":0,"sourceW":320,"sourceH":320},
+"idle_0_body_02":{"x":0,"y":238,"w":304,"h":210,"offX":6,"offY":13,"sourceW":320,"sourceH":320},
+"idle_0_body_03":{"x":306,"y":238,"w":296,"h":205,"offX":10,"offY":15,"sourceW":320,"sourceH":320}}}

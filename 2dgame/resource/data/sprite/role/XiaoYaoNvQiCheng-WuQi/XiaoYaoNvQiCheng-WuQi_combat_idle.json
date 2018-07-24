@@ -1,0 +1,13 @@
+{"file":"XiaoYaoNvQiCheng-WuQi_combat_idle.png","frames":{
+"combat_idle_3_weapon_00":{"x":0,"y":0,"w":63,"h":46,"offX":137,"offY":173,"sourceW":320,"sourceH":320},
+"combat_idle_3_weapon_01":{"x":131,"y":0,"w":63,"h":45,"offX":137,"offY":173,"sourceW":320,"sourceH":320},
+"combat_idle_3_weapon_02":{"x":130,"y":47,"w":64,"h":44,"offX":136,"offY":172,"sourceW":320,"sourceH":320},
+"combat_idle_3_weapon_03":{"x":130,"y":93,"w":64,"h":44,"offX":136,"offY":173,"sourceW":320,"sourceH":320},
+"combat_idle_3_weapon_04":{"x":65,"y":0,"w":64,"h":45,"offX":136,"offY":173,"sourceW":320,"sourceH":320},
+"combat_idle_3_weapon_05":{"x":65,"y":47,"w":63,"h":45,"offX":137,"offY":174,"sourceW":320,"sourceH":320},
+"combat_idle_7_weapon_00":{"x":81,"y":172,"w":79,"h":31,"offX":76,"offY":156,"sourceW":320,"sourceH":320},
+"combat_idle_7_weapon_01":{"x":164,"y":139,"w":79,"h":31,"offX":76,"offY":155,"sourceW":320,"sourceH":320},
+"combat_idle_7_weapon_02":{"x":0,"y":94,"w":81,"h":33,"offX":76,"offY":154,"sourceW":320,"sourceH":320},
+"combat_idle_7_weapon_03":{"x":0,"y":162,"w":79,"h":31,"offX":75,"offY":155,"sourceW":320,"sourceH":320},
+"combat_idle_7_weapon_04":{"x":0,"y":129,"w":80,"h":31,"offX":75,"offY":156,"sourceW":320,"sourceH":320},
+"combat_idle_7_weapon_05":{"x":82,"y":139,"w":80,"h":31,"offX":75,"offY":157,"sourceW":320,"sourceH":320}}}

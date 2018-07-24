@@ -1,0 +1,887 @@
+{
+	"type":{
+				
+		"ActorRole":[
+				"entryid:uint32",
+				"stage:uint16",
+				"stageexp:intbig",
+				"skilllevellist:table",
+				"skillorderlist:table",
+				"titleindex:uint16",
+				"unlocktitlelist:table",
+				"fashionindex:uint16",
+				"unlockfashionlist:table",
+				"equiplist:table",
+				"force:uint32"
+			],
+		
+		"ActorPet":[
+				"entryid:uint32",
+				"stage:uint16",
+				"stageexp:uint32",
+				"combatpos:uint8",
+				"name:string",
+				"growexp:uint16",
+				"washskillnum:uint16",
+				"passskilllist:table",
+				"washskilllist:table",
+				"force:uint32",
+				"flystageexp:uint32"
+			],
+			
+			"SimpleCellFun":[
+				"entyid:uint32",
+				"danyaodatalist:table",
+				"jingmaidatalist:table",
+				"force:uint32"
+			],
+			
+			"ActorXianlv":[
+				"entryid:uint32",
+				"stage:uint16",
+				"stageexp:uint32",
+				"combatpos:uint8",
+				"start:uint16",
+				"force:uint32"
+			],
+			
+			"ActorTempCell":[
+				"entryid:uint32",
+				"showindex:uint32",
+				"stage:uint16",
+				"stageexp:uint32",
+				"skilllevellist:table",
+				"equiplist:table",
+				"drugnum:uint16",
+				"curskin:uint16",
+				"skinlist:table",
+				"curshape:uint16",
+				"force:uint32"
+			],
+			
+			"ActorSimpleCell":[
+				"entryid:uint32",
+				"danyaodatalist:table",
+				"jingmaidatalist:table",
+				"force:uint32"
+			],
+			
+			"AppearInfoBase":[
+				"heroShapeId:uint32",
+				"heroTitleId:uint32",
+				"rideShapeId:uint32",
+				"weaponShapeId:uint32",
+				"wingShapeId:uint32",
+				"petShapeId:uint32",
+				"petTLShapeId:uint32",
+				"petSHShapeId:uint32",
+				"tianxianShapeId:uint32",
+				"xianlvShapeId:uint32",
+				"xlFZShapeId:uint32",
+				"xlXWShapeId:uint32",
+				"flystageexp:uint32"
+			],
+			
+			"HeroInfoBase":[
+				"id:uint32",
+				"name:string",
+				"vocation:uint32",
+				"sexId:uint8",
+				"level:uint16",
+				"exp:string",
+				"VIP_level:uint32",
+				"VIP_exp:uint32",
+				"force:uint32",
+				"saveRecord:table",
+				"funds:uint32",
+				"bindGold:uint32",
+				"gold:uint32",
+				"funcState:string",
+				"status:uint32",
+				"isGMPlayer:uint32",
+				"faction:uint32",
+				"ServerTime:uint32",
+				"ServerDataTime:string",
+				"combatForce:string",
+				"chatBubbleType:uint16",
+				"body:uint32",
+				"power:uint32",
+				"equipMax:uint32",
+				"campainSchedule:uint32",
+				"spouseId:uint32",
+				"moneyTable:table",
+				"packSmelt:uint8",
+				"groupIndex:uint32",
+				"xinglinglist:table"
+			],
+			
+			"AbilityInfo":[
+				"maxhp:uint32",
+				"demage:uint32",
+				"hujia:uint32",
+				"speed:uint32",
+				"hitrate:uint32",
+				"dodge:uint32",
+				"critrate:uint32",
+				"critratedec:uint32",
+				"chuanjia:uint32",
+				"chuanjiadec:uint32",
+				"attinc:uint32",
+				"attdec:uint32",
+				"critdamage:uint32",
+				"critdadec:uint32",
+				"pvpattinc:uint32",
+				"pvpattdec:uint32",
+				"pveattinc:uint32",
+				"pveattdec:uint32"		
+			],
+			
+			"HeroInfo":[
+				"status:uint32"
+			],
+			
+			"PlayerEquipForge":[
+				"qianghua:table",
+				"jinglian:table",
+				"duanlian:table",
+				"baoshi:table",
+				"forgeType:table"
+			],
+		
+			"PlayerTalisman":[
+			"talismanLevelList:table",
+			"talismanlist:table",
+			"force:uint32"
+			],
+		
+			"PlayerShenHun":[
+			"shenhunlist:table",
+			"force:uint32"
+			],
+			
+			"CampaginRecord":[
+				"campaignId:uint32",
+				"star:uint8",
+				"fightCount:uint16"
+			],
+			
+			"ItemInfo":[
+				"id:uint32",
+				"entry:uint32",
+				"count:uint32",
+				"position:uint16",
+				"store:uint8",
+				
+				"buy_price:uint32",
+				"sell_price:uint32",
+				"price_type:uint32",
+				"store_time:uint32",
+				"deadline_time:uint32",
+				"use_effect_time:uint32",
+				"equip_owner:uint32",
+				"equip_star:uint32",
+				"equip_score:uint32",
+				"source:uint32",
+				"enhance_level:uint32",
+				"equip_build:uint32",
+				"status:uint32",
+				"quality:uint8",
+				"add_num:uint8",
+				"lost_effect_time:uint32",
+				"best_attribute:table",
+				"talisman_lock:uint8",
+				"force:uint32",
+				"jiban_skill:table",
+				"equip_exp:uint32",
+				"enhanceLevel:uint16"
+			],
+			
+			"TaskInfo":[
+				"taskId:uint32",
+				"data:table",
+				"finish:table",
+				"init:table",
+				"prize:table",
+				"accept:table",
+				"event:table",
+				"fail:table"
+			],
+			
+			"PlayerAppearInfo":[
+				"id:uint32",
+				"level:uint16",
+				"vocation:uint16",
+				"VIP_level:uint16",
+				"name:string",
+				
+				"status:uint32",
+				"faction:uint32",
+				"factionPos:uint8",
+				"factionName:string",
+				"gmBody:uint32",
+				"sexId:uint8"
+			
+			],
+			
+			"NpcInfo":[
+				"id:uint32",
+				"Type:uint16",
+				"oType:uint16",
+				"entryId:uint32",
+				"cellx:uint16",
+				"celly:uint16",
+				"dir:uint8",
+				
+				"name:string",
+				
+				"taskInfo:table",
+				"param:table"
+			],
+			
+			"FactionInfo":[
+				"id:uint32",
+				"name:string",
+				"logo:uint32",
+				"leader:string",
+				"leaderId:uint32",
+				"menberCount:uint32",
+				"maxmenberCount:uint32",
+				
+				"exp:uint32",
+				"max_exp:uint32",
+				"level:uint32",
+				"introduction:string",
+				"notice:string",
+				
+				"force:uint32",
+				"facSet:uint8"
+			],
+			
+			
+			"FactionApplyInfo":[
+				"id:uint32",
+				"name:string",
+				"vocation:uint32",
+				"sexId:uint8",
+				"force:uint32",
+				"Vip_level:uint8",
+				
+				"level:uint16",
+				"time:uint32"
+			],
+			
+			"FactionMemberInfo":[
+				"id:uint32",
+				"name:string",
+				"vocation:uint32",
+				"sexId:uint8",
+				"Vip_level:uint8",
+				"force:uint32",
+				"post:uint8",
+				"online:uint8",
+				"level:uint8",
+				"contribute:uint32",
+				"isDaySign:uint8",
+				"logout:uint32",
+				"joinTime:uint32"
+			],
+			
+			"OfflineGains":[
+				"time:uint32",
+				"funds:uint32",
+				"fundsadd:uint32",
+				"exp:uint32",
+				"expadd:uint32",
+				"equip:uint32",
+				"equipsell:uint32"
+			],
+			
+			"ChampionHeroData":[
+				"id:uint32",
+				"role:uint32",
+				"name:string",
+				"rank:uint32",
+				"force:uint32",
+				"level:uint32",
+				"sex:uint32",
+				"wingMode:uint32",
+				"rideMode:uint32",
+				"honorIndex:uint32",
+				"clothId:uint32",
+				"tianXianWeapon:uint32"
+			],
+			
+			"teamMember":[
+				"plrId:uint32",
+				"plrName:string",
+				"vocation:uint32",
+				"sex:uint8",
+				"vipLevel:uint8",
+				"level:uint16",
+				"position:uint8",
+				"memberStatus:uint8",
+				"force:uint32"
+			],
+			
+			"Team":[
+				"uid:uint32",
+				"captainId:uint32",
+				"members:teamMember[]",
+				"activityData:table"
+			],
+			
+			"ActTeamMember":[
+				"plrId:uint32",
+				"name:string",
+				"vocation:uint32",
+				"sex:uint8",
+				"captain:uint8",
+				"force:uint32",
+				"hpPer:uint16",
+				"level:uint16"
+			],
+			
+			"MineInfo":[
+				"mIndex:uint8",
+				"membersCount:uint8",
+				"actTeamId:uint32"
+			],
+			
+			"ActTeamInfo":[
+				"actTeamId:uint32",
+				"status:uint8",
+				"members:ActTeamMember[]",
+				"pos:table",
+				"time:uint32",
+				"mineIndex:uint32",
+				"campInfoIndex:uint8"
+			],
+			
+			"ActTeamDetailInfo":[
+				"actTeamId:uint32",
+				"needForce:uint32",
+				"members:ActTeamMember[]"
+			],
+			
+			"PreActTeamInfo":[
+				"actTeamId:uint32",
+				"membersCount:uint8",
+				"needForce:uint32",
+				"name:string"
+			],
+			
+			"StrongholdOccupyInfo":[
+				"owner:table",
+				"produce:uint8",
+				"occupationTime:uint32",
+				"isProtect:uint8",
+				"isFight:uint8"
+			],
+			
+			"StrongholdInfo":[
+				"sId:uint8",
+				"occupyList:table"
+			],
+			
+			"nouse":[]
+	},
+	
+	"typeInherit":{
+		"HeroInfoBase": "AppearInfoBase",
+		"HeroInfo": "HeroInfoBase",
+		"PlayerAppearInfo": "AppearInfoBase"
+	},
+	
+	"typeVary":{
+		"ItemInfo": true
+	},
+
+	"method":{
+		"G2C_ActorRoleInfoList":"ActorRole[]",
+		"G2C_ActorPetInfoList":"ActorPet[]",
+		"G2C_ActorXianlvInfoList":"ActorXianlv[]",
+		"G2C_ActorTempCellInfoList":"ActorTempCell[]",
+		"G2C_ActorSimpleCellInfoList":"ActorSimpleCell[]",
+
+		"G2C_ActorPetInfo":"ActorPet",
+		"G2C_ActorXianlvInfo":"ActorXianlv",
+		"G2C_ActorTempCellInfo":"ActorTempCell",
+		"G2C_ActorSimpleCellInfo":"ActorSimpleCell",
+		
+		
+		"G2C_ActorRoleInfoUpdate":"ActorRole",
+		"G2C_ActorPetInfoUpdate":"ActorPet",
+		"G2C_ActorXianlvInfoUpdate":"ActorXianlv",
+		"G2C_ActorTempCellInfoUpdate":"ActorTempCell",
+		"G2C_ActorSimpleCellInfoUpdate":"ActorSimpleCell",
+		
+		"C2G_ACTOR_ROLE_INFO_EQUIP_SET":"table",
+		"C2G_ACTOR_ROLE_UPGRADE":"",
+		"C2G_ACTOR_ROLE_SKILL_UPGRADE_ONE":"uint8",
+		"C2G_ACTOR_ROLE_SKILL_UPGRADE_MUCH":"",
+		"C2G_ACTOR_ROLE_SKILL_ORDER_UP":"uint8",
+		"C2G_ACTOR_ROLE_TITLE_UNLOCK":"uint16",
+		"C2G_ACTOR_ROLE_TITLE_SET":"uint16",
+		"C2G_ACTOR_ROLE_FASHION_UNLOCK":"uint16",
+		"C2G_ACTOR_ROLE_FASHION_SET":"uint16",
+		"C2G_GOD_EQUIP_UP":"uint32;uint8",
+		"C2G_GOD_EQUIP_REFINE":"uint32;uint8",
+		
+		"C2G_EquipTalismanSet":"uint32;uint8",
+		"C2G_EquipTalismanUp":"uint8;uint8",
+		"C2G_EquipTalismanCreate":"uint8;uint8",
+		"C2G_EquipTalismanResolve":"table",
+		"C2G_EquipTalismanLock":"uint32;uint8",
+		"G2C_TALISMAN_INFO":"PlayerTalisman",
+		"G2C_TALISMAN_UPDATE":"PlayerTalisman",
+		
+		"C2G_EquipShenHunSet":"uint32;uint8",
+		"C2G_EquipShenHunUp":"uint32;table",
+		"G2C_ShenHun_INFO":"PlayerShenHun",
+		"G2C_ShenHun_UPDATE":"PlayerShenHun",
+		"C2G_ShenHunShouHun":"table",
+		"G2C_Hunting_Result":"table",
+		
+		
+		
+		
+		"C2G_TEMPCELLFUN_STAGE_UP":"uint16;uint8",
+		"G2C_TEMPCELLFUN_STAGE_UP_ERROR":"uint16;uint8",
+		"C2G_TEMPCELLFUN_SKIN_UNLOCK":"uint16;uint16",
+		"C2G_TEMPCELLFUN_SKIN_SET":"uint16;uint16",
+		"C2G_TEMPCELLFUN_SHAPE_SET":"uint16;uint16",
+		"C2G_TEMPCELLFUN_SKILL_UP":"uint16;uint16",
+		"C2G_TEMPCELLFUN_EQUIP_SET":"uint16;table",
+		"C2G_TEMPCELLFUN_DRUG_USE":"uint16;uint16",
+		"C2G_TEMPCELLFUN_STAGEUP_PRIZE":"uint16;uint8",
+		
+		"C2G_SIMPLECELLFUN_DANYAOUP":"uint16;uint16",
+		"C2G_SIMPLECELLFUN_JINGMAIUP":"uint16;uint16;uint16",
+		"C2G_SHOP_SELL_LIST":"",
+		"C2G_SHOP_BUY":"uint16;uint16;uint16",
+		"C2G_SHOP_ConditionInfo":"",
+		"G2C_SIMPLECELL_UNLOCKSKIN_INFO":"uint16;uint32;uint32",
+		
+		"C2G_ACTOR_PET_UNLOCK":"uint16",
+		"C2G_ACTOR_PET_UPGRADE":"uint16;uint8",
+		"G2C_ACTOR_PET_UPGRADE_ERROR":"uint16;uint8",
+		"C2G_ACTOR_PET_COMBAT_SET":"uint16;uint8",
+		"C2G_ACTOR_PET_SHOW":"uint16",
+		"C2G_ACTOR_PET_GROW_UP":"uint16",
+		"G2C_ACTOR_PET_GROW_UP_ERROR":"uint16;uint8",
+		"C2G_ACTOR_PET_RENAME":"uint16;string",
+		"C2G_ACTOR_PET_SKILL_WASH":"uint16;uint8;uint8;table",
+		"C2G_ACTOR_PET_SKILL_ACCEPT":"uint16",
+		"C2G_PET_FLY_STAGE_UP":"uint16",
+		"C2G_PET_FLY_RECOVER":"uint16",
+		"G2C_ACTOR_PET_FLY_UPGRADE_ERROR":"uint16;uint8",
+
+		"C2G_ACTOR_XIANLV_UNLOCK":"uint16",
+		"C2G_ACTOR_XIANLV_UPGRADE":"uint16;uint8",
+		"C2G_ACTOR_XIANLV_UPGRADE_ERROR":"uint16;uint8",
+		"C2G_ACTOR_XIANLV_COMBAT_SET":"uint16;uint8",
+		"C2G_ACTOR_XIANLV_UP_START":"uint16",
+		
+		"G2C_EQUIP_FORGE_INFO":"PlayerEquipForge",
+		"C2G_EQUIP_FORGE_UPGRADE":"uint16",
+		"G2C_EQUIP_FORGE_UPDATE":"PlayerEquipForge",
+		
+		"C2G_CREATE_ROLE_GIFTS":"",
+		
+		"G2C_HeroInfoInit":"HeroInfoBase",
+		"G2C_HeroInfoUpdate":"HeroInfo",
+		
+		"C2G_HERO_ABILITYS":"",
+		"G2C_HERO_ABILITYS":"table",
+		
+		"G2C_PlayerAppeare":"uint16;uint16;uint16;PlayerAppearInfo",
+		"G2C_PlayerAppeareChange":"uint16;uint16;uint16;PlayerAppearInfo",
+		"G2C_ObjectAdd":"NpcInfo",
+		"G2C_Disappear":"uint32;uint16",
+		"G2C_PlayerAllAbilityInfo":"table",
+		"C2G_ACTOR_ROLE_PlayerAbility":"",
+		"G2C_CampaginRecord":"CampaginRecord[]",
+		"G2C_CurCampaginInfo":"uint32;uint16",
+		"C2G_CampaginFight":"uint32;uint32",
+		"C2G_CampaginSetAuto":"uint8",
+		"G2C_CampaginTongGuanInfo":"table",
+		
+		"G2C_OfflineGains":"OfflineGains",
+		
+		"G2C_ItemList":"ItemInfo[]",
+		"G2C_ItemUpdate":"ItemInfo[]",
+		"G2C_ItemDrop":"uint32",
+		"G2C_CommonItemPrize":"table[]",
+		"G2C_ItemAddTips":"uint32;uint32;uint8",
+		"G2C_ItemDropTips":"uint32;uint32;uint8",
+		
+		"C2G_ITEM_USE":"uint32;uint32",
+		"C2G_ITEM_USE_EX":"uint32;uint32;uint32",
+		"C2G_ITEM_CAMPAGIN_GIFT_BUY":"uint32",
+		"C2G_ITEM_LOCK":"uint32;uint8",
+		
+		"G2C_TaskList":"TaskInfo[]",
+		"G2C_TaskAccept":"TaskInfo",
+		"G2C_TaskUpdate":"TaskInfo",
+		"G2C_TaskFinish":"uint32",
+		"C2G_TaskCancel":"uint32",
+		"C2G_TaskCommit":"uint32",
+		
+		"C2G_PacketUpstep":"uint16",
+		"C2G_EquipMelt":"uint16",
+		"C2G_EquipMeltList":"table",
+		"G2C_EquipMelt":"uint16",
+		"C2G_EXCHANGE_FUNDS":"",
+		"C2G_SHOP_BUT_ITEM":"uint32;uint32;uint32",
+		"C2G_MAP_ENTER":"uint32",
+		"C2G_GoldEquipMelt":"table",
+		"C2G_Equip_AI_Melt":"uint8",
+		
+		"G2C_ItemSellList":"uint32;ItemInfo[]",
+		"G2C_ItemLottery":"uint32[];ItemInfo[]",
+		
+		"G2C_ShopItemList":"table",
+		"G2C_ConditionInfo":"table",
+		
+		"C2G_CreateBossFight":"uint16;uint16",
+		"C2G_SweepBossActivity":"uint16;uint16",
+		"C2G_SweepBossActivityEx":"uint16;table",
+		"G2C_SweepBossActivity":"uint16;uint16;table",
+		"C2G_GetBossActivityInfo":"uint16",
+		"G2C_GetBossActivityInfo":"uint16;table",
+		"C2G_GetBossIndexData":"uint16;uint16",
+		"G2C_GetBossIndexData":"uint16;uint16;table",
+		"C2G_ReviveActivityBoss":"uint16;uint16",
+		"C2G_BuyActivityRemainFightCount":"uint16;table",
+		"C2G_GetActivityStagePrize":"uint16;table",
+		"C2G_GetActivityRank":"uint16;table",
+		"G2C_GetActivityRank":"uint16;table;table",
+		"C2G_AddZhongKuiStar":"",
+		"C2G_ClearTimeWait":"uint16;table",
+		"G2C_SendActivityFightInfo":"uint16;table",
+		"C2G_SetActivityInfo":"uint16;table",
+		"C2G_GetBossActivityRecInfo":"uint16;uint32",
+		"G2C_GetBossActivityRecInfo":"uint16;uint32;table",
+		
+		"C2G_GetChampionData":"",
+		"G2C_SendChampionData":"uint32;ChampionHeroData[];uint16;uint32",
+		"C2G_ChampionFight":"uint32;string;uint32",
+		"G2C_RefreshChampionData":"uint16;uint32",
+		"C2G_ChampionRecordData":"",
+		"G2C_ChampionRecordData":"table",
+		"C2G_ChampionBuyFightCount":"",
+		
+		"C2G_WorldQuestionEnter":"",
+		"G2C_WorldQuestionEnter":"uint32",
+		"C2G_WorldQuestionLeave":"",
+		"G2C_WorldQuestionLeave":"",
+		"G2C_WorldQuestionInfo":"uint32;uint32;uint32;uint32",
+		"G2C_WorldQuestionAnswer":"uint32",
+		"G2C_WorldQuestion":"table",
+		
+		"C2G_FactionCreate":"string;string;uint32;uint32",
+		"G2C_FactionSelfUpdate":"uint32;string;uint8",
+		"C2G_FactionInfoRefresh":"",
+		"G2C_FactionInfoRefresh":"FactionInfo",
+		"C2G_FactionAttendance":"",
+		"C2G_FactionInfoList":"",
+		"G2C_FactionInfoList":"FactionInfo[]",
+		"C2G_FactionApply":"uint32;string",
+		"C2G_FactionCancelApply":"uint32",
+		"G2C_FactionCancelApply":"uint32",
+		"C2G_FactionApplyRefresh":"",
+		"G2C_FactionApplyRefresh":"FactionApplyInfo[]",
+		"C2G_FactionNotice":"string",
+		"G2C_FactionNotice":"string",
+		"C2G_FactionName":"string",
+		"C2G_FactionDonation":"uint32",
+		"G2C_FactionDonation":"uint32",
+		"C2G_FactionEnterForce":"uint32",
+		"G2C_FactionEnterForce":"uint32",
+		"C2G_FactionCheck":"uint32;uint8",
+		"C2G_FactionMemberRefresh":"",
+		"G2C_FactionMemberRefresh":"FactionMemberInfo[]",
+		"G2C_FactionSingleMemberRefresh":"FactionMemberInfo",
+		"C2G_FactionIntroduction":"string",
+		"G2C_FactionIntroduction":"uint32;string",
+		"C2G_FactionLeave":"",
+		"C2G_FactionPost":"uint32;uint8",
+		"C2G_FactionFire":"uint32",
+		"C2G_FactionInvite":"string",
+		"G2C_FactionInvite":"string;uint32;string",
+		"C2G_FactionClearApply":"",
+		"G2C_FactionMyApplyList":"table",
+		"G2C_FactionEnterRefresh":"uint32",
+		"C2G_FactionRecord":"",
+		"G2C_FactionRecord":"table",
+		"C2G_FactionRenqiSet":"uint8",
+		"C2G_FactionRenqiInfo":"",
+		"G2C_FactionRenqiInfo":"uint32;uint32;table",
+		"C2G_FactionRenqiPrize":"uint8",
+		"C2G_FactionPlayerActiveLevelUp":"",
+		"C2G_FactionPlayerActiveInfo":"",
+		"G2C_FactionPlayerActiveInfo":"uint32;uint32;table",
+		"C2G_FactionPlayerDailyActivePrize":"uint32",
+		"C2G_FactionMapEnter":"",
+		"G2C_FactionMapEnter":"",
+		"C2G_FactionMapLeave":"",
+		"G2C_FactionMapLeave":"",
+		"C2G_FactionMapTaskFinishOnce":"uint32",
+		"G2C_FactionMapTaskFinishOnce":"uint32;uint32",
+		"C2G_FactionMapTaskOneKey":"uint32",
+		"C2G_FactionMapTaskReset":"uint32",
+		"C2G_FactionMapTaskPrize":"uint32",
+		"G2C_FactionMapTaskPrize":"uint32",
+		"C2G_FactionExchangeItem":"uint32;uint32",
+		"C2G_FactionExchangeItemList":"uint8",
+		"G2C_FactionExchangeItem":"uint32[];uint32;uint32",
+		"C2G_FactionSkillInfo":"",
+		"G2C_FactionSkillInfo":"uint32;uint8;uint32;table",
+		"C2G_FactionSkillLevelUp":"",
+		"C2G_FactionAllocaItem":"uint32;uint32;uint32",
+		"C2G_FactionWareHouseItemList":"",
+		"G2C_FactionWareHouseItemList":"ItemInfo[]",
+		"C2G_FactionAllocaItemRecord":"",
+		"G2C_FactionAllocaItemRecord":"table",
+		
+		"C2G_EnterEscortActivity":"",
+		"G2C_EnterEscortActivity":"uint8;uint32;uint32;table;table;uint32;uint32;uint8",
+		"G2C_EscortList":"table",
+		"C2G_QuickOverEscort":"",
+		"C2G_BeginEscort":"",
+		"C2G_GetEscortPrize":"",
+		"C2G_RobberEscort":"uint32",
+		"C2G_RandEscortIndex":"uint8",
+		"G2C_RandEscortIndex":"uint8",
+		"C2G_RobberEscortRecordList":"",
+		"G2C_RobberEscortRecordList":"table",
+		"C2G_RevengeEscort":"uint32",
+		"G2C_PutEscortPrizeInfo":"table;uint8",
+		"C2G_GetEscortPrizeInfo":"",
+		
+		"G2C_SendOperateData":"uint32;table",
+		"C2G_GetOperateData":"uint32",
+		"C2G_GetOperateActivityPrize":"uint32;table",
+		"C2G_DoOperateActivity":"uint32;table",
+		"G2C_SendOpenActivityList":"uint32[]",
+		"C2G_SendOperatePlayerData":"uint32",
+		"G2C_SendOperatePlayerData":"uint32;table",
+		"C2G_SendOperateAndPlayerData":"uint32",
+		"G2C_SendOperateAndPlayerData":"uint32;table;table",
+		"G2C_OperateLotteryResult":"uint32;table[]",
+		
+		"C2G_CreateTeam":"uint32;uint32",
+		"G2C_UpdateTeamInfo":"Team",
+		"C2G_ApplyTeam":"uint32;uint32;uint32",
+		"C2G_ApplyAllTeam":"uint32;uint32",
+		"C2G_KickMember":"uint32",
+		"C2G_LeaveTeam":"",
+		"G2C_LeaveTeam":"uint32",
+		"C2G_Disband":"",
+		"G2C_Disband":"",
+		"C2G_CreateTeamBattle":"table",
+		"C2G_AutoAddMember":"",
+		"C2G_TeamActivityQuery":"uint32;uint32",
+		"G2C_TeamActivityQuery":"Team[]",
+		"C2G_AddRobotMember":"",
+		
+		
+		"G2C_MEIRISANBAI_MonsterNum":"uint32;uint8;uint8",	
+		"C2G_MEIRISANBAI_MonsterNum":"",
+		"C2G_MEIRISANBAI_Get":"",
+		"C2G_MEIRISANBAI_YIJIAN":"",
+		"C2G_ZUDUILILIAN_GOCOMBAT":"",
+		"C2G_ZUDUILILIANW_YIJIAN":"",
+		"C2G_ZUDUILILIANW_GetPrize":"",
+		"G2C_ZUDUILILIANW_Info":"uint8;uint8;uint8;uint8;uint16",
+		
+		
+		
+		"C2G_DailySignPrize":"uint16",
+		"C2G_LevelPrize":"uint16",
+		
+		
+		"C2G_MonthCardInfo":"",
+		"G2C_MonthCardInfo":"uint32;uint8",
+		"C2G_MonthCardPrize":"",
+		
+		"C2G_WeekCardInfo":"",
+		"G2C_WeekCardInfo":"uint32;uint8",
+		"C2G_WeekhCardPrize":"",
+		
+		"C2G_PlatFormCode":"string",
+		"C2G_PLAT_DAILY_SHARE":"string",
+		
+		"C2G_XiyouWelfareInfo":"",
+		"G2C_XiyouWelfareInfo":"uint32;PlayerAppearInfo[]",
+		"C2G_XiyouWelfarePrize":"uint32",
+		
+		
+		"C2G_XiyouLilian_Info":"",
+		"C2G_XiyouLilian_ActiveLevelUp":"",
+		"G2C_XiyouLilian_Info":"uint16;uint16;uint32;table",
+		"C2G_XiyouLilian_RecordInfo":"",
+		"G2C_XiyouLilian_RecordInfo":"table",
+		"C2G_XiyouLilian_FindBack":"uint8",
+		
+		
+		"C2G_Proposal":"uint32;uint32;uint8",
+		"G2C_Proposal":"table;uint32",
+		"C2G_PromiseMarry":"uint32;uint32;uint8",	
+		"G2C_PromiseMarry":"table",
+		"C2G_UpdateHourse":"",
+		"C2G_HourseUpdate":"uint8",
+		"G2C_UpdateSuccess":"",
+		"C2G_HourseAutoUpdate":"",
+		"C2G_MarryGift":"uint32;uint32;uint32",
+		"G2C_MarryGift":"uint32;uint32;string;string",
+		"G2C_HourseUpdate":"table;table;uint32",
+		"C2G_EndMarriage":"",
+		"G2C_EndMarriage":"",
+		"C2G_HourseExp":"",
+		"G2C_HourseExp":"table",
+		"C2G_CanMarry":"uint32;uint8",
+		"G2C_CanMarry":"uint8;string;uint32;uint8",
+		
+		"C2G_FashionSuit_Info":"",
+		"G2C_FashionSuit_AllForceAndInfo":"table;table",
+		
+		"C2G_JoinList":"",
+		"C2G_ShiTuYaoQinList":"",
+		"G2C_ShiTuYaoQinList":"table",	
+		"C2G_ShouTu":"uint32;uint16",
+		"C2G_DaYingFou":"uint32;uint8",
+		"C2G_ChuanGong":"uint32",
+		"C2G_AcceptChuanGong":"",
+		"C2G_ReceiveExp":"uint16",
+		"G2C_ReceiveExp":"",	
+		"C2G_ChuShi":"uint32;uint8;uint16",
+		"G2C_ChuShi":"",
+		"C2G_UpdateShitu":"",
+		"G2C_UpdateShitu":"table;table",
+		
+		"C2G_GetPlayerInfoByID":"uint32",
+		"G2C_GetPlayerInfoByID":"table",
+		
+		"C2G_RemoveLimitTianNv":"",
+		
+		"C2G_ChannelPetItem":"uint32;uint32;uint32",
+		"G2C_ChannelPet":"uint32;uint32;ActorPet",
+		"G2C_ChannelItem":"uint32;uint32;ItemInfo",
+		
+		"G2C_ChannelTalisman":"uint32;string;table",
+		"C2G_RechageRewardInfo":"",
+		"G2C_RechageRewardInfo":"table;table",
+		"C2G_GetRechargeReward":"uint32",
+		
+		"G2C_SendColorEggInfo":"table",
+		"C2G_RedDotRecord":"uint16;uint8",
+		
+		"C2G_WorldOneJoinGame":"",
+		"C2G_WorldOne_HaixuanInfo":"",
+		"G2C_WorldOneHaiXuan_Info":"table;table",
+		"C2G_WorldOne_SixteenInfo":"",
+		"C2G_WorldOne_CanInsertGame":"",
+		"G2C_WorldOne_CanInsertGame":"uint8",
+		"G2C_WorldOneSixteenAllInfo":"table",
+		"C2G_WorldOne_BetMoney":"uint8;uint8",
+		"C2G_WorldOne_BetPlayInfo":"",
+		"G2C_WorldOneBetPlayInfo":"table",
+		"C2G_WorldOne_GetSixTeenPrize":"",
+		
+		"C2G_EnterWuLinMengZhu":"",
+		"G2C_EnterWuLinMengZhu":"uint32",
+		"C2G_LeaveWuLinMengZhu":"",	
+		"G2C_LeaveWuLinMengZhu":"",	
+		"G2C_WuLinMengZhuJumpMap":"uint8",
+		"C2G_GetWuLinMengZhuScorePrize":"uint16",
+		"G2C_GetWuLinMengZhuScorePrize":"",
+		"C2G_WuLinMengZhuRankScore":"",
+		"G2C_WuLinMengZhuRankScore":"table;table",
+		"C2G_WuLinMengZhuPlayerScore":"",
+		"G2C_WuLinMengZhuPlayerScore":"table",
+		"G2C_WuLinMengZhuNPCData":"table",
+		"C2G_WuLinMengZhuMonthRank":"",
+		"G2C_WuLinMengZhuMonthRank":"table;table",
+		"C2G_WuLinMengZhuFight":"table",
+		"G2C_WuLinMengZhuFight":"table",
+		
+		"C2G_MineEnterActivity":"",
+		"G2C_MineEnterActivity":"",
+		"C2G_MineLeaveActivity":"",
+		"G2C_MineLeaveActivity":"",
+		"G2C_MineActivityInfo":"uint8;uint32;uint32;uint32;uint32",
+		"G2C_MineActTeamInfoList":"ActTeamInfo[]",
+		"G2C_MineActTeamInfo":"ActTeamInfo",
+		"G2C_MineActTeamRelease":"uint32",
+		"G2C_MineActTeamAdd":"ActTeamInfo",
+		"G2C_MineInfoList":"MineInfo[]",
+		"G2C_MineInfo":"MineInfo",
+		"C2G_MoveDestMine":"uint32;table",
+		"C2G_MineEnter":"uint32",
+		"C2G_MineGetPrize":"",
+		"C2G_MinePreActTeamList":"",
+		"G2C_MinePreActTeamList":"PreActTeamInfo[]",
+		"C2G_MineCreateActTeam":"",
+		"C2G_MineApplyActTeam":"uint32",
+		"C2G_MineLeaveActTeam":"",
+		"C2G_MineSetActTeamForce":"uint32",
+		"G2C_MineSetActTeamInfo":"PreActTeamInfo",
+		"G2C_MineActTeamDetailInfo":"ActTeamDetailInfo",
+		"C2G_MineActTeamDetailInfo":"",
+		"C2G_MineReturnCamp":"",
+		"G2C_MinePlrSocre":"uint32",
+		"C2G_MineInfoListAndActTeamList":"",
+		"C2G_MineTickActTeamMember":"uint32",
+		"C2G_MineRecruitMember":"",
+		"C2G_MineMonthRank":"",
+		"G2C_MineMonthRank":"table;uint32;uint32",
+		
+		"C2G_ExciteData":"string",
+		"G2C_ExciteData":"string;table",
+		"C2G_ExciteGetPrize":"string;uint32",
+		"C2G_ExciteAllServerFirstCamp":"",
+		"G2C_ExciteAllServerFirstCamp":"table",
+		
+		"C2G_MineRecruitMember":"",
+		
+		"C2G_StrongholdMapEnter":"",	
+		"G2C_StrongholdMapEnter":"",
+		"C2G_StrongholdMapLeave":"",
+		"G2C_StrongholdMapLeave":"",
+		"C2G_StrongholdProtect":"uint32;uint8",
+		"C2G_StrongholdOccupy":"uint32;uint8;uint8;uint8",
+		"G2C_StrongholdOccupy":"uint8",
+		"C2G_StrongholdEvacuate":"uint32;uint8",
+		"C2G_StrongholdSelectItem":"uint32;uint8;uint8;uint8",
+		"G2C_StrongholdList":"StrongholdInfo[]",
+		"C2G_StrongholdUpdate":"uint32",
+		"G2C_StrongholdUpdate":"StrongholdInfo",
+		
+		"C2G_StrongholdRecord":"",
+		"G2C_StrongholdRecord":"table",
+		"C2G_StrongholdRevenge":"uint32;uint32;uint32",
+		
+		"C2G_StrongholdPickKey":"uint32",
+		"C2G_StrongholdFightBoss":"uint32",
+		"C2G_StrongholdBossBox":"uint32",
+		"C2G_StrongholdPVP":"uint32",
+		"G2C_StrongholdKeyInfo":"bool;string;string",
+		"G2C_StrongholdFacMemCount":"uint32",
+		"C2G_StrongholdRedpoint":"",
+		"G2C_StrongholdRedpoint":"bool;bool",
+		
+		"C2G_StrongholdClearDieWait":"",
+		"C2G_ActorPetCompound":"uint32;table",
+		"G2C_ActorPetCompound":"uint8;uint32",
+		"C2G_ActorPetCompound_Record":"",
+		"G2C_ActorPetCompound_Record":"table",
+		"C2G_ActorPetCompound_Formula":"uint32",
+		"G2C_ActorPetCompound_Formula":"uint32;table",
+		
+		"C2G_RoleRank":"uint16;uint16",
+		"G2C_RoleRank":"uint16;table[];string",
+		"G2C_RoleRankAppearList":"uint16;table[]"
+		
+	}
+}

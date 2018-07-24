@@ -1,0 +1,6 @@
+{"file":"muyuguai_combat_idle.png","frames":{
+"combat_idle_3_body_00":{"x":163,"y":0,"w":80,"h":88,"offX":113,"offY":133,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_01":{"x":87,"y":0,"w":74,"h":122,"offX":119,"offY":95,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_02":{"x":0,"y":0,"w":85,"h":127,"offX":108,"offY":99,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_03":{"x":0,"y":129,"w":86,"h":117,"offX":107,"offY":100,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_04":{"x":88,"y":124,"w":85,"h":100,"offX":108,"offY":119,"sourceW":320,"sourceH":320}}}

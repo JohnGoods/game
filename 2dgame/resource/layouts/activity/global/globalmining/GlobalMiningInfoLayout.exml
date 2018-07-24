@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GlobalMiningInfoLayout" width="400" height="320" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*">
+	<w:Config id="161c1d1ca3e"/>
+	<e:Image source="ty_shuRuDi01" scale9Grid="54,25,2,2" top="0" bottom="0" left="0" right="0"/>
+	<e:Image source="cz_uiLine01" y="48" horizontalCenter="0" width="372" scale9Grid="22,2,1,12"/>
+	<e:Label id="title" text="${GLOBAL_MINING_TXT27}" y="17" left="0" right="0" textAlign="center" style="ht_26_lc"/>
+	<gui:RichDisplayer id="dec_rd" width="348" height="239" y="70" anchorOffsetX="0" horizontalCenter="0"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

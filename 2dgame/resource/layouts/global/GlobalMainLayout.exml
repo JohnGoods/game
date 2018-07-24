@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GlobalMainLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*">
+	<w:Config id="161c1d1ca3e"/>
+	<e:Image scale9Grid="140,178,2,4" source="ty_uiDi01" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="label_wndName" text="" x="0" y="0" width="640" height="36" textAlign="center" verticalAlign="middle" style="ht_title_font"/>
+
+	<e:Group id="bottom_group_root" height="71" bottom="20" width="596" x="22">
+		<e:Image left="0" right="0" bottom="0" top="0" scale9Grid="22,22,1,1" source="ty_uiDi02"/>
+		<e:Group id="bottom_group" height="51" left="15" width="498" verticalCenter="0">
+			<e:RadioButton id="team_check" label="${GLOBAL_TXT2}" x="0" y="0" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="longwang_check" label="${COPY_TXT2}" x="0" y="0" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="leiyin_check" label="${COPY_TXT3}" x="0" y="0" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="xxx_check" label="${COPY_TXT4}" x="0" y="0" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:layout>
+			<e:HorizontalLayout gap="10" paddingLeft="0" horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="kfzd_group" width="597" height="743" x="30" y="51" anchorOffsetX="0" anchorOffsetY="0">
+		<gui:Scroller id="kfzd_scroll" width="525" height="320" x="27" y="-4" scrollPolicyV="off" scrollPolicyH="on">
+			<e:List id="kfzd_list" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0">
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+			</e:List>
+		</gui:Scroller>
+
+		<gui:Button id="kfzd_pre_btn" label="" x="-19" y="148" scaleX="1" scaleY="1">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_jianTou01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="kfzd_next_btn" label="" x="552" y="148" scaleX="1" scaleY="1">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_jianTou02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Group id="kfzd_item_group" width="565" height="102" x="4" y="311" scaleX="1" scaleY="1">
+			<e:Image source="ty_uiDi02" scale9Grid="18,18,2,2" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+			<e:Label text="几率掉落" x="14" y="20" textColor="0x45332B" anchorOffsetX="0" width="65" style="ht_28_lc"/>
+		</e:Group>
+		<e:Label id="kfzd_prize_tips" text="${GLOBAL_TXT5}" y="411" x="-9" width="599" textAlign="center" textColor="0x000000" style="ht_18_lc"/>
+		<e:Label id="kfzd_cur_name" text="Label" y="436" anchorOffsetX="0" textAlign="center" style="ht_24_lc_stroke" textColor="0xD49600" x="-7" scaleX="1" scaleY="1" width="596"/>
+		<e:Image width="558" height="16" y="457" source="cz_uiLine01" scale9Grid="22,2,2,12" x="7" scaleX="1" scaleY="1"/>
+		<e:Group id="kfzd_sweap_group" width="577" height="60" x="3" y="687" scaleX="1" scaleY="1" visible="false">
+			<gui:Button id="sweap_btn0" label="${COPY_TXT7}" x="29" y="3" scaleX="1" scaleY="1">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke" textAlign="center"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<gui:Button id="oneKey_sweap_btn0" label="${BOSS_TXT48}" x="388" y="3" scaleX="1" scaleY="1">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+		</e:Group>
+		<e:Group id="kfzd_team_group" width="640" height="300" x="-30" y="469" scaleX="1" scaleY="1">
+			<e:Label id="kfzd_left_count" text="${GLOBAL_TXT3}" y="237" anchorOffsetY="0" height="22" style="ht_20_lc" textAlign="center" horizontalCenter="0" width="210" textColor="0x45332b"/>
+			<e:Label id="kfzd_left_counter" text="0/0" y="260" anchorOffsetY="0" height="22" style="ht_20_lc" textAlign="center" horizontalCenter="0" width="210" textColor="0x006400"/>
+		</e:Group>
+	</e:Group>
+
+
+
+
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_back" label="" right="0" bottom="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+
+</e:Skin>

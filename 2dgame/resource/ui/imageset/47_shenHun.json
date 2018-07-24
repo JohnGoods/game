@@ -1,0 +1,13 @@
+{"file":"47_shenHun.png","frames":{
+"sh_buNengShiYong":{"x":931,"y":0,"w":79,"h":79,"offX":1,"offY":1,"sourceW":80,"sourceH":80},
+"sh_jinDu01":{"x":0,"y":72,"w":539,"h":22,"offX":4,"offY":4,"sourceW":547,"sourceH":30},
+"sh_jinDuDi01":{"x":0,"y":0,"w":557,"h":70,"offX":0,"offY":0,"sourceW":557,"sourceH":70},
+"sh_qiangHuaDengJi":{"x":559,"y":0,"w":113,"h":29,"offX":0,"offY":0,"sourceW":113,"sourceH":29},
+"sh_shuZhiDi01":{"x":737,"y":72,"w":94,"h":102,"offX":0,"offY":0,"sourceW":94,"sourceH":102},
+"sh_shuZhiDi02":{"x":641,"y":72,"w":94,"h":102,"offX":0,"offY":0,"sourceW":94,"sourceH":102},
+"sh_tiShiDi01":{"x":833,"y":0,"w":96,"h":71,"offX":0,"offY":0,"sourceW":96,"sourceH":71},
+"sh_zhongKuiLieHun":{"x":541,"y":72,"w":98,"h":104,"offX":0,"offY":0,"sourceW":98,"sourceH":104},
+"sh_zhongZu01":{"x":833,"y":73,"w":50,"h":119,"offX":0,"offY":0,"sourceW":50,"sourceH":119},
+"sh_zhongZu02":{"x":641,"y":176,"w":50,"h":119,"offX":0,"offY":0,"sourceW":50,"sourceH":119},
+"sh_zhongZu03":{"x":937,"y":81,"w":50,"h":119,"offX":0,"offY":0,"sourceW":50,"sourceH":119},
+"sh_zhongZu04":{"x":885,"y":81,"w":50,"h":119,"offX":0,"offY":0,"sourceW":50,"sourceH":119}}}

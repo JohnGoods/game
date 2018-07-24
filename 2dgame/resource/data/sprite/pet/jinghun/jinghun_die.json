@@ -1,0 +1,9 @@
+{"file":"jinghun_die.png","frames":{
+"die_3_body_00":{"x":380,"y":126,"w":114,"h":127,"offX":110,"offY":108,"sourceW":320,"sourceH":320},
+"die_3_body_01":{"x":336,"y":0,"w":156,"h":124,"offX":44,"offY":92,"sourceW":320,"sourceH":320},
+"die_3_body_02":{"x":178,"y":0,"w":156,"h":124,"offX":42,"offY":90,"sourceW":320,"sourceH":320},
+"die_3_body_03":{"x":0,"y":117,"w":156,"h":124,"offX":40,"offY":88,"sourceW":320,"sourceH":320},
+"die_7_body_00":{"x":0,"y":0,"w":176,"h":115,"offX":32,"offY":102,"sourceW":320,"sourceH":320},
+"die_7_body_01":{"x":158,"y":126,"w":109,"h":134,"offX":107,"offY":105,"sourceW":320,"sourceH":320},
+"die_7_body_02":{"x":0,"y":243,"w":109,"h":134,"offX":109,"offY":107,"sourceW":320,"sourceH":320},
+"die_7_body_03":{"x":269,"y":126,"w":109,"h":134,"offX":111,"offY":109,"sourceW":320,"sourceH":320}}}

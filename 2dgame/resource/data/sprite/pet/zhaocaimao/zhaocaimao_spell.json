@@ -1,0 +1,9 @@
+{"file":"zhaocaimao_spell.png","frames":{
+"spell_3_body_00":{"x":325,"y":335,"w":99,"h":121,"offX":105,"offY":98,"sourceW":320,"sourceH":320},
+"spell_3_body_01":{"x":211,"y":335,"w":112,"h":115,"offX":98,"offY":115,"sourceW":320,"sourceH":320},
+"spell_3_body_02":{"x":206,"y":0,"w":241,"h":163,"offX":79,"offY":94,"sourceW":320,"sourceH":320},
+"spell_3_body_03":{"x":211,"y":165,"w":223,"h":168,"offX":97,"offY":81,"sourceW":320,"sourceH":320},
+"spell_7_body_00":{"x":525,"y":335,"w":90,"h":121,"offX":104,"offY":107,"sourceW":320,"sourceH":320},
+"spell_7_body_01":{"x":426,"y":335,"w":97,"h":123,"offX":121,"offY":105,"sourceW":320,"sourceH":320},
+"spell_7_body_02":{"x":0,"y":0,"w":204,"h":215,"offX":116,"offY":8,"sourceW":320,"sourceH":320},
+"spell_7_body_03":{"x":0,"y":217,"w":209,"h":209,"offX":107,"offY":0,"sourceW":320,"sourceH":320}}}

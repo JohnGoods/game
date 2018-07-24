@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OpenTXRankLayout" width="640" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*">
+	<w:Config id="161c1d1ca3e"/>
+	<e:Image y="0" width="550" height="197" scale9Grid="140,178,2,4" horizontalCenter="0" source="kfhd_biaoTiTu02"/>
+	<e:Image y="202" width="561" height="456" horizontalCenter="0" source="ty_uiDi02" scale9Grid="21,20,1,1"/>
+	<e:Group id="first_group" width="269" height="451" x="44" y="205" anchorOffsetX="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="kfhd_renWuDi01"/>
+		<e:Image width="184" height="80" y="17" source="kfhd_text01" horizontalCenter="0"/>
+
+
+		<e:Group id="_scroll0" width="252" height="81" y="360" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+		<e:Group id="view_group" width="10" height="10" y="280" horizontalCenter="0.5"/>
+		<e:Label id="first_name" text="Label" y="304" left="0" right="0" textAlign="center" style="ht_24_lc_stroke" textColor="0xffd700"/>
+		<e:Label id="first_force" text="888888" y="331" left="0" right="0" textAlign="center" style="ht_24_lc_stroke" textColor="0xffd700"/>
+	</e:Group>
+	<gui:RichDisplayer id="time_rd" width="276" height="24" x="52" y="171" anchorOffsetY="0" anchorOffsetX="0"/>
+	<gui:RichDisplayer id="stage_rd" width="199" height="19" x="281" y="171" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="go_tl" text="Label" y="170" x="448" width="137" textAlign="right" style="ht_24_lc_stroke"/>
+
+	<e:Group width="279" height="451" y="205" anchorOffsetX="0" anchorOffsetY="0" x="318">
+		<e:Group id="group1" height="145" y="4" left="0" right="0">
+			<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi03" scale9Grid="25,24,1,1"/>
+			<e:Image width="147" height="39" x="0" y="10" source="kfhd_textDi02"/>
+			<e:Label id="_tl1" text="Label" x="0" y="15" style="ht_24_lc_stroke" width="135" height="28" textAlign="center"/>
+			<e:Label id="_name1" text="Label" x="120" y="15" width="149" height="28" textAlign="right" style="ht_18_lc" textColor="0x45332b"/>
+			<e:Group id="_scroll1" width="263" height="81" x="10" y="55" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+		<e:Group id="group2" height="145" y="154" left="0" right="0">
+			<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi03" scale9Grid="25,24,1,1"/>
+			<e:Image width="147" height="39" x="0" y="10" source="kfhd_textDi02"/>
+			<e:Label id="_tl2" text="Label" x="0" y="15" style="ht_24_lc_stroke" width="135" height="28" textAlign="center"/>
+			<e:Label id="_name2" text="Label" x="120" y="15" width="149" height="28" textAlign="right" style="ht_18_lc" textColor="0x45332B"/>
+			<e:Group id="_scroll2" width="263" height="81" x="10" y="55" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+		<e:Group id="group3" height="145" y="304" left="0" right="0">
+			<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi03" scale9Grid="25,24,1,1"/>
+			<e:Image width="147" height="39" x="0" y="10" source="kfhd_textDi02"/>
+			<e:Label id="_tl3" text="Label" x="0" y="15" style="ht_24_lc_stroke" width="135" height="28" textAlign="center"/>
+			<e:Label id="_name3" text="Label" x="120" y="15" width="149" height="28" textAlign="right" style="ht_18_lc" textColor="0x45332B"/>
+			<e:Group id="_scroll3" width="263" height="81" x="10" y="55" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Label id="my_rank" text="Label" y="677" left="0" right="0" textColor="0x45332b" textAlign="center" style="ht_28_lc"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

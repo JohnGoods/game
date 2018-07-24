@@ -1,0 +1,9 @@
+{"file":"pipajing_die.png","frames":{
+"die_3_body_00":{"x":0,"y":0,"w":157,"h":184,"offX":74,"offY":56,"sourceW":320,"sourceH":320},
+"die_3_body_01":{"x":0,"y":186,"w":156,"h":177,"offX":77,"offY":64,"sourceW":320,"sourceH":320},
+"die_3_body_02":{"x":159,"y":0,"w":150,"h":169,"offX":77,"offY":66,"sourceW":320,"sourceH":320},
+"die_3_body_03":{"x":0,"y":365,"w":92,"h":143,"offX":89,"offY":77,"sourceW":320,"sourceH":320},
+"die_7_body_00":{"x":158,"y":186,"w":147,"h":178,"offX":85,"offY":69,"sourceW":320,"sourceH":320},
+"die_7_body_01":{"x":307,"y":171,"w":137,"h":153,"offX":94,"offY":93,"sourceW":320,"sourceH":320},
+"die_7_body_02":{"x":311,"y":0,"w":133,"h":149,"offX":100,"offY":96,"sourceW":320,"sourceH":320},
+"die_7_body_03":{"x":307,"y":326,"w":91,"h":110,"offX":128,"offY":122,"sourceW":320,"sourceH":320}}}

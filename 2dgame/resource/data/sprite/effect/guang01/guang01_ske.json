@@ -1,0 +1,25 @@
+{
+  "anims":[
+    {
+      "dirs":[
+        0
+      ],
+      "frameCount":6,
+      "interval":100,
+      "name":"idle"
+    }
+  ],
+  "bodyparts":[
+    {
+      "name":"body",
+      "offx":160,
+      "offy":210,
+      "order":0,
+      "shows":[]
+    }
+  ],
+  "name":"guang01",
+  "textures":[
+    "guang01_idle.png"
+  ]
+}

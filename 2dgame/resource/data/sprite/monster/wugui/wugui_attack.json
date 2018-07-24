@@ -1,0 +1,9 @@
+{"file":"wugui_attack.png","frames":{
+"attack_3_body_00":{"x":148,"y":390,"w":123,"h":106,"offX":105,"offY":116,"sourceW":320,"sourceH":320},
+"attack_3_body_01":{"x":0,"y":264,"w":140,"h":113,"offX":89,"offY":103,"sourceW":320,"sourceH":320},
+"attack_3_body_02":{"x":161,"y":262,"w":136,"h":126,"offX":91,"offY":99,"sourceW":320,"sourceH":320},
+"attack_3_body_03":{"x":211,"y":126,"w":167,"h":134,"offX":109,"offY":116,"sourceW":320,"sourceH":320},
+"attack_3_body_04":{"x":0,"y":0,"w":209,"h":145,"offX":111,"offY":105,"sourceW":320,"sourceH":320},
+"attack_3_body_05":{"x":211,"y":0,"w":206,"h":124,"offX":108,"offY":102,"sourceW":320,"sourceH":320},
+"attack_3_body_06":{"x":0,"y":147,"w":159,"h":115,"offX":107,"offY":105,"sourceW":320,"sourceH":320},
+"attack_3_body_07":{"x":0,"y":379,"w":146,"h":105,"offX":106,"offY":114,"sourceW":320,"sourceH":320}}}

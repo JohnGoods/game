@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightLayout" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="copy_longwang_group" width="218" height="100" y="68" anchorOffsetY="0" right="0" visible="false">
+		<e:Image left="0" right="0" top="0" bottom="0" source="zd_tiShiDi01"/>
+		<gui:ProgressBar id="round_pro" width="202" height="21" y="57" horizontalCenter="0"/>
+		<e:Group id="starStage_group0" width="13" height="24" x="3" y="56" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image width="17" height="18" x="0" y="20" source="ty_star01"/>
+			<e:Label id="star_num0" text="10" x="-2" y="-21" textColor="0xffa500" style="ht_18_lc_stroke" textAlign="center"/>
+		</e:Group>
+		<e:Group id="starStage_group1" width="13" height="24" x="72" y="56" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image source="fb_lwbz_biaoShi" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+			<e:Image width="17" height="18" x="-8" y="20" source="ty_star01"/>
+			<e:Image width="17" height="18" x="5" y="20" source="ty_star01"/>
+			<e:Label id="star_num1" text="7" y="-21" textColor="0xFFA500" style="ht_18_lc_stroke" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="starStage_group2" width="13" height="24" x="140" y="56" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image source="fb_lwbz_biaoShi" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+			<e:Image width="17" height="18" x="-15" y="20" source="ty_star01"/>
+			<e:Image width="17" height="18" y="20" source="ty_star01" x="-2"/>
+			<e:Image width="17" height="18" x="12" y="20" source="ty_star01"/>
+			<e:Label text="3" y="-21" id="star_num2" textColor="0xFFA500" style="ht_18_lc_stroke" horizontalCenter="0"/>
+		</e:Group>
+		<e:Label id="copy_name" text="秘境宝藏3-3" y="7" left="0" right="0" textAlign="center" style="ht_20_lc_stroke"/>
+		<e:Label id="prize_tips" text="奖励：元宝、装备、银两、材料" height="45" y="97" left="0" right="0" style="ht_20_lc_stroke" textColor="0xfdf5e6"/>
+	</e:Group>
+	<e:Group id="captrue_group" width="200" height="60" anchorOffsetY="0" touchEnabled="false" bottom="317" horizontalCenter="0" visible="false">
+		<gui:Button id="btn_captrue" label="" scaleX="1" scaleY="1" horizontalCenter="0" bottom="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_buZhuo"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<gui:BatchImage id="fight_round_bam" width="223" height="64" y="145" horizontalCenter="105"/>
+	<gui:Button id="fight_forceend" label="跳过" right="22" bottom="377" visible="false">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt6"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Group id="prize_preview_group" width="220" height="137" y="68" right="0" visible="false"/>
+</e:Skin>

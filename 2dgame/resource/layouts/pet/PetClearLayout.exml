@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetClearLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Image source="ty_uiDi01" scale9Grid="137,197,8,5" left="0" bottom="0" top="0" right="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Image source="ty_uiDi02" left="22" right="22" bottom="20" scale9Grid="22,22,1,1" height="85"/>
+	<e:Label id="title" text="${PET_TXT28}" height="36" width="640" top="0" horizontalCenter="0" textAlign="center" verticalAlign="middle" style="ht_title_font"/>
+	<e:Group id="skill_group" top="45" left="45" right="45" bottom="260" anchorOffsetY="0">
+		<e:Image source="ty_uiDi02" left="0" bottom="0" scale9Grid="22,21,1,1" anchorOffsetX="0" width="270" anchorOffsetY="0" top="0"/>
+		<e:Image source="ty_uiDi02" bottom="0" scale9Grid="22,21,1,1" anchorOffsetX="0" anchorOffsetY="0" right="0" width="270" top="0"/>
+		<e:Group id="lt_skill_group" width="259" height="538" anchorOffsetY="0" scaleX="1" scaleY="1" left="5" verticalCenter="22.5">
+			<e:Group id="lt_group0" width="259" height="88" x="16" y="145">
+			<e:Image source="cw_xiLianDi01" x="0" y="0"/>
+				<e:Group id="lt_wnd0" width="100" height="99" scaleX="0.7" scaleY="0.7" left="15" verticalCenter="0"/>
+				<e:CheckBox id="lt_check0" label="" x="0" y="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="cw_jiNengSuo02" source.down="cw_jiNengSuo03"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:CheckBox>
+				<e:Scroller height="65" left="95" right="10" y="12">
+					<gui:RichDisplayer id="lt_rd0" x="188" y="23" scaleX="1" scaleY="1"/>
+				</e:Scroller>
+			</e:Group>
+			<e:Group id="lt_group1" width="259" height="88" x="26" y="155">
+				<e:Image source="cw_xiLianDi01" x="0" y="0"/>
+				<e:Group id="lt_wnd1" width="100" height="99" scaleX="0.7" scaleY="0.7" left="15" verticalCenter="0"/>
+				<e:CheckBox id="lt_check1" label="" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="cw_jiNengSuo02" source.down="cw_jiNengSuo03"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:CheckBox>
+				<e:Scroller height="65" left="95" right="10" y="12">
+				<gui:RichDisplayer id="lt_rd1" x="188" y="23" scaleX="1" scaleY="1"/>
+				</e:Scroller>
+			</e:Group>
+			<e:Group id="lt_group2" width="259" height="88" x="36" y="165">
+				<e:Image source="cw_xiLianDi01" x="0" y="0"/>
+				<e:Group id="lt_wnd2" width="100" height="99" scaleX="0.7" scaleY="0.7" left="15" verticalCenter="0"/>
+				<e:CheckBox id="lt_check2" label="" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="cw_jiNengSuo02" source.down="cw_jiNengSuo03"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:CheckBox>
+				<e:Scroller height="65" left="95" right="10" y="12">
+				<gui:RichDisplayer id="lt_rd2" x="188" y="23" scaleX="1" scaleY="1"/>
+				</e:Scroller>
+			</e:Group>
+			<e:Group id="lt_group3" width="259" height="88" x="46" y="175">
+				<e:Image source="cw_xiLianDi01" x="0" y="0"/>
+				<e:Group id="lt_wnd3" width="100" height="99" scaleX="0.7" scaleY="0.7" left="15" verticalCenter="0"/>
+				<e:CheckBox id="lt_check3" label="" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="cw_jiNengSuo02" source.down="cw_jiNengSuo03"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:CheckBox>
+				<e:Scroller height="65" left="95" right="10" y="12">
+				<gui:RichDisplayer id="lt_rd3" x="188" y="23" scaleX="1" scaleY="1"/>
+				</e:Scroller>
+			</e:Group>
+			<e:Group id="lt_group4" width="259" height="88" x="56" y="185">
+				<e:Image source="cw_xiLianDi01" x="0" y="0"/>
+				<e:Group id="lt_wnd4" width="100" height="99" scaleX="0.7" scaleY="0.7" left="15" verticalCenter="0"/>
+				<e:CheckBox id="lt_check4" label="" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="cw_jiNengSuo02" source.down="cw_jiNengSuo03"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:CheckBox>
+				<e:Scroller height="65" left="95" right="10" y="12">
+				<gui:RichDisplayer id="lt_rd4" x="188" y="23" scaleX="1" scaleY="1"/>
+				</e:Scroller>
+			</e:Group>
+			<e:Group id="lt_group5" width="259" height="88" x="66" y="195">
+				<e:Image source="cw_xiLianDi01" x="0" y="0"/>
+				<e:Group id="lt_wnd5" width="100" height="99" scaleX="0.7" scaleY="0.7" left="15" verticalCenter="0"/>
+				<e:CheckBox id="lt_check5" label="" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="cw_jiNengSuo02" source.down="cw_jiNengSuo03"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:CheckBox>
+				<e:Scroller height="65" left="95" right="10" y="12">
+				<gui:RichDisplayer id="lt_rd5" x="188" y="23" scaleX="1" scaleY="1"/>
+				</e:Scroller>
+			</e:Group>
+			<e:layout>
+			<e:VerticalLayout gap="2"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="rt_skill_group" height="538" anchorOffsetY="0" width="259" scaleX="1" scaleY="1" right="5" verticalCenter="22.5">
+			<e:Group id="rt_group0" width="259" height="88" x="16" y="145">
+			<e:Image x="0" y="0" source="cw_xiLianDi02"/>
+				<e:Group id="rt_wnd0" width="100" height="99" scaleX="0.7" scaleY="0.7" verticalCenter="0" left="15"/>
+				<e:Image id="rt_check0" source="cw_jiNengSuo02" x="0" y="0"/>
+				<e:Scroller height="65" left="95" right="10" y="12">
+					<gui:RichDisplayer id="rt_rd0" x="188" y="23" scaleX="1" scaleY="1"/>
+				</e:Scroller>
+			</e:Group>
+			<e:Group id="rt_group1" width="259" height="88" x="26" y="155">
+				<e:Image x="0" y="0" source="cw_xiLianDi02"/>
+				<e:Group id="rt_wnd1" width="100" height="99" scaleX="0.7" scaleY="0.7" verticalCenter="0" left="15"/>
+				<e:Image id="rt_check1" source="cw_jiNengSuo02" x="0" y="0"/>
+				<e:Scroller height="65" left="95" right="10" y="12">
+				<gui:RichDisplayer id="rt_rd1" x="188" y="23" scaleX="1" scaleY="1"/>
+				</e:Scroller>
+			</e:Group>
+			<e:Group id="rt_group2" width="259" height="88" x="36" y="165">
+				<e:Image x="0" y="0" source="cw_xiLianDi02"/>
+				<e:Group id="rt_wnd2" width="100" height="99" scaleX="0.7" scaleY="0.7" verticalCenter="0" left="15"/>
+				<e:Image id="rt_check2" source="cw_jiNengSuo02" x="0" y="0"/>
+				<e:Scroller height="65" left="95" right="10" y="12">
+				<gui:RichDisplayer id="rt_rd2" x="188" y="23" scaleX="1" scaleY="1"/>
+				</e:Scroller>
+			</e:Group>
+			<e:Group id="rt_group3" width="259" height="88" x="46" y="175">
+				<e:Image x="0" y="0" source="cw_xiLianDi02"/>
+				<e:Group id="rt_wnd3" width="100" height="99" scaleX="0.7" scaleY="0.7" verticalCenter="0" left="15"/>
+				<e:Image id="rt_check3" source="cw_jiNengSuo02" x="0" y="0"/>
+				<e:Scroller height="65" left="95" right="10" y="12">
+				<gui:RichDisplayer id="rt_rd3" x="188" y="23" scaleX="1" scaleY="1"/>
+				</e:Scroller>
+			</e:Group>
+			<e:Group id="rt_group4" width="259" height="88" x="56" y="185">
+				<e:Image x="0" y="0" source="cw_xiLianDi02"/>
+				<e:Group id="rt_wnd4" width="100" height="99" scaleX="0.7" scaleY="0.7" verticalCenter="0" left="15"/>
+				<e:Image id="rt_check4" source="cw_jiNengSuo02" x="0" y="0"/>
+				<e:Scroller height="65" left="95" right="10" y="12">
+				<gui:RichDisplayer id="rt_rd4" x="188" y="23" scaleX="1" scaleY="1"/>
+				</e:Scroller>
+			</e:Group>
+			<e:Group id="rt_group5" width="259" height="88" x="66" y="195">
+				<e:Image x="0" y="0" source="cw_xiLianDi02"/>
+				<e:Group id="rt_wnd5" width="100" height="99" scaleX="0.7" scaleY="0.7" verticalCenter="0" left="15"/>
+				<e:Image id="rt_check5" source="cw_jiNengSuo02" x="0" y="0"/>
+				<e:Scroller height="65" left="95" right="10" y="12">
+				<gui:RichDisplayer id="rt_rd5" x="188" y="23" scaleX="1" scaleY="1"/>
+				</e:Scroller>
+			</e:Group>
+			<e:layout>
+			<e:VerticalLayout gap="2"/>
+			</e:layout>
+		</e:Group>
+		<e:Image source="ty_textDi02" anchorOffsetX="0" width="270" left="0" top="0" scale9Grid="23,24,3,3"/>
+		<e:Image source="ty_textDi02" anchorOffsetX="0" width="270" top="0" right="0" scale9Grid="24,24,3,3"/>
+		<e:Label id="cur_txt" text="${PET_TXT30}" x="0" y="10" width="270" height="30" textAlign="center" verticalAlign="middle" style="ht_24_lc"/>
+		<e:Label id="next_txt" text="${PET_TXT31}" y="10" width="270" x="280" height="30" textAlign="center" verticalAlign="middle" style="ht_24_lc"/>
+	</e:Group>
+	<e:Group id="bottom_group" x="25" bottom="25">
+		<e:Group id="discount_wnd" width="80" height="43" x="20" y="-5" visible="false">
+			<e:Image source="00_tongYong03.ty_zhekouDi01" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="discount_txt" text="" width="65" height="25" textAlign="center" verticalAlign="middle" x="0" y="8" style="ht_22_lc_stroke"/>
+		</e:Group>
+		<gui:RichDisplayer id="skill_lock_rd" height="25" width="590" x="0" y="0">
+		</gui:RichDisplayer>
+		<e:Label id="xiaohao" text="${PET_TXT29}" x="20" y="45" height="30" style="ht_24_lc" textColor="0x282828" verticalAlign="middle" width="60"/>
+		<gui:RichDisplayer id="prop_rd" height="30" width="147" x="55" y="43"/>
+		<gui:RichDisplayer id="high_prop_rd" height="30" width="147" x="222" y="43"/>
+		<e:CheckBox id="auto_check" label="" x="411" y="29">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:CheckBox>
+		<e:Label id="auto" text="${AUTO_BUY}" x="455" height="30" width="100" style="ht_24_lc" textAlign="center" verticalAlign="middle" textColor="0x873A06" y="41"/>
+		<e:Group id="clear_btn_wnd" width="480" height="55" anchorOffsetY="0" anchorOffsetX="0" x="55" y="85">
+			<gui:Button id="wash_btn" label="${PET_TXT32}" x="71" y="19" width="147" height="55">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<gui:Button id="high_wash_btn" label="${PET_TXT33}" x="81" y="29" width="147" height="55">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<gui:Button id="exchange_btn" label="${PET_TXT34}" x="91" y="39" width="147" height="55">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<e:layout>
+			<e:HorizontalLayout gap="20"/>
+			</e:layout>
+		</e:Group>
+		<gui:RichDisplayer id="clear_tips_rd" height="70" anchorOffsetY="0" x="15" y="160" anchorOffsetX="0" width="496"/>
+	</e:Group>
+	<gui:Button id="btn_tips" label="" left="0" top="0" x="0" y="0" scaleX="1" scaleY="1">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_guiZhe"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close" label="" right="0" bottom="13">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close_top" label="" right="0" top="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

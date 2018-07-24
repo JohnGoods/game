@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginRoleListLayout" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Image left="0" top="0" scale9Grid="113,114,45,65" right="0" bottom="0" source="dl_uiDi02"/>
+	<e:Image horizontalCenter="0" source="dl_uiBiaoTiDi01"/>
+	<e:Label id="label_title" text="${ALL_LOGIN_ROLE}" anchorOffsetX="0" width="640" horizontalCenter="0" textAlign="center" style="ht_title_font" verticalAlign="middle" height="36" top="0"/>
+	<e:Group id="role_list_wnd" width="570" anchorOffsetX="0" anchorOffsetY="0" top="107" bottom="157" x="35"/>
+	<e:Group id="group_tips" width="549" height="40" anchorOffsetX="0" anchorOffsetY="0" touchChildren="false" touchEnabled="false" verticalCenter="-89" x="46" visible="false">
+		<e:Image left="0" right="0" top="0" bottom="0" source="dl_textDi02" scale9Grid="7,11,6,4"/>
+		<e:Label id="tips_title" text="" x="23" y="7" anchorOffsetX="0" width="500" style="ht_24_lc" textAlign="center" height="25"/>
+	</e:Group>
+	<gui:Button id="btn_close" label="" x="557" bottom="5">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dl_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

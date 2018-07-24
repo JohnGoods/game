@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SettingLayout" width="600" height="605" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi01" scale9Grid="125,101,29,115"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0" y="0"/>
+	<e:Label id="label_title" text="Label" anchorOffsetX="0" width="600" textAlign="center" style="ht_title_font" verticalAlign="middle" height="36" horizontalCenter="0" top="0"/>
+	<gui:Button id="btn_close_top" label="" right="0" top="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close" label="" right="0" bottom="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Image y="96" anchorOffsetX="0" width="523" anchorOffsetY="0" height="393" scale9Grid="5,4,33,27" horizontalCenter="0" source="ty_uiDi02"/>
+	<e:Group id="group_music" x="52" y="111" width="245" height="65">
+		<e:Image anchorOffsetX="0" scale9Grid="13,11,8,8" left="0" right="0" top="0" bottom="0" source="ty_uiDi03"/>
+		<e:Image source="sz_icon01" top="14" left="23"/>
+		<e:Label id="label_music" text="Label" x="63" y="13" anchorOffsetX="0" width="118" anchorOffsetY="0" height="34" style="ht_24_lc" textAlign="left" verticalAlign="middle" textColor="0x380505"/>
+		<e:ToggleButton id="check_music" label="" x="189" y="7">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+	</e:Group>
+	<e:Group id="group_player" x="52" y="187" width="245" height="65">
+		<e:Image anchorOffsetX="0" scale9Grid="13,11,8,8" left="0" right="0" top="0" bottom="0" source="ty_uiDi03"/>
+		<e:Label id="label_player" text="Label" x="63" y="13" anchorOffsetX="0" width="118" anchorOffsetY="0" height="34" style="ht_24_lc" textAlign="left" verticalAlign="middle" textColor="0x380505"/>
+		<e:ToggleButton id="check_player" label="" x="189" y="7">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:ToggleButton>
+		<e:Image source="29_sheZhi.sz_icon03" top="19" left="25"/>
+	</e:Group>
+	<e:Group id="group_effect" x="309" y="111" width="245" height="65">
+		<e:Image anchorOffsetX="0" scale9Grid="13,11,8,8" left="0" right="0" top="0" bottom="0" source="ty_uiDi03"/>
+		<e:Label id="label_effect" text="Label" x="63" y="13" anchorOffsetX="0" width="118" anchorOffsetY="0" height="34" style="ht_24_lc" textAlign="left" verticalAlign="middle" textColor="0x380505"/>
+		<e:ToggleButton id="check_effect" label="" x="189" y="7">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:ToggleButton>
+		<e:Image source="sz_icon02" left="26" top="15"/>
+	</e:Group>
+	<gui:Button id="btn_relogin" label="${SETTING_RETURN_LOGIN}" y="373" width="162" height="82" x="224">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_28_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Label id="severTime" text="" x="57" y="322" style="ht_28_lc" anchorOffsetX="0" width="501" textAlign="center" height="30" textColor="0x0f0000"/>
+</e:Skin>

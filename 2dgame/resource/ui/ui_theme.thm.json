@@ -1,0 +1,112 @@
+{
+	"skins": {},
+	"autoGenerateExmlsList": true,
+	"styles": {
+		"ht_16_lc": {
+			"fontFamily": "Microsoft YaHei",
+			"size": 16,
+			"textColor": "0xFFFFFF"
+		},
+		"ht_18_lc": {
+			"fontFamily": "Microsoft YaHei",
+			"size": 18,
+			"textColor": "0xFFFFFF"
+		},
+		"ht_20_lc": {
+			"fontFamily": "Microsoft YaHei",
+			"size": 20,
+			"textColor": "0xFFFFFF"
+		},
+		"ht_22_lc": {
+			"fontFamily": "Microsoft YaHei",
+			"size": 22,
+			"textColor": "0xFFFFFF"
+		},
+		"ht_24_lc": {
+			"fontFamily": "Microsoft YaHei",
+			"size": 24,
+			"textColor": "0xFFFFFF"
+		},
+		"ht_26_lc": {
+			"fontFamily": "Microsoft YaHei",
+			"size": 26,
+			"textColor": "0xFFFFFF"
+		},
+		"ht_28_lc": {
+			"fontFamily": "Microsoft YaHei",
+			"size": 28,
+			"textColor": "0xFFFFFF"
+		},
+		"ht_30_lc": {
+			"fontFamily": "Microsoft YaHei",
+			"size": 30,
+			"textColor": "0xFFFFFF"
+		},
+		"ht_16_lc_stroke": {
+			"fontFamily": "Microsoft YaHei",
+			"size": 16,
+			"stroke": 1,
+			"strokeColor": "0x45332B",
+			"textColor": "0xFFFFFF"
+		},
+		"ht_18_lc_stroke": {
+			"fontFamily": "Microsoft YaHei",
+			"size": 18,
+			"stroke": 1,
+			"strokeColor": "0x45332B",
+			"textColor": "0xFFFFFF"
+		},
+		"ht_20_lc_stroke": {
+			"fontFamily": "Microsoft YaHei",
+			"size": 20,
+			"stroke": 2,
+			"strokeColor": "0x45332B",
+			"textColor": "0xFFFFFF"
+		},
+		"ht_22_lc_stroke": {
+			"fontFamily": "Microsoft YaHei",
+			"size": 22,
+			"stroke": 2,
+			"strokeColor": "0x45332B",
+			"textColor": "0xFFFFFF"
+		},
+		"ht_24_lc_stroke": {
+			"fontFamily": "Microsoft YaHei",
+			"size": 24,
+			"stroke": 2,
+			"strokeColor": "0x45332B",
+			"textColor": "0xFFFFFF"
+		},
+		"ht_26_lc_stroke": {
+			"fontFamily": "Microsoft YaHei",
+			"size": 26,
+			"stroke": 2,
+			"strokeColor": "0x45332B",
+			"textColor": "0xFFFFFF"
+		},
+		"ht_28_lc_stroke": {
+			"fontFamily": "Microsoft YaHei",
+			"size": 28,
+			"stroke": 2,
+			"strokeColor": "0x45332B",
+			"textColor": "0xFFFFFF"
+		},
+		"ht_30_lc_stroke": {
+			"fontFamily": "Microsoft YaHei",
+			"size": 30,
+			"stroke": 2,
+			"strokeColor": "0x45332B",
+			"textColor": "0xFFFFFF"
+		},
+		"ht_title_font": {
+			"fontFamily": "Microsoft YaHei",
+			"size": 24,
+			"stroke": 2,
+			"strokeColor": "0x45332B",
+			"textColor": "0xFFEBCD",
+			"textAlign": "center",
+			"verticalAlign": "middle"
+		}
+	},
+	"exmls": []
+}

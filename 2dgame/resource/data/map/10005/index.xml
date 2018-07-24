@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="10">
+<id>10005</id>
+<name>火焰山</name>
+<colNum>4</colNum>
+<rowNum>4</rowNum>
+<tileWidth>320</tileWidth>
+<tileHeight>320</tileHeight>
+<layerNum>4</layerNum>
+<type0>1</type0>
+<id0>1</id0>
+<name0>tile_layer_1</name0>
+<type1>3</type1>
+<id1>1001</id1>
+<name1>mask</name1>
+<type2>3</type2>
+<id2>1000</id2>
+<name2>block</name2>
+<type3>2</type3>
+<id3>1002</id3>
+<name3>sprite</name3>
+</boost_serialization>
+

@@ -1,0 +1,9 @@
+{"file":"jianhun_spell.png","frames":{
+"spell_3_body_00":{"x":514,"y":827,"w":69,"h":126,"offX":126,"offY":86,"sourceW":320,"sourceH":320},
+"spell_3_body_01":{"x":322,"y":312,"w":85,"h":224,"offX":118,"offY":6,"sourceW":320,"sourceH":320},
+"spell_3_body_02":{"x":0,"y":0,"w":313,"h":320,"offX":7,"offY":0,"sourceW":320,"sourceH":320},
+"spell_3_body_03":{"x":315,"y":0,"w":277,"h":310,"offX":24,"offY":0,"sourceW":320,"sourceH":320},
+"spell_3_body_04":{"x":0,"y":322,"w":320,"h":291,"offX":0,"offY":0,"sourceW":320,"sourceH":320},
+"spell_3_body_05":{"x":0,"y":615,"w":250,"h":295,"offX":35,"offY":0,"sourceW":320,"sourceH":320},
+"spell_3_body_06":{"x":252,"y":615,"w":320,"h":210,"offX":0,"offY":85,"sourceW":320,"sourceH":320},
+"spell_3_body_07":{"x":252,"y":827,"w":260,"h":186,"offX":29,"offY":86,"sourceW":320,"sourceH":320}}}

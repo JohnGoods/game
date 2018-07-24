@@ -1,0 +1,17 @@
+{"file":"hulidaxian_spell.png","frames":{
+"spell_3_body_00":{"x":607,"y":403,"w":128,"h":197,"offX":90,"offY":37,"sourceW":320,"sourceH":320},
+"spell_3_body_01":{"x":0,"y":226,"w":160,"h":196,"offX":66,"offY":39,"sourceW":320,"sourceH":320},
+"spell_3_body_02":{"x":0,"y":424,"w":141,"h":209,"offX":91,"offY":26,"sourceW":320,"sourceH":320},
+"spell_3_body_03":{"x":453,"y":196,"w":152,"h":225,"offX":66,"offY":10,"sourceW":320,"sourceH":320},
+"spell_3_body_04":{"x":0,"y":0,"w":233,"h":224,"offX":56,"offY":10,"sourceW":320,"sourceH":320},
+"spell_3_body_05":{"x":235,"y":0,"w":216,"h":197,"offX":75,"offY":39,"sourceW":320,"sourceH":320},
+"spell_3_body_06":{"x":453,"y":0,"w":204,"h":194,"offX":87,"offY":41,"sourceW":320,"sourceH":320},
+"spell_3_body_07":{"x":882,"y":423,"w":132,"h":193,"offX":86,"offY":41,"sourceW":320,"sourceH":320},
+"spell_7_body_00":{"x":315,"y":400,"w":129,"h":199,"offX":103,"offY":33,"sourceW":320,"sourceH":320},
+"spell_7_body_01":{"x":844,"y":197,"w":159,"h":201,"offX":98,"offY":35,"sourceW":320,"sourceH":320},
+"spell_7_body_02":{"x":607,"y":203,"w":139,"h":198,"offX":92,"offY":34,"sourceW":320,"sourceH":320},
+"spell_7_body_03":{"x":162,"y":400,"w":151,"h":199,"offX":97,"offY":34,"sourceW":320,"sourceH":320},
+"spell_7_body_04":{"x":659,"y":0,"w":183,"h":201,"offX":66,"offY":30,"sourceW":320,"sourceH":320},
+"spell_7_body_05":{"x":844,"y":0,"w":166,"h":195,"offX":68,"offY":35,"sourceW":320,"sourceH":320},
+"spell_7_body_06":{"x":235,"y":203,"w":167,"h":195,"offX":68,"offY":38,"sourceW":320,"sourceH":320},
+"spell_7_body_07":{"x":748,"y":400,"w":132,"h":194,"offX":104,"offY":38,"sourceW":320,"sourceH":320}}}

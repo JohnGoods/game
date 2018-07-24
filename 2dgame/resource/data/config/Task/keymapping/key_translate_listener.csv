@@ -1,0 +1,34 @@
+关键字段类型,#任务判断条件中文,判断条件ID,参数格式,备注
+kType_n,key_s,value_s,param_c,remark_c
+4,ACCEPTTASK,新接任务,,关键字段类型为4的项均为不可更改（策划）部分
+4,FINISHTASK,完成任务,,**注意value的英文定义，有"COMMONT"的为公共动作，否则为相关任务关节特有动作
+4,COMMITTASK,提交任务,,
+4,UPDATETASK,更新任务,,
+4,GIVEUPTASK,放弃任务,,
+4,FAILTASK,任务失败,,
+4,ARRIVETASK,到达地点,,
+4,PASSTIMETASK,任务过时,,
+4,READY_GIVEUPTASK,即将放弃任务,,
+4,COMMITTASKFINISH,响应完成任务,,
+4,COMMITTASKFAILED,响应任务失败,,
+4,COMMITTASKCANCEL,响应取消任务,,
+4,SPECIALHANDLER,特殊处理,,"此表中的操作、参数填写格式为：[""新接任务""]={[""超链操作""]=""50000;1;40000(0;0), }   下同"
+3,超链操作,FIELD_COMMON_EXECUTELINK,"""1;{npcEntryId,taskId}""",参数具体格式参照超链操作（类型为字符串）
+3,打开对话节点,FIELD_COMMON_SHOWUP_DIALOG,"{talkId, entryId, nodeId}",
+3,播放电影,FIELD_COMMON_PLAY_MOVIE,"""movieName""",
+3,打开邀请回顾窗口,FIELD_PET_INVITE_REVIEW_HANDLE,,
+3,文字提示,FIELD_COMMON_SHOW_TIPS,"{channelId, ""content""}",
+3,申请类型任务,FIELD_COMMON_APPLY_TYPETASK,taskType,taskType可以参照taskOption.lua里的任务类型定义
+3,提交任务,FIELD_AUTO_COMMIT_TASK,,
+3,提交女神之吻任务,FIELD_COMMIT_GODDESSKISS_TASK,,
+3,战胜弹对话框,FIELD_UPDATE_XUNLUO,"{talkId, entryId, nodeId}",
+3,提交完资源对话,FIELD_UPDATE_COMMIT_RES,entryId/"COMMIT_NPC",
+3,答完题后弹对话框,FIELD_UPDATE_ANSWER_QUESTION,"[""correct""]={talkId, entryId, nodeId}, [""incorrect""]={talkId, entryId, nodeId}",
+3,连续采集,FIELD_UPDATE_COLLECT_ON,"""50001;1;40001(0;0)""",
+3,采集后弹字幕,FIELD_UPDATE_COLLECT_TIPS,"{channelId, ""content""}",
+3,接收任务,FIELD_COMMITTASKFINISH_ACCEPT_TASK,taskId,
+3,特殊-打开对话框,FIELD_SPECIALHANDLER_OPENDIA,"{talkId, npcEntryId, nodeId}",
+3,加入结算回调,FIELD_COMMON_FIGHT_WIN_RECALL,,加入战胜结算回调（只提供打开关卡界面）
+3,任务跟踪提示,FIELD_COMMON_SHOW_TASKTRACE,"{channelId,}",加入任务踪提示
+3,封魔进度,FIELD_COMMON_FENGMO_DAILY_PRO,"{}",显示当天封魔进度
+3,引导天使,FIELD_COMMON_GUIDE_DRAMA_TIPS,"{""描述1"",""描述2"",""描述3"...}",弹出引导用的对白提示界面

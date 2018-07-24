@@ -1,0 +1,34 @@
+{
+  "anims":[
+    {
+      "dirs":[
+        1,
+        3,
+        5,
+        7
+      ],
+      "frameCount":8,
+      "interval":100,
+      "name":"idle"
+    }
+  ],
+  "bodyparts":[
+    {
+      "dirsOrder":{
+        "1":5,
+        "3":5,
+        "5":5,
+        "7":5
+      },
+      "name":"effect2",
+      "offx":160,
+      "offy":210,
+      "order":0,
+      "shows":[]
+    }
+  ],
+  "name":"shouHun07",
+  "textures":[
+    "shouHun07_idle.png"
+  ]
+}

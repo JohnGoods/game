@@ -1,0 +1,7 @@
+{"file":"shijuren_spell.png","frames":{
+"spell_3_body_00":{"x":678,"y":238,"w":116,"h":122,"offX":99,"offY":101,"sourceW":320,"sourceH":320},
+"spell_3_body_01":{"x":678,"y":362,"w":101,"h":129,"offX":120,"offY":105,"sourceW":320,"sourceH":320},
+"spell_3_body_02":{"x":469,"y":238,"w":207,"h":166,"offX":95,"offY":115,"sourceW":320,"sourceH":320},
+"spell_3_body_03":{"x":0,"y":0,"w":244,"h":236,"offX":76,"offY":79,"sourceW":320,"sourceH":320},
+"spell_3_body_04":{"x":0,"y":238,"w":240,"h":236,"offX":79,"offY":69,"sourceW":320,"sourceH":320},
+"spell_3_body_05":{"x":242,"y":238,"w":225,"h":214,"offX":83,"offY":73,"sourceW":320,"sourceH":320}}}

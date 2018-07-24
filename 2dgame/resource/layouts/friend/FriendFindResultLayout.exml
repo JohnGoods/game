@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendFindResultLayout" width="560" height="400" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi01" scale9Grid="104,148,77,85"/>
+	<e:Image x="37" y="48" anchorOffsetX="0" width="488" anchorOffsetY="0" height="231" scale9Grid="21,16,3,4" source="ty_uiDi02"/>
+	<e:Image x="37" y="51" scale9Grid="14,14,6,5" anchorOffsetX="0" width="484" anchorOffsetY="0" height="133" source="ty_uiDi03"/>
+	<gui:Button id="chatBtn" label="${LIAO_TIAN}" x="53" y="203" anchorOffsetX="0" width="147" anchorOffsetY="0" height="55" visible="false">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke" text=""/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="addFriendBtn" label="${ADD_FRIEND}" x="206" y="203" anchorOffsetX="0" width="147" anchorOffsetY="0" height="55">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke" text=""/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="blackBtn" label="${ADD_BLACK}" x="367" y="203" anchorOffsetX="0" width="147" anchorOffsetY="0" height="55" visible="false">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke" text=""/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Label id="friend_name_level" text="Label" x="176" y="80" style="ht_24_lc_stroke" anchorOffsetX="0" width="194" anchorOffsetY="0" height="25" textAlign="left" verticalAlign="middle"/>
+	<e:Label id="describe" text="Label" x="176" y="119" style="ht_24_lc_stroke" anchorOffsetX="0" width="194" anchorOffsetY="0" height="25" textAlign="left" verticalAlign="middle"/>
+	<e:Group id="group_head" width="88" height="88" x="60" y="65" anchorOffsetX="0" anchorOffsetY="0"/>
+	<gui:Button id="btn_close_top" label="" right="0" top="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close" label="" bottom="0" right="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

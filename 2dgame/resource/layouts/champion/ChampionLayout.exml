@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChampionLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image scaleX="1" scaleY="1" top="0" bottom="0" left="0" right="0" source="ty_uiDi01" scale9Grid="116,133,28,38"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="title" text="${JJC_TXT1}" textAlign="center" horizontalCenter="0" top="0" height="36" width="640" style="ht_title_font" verticalAlign="middle"/>
+	<e:Group id="arena_wnd" width="640" height="900" x="0" y="0" visible="false">
+		<e:Image source="jj_ztBg01" horizontalCenter="0" top="35"/>
+		<e:Group width="610" height="562" horizontalCenter="0" top="35" x="15" y="35" scaleX="1" scaleY="1">
+			<e:Group id="group_0" width="177" height="200" top="38" y="33" scaleX="1" scaleY="1" anchorOffsetY="0" horizontalCenter="-121.5">
+			<e:Group anchorOffsetX="0" height="60" width="177" x="0" scaleX="1" scaleY="1" y="0">
+				<e:Image scaleX="1" scaleY="1" scale9Grid="87,28,5,4" width="220" horizontalCenter="0" y="0" height="60" source="jj_textDi01"/>
+				<gui:BatchImage id="batch_force0" height="30" anchorOffsetX="0" width="177" x="0" y="30"/>
+				<e:Group height="30" top="0" width="144" horizontalCenter="0">
+				<e:Label id="txt_di0" text="${JJC_TXT3}" style="ht_18_lc_stroke" verticalAlign="middle" textAlign="center" height="30" width="30" y="0" x="0"/>
+				<e:Label id="txt_min0" text="${JJC_TXT4}" style="ht_18_lc_stroke" verticalAlign="middle" textAlign="center" height="30" width="30" y="0" x="114"/>
+				<gui:BatchImage id="batch_rank0" width="80" height="30" y="0" x="32"/>
+				</e:Group>
+			</e:Group>
+				<e:Group id="actor_view0" width="100" height="120" x="39" y="60"/>
+				<e:Image id="floor0" source="12_jingJi.jj_renWuDi01" horizontalCenter="0" bottom="-20"/>
+			<e:Label id="name0" text="" height="30" width="177" bottom="0" horizontalCenter="0" textAlign="center" style="ht_24_lc_stroke"/>
+			</e:Group>
+			<e:Group id="group_1" width="177" height="200" top="38" y="33" scaleX="1" scaleY="1" anchorOffsetY="0" right="95">
+			<e:Group anchorOffsetX="0" height="60" width="177" x="0" scaleX="1" scaleY="1" y="0">
+				<e:Image scaleX="1" scaleY="1" scale9Grid="87,28,5,4" width="220" horizontalCenter="0" y="0" height="60" source="jj_textDi01"/>
+				<gui:BatchImage id="batch_force1" height="30" anchorOffsetX="0" y="30" width="177" x="0"/>
+				<e:Group height="30" top="0" width="144" horizontalCenter="0">
+				<e:Label id="txt_di1" text="${JJC_TXT3}" style="ht_18_lc_stroke" verticalAlign="middle" textAlign="center" height="30" width="30" y="0" x="0"/>
+				<e:Label id="txt_min1" text="${JJC_TXT4}" style="ht_18_lc_stroke" verticalAlign="middle" textAlign="center" height="30" width="30" y="0" x="114"/>
+				<gui:BatchImage id="batch_rank1" width="80" height="30" y="0" x="32"/>
+				</e:Group>
+			</e:Group>
+				<e:Group width="100" height="120" x="39" y="60" id="actor_view1"/>
+				<e:Image id="floor1" source="12_jingJi.jj_renWuDi01" horizontalCenter="0" bottom="-20" x="-127" y="469" scaleX="1" scaleY="1"/>
+			<e:Label text="" height="30" width="177" bottom="0" horizontalCenter="0" textAlign="center" style="ht_24_lc_stroke" id="name1" x="-121" y="494" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="group_2" width="177" height="200" top="250" y="33" scaleX="1" scaleY="1" anchorOffsetY="0" left="20">
+			<e:Group anchorOffsetX="0" height="60" width="177" x="0" scaleX="1" scaleY="1" y="0">
+				<e:Image scaleX="1" scaleY="1" scale9Grid="87,28,5,4" width="220" horizontalCenter="0" y="0" height="60" source="jj_textDi01"/>
+				<gui:BatchImage id="batch_force2" height="30" anchorOffsetX="0" width="177" y="30" x="0"/>
+				<e:Group height="30" top="0" width="144" horizontalCenter="0">
+				<e:Label id="txt_di2" text="${JJC_TXT3}" style="ht_18_lc_stroke" verticalAlign="middle" textAlign="center" height="30" width="30" y="0" x="0"/>
+				<e:Label id="txt_min2" text="${JJC_TXT4}" style="ht_18_lc_stroke" verticalAlign="middle" textAlign="center" height="30" width="30" y="0" x="114"/>
+				<gui:BatchImage id="batch_rank2" width="80" height="30" y="0" x="32"/>
+				</e:Group>
+			</e:Group>
+				<e:Group width="100" height="120" x="39" y="60" id="actor_view2"/>
+				<e:Image id="floor2" source="12_jingJi.jj_renWuDi01" horizontalCenter="0" bottom="-20" x="191" y="257" scaleX="1" scaleY="1"/>
+			<e:Label text="" height="30" width="177" bottom="0" horizontalCenter="0" textAlign="center" style="ht_24_lc_stroke" id="name2" x="197" y="282" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="group_3" width="177" height="200" top="250" y="33" scaleX="1" scaleY="1" anchorOffsetY="0" right="20">
+			<e:Group anchorOffsetX="0" height="60" width="177" x="0" scaleX="1" scaleY="1" y="0">
+				<e:Image scaleX="1" scaleY="1" scale9Grid="87,28,5,4" width="220" horizontalCenter="0" y="0" height="60" source="jj_textDi01"/>
+				<gui:BatchImage id="batch_force3" height="30" anchorOffsetX="0" width="177" x="0" y="30"/>
+				<e:Group height="30" top="0" width="144" horizontalCenter="0">
+				<e:Label id="txt_di3" text="${JJC_TXT3}" style="ht_18_lc_stroke" verticalAlign="middle" textAlign="center" height="30" width="30" y="0" x="0"/>
+				<e:Label id="txt_min3" text="${JJC_TXT4}" style="ht_18_lc_stroke" verticalAlign="middle" textAlign="center" height="30" width="30" y="0" x="114"/>
+				<gui:BatchImage id="batch_rank3" width="80" height="30" y="0" x="32"/>
+				</e:Group>
+			</e:Group>
+				<e:Group width="100" height="120" x="39" y="60" id="actor_view3"/>
+				<e:Image id="floor3" source="12_jingJi.jj_renWuDi01" horizontalCenter="0" bottom="-20" x="-202" y="257" scaleX="1" scaleY="1"/>
+			<e:Label text="" height="30" width="177" bottom="0" horizontalCenter="0" textAlign="center" style="ht_24_lc_stroke" id="name3" x="-196" y="282" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="group_4" width="177" height="200" top="310" y="33" scaleX="1" scaleY="1" anchorOffsetY="0" horizontalCenter="0">
+			<e:Group anchorOffsetX="0" height="60" width="177" x="0" scaleX="1" scaleY="1" y="0">
+				<e:Image scaleX="1" scaleY="1" scale9Grid="87,28,5,4" width="220" horizontalCenter="0" y="0" height="60" source="jj_textDi01"/>
+				<gui:BatchImage id="batch_force4" height="30" anchorOffsetX="0" width="177" x="0" y="30"/>
+				<e:Group height="30" top="0" width="144" horizontalCenter="0">
+				<e:Label id="txt_di4" text="${JJC_TXT3}" style="ht_18_lc_stroke" verticalAlign="middle" textAlign="center" height="30" width="30" y="0" x="0"/>
+				<e:Label id="txt_min4" text="${JJC_TXT4}" style="ht_18_lc_stroke" verticalAlign="middle" textAlign="center" height="30" width="30" y="0" x="114"/>
+				<gui:BatchImage id="batch_rank4" width="80" height="30" y="0" horizontalCenter="0"/>
+				</e:Group>
+			</e:Group>
+				<e:Group width="100" height="120" x="39" y="60" id="actor_view4"/>
+				<e:Image id="floor4" source="12_jingJi.jj_renWuDi01" horizontalCenter="0" bottom="-20" x="-6" y="197" scaleX="1" scaleY="1"/>
+			<e:Label text="" height="30" width="177" bottom="0" horizontalCenter="0" textAlign="center" style="ht_24_lc_stroke" id="name4" x="0" y="222" scaleX="1" scaleY="1"/>
+				<e:Image id="ms_pic" source="01_zhuCheng03.jj_text01" x="140" y="140"/>
+			</e:Group>
+		</e:Group>
+		<e:Group anchorOffsetX="0" left="25" right="25" top="600" bottom="110" x="25" y="600" scaleX="1" scaleY="1">
+			<e:Group width="268" height="77" anchorOffsetY="0" left="0" top="4">
+			<gui:Button id="btn_rank" label="" x="36" y="20">
+				<gui:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="jj_Bt01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<gui:Button id="btn_challenge" label="" x="46" y="30">
+				<gui:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="jj_Bt02"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<gui:Button id="btn_shop" label="" x="56" y="40">
+				<gui:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="jj_Bt03"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<e:layout>
+				<e:HorizontalLayout gap="2"/>
+			</e:layout>
+			</e:Group>
+			<e:Group width="250" height="56" anchorOffsetY="0" anchorOffsetX="0" right="0" top="25">
+			<e:Image left="0" bottom="0" top="0" right="0" source="ty_textDi01" scale9Grid="8,5,5,9"/>
+			<gui:Button id="buy_btn" label="" verticalCenter="0" right="5">
+				<gui:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_jiaIcon01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<gui:RichDisplayer id="count_rd" height="50" left="10" right="50" verticalCenter="0"/>
+			</e:Group>
+			<e:Group height="105" bottom="0" left="0" right="0">
+			<e:Image left="0" top="0" bottom="0" right="0" scale9Grid="59,22,8,4" source="ty_shuRuDi01"/>
+			<e:Group width="210" height="75" x="20" anchorOffsetY="0" verticalCenter="0">
+				<e:Group width="185" height="30" top="4" horizontalCenter="0">
+				<e:Label id="txt_di" text="${JJC_TXT3}" width="30" height="30" style="ht_24_lc" textAlign="center" verticalAlign="middle" y="0" scaleX="1" scaleY="1" left="0"/>
+				<e:Label id="txt_min" text="${JJC_TXT4}" width="30" height="30" style="ht_24_lc" textAlign="center" verticalAlign="middle" y="0" scaleX="1" scaleY="1" right="0"/>
+				<gui:BatchImage id="batch_rank" height="30" width="120" x="33" y="0" scaleX="1" scaleY="1"/>
+				</e:Group>
+				<e:Image left="0" right="0" scale9Grid="23,8,2,1" y="30" source="cz_uiLine01"/>
+				<gui:BatchImage id="batch_force" height="30" y="43" width="200" x="5"/>
+			</e:Group>
+			<e:Group id="prize_wnd0" width="80" height="80" x="245" y="13"/>
+			<e:Group id="prize_wnd1" width="80" height="80" x="335" y="13"/>
+			<e:Label id="tips_txt" text="${JJC_TXT6}" y="39" height="30" width="160" style="ht_24_lc" textAlign="center" verticalAlign="middle" x="420" textColor="0xffffff"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Group id="peerless_wnd" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image width="579" height="717" y="62" source="txdy_ztUIDi01" horizontalCenter="0"/>
+		<e:Image width="563.67" height="702" y="75" source="txdy_textDi01" scale9Grid="9,9,25,25" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+		<e:Group id="part_register" left="0" right="0" top="0" bottom="0" visible="false">
+			<gui:RichDisplayer id="rd_tips" width="519" height="579.39" y="118" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0.5">
+			</gui:RichDisplayer>
+			<gui:Button id="btn_baoming" label="${JJC_TXT17}" bottom="146" y="709" scaleX="1" scaleY="1" width="147" height="55" horizontalCenter="0">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt9"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+					</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+		</e:Group>
+		<e:Group id="part_audition" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Image top="92" source="ty_uiDi02" scale9Grid="5,5,32,31" horizontalCenter="0" height="440" width="542" visible="false"/>
+			<e:Label id="label_paiming" text="排名" style="ht_24_lc_stroke" textColor="0xeff8ff" width="91" left="86" verticalAlign="middle" textAlign="center" top="113"/>
+			<e:Label id="label_name" text="名字" textColor="0xEFF8FF" width="290" left="177" verticalAlign="middle" textAlign="center" top="113" style="ht_24_lc_stroke"/>
+			<e:Label id="label_jifen" text="积分" textColor="0xEFF8FF" width="91" left="455" verticalAlign="middle" textAlign="center" top="113" style="ht_24_lc_stroke"/>
+			<e:Scroller id="scroll_top" width="533" height="382.55" anchorOffsetX="0" anchorOffsetY="0" top="144" horizontalCenter="0.5">
+				<e:List id="list_top" height="428" anchorOffsetY="0"/>
+			</e:Scroller>
+			<e:Image top="570" source="ty_uiDi02" scale9Grid="5,5,32,31" horizontalCenter="0" height="193" width="542" visible="false"/>
+			<e:Scroller id="scroll_bottom" width="533" height="180" anchorOffsetX="0" anchorOffsetY="0" top="578" horizontalCenter="0">
+				<e:List id="list_bottom" height="180" anchorOffsetY="0"/>
+			</e:Scroller>
+			<e:Group width="533" height="206" y="100" horizontalCenter="0" visible="false">
+				<e:Group height="30" anchorOffsetY="0" anchorOffsetX="0" top="0" left="0" right="0">
+					<e:Label text="天下第一第一局.S2566" width="170" left="166" verticalCenter="0" verticalAlign="middle" textAlign="left" style="ht_16_lc_stroke"/>
+					<e:Label text="天下第一第一局.S2566" width="170" left="166" verticalCenter="0" verticalAlign="middle" textAlign="left" style="ht_16_lc_stroke"/>
+					<e:Label text="天下第一第一局.S2566" width="170" left="166" verticalCenter="0" verticalAlign="middle" textAlign="left" style="ht_16_lc_stroke"/>
+				</e:Group>
+			</e:Group>
+			<e:Label id="label_combat" text="${JJC_COMBAT_TIPS}" textAlign="center" horizontalCenter="0" top="535" height="36" width="640" verticalAlign="middle" x="0" y="532" scaleX="1" scaleY="1" style="ht_24_lc_stroke"/>
+		</e:Group>
+		<e:Group id="part_round_16" left="0" right="0" top="0" bottom="0" locked="true" visible="false">
+			<e:Group id="group_des_bottom" width="200" height="78.88" top="679" anchorOffsetY="0" horizontalCenter="0">
+				<e:Label id="label_round_des" text="${JJC_ROUBD_DES_TIPS}" verticalAlign="top" textAlign="center" width="120" anchorOffsetY="0" horizontalCenter="0" textColor="0xeff8ff" height="18" style="ht_20_lc_stroke" x="39.99999999999997" scaleX="1" scaleY="1" top="0"/>
+				<e:Label id="label_round_num" text="16强晋8强" verticalAlign="top" textAlign="center" width="120" anchorOffsetY="0" horizontalCenter="0" textColor="0xeff8ff" height="18" style="ht_20_lc_stroke" x="39.99999999999997" scaleX="1" scaleY="1" verticalCenter="0"/>
+				<e:Label id="label_round_time" text="周二晚上8点" verticalAlign="top" textAlign="center" width="263" anchorOffsetY="0" horizontalCenter="0" height="20" textColor="0x00ff00" style="ht_22_lc_stroke" x="-31.00000000000003" scaleX="1" scaleY="1" bottom="0"/>
+			</e:Group>
+			<e:Image width="400" height="551" source="txdy_duiZhenTuDi01" y="145.33" horizontalCenter="0"/>
+			<e:Group height="40" anchorOffsetY="0" top="120" width="167" horizontalCenter="-193">
+				<e:Image id="image_1_1" source="txdy_duiZhenTuXian05" left="77" top="13" visible="false"/>
+				<e:Image id="image_2_1" scaleX="-1" source="txdy_duiZhenTuXian01" left="77" top="29" visible="false"/>
+				<e:Image id="image_3_1" source="txdy_duiZhenTuXian03" width="29" scaleX="-1" right="-41" top="138" visible="false"/>
+				<e:Image id="image_4_1" width="70" scaleX="-1" right="-111" top="298" source="txdy_duiZhenTuXian04" visible="false"/>
+				<e:Image id="image_bg_1" top="0" bottom="0" source="txdy_roleNameDi02" scale9Grid="4,3,15,16" width="150" left="0"/>
+				<e:Label id="label_name_1" text="天下第一第一局" left="0" top="0" bottom="0" style="ht_20_lc_stroke" verticalAlign="middle" textAlign="center" width="150"/>
+				<e:Image id="image_yiya_1" width="36" height="56" y="-8" source="txdy_yiYa" right="8"/>
+			</e:Group>
+			<e:Group width="167" height="40" anchorOffsetY="0" top="215" horizontalCenter="-192.5">
+				<e:Image id="image_1_2" source="txdy_duiZhenTuXian05" left="77" top="-37" visible="false"/>
+				<e:Image id="image_2_2" scaleX="-1" source="txdy_duiZhenTuXian02" top="-66" left="77" locked="true" visible="false"/>
+				<e:Image id="image_3_2" source="txdy_duiZhenTuXian03" width="29" scaleX="-1" right="-41" top="43" visible="false"/>
+				<e:Image id="image_4_2" width="70" scaleX="-1" right="-111" top="203" source="txdy_duiZhenTuXian04" visible="false"/>
+				<e:Image left="0" top="0" bottom="0" source="txdy_roleNameDi02" scale9Grid="4,3,15,16" id="image_bg_2" width="150"/>
+				<e:Label text="天下第一第一局" left="0" top="0" bottom="0" style="ht_20_lc_stroke" verticalAlign="middle" textAlign="center" id="label_name_2" width="150"/>
+				<e:Image width="36" height="56" y="-8" source="txdy_yiYa" right="8" id="image_yiya_2"/>
+			</e:Group>
+			<e:Group width="167" height="40" anchorOffsetY="0" top="271" horizontalCenter="-192.5">
+				<e:Image id="image_1_3" source="txdy_duiZhenTuXian05" left="77" top="22" visible="false"/>
+				<e:Image id="image_2_3" source="txdy_duiZhenTuXian02" scaleX="-1" scaleY="-1" left="77" top="-12" visible="false"/>
+				<e:Image id="image_3_3" source="txdy_duiZhenTuXian03" width="29" scaleX="-1" right="-41" top="-13" visible="false"/>
+				<e:Image id="image_4_3" width="70" scaleX="-1" right="-111" top="147" source="txdy_duiZhenTuXian04" visible="false"/>
+				<e:Image left="0" top="0" bottom="0" source="txdy_roleNameDi02" scale9Grid="4,3,15,16" id="image_bg_3" width="150"/>
+				<e:Label text="天下第一第一局" left="0" top="0" bottom="0" style="ht_20_lc_stroke" verticalAlign="middle" textAlign="center" id="label_name_3" width="150"/>
+				<e:Image width="36" height="56" y="-8" source="txdy_yiYa" right="8" id="image_yiya_3"/>
+			</e:Group>
+			<e:Group width="167" height="40" anchorOffsetY="0" top="375" horizontalCenter="-192.5">
+				<e:Image id="image_1_4" source="txdy_duiZhenTuXian05" left="77" top="-37" visible="false"/>
+				<e:Image id="image_2_4" source="txdy_duiZhenTuXian01" scaleX="-1" scaleY="-1" left="77" top="-116" visible="false"/>
+				<e:Image id="image_3_4" source="txdy_duiZhenTuXian03" width="29" scaleX="-1" right="-41" top="-117" visible="false"/>
+				<e:Image id="image_4_4" width="70" scaleX="-1" right="-111" top="43" source="txdy_duiZhenTuXian04" visible="false"/>
+				<e:Image left="0" top="0" bottom="0" source="txdy_roleNameDi02" scale9Grid="4,3,15,16" id="image_bg_4" width="150"/>
+				<e:Label text="天下第一第一局" left="0" top="0" bottom="0" style="ht_20_lc_stroke" verticalAlign="middle" textAlign="center" id="label_name_4" width="150"/>
+				<e:Image width="36" height="56" y="-8" source="txdy_yiYa" right="8" id="image_yiya_4"/>
+			</e:Group>
+			<e:Group width="167" height="40" anchorOffsetY="0" top="430" horizontalCenter="-192.5">
+				<e:Image id="image_1_5" source="txdy_duiZhenTuXian05" left="77" top="23" visible="false"/>
+				<e:Image id="image_2_5" source="txdy_duiZhenTuXian01" scaleX="-1" scaleY="1" left="77" bottom="-114" visible="false"/>
+				<e:Image id="image_3_5" source="txdy_duiZhenTuXian03" top="-12" width="29" scaleX="-1" scaleY="-1" right="-41" visible="false"/>
+				<e:Image id="image_4_5" width="70" scaleX="-1" right="-111" top="-12" source="txdy_duiZhenTuXian04" visible="false"/>
+				<e:Image left="0" top="0" bottom="0" source="txdy_roleNameDi02" scale9Grid="4,3,15,16" id="image_bg_5" width="150"/>
+				<e:Label text="天下第一第一局" left="0" top="0" bottom="0" style="ht_20_lc_stroke" verticalAlign="middle" textAlign="center" id="label_name_5" width="150"/>
+				<e:Image width="36" height="56" y="-8" source="txdy_yiYa" right="8" id="image_yiya_5"/>
+			</e:Group>
+			<e:Group width="167" height="40" anchorOffsetY="0" top="535" horizontalCenter="-192.5">
+				<e:Image id="image_1_6" source="txdy_duiZhenTuXian05" left="77" top="-37" visible="false"/>
+				<e:Image id="image_2_6" scaleX="-1" scaleY="1" source="txdy_duiZhenTuXian02" left="77" bottom="-9" visible="false"/>
+				<e:Image id="image_3_6" source="txdy_duiZhenTuXian03" top="-117" width="29" scaleX="-1" scaleY="-1" right="-41" visible="false"/>
+				<e:Image id="image_4_6" width="70" scaleX="-1" right="-111" top="-117" source="txdy_duiZhenTuXian04" visible="false"/>
+				<e:Image left="0" top="0" bottom="0" source="txdy_roleNameDi02" scale9Grid="4,3,15,16" id="image_bg_6" width="150"/>
+				<e:Label text="天下第一第一局" left="0" top="0" bottom="0" style="ht_20_lc_stroke" verticalAlign="middle" textAlign="center" id="label_name_6" width="150"/>
+				<e:Image width="36" height="56" y="-8" source="txdy_yiYa" right="8" id="image_yiya_6"/>
+			</e:Group>
+			<e:Group width="167" height="40" anchorOffsetY="0" top="591" horizontalCenter="-192.5">
+				<e:Image id="image_1_7" source="txdy_duiZhenTuXian05" left="77" top="22" visible="false"/>
+				<e:Image id="image_2_7" source="txdy_duiZhenTuXian02" scaleX="-1" scaleY="-1" left="77" bottom="-63" visible="false"/>
+				<e:Image id="image_3_7" source="txdy_duiZhenTuXian03" top="-173" width="29" scaleX="-1" scaleY="-1" right="-41" visible="false"/>
+				<e:Image id="image_4_7" width="70" scaleX="-1" right="-111" top="-173" source="txdy_duiZhenTuXian04" visible="false"/>
+				<e:Image left="0" top="0" bottom="0" source="txdy_roleNameDi02" scale9Grid="4,3,15,16" id="image_bg_7" width="150"/>
+				<e:Label text="天下第一第一局" left="0" top="0" bottom="0" style="ht_20_lc_stroke" verticalAlign="middle" textAlign="center" id="label_name_7" width="150"/>
+				<e:Image width="36" height="56" y="-8" source="txdy_yiYa" right="8" id="image_yiya_7"/>
+			</e:Group>
+			<e:Group width="167" height="40" anchorOffsetY="0" top="697" horizontalCenter="-192.5">
+				<e:Image id="image_1_8" source="txdy_duiZhenTuXian05" left="77" top="-37" visible="false"/>
+				<e:Image id="image_2_8" scaleX="-1" scaleY="-1" source="txdy_duiZhenTuXian01" left="77" bottom="43" visible="false"/>
+				<e:Image id="image_3_8" source="txdy_duiZhenTuXian03" top="-279" width="29" scaleX="-1" scaleY="-1" right="-41" visible="false"/>
+				<e:Image id="image_4_8" width="70" scaleX="-1" right="-111" top="-279" source="txdy_duiZhenTuXian04" visible="false"/>
+				<e:Image left="0" top="0" bottom="0" source="txdy_roleNameDi02" scale9Grid="4,3,15,16" id="image_bg_8" width="150"/>
+				<e:Label text="天下第一第一局" left="0" top="0" bottom="0" style="ht_20_lc_stroke" verticalAlign="middle" textAlign="center" id="label_name_8" width="150"/>
+				<e:Image width="36" height="56" y="-8" source="txdy_yiYa" right="8" id="image_yiya_8"/>
+			</e:Group>
+			<e:Group width="167" height="40" anchorOffsetY="0" top="120" horizontalCenter="192.5">
+				<e:Image id="image_1_9" source="txdy_duiZhenTuXian05" right="78" top="13" visible="false"/>
+				<e:Image id="image_2_9" source="txdy_duiZhenTuXian01" scaleX="1" scaleY="1" right="79" top="29" visible="false"/>
+				<e:Image id="image_3_9" source="txdy_duiZhenTuXian03" top="138" left="-43" visible="false"/>
+				<e:Image id="image_4_9" source="txdy_duiZhenTuXian04" scaleX="1" top="298" width="70" left="-113" visible="false"/>
+				<e:Image right="0" top="0" bottom="0" source="txdy_roleNameDi02" scale9Grid="4,3,15,16" id="image_bg_9" width="150"/>
+				<e:Label id="label_name_9" text="天下第一第一局" right="0" top="0" bottom="0" style="ht_20_lc_stroke" verticalAlign="middle" textAlign="center" width="150"/>
+				<e:Image height="56" y="-8" source="txdy_yiYa" id="image_yiya_9" left="8" width="36"/>
+			</e:Group>
+			<e:Group height="40" anchorOffsetY="0" top="215" width="167" horizontalCenter="192.5">
+				<e:Image id="image_1_10" source="txdy_duiZhenTuXian05" right="78" top="-37" visible="false"/>
+				<e:Image id="image_2_10" scaleX="1" scaleY="1" source="txdy_duiZhenTuXian02" top="-66" right="79" visible="false"/>
+				<e:Image id="image_3_10" source="txdy_duiZhenTuXian03" top="44" left="-43" visible="false"/>
+				<e:Image id="image_4_10" source="txdy_duiZhenTuXian04" scaleX="1" top="203" width="70" left="-113" visible="false"/>
+				<e:Image right="0" top="0" bottom="0" source="txdy_roleNameDi02" scale9Grid="4,3,15,16" id="image_bg_10" width="150"/>
+				<e:Label text="天下第一第一局" right="0" top="0" bottom="0" style="ht_20_lc_stroke" verticalAlign="middle" textAlign="center" id="label_name_10" width="150"/>
+				<e:Image height="56" y="-8" source="txdy_yiYa" id="image_yiya_10" left="8" width="36"/>
+			</e:Group>
+			<e:Group width="167" height="40" anchorOffsetY="0" top="271" horizontalCenter="192.5">
+				<e:Image id="image_1_11" source="txdy_duiZhenTuXian05" right="78" top="22" visible="false"/>
+				<e:Image id="image_2_11" scaleX="1" scaleY="-1" source="txdy_duiZhenTuXian02" top="-12" right="79" visible="false"/>
+				<e:Image id="image_3_11" source="txdy_duiZhenTuXian03" top="-12" left="-43" visible="false"/>
+				<e:Image id="image_4_11" source="txdy_duiZhenTuXian04" scaleX="1" top="147" width="70" left="-113" visible="false"/>
+				<e:Image right="0" top="0" bottom="0" source="txdy_roleNameDi02" scale9Grid="4,3,15,16" id="image_bg_11" width="150"/>
+				<e:Label text="天下第一第一局" right="0" top="0" bottom="0" style="ht_20_lc_stroke" verticalAlign="middle" textAlign="center" id="label_name_11" width="150"/>
+				<e:Image height="56" y="-8" source="txdy_yiYa" id="image_yiya_11" left="8" width="36"/>
+			</e:Group>
+			<e:Group height="40" anchorOffsetY="0" width="167" top="375" horizontalCenter="192.5">
+				<e:Image id="image_1_12" source="txdy_duiZhenTuXian05" right="78" top="-37" visible="false"/>
+				<e:Image id="image_2_12" scaleX="1" scaleY="-1" source="txdy_duiZhenTuXian01" top="-116" right="79" visible="false"/>
+				<e:Image id="image_3_12" source="txdy_duiZhenTuXian03" top="-117" left="-43" visible="false"/>
+				<e:Image id="image_4_12" source="txdy_duiZhenTuXian04" scaleX="1" top="43" width="70" left="-113" visible="false"/>
+				<e:Image right="0" top="0" bottom="0" source="txdy_roleNameDi02" scale9Grid="4,3,15,16" id="image_bg_12" width="150"/>
+				<e:Label text="天下第一第一局" right="0" top="0" bottom="0" style="ht_20_lc_stroke" verticalAlign="middle" textAlign="center" id="label_name_12" width="150"/>
+				<e:Image height="56" y="-8" source="txdy_yiYa" id="image_yiya_12" left="8" width="36"/>
+			</e:Group>
+			<e:Group height="40" anchorOffsetY="0" top="430" width="167" horizontalCenter="192.5">
+				<e:Image id="image_1_13" source="txdy_duiZhenTuXian05" right="78" top="22" visible="false"/>
+				<e:Image id="image_2_13" source="txdy_duiZhenTuXian01" scaleX="1" scaleY="1" right="79" bottom="-114" visible="false"/>
+				<e:Image id="image_3_13" source="txdy_duiZhenTuXian03" scaleY="-1" left="-43" top="-12" visible="false"/>
+				<e:Image id="image_4_13" source="txdy_duiZhenTuXian04" scaleX="1" top="-12" width="70" left="-113" visible="false"/>
+				<e:Image right="0" top="0" bottom="0" source="txdy_roleNameDi02" scale9Grid="4,3,15,16" id="image_bg_13" width="150"/>
+				<e:Label text="天下第一第一局" right="0" top="0" bottom="0" style="ht_20_lc_stroke" verticalAlign="middle" textAlign="center" id="label_name_13" width="157"/>
+				<e:Image height="56" y="-8" source="txdy_yiYa" id="image_yiya_13" left="8" width="36"/>
+			</e:Group>
+			<e:Group height="40" anchorOffsetY="0" top="535" width="167" horizontalCenter="192.5">
+				<e:Image id="image_1_14" source="txdy_duiZhenTuXian05" right="78" top="-37" visible="false"/>
+				<e:Image id="image_2_14" scaleX="1" scaleY="1" source="txdy_duiZhenTuXian02" right="79" bottom="-9" visible="false"/>
+				<e:Image id="image_3_14" source="txdy_duiZhenTuXian03" scaleY="-1" left="-43" top="-117" visible="false"/>
+				<e:Image id="image_4_14" source="txdy_duiZhenTuXian04" scaleX="1" top="-117" width="70" left="-113" visible="false"/>
+				<e:Image right="0" top="0" bottom="0" source="txdy_roleNameDi02" scale9Grid="4,3,15,16" id="image_bg_14" width="150"/>
+				<e:Label text="天下第一第一局" right="0" top="0" bottom="0" style="ht_20_lc_stroke" verticalAlign="middle" textAlign="center" id="label_name_14" width="150"/>
+				<e:Image height="56" y="-8" source="txdy_yiYa" id="image_yiya_14" left="8" width="36"/>
+			</e:Group>
+			<e:Group height="40" anchorOffsetY="0" top="591" width="167" horizontalCenter="192.5">
+				<e:Image id="image_1_15" source="txdy_duiZhenTuXian05" right="78" top="22" visible="false"/>
+				<e:Image id="image_2_15" source="txdy_duiZhenTuXian02" scaleX="1" scaleY="-1" right="79" bottom="-63" visible="false"/>
+				<e:Image id="image_3_15" source="txdy_duiZhenTuXian03" scaleY="-1" left="-43" top="-173" visible="false"/>
+				<e:Image id="image_4_15" source="txdy_duiZhenTuXian04" scaleX="1" top="-172" width="70" left="-113" visible="false"/>
+				<e:Image right="0" top="0" bottom="0" source="txdy_roleNameDi02" scale9Grid="4,3,15,16" id="image_bg_15" width="150"/>
+				<e:Label text="天下第一第一局" right="0" top="0" bottom="0" style="ht_20_lc_stroke" verticalAlign="middle" textAlign="center" id="label_name_15" width="150"/>
+				<e:Image height="56" y="-8" source="txdy_yiYa" id="image_yiya_15" left="8" width="36"/>
+			</e:Group>
+			<e:Group height="40" anchorOffsetY="0" top="697" width="167" horizontalCenter="192.5">
+				<e:Image id="image_1_16" source="txdy_duiZhenTuXian05" right="78" top="-37" visible="false"/>
+				<e:Image id="image_2_16" scaleX="1" scaleY="-1" source="txdy_duiZhenTuXian01" right="79" bottom="43" visible="false"/>
+				<e:Image id="image_3_16" source="txdy_duiZhenTuXian03" scaleY="-1" left="-43" top="-279" visible="false"/>
+				<e:Image id="image_4_16" source="txdy_duiZhenTuXian04" scaleX="1" top="-278" width="70" left="-113" visible="false"/>
+				<e:Image right="0" top="0" bottom="0" source="txdy_roleNameDi02" scale9Grid="4,3,15,16" id="image_bg_16" width="150"/>
+				<e:Label text="天下第一第一局" right="0" top="0" bottom="0" style="ht_20_lc_stroke" verticalAlign="middle" textAlign="center" id="label_name_16" width="150"/>
+				<e:Image height="56" y="-8" source="txdy_yiYa" id="image_yiya_16" left="8" width="36"/>
+			</e:Group>
+			<e:Image id="image_final" source="txdy_duiZhenTuXian05" horizontalCenter="-1" top="371"/>
+			<e:Image width="104" height="90" source="txdy_diYiDi01" top="282" horizontalCenter="-3"/>
+			<e:Image id="image_player_icon" width="70" height="80" top="289" horizontalCenter="0" scaleX="1" scaleY="1" source="txdy_paiming"/>
+			<e:Group id="group_1_1" width="43" height="42" top="165" horizontalCenter="-195">
+				<e:Image id="look_1_1" width="43" height="42" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="ty_tongYongBt11"/>
+				<e:Label id="label_1_1" text="${JJC_TXT24}" left="0" right="0" top="0" bottom="0" style="ht_24_lc_stroke" verticalAlign="middle" textAlign="center"/>
+				<e:Image id="dot_1_1" width="20" height="20" source="zjm_hongDian01" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="group_1_2" width="43" height="42" top="321" horizontalCenter="-195">
+				<e:Image id="look_1_2" width="43" height="42" source="ty_tongYongBt11" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="${JJC_TXT24}" left="0" right="0" top="0" bottom="0" id="label_1_2" style="ht_24_lc_stroke" verticalAlign="middle" textAlign="center"/>
+				<e:Image id="dot_1_2" width="20" height="20" source="zjm_hongDian01" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="group_1_3" width="43" height="42" top="480" horizontalCenter="-195">
+				<e:Image id="look_1_3" width="43" height="42" source="ty_tongYongBt11" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="${JJC_TXT24}" left="0" right="0" top="0" bottom="0" id="label_1_3" style="ht_24_lc_stroke" verticalAlign="middle" textAlign="center"/>
+				<e:Image id="dot_1_3" width="20" height="20" source="zjm_hongDian01" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="group_1_4" width="43" height="42" top="646" horizontalCenter="-195">
+				<e:Image id="look_1_4" width="43" height="42" source="ty_tongYongBt11" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="${JJC_TXT24}" left="0" right="0" top="0" bottom="0" id="label_1_4" style="ht_24_lc_stroke" verticalAlign="middle" textAlign="center"/>
+				<e:Image id="dot_1_4" width="20" height="20" source="zjm_hongDian01" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="group_1_5" width="43" height="42" top="165" horizontalCenter="195">
+				<e:Image id="look_1_5" width="43" height="42" source="ty_tongYongBt11" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="${JJC_TXT24}" left="0" right="0" top="0" bottom="0" id="label_1_5" style="ht_24_lc_stroke" verticalAlign="middle" textAlign="center"/>
+				<e:Image id="dot_1_5" width="20" height="20" source="zjm_hongDian01" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="group_1_6" width="43" height="42" top="321" horizontalCenter="195">
+				<e:Image id="look_1_6" width="43" height="42" source="ty_tongYongBt11" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="${JJC_TXT24}" left="0" right="0" top="0" bottom="0" id="label_1_6" style="ht_24_lc_stroke" verticalAlign="middle" textAlign="center"/>
+				<e:Image id="dot_1_6" width="20" height="20" source="zjm_hongDian01" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="group_1_7" width="43" height="42" top="480" horizontalCenter="195">
+				<e:Image id="look_1_7" width="43" height="42" source="ty_tongYongBt11" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="${JJC_TXT24}" left="0" right="0" top="0" bottom="0" id="label_1_7" style="ht_24_lc_stroke" verticalAlign="middle" textAlign="center"/>
+				<e:Image id="dot_1_7" width="20" height="20" source="zjm_hongDian01" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="group_1_8" width="43" height="42" top="646" horizontalCenter="195">
+				<e:Image id="look_1_8" width="43" height="42" source="ty_tongYongBt11" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="${JJC_TXT24}" left="0" right="0" top="0" bottom="0" id="label_1_8" style="ht_24_lc_stroke" verticalAlign="middle" textAlign="center"/>
+				<e:Image id="dot_1_8" width="20" height="20" source="zjm_hongDian01" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="group_2_1" width="43" height="42" top="238" horizontalCenter="-104">
+				<e:Image id="look_2_1" width="43" height="42" source="ty_tongYongBt11" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="label_2_1" text="${JJC_TXT24}" left="0" right="0" top="0" bottom="0" style="ht_24_lc_stroke" verticalAlign="middle" textAlign="center"/>
+				<e:Image id="dot_2_1" width="20" height="20" source="zjm_hongDian01" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="group_2_2" width="43" height="42" top="553" horizontalCenter="-104">
+				<e:Image id="look_2_2" width="43" height="42" source="ty_tongYongBt11" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="${JJC_TXT24}" left="0" right="0" top="0" bottom="0" id="label_2_2" style="ht_24_lc_stroke" verticalAlign="middle" textAlign="center"/>
+				<e:Image id="dot_2_2" width="20" height="20" source="zjm_hongDian01" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="group_2_3" width="43" height="42" top="238" horizontalCenter="104">
+				<e:Image id="look_2_3" width="43" height="42" source="ty_tongYongBt11" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="${JJC_TXT24}" left="0" right="0" top="0" bottom="0" id="label_2_3" style="ht_24_lc_stroke" verticalAlign="middle" textAlign="center"/>
+				<e:Image id="dot_2_3" width="20" height="20" source="zjm_hongDian01" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="group_2_4" width="43" height="42" top="553" horizontalCenter="104">
+				<e:Image id="look_2_4" width="43" height="42" source="ty_tongYongBt11" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="${JJC_TXT24}" left="0" right="0" top="0" bottom="0" id="label_2_4" style="ht_24_lc_stroke" verticalAlign="middle" textAlign="center"/>
+				<e:Image id="dot_2_4" width="20" height="20" source="zjm_hongDian01" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="group_3_1" width="43" height="42" top="401" horizontalCenter="-67">
+				<e:Image id="look_3_1" width="43" height="42" source="ty_tongYongBt11" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label text="${JJC_TXT24}" left="0" right="0" top="0" bottom="0" id="label_3_1" style="ht_24_lc_stroke" verticalAlign="middle" textAlign="center"/>
+				<e:Image id="dot_3_1" width="20" height="20" source="zjm_hongDian01" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="group_3_2" width="43" height="42" top="401" horizontalCenter="67">
+				<e:Image id="look_3_2" width="43" height="42" source="ty_tongYongBt11" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="label_3_2" text="${JJC_TXT24}" left="0" right="0" top="0" bottom="0" style="ht_24_lc_stroke" verticalAlign="middle" textAlign="center"/>
+				<e:Image id="dot_3_2" width="20" height="20" source="zjm_hongDian01" right="0" top="0"/>
+			</e:Group>
+			<e:Group id="group_4_1" width="43" height="42" top="401" horizontalCenter="0">
+				<e:Image id="look_4_1" width="43" height="42" source="ty_tongYongBt11" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="label_4_1" text="${JJC_TXT24}" left="0" right="0" top="0" bottom="0" style="ht_24_lc_stroke" verticalAlign="middle" textAlign="center"/>
+				<e:Image id="dot_4_1" width="20" height="20" source="zjm_hongDian01" right="0" top="0"/>
+			</e:Group>
+			<e:Label id="label_winner" text="天下第一第一局" y="450" style="ht_20_lc_stroke" width="189" horizontalCenter="0" verticalAlign="middle" textAlign="center" textColor="0x00ff00"/>
+		</e:Group>
+		<e:Group id="group_qu" width="242" height="40" anchorOffsetY="0" horizontalCenter="0" top="64">
+			<e:Image source="txdy_textDi02" scale9Grid="7,6,17,14" left="0" right="0" top="0" bottom="0"/>
+			<e:Label id="label_qu" text="人榜（150~179级）" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1" verticalCenter="0" left="0" right="0" style="ht_22_lc_stroke"/>
+		</e:Group>
+		<gui:Button id="btn_tips" label="" x="487" y="3">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="kfzb_shuoMing"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="shop_frist" label="" width="127" height="156" left="-30" top="0" x="-30" y="0" scaleX="1" scaleY="1">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="txdy_diYiShangDian"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<e:Group id="group_bottom" width="590" height="90.58" anchorOffsetY="0" anchorOffsetX="0" bottom="13" horizontalCenter="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi02" scale9Grid="5,5,32,31"/>
+		<e:Group id="group" width="528" height="51" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0.21000000000000085" left="10">
+		<e:RadioButton id="arena" label="${JJC_TXT1}" horizontalCenter="-263.67" bottom="66.33000000000001" x="-498" y="0" scaleX="1" scaleY="1" width="117" height="51">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="peerless" label="${JJC_TXT2}" horizontalCenter="-171.67000000000002" bottom="72.33000000000001" x="-375" y="0" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle"/>
+		</e:layout>
+		</e:Group>
+	</e:Group>
+	<gui:Button id="btn_close_top" label="" right="0" top="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close" label="" scaleX="1" scaleY="1" right="-3.96" bottom="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

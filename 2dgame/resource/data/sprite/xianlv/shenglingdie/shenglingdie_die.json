@@ -1,0 +1,9 @@
+{"file":"shenglingdie_die.png","frames":{
+"die_3_body_00":{"x":90,"y":0,"w":83,"h":146,"offX":110,"offY":70,"sourceW":320,"sourceH":320},
+"die_3_body_01":{"x":0,"y":0,"w":88,"h":141,"offX":106,"offY":74,"sourceW":320,"sourceH":320},
+"die_3_body_02":{"x":0,"y":143,"w":88,"h":141,"offX":104,"offY":72,"sourceW":320,"sourceH":320},
+"die_3_body_03":{"x":0,"y":286,"w":88,"h":141,"offX":102,"offY":70,"sourceW":320,"sourceH":320},
+"die_7_body_00":{"x":90,"y":148,"w":81,"h":144,"offX":120,"offY":69,"sourceW":320,"sourceH":320},
+"die_7_body_01":{"x":90,"y":294,"w":87,"h":125,"offX":120,"offY":87,"sourceW":320,"sourceH":320},
+"die_7_body_02":{"x":173,"y":148,"w":87,"h":125,"offX":122,"offY":89,"sourceW":320,"sourceH":320},
+"die_7_body_03":{"x":175,"y":0,"w":87,"h":125,"offX":124,"offY":91,"sourceW":320,"sourceH":320}}}

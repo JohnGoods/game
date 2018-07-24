@@ -1,0 +1,13 @@
+{"file":"ShengBingNanPiFu08_attack.png","frames":{
+"attack_3_weapon_00":{"x":190,"y":228,"w":75,"h":103,"offX":96,"offY":128,"sourceW":320,"sourceH":320},
+"attack_3_weapon_01":{"x":363,"y":414,"w":88,"h":73,"offX":107,"offY":55,"sourceW":320,"sourceH":320},
+"attack_3_weapon_02":{"x":363,"y":158,"w":86,"h":73,"offX":125,"offY":56,"sourceW":320,"sourceH":320},
+"attack_3_weapon_03":{"x":0,"y":0,"w":183,"h":192,"offX":59,"offY":55,"sourceW":320,"sourceH":320},
+"attack_3_weapon_04":{"x":185,"y":0,"w":178,"h":138,"offX":49,"offY":113,"sourceW":320,"sourceH":320},
+"attack_3_weapon_05":{"x":0,"y":366,"w":155,"h":133,"offX":42,"offY":108,"sourceW":320,"sourceH":320},
+"attack_7_weapon_00":{"x":286,"y":228,"w":75,"h":105,"offX":63,"offY":109,"sourceW":320,"sourceH":320},
+"attack_7_weapon_01":{"x":190,"y":140,"w":96,"h":86,"offX":138,"offY":58,"sourceW":320,"sourceH":320},
+"attack_7_weapon_02":{"x":286,"y":335,"w":99,"h":77,"offX":119,"offY":58,"sourceW":320,"sourceH":320},
+"attack_7_weapon_03":{"x":0,"y":194,"w":188,"h":170,"offX":45,"offY":65,"sourceW":320,"sourceH":320},
+"attack_7_weapon_04":{"x":365,"y":0,"w":122,"h":156,"offX":44,"offY":82,"sourceW":320,"sourceH":320},
+"attack_7_weapon_05":{"x":157,"y":366,"w":127,"h":124,"offX":53,"offY":121,"sourceW":320,"sourceH":320}}}

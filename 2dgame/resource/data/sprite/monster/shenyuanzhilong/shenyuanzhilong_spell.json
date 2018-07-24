@@ -1,0 +1,9 @@
+{"file":"shenyuanzhilong_spell.png","frames":{
+"spell_0_body_00":{"x":931,"y":0,"w":455,"h":512,"offX":85,"offY":81,"sourceW":640,"sourceH":640},
+"spell_0_body_01":{"x":933,"y":514,"w":450,"h":486,"offX":88,"offY":108,"sourceW":640,"sourceH":640},
+"spell_0_body_02":{"x":0,"y":0,"w":466,"h":541,"offX":72,"offY":63,"sourceW":640,"sourceH":640},
+"spell_0_body_03":{"x":468,"y":0,"w":461,"h":538,"offX":78,"offY":63,"sourceW":640,"sourceH":640},
+"spell_0_body_04":{"x":470,"y":540,"w":461,"h":528,"offX":95,"offY":63,"sourceW":640,"sourceH":640},
+"spell_0_body_05":{"x":0,"y":1075,"w":466,"h":524,"offX":92,"offY":70,"sourceW":640,"sourceH":640},
+"spell_0_body_06":{"x":468,"y":1075,"w":464,"h":526,"offX":92,"offY":68,"sourceW":640,"sourceH":640},
+"spell_0_body_07":{"x":0,"y":543,"w":468,"h":530,"offX":84,"offY":67,"sourceW":640,"sourceH":640}}}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LianYaoAccessPathLayout" width="495" height="385" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+	</w:Declarations>
+	<e:Group width="495" height="385" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ty_uiDi01" scale9Grid="142,190,3,6" x="0" scaleX="1" scaleY="1" height="385" width="495" verticalCenter="0"/>
+		<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+		<e:Label id="title" text="获取材料" width="495" textAlign="center" verticalAlign="middle" height="36" style="ht_title_font" y="0" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<e:Group id="item" width="80" height="80" x="120" y="60"/>
+		<e:Label id="item_name" text="炼妖壶" width="100" textAlign="left" verticalAlign="middle" height="36" scaleX="1" scaleY="1" x="220" y="80" textColor="0xffffff" style="ht_22_lc_stroke"/>
+		<e:Label id="tip" text="材料不足，可以通过以下方式获得" width="495" textAlign="center" verticalAlign="middle" height="36" scaleX="1" scaleY="1" horizontalCenter="0" x="10" textColor="0xffffff" style="ht_20_lc_stroke" y="145"/>
+		<e:Image width="300" height="40" y="190" source="ty_textDi03" scale9Grid="23,10,21,18" horizontalCenter="0"/>
+		<e:Label id="tip2" text="其他途径" width="300" textAlign="center" verticalAlign="middle" height="40" style="ht_20_lc_stroke" scaleX="1" scaleY="1" horizontalCenter="0" x="10" textColor="0xFFFFFF" y="190"/>
+		<e:Group width="290" height="85" y="240" horizontalCenter="0">
+			<e:Label id="pay_record" text="每日首充" style="ht_24_lc" scaleX="1" scaleY="1" left="0" textColor="0x006400" verticalCenter="0"/>
+			<e:Rect width="96" height="2" strokeAlpha="0" scaleX="1" scaleY="1" left="0" y="59"  fillColor="0x006400"/>
+			<e:Label id="kuafu" text="跨服争霸" style="ht_24_lc" scaleX="1" scaleY="1" top="0" y="10" right="0" textColor="0x006401" visible="false"/>
+			<e:Rect width="96" height="2" strokeAlpha="0" scaleX="1" scaleY="1" y="28" right="0"  fillColor="0x006401" visible="false"/>
+			<e:Label id="wulinmengzhu" text="武林盟主" style="ht_24_lc" scaleX="1" scaleY="1" left="0" bottom="5" textColor="0x006401" visible="false"/>
+			<e:Rect width="96" height="2" strokeAlpha="0" scaleX="1" scaleY="1" bottom="0" left="0"  fillColor="0x006401" visible="false"/>
+			<e:Label id="richanghuodong" text="日常活动" style="ht_24_lc" scaleX="1" scaleY="1" right="0" textColor="0x006401" verticalCenter="0"/>
+			<e:Rect width="96" height="2" strokeAlpha="0" scaleX="1" scaleY="1" right="0"  fillColor="0x006401" y="59"/>
+		</e:Group>
+		<gui:Button id="btn_close" label="" right="0" bottom="1" x="412" y="300" scaleX="1" scaleY="1">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_close_top" label="" top="0" right="0" x="440" y="0" scaleX="1" scaleY="1">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleSuitLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ty_uiDi01" scale9Grid="142,190,3,6" left="0" bottom="0" top="0" right="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="title" text="套装" top="0" horizontalCenter="0" width="640" textAlign="center" verticalAlign="middle" height="36" style="ht_title_font"/>
+	<e:Image source="03_huoBan.hb_zuoQiDi01" horizontalCenter="0" top="156"/>
+	<e:Group id="actor" width="20" height="20" y="343" anchorOffsetY="0" anchorOffsetX="0" x="318"/>
+	<e:Group id="actor_tianxian" width="20" height="20" x="271" y="313"/>
+	<e:Group width="183" height="151" anchorOffsetY="0" anchorOffsetX="0" top="408" left="26">
+		<e:Image anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" source="tz_textDi01" width="170" height="133" scale9Grid="12,14,142,94"/>
+		<gui:RichDisplayer id="rd_title_1" width="146.97" height="24" anchorOffsetY="0" anchorOffsetX="0" top="11" horizontalCenter="0"/>
+		<e:Image height="16" source="cz_uiLine01" top="30" scale9Grid="14,8,19,1" width="166" horizontalCenter="0" right="0"/>
+		<gui:RichDisplayer id="rd_config_1" width="147.97" height="96.42" anchorOffsetY="0" anchorOffsetX="0" top="43" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group width="183" height="151" anchorOffsetY="0" anchorOffsetX="0" top="408" horizontalCenter="0">
+		<e:Image anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" source="tz_textDi01" width="170" height="133" scale9Grid="12,14,142,94"/>
+		<gui:RichDisplayer id="rd_title_2" width="146.97" height="24" anchorOffsetY="0" anchorOffsetX="0" top="11" horizontalCenter="0"/>
+		<e:Image height="16" source="cz_uiLine01" top="30" scale9Grid="14,8,19,1" width="166" horizontalCenter="0" right="0"/>
+		<gui:RichDisplayer id="rd_config_2" width="147.97" height="96.42" anchorOffsetY="0" anchorOffsetX="0" top="43" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group height="151" anchorOffsetY="0" anchorOffsetX="0" top="408" right="26" width="183">
+		<e:Image anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" source="tz_textDi01" width="170" height="133" scale9Grid="12,14,142,94"/>
+		<gui:RichDisplayer id="rd_title_3" width="146.97" height="24" anchorOffsetY="0" anchorOffsetX="0" top="11" horizontalCenter="0"/>
+		<e:Image height="16" source="cz_uiLine01" top="30" scale9Grid="14,8,19,1" width="166" horizontalCenter="0" right="0"/>
+		<gui:RichDisplayer id="rd_config_3" width="147.97" height="96.42" anchorOffsetY="0" anchorOffsetX="0" top="43" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="scroll_top" width="527" height="117" y="38" anchorOffsetY="0" horizontalCenter="0.5">
+		<e:Group width="200" height="30" y="120" horizontalCenter="0">
+			<e:Image width="200" height="30" horizontalCenter="0" verticalCenter="0" source="ty_huoDeDi01" scale9Grid="32,3,192,24"/>
+			<gui:BatchImage id="bImage" width="82" height="30" x="59" y="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="name_wnd" width="50" height="159" left="75" top="228">
+		<e:Image source="03_huoBan.hb_textDi03" verticalCenter="0" left="1" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label id="name_txt" text="" anchorOffsetX="0" width="32.67" anchorOffsetY="0" height="113.33" verticalCenter="-4.4950000000000045" textAlign="center" left="7" verticalAlign="middle" style="ht_22_lc" x="6.000000000000014" y="18" scaleX="1" scaleY="1" textColor="0x050202"/>
+	</e:Group>
+	<e:Group id="scroll_item" height="235" anchorOffsetX="0" anchorOffsetY="0" bottom="100" horizontalCenter="0" width="584">
+		<e:Group width="292" height="235" x="2" y="21">
+			<e:Image width="292" top="0" bottom="0" source="tz_taoZhuangDi01" y="0" scaleX="1" scaleY="1" horizontalCenter="0"/>
+			<e:Group id="group_1" width="144" height="200" anchorOffsetX="0" left="3" top="16">
+				<gui:RichDisplayer id="rd_name_1" height="22" y="14" left="0" right="0">
+					<e:Rect id="rect_1" height="2" horizontalCenter="0" width="132" y="22" strokeColor="0x009201" fillColor="0x009201"/>
+				</gui:RichDisplayer>
+				<e:Group id="item_1" width="80" height="80" horizontalCenter="0" top="56"/>
+				<gui:RichDisplayer id="rd_force_1" height="22" left="0" right="0" top="143"/>
+				<e:Image id="jihuo_1" width="103" height="29" source="tz_text01" horizontalCenter="0" bottom="0"/>
+				<e:Group id="touch_1" height="20" left="0" right="0" top="14"/>
+			</e:Group>
+			<e:Group width="144" height="200" anchorOffsetX="0" id="group_2" right="0" top="16">
+				<gui:RichDisplayer height="22" y="14" left="0" right="0" id="rd_name_2">
+				<e:Rect height="2" horizontalCenter="0" width="132" y="22" id="rect_2" strokeColor="0x009201" fillColor="0x009201"/>
+				</gui:RichDisplayer>
+				<e:Group id="touch_2" height="20" left="0" right="0" top="14"/>
+				<e:Group width="80" height="80" horizontalCenter="0" id="item_2" top="56"/>
+				<gui:RichDisplayer height="22" left="0" right="0" top="143" id="rd_force_2"/>
+				<e:Image width="103" height="29" source="tz_text01" horizontalCenter="0" id="jihuo_2" bottom="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group width="292" height="235" x="22" y="41">
+			<e:Image width="292" top="0" bottom="0" source="tz_taoZhuangDi01" y="0" scaleX="1" scaleY="1" horizontalCenter="0"/>
+			<e:Group width="144" height="200" anchorOffsetX="0" left="3" id="group_3" x="302" scaleX="1" scaleY="1" top="16">
+				<gui:RichDisplayer height="22" y="14" left="0" right="0" id="rd_name_3">
+				<e:Rect height="2" horizontalCenter="0" width="132" y="22" id="rect_3" fillColor="0x009201" strokeColor="0x009201"/>
+				</gui:RichDisplayer>
+				<e:Group id="touch_3" height="20" left="0" right="0" top="14"/>
+				<e:Group width="80" height="80" horizontalCenter="0" id="item_3" top="56"/>
+				<gui:RichDisplayer height="22" left="0" right="0" top="143" id="rd_force_3"/>
+				<e:Image width="103" height="29" source="tz_text01" horizontalCenter="0" id="jihuo_3" bottom="0"/>
+			</e:Group>
+			<e:Group width="144" height="200" anchorOffsetX="0" id="group_4" scaleX="1" scaleY="1" right="0" top="16">
+				<gui:RichDisplayer height="22" y="14" left="0" right="0" id="rd_name_4">
+				<e:Rect height="2" fillColor="0x00FF00" strokeColor="0x00FF00" horizontalCenter="0" width="132" y="22" id="rect_4"/>
+				</gui:RichDisplayer>
+				<e:Group width="80" height="80" horizontalCenter="0" id="item_4" top="56"/>
+				<gui:RichDisplayer height="22" left="0" right="0" top="143" id="rd_force_4"/>
+				<e:Image width="103" height="29" source="tz_text01" horizontalCenter="0" id="jihuo_4" bottom="0"/>
+				<e:Group id="touch_4" height="20" left="0" right="0" top="14" x="-148" y="-2" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Image width="615" height="80.61" anchorOffsetX="0" anchorOffsetY="0" source="ty_uiDi02" scale9Grid="5,5,32,31" bottom="13" horizontalCenter="0"/>
+	<gui:Button id="btn_close" label="" right="0" bottom="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Image id="turn_icon" width="137" height="93" source="ty_text05" horizontalCenter="0" top="339"/>
+	<gui:Button id="btn_turn" label="幻化" horizontalCenter="0" top="359">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Label id="label_tips" text="${ROLE_SUIT_TXT5}" width="527" height="20" verticalAlign="middle" textAlign="left" bottom="40" left="71" textColor="0x46332c" style="ht_20_lc"/>
+	<e:Image source="00_tongYong01.zjm_hongDian01" left="29" bottom="29"/>
+</e:Skin>

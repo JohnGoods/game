@@ -1,0 +1,9 @@
+{"file":"heifengxiaoyao_die.png","frames":{
+"die_3_body_00":{"x":0,"y":0,"w":156,"h":156,"offX":68,"offY":71,"sourceW":320,"sourceH":320},
+"die_3_body_01":{"x":0,"y":316,"w":153,"h":152,"offX":68,"offY":75,"sourceW":320,"sourceH":320},
+"die_3_body_02":{"x":155,"y":316,"w":152,"h":142,"offX":68,"offY":77,"sourceW":320,"sourceH":320},
+"die_3_body_03":{"x":312,"y":0,"w":96,"h":120,"offX":107,"offY":89,"sourceW":320,"sourceH":320},
+"die_7_body_00":{"x":0,"y":158,"w":156,"h":156,"offX":84,"offY":70,"sourceW":320,"sourceH":320},
+"die_7_body_01":{"x":309,"y":316,"w":153,"h":130,"offX":84,"offY":96,"sourceW":320,"sourceH":320},
+"die_7_body_02":{"x":158,"y":0,"w":152,"h":130,"offX":84,"offY":94,"sourceW":320,"sourceH":320},
+"die_7_body_03":{"x":410,"y":0,"w":91,"h":96,"offX":127,"offY":119,"sourceW":320,"sourceH":320}}}

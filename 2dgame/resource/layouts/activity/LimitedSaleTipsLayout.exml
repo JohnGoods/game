@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LimitedSaleTipsLayout" width="640" height="410" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image source="ty_uiDi05" left="0" right="0" top="0" bottom="0" scale9Grid="94,72,455,101"/>
+		<e:Label id="title" text="${ACCESS_ITEM_BUY}" verticalAlign="middle" textAlign="center" horizontalCenter="0" top="21" style="ht_26_lc_stroke" textColor="0xF9F4F4"/>
+		<e:Image width="115" height="189" source="ty_uiDi06" left="-25" top="66"/>
+		<e:Image height="189" top="66" right="-25" width="115" source="ty_uiDi07"/>
+		<e:Image height="16" source="cz_uiLine01" scale9Grid="14,8,19,1" width="475" horizontalCenter="0" top="159"/>
+		<e:Group id="group_equip" width="491" height="60" top="190" anchorOffsetY="0" horizontalCenter="0.5">
+		<gui:Button id="btn_add50" xmlns:gui="gui.*" label="+50" width="43" right="5" x="522" scaleX="1" scaleY="1" verticalCenter="0">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt11"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_18_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_reduce50" xmlns:gui="gui.*" label="-50" verticalCenter="0" left="5" x="-75" y="-26" scaleX="1" scaleY="1">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt11"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_18_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		</e:Group>
+		<e:Group height="60" width="363" horizontalCenter="0" top="190">
+		<gui:Button id="btn_add" xmlns:gui="gui.*" label="" verticalCenter="0" right="60" width="43">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ty_jiaIcon01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_add10" xmlns:gui="gui.*" label="+10" verticalCenter="0" width="43" right="0">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt11"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_18_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_reduce" xmlns:gui="gui.*" label="" verticalCenter="0" left="60" width="43">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ty_jianIcon01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_reduce10" xmlns:gui="gui.*" label="-10" verticalCenter="0" left="0">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt11"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_18_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Image width="142" height="47" verticalCenter="0" horizontalCenter="0" source="ty_shuRuDi01" scale9Grid="15,5,94,37" x="111" y="7" scaleX="1" scaleY="1"/>
+		<e:Label id="label_num" text="1" height="20" verticalCenter="0" horizontalCenter="0" verticalAlign="middle" textAlign="center" style="ht_20_lc" textColor="0xFFFFFF" x="176" y="20" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<gui:RichDisplayer id="rd_cost" xmlns:gui="gui.*" width="228" height="28" horizontalCenter="0" anchorOffsetY="0" top="261"/>
+		<gui:Button id="btn_buy" xmlns:gui="gui.*" label="${ACCESS_TXT12}" horizontalCenter="0" bottom="44" height="55">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_close" xmlns:gui="gui.*" label="" bottom="0" right="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_close_top" xmlns:gui="gui.*" label="" right="0" top="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+	</e:Group>
+</e:Skin>

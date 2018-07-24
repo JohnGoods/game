@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HousePrizeShowLayout" width="510" height="610" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Image height="610" width="510" horizontalCenter="0" verticalCenter="0" source="ty_uiDi01" scale9Grid="112,112,46,47"/>
+	<e:Image width="450" height="470" source="ty_uiDi02" scale9Grid="20,19,1,1" horizontalCenter="0" y="50"/>
+	<e:Image width="222" height="39" source="ty_uiBiaoTiDi01" horizontalCenter="0" top="0"/>
+	<e:Label id="title" text="房屋进阶提示" width="510" height="36" horizontalCenter="0" top="0" textAlign="center" verticalAlign="middle" style="ht_title_font"/>
+	<e:Group id="scroll_group" width="450" height="470" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" y="50"/>
+	<gui:Button id="return_btn" label="一键领取" y="535" horizontalCenter="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Label id="exp_text" text="可领取经验" width="100" height="20" textAlign="center" verticalAlign="middle" x="50" y="535" style="ht_20_lc" textColor="0x512525"/>
+	<gui:RichDisplayer id="exp_rd" width="100" height="25" x="50" y="560">
+	</gui:RichDisplayer>
+</e:Skin>

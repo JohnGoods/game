@@ -1,0 +1,9 @@
+{"file":"fabao05_idle.png","frames":{
+"idle_0_body_00":{"x":0,"y":856,"w":320,"h":410,"offX":151,"offY":123,"sourceW":640,"sourceH":640},
+"idle_0_body_01":{"x":638,"y":844,"w":322,"h":414,"offX":151,"offY":123,"sourceW":640,"sourceH":640},
+"idle_0_body_02":{"x":638,"y":424,"w":322,"h":418,"offX":150,"offY":124,"sourceW":640,"sourceH":640},
+"idle_0_body_03":{"x":638,"y":0,"w":320,"h":422,"offX":152,"offY":124,"sourceW":640,"sourceH":640},
+"idle_0_body_04":{"x":320,"y":432,"w":316,"h":422,"offX":152,"offY":128,"sourceW":640,"sourceH":640},
+"idle_0_body_05":{"x":320,"y":0,"w":316,"h":430,"offX":152,"offY":125,"sourceW":640,"sourceH":640},
+"idle_0_body_06":{"x":0,"y":0,"w":318,"h":434,"offX":150,"offY":124,"sourceW":640,"sourceH":640},
+"idle_0_body_07":{"x":0,"y":436,"w":318,"h":416,"offX":149,"offY":122,"sourceW":640,"sourceH":640}}}

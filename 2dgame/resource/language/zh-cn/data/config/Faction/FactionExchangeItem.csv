@@ -1,0 +1,8 @@
+物品ID,物品名字,所需兑换物品,奖励物品
+ItemEntry_kn,name_c,exchange_t,prize_t
+60082,帮贡物资包,"{""item"",60076,3}","{""facContribute"",10}"
+60093,帮贡物资包,"{""item"",60077,5}","{""facContribute"",10}"
+60083,帮贡财富包,"{""item"",60078,2},{""item"",60076,2}","{""facContribute"",20},{""bindRmb"",20}"
+60094,帮贡财富包,"{""item"",60079,4},{""item"",60077,3}","{""facContribute"",20},{""bindRmb"",20}"
+60084,帮贡宝石包,"{""item"",60080,1}","{""facContribute"",30},{""item"",60003,10}"
+60085,帮贡属性包,"{""item"",60081,2}","{""facContribute"",30},{""item"",60059,1}"

@@ -1,0 +1,9 @@
+{"file":"ride19_attacked.png","frames":{
+"attacked_3_ride2_00":{"x":189,"y":237,"w":185,"h":224,"offX":218,"offY":196,"sourceW":640,"sourceH":640},
+"attacked_3_ride2_01":{"x":0,"y":237,"w":187,"h":225,"offX":217,"offY":199,"sourceW":640,"sourceH":640},
+"attacked_3_ride_00":{"x":0,"y":825,"w":147,"h":175,"offX":239,"offY":228,"sourceW":640,"sourceH":640},
+"attacked_3_ride_01":{"x":341,"y":647,"w":150,"h":176,"offX":237,"offY":227,"sourceW":640,"sourceH":640},
+"attacked_7_ride3_00":{"x":0,"y":0,"w":202,"h":235,"offX":231,"offY":174,"sourceW":640,"sourceH":640},
+"attacked_7_ride3_01":{"x":204,"y":0,"w":197,"h":235,"offX":234,"offY":175,"sourceW":640,"sourceH":640},
+"attacked_7_ride_00":{"x":341,"y":463,"w":150,"h":182,"offX":259,"offY":207,"sourceW":640,"sourceH":640},
+"attacked_7_ride_01":{"x":189,"y":463,"w":150,"h":184,"offX":259,"offY":205,"sourceW":640,"sourceH":640}}}

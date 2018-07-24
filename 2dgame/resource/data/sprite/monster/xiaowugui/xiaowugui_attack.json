@@ -1,0 +1,9 @@
+{"file":"xiaowugui_attack.png","frames":{
+"attack_3_body_00":{"x":0,"y":49,"w":63,"h":47,"offX":130,"offY":173,"sourceW":320,"sourceH":320},
+"attack_3_body_01":{"x":0,"y":0,"w":65,"h":47,"offX":131,"offY":172,"sourceW":320,"sourceH":320},
+"attack_3_body_02":{"x":155,"y":88,"w":47,"h":33,"offX":136,"offY":161,"sourceW":320,"sourceH":320},
+"attack_3_body_03":{"x":204,"y":0,"w":39,"h":38,"offX":133,"offY":107,"sourceW":320,"sourceH":320},
+"attack_3_body_04":{"x":111,"y":49,"w":42,"h":49,"offX":136,"offY":120,"sourceW":320,"sourceH":320},
+"attack_3_body_05":{"x":204,"y":40,"w":47,"h":30,"offX":139,"offY":156,"sourceW":320,"sourceH":320},
+"attack_3_body_06":{"x":65,"y":49,"w":44,"h":48,"offX":142,"offY":162,"sourceW":320,"sourceH":320},
+"attack_3_body_07":{"x":155,"y":49,"w":47,"h":37,"offX":137,"offY":177,"sourceW":320,"sourceH":320}}}

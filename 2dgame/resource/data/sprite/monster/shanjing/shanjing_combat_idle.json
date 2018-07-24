@@ -1,0 +1,5 @@
+{"file":"shanjing_combat_idle.png","frames":{
+"combat_idle_3_body_00":{"x":0,"y":0,"w":129,"h":132,"offX":65,"offY":83,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_01":{"x":0,"y":134,"w":129,"h":132,"offX":65,"offY":83,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_02":{"x":0,"y":268,"w":129,"h":132,"offX":65,"offY":83,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_03":{"x":131,"y":0,"w":129,"h":132,"offX":65,"offY":83,"sourceW":320,"sourceH":320}}}

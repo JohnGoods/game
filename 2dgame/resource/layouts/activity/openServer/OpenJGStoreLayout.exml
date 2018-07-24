@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OpenJGStoreLayout" width="640" height="660" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*">
+	<w:Config id="161c1d1ca3e"/>
+	<e:Image y="0" width="550" height="197" scale9Grid="140,178,2,4" horizontalCenter="0" source="kfhd_biaoTiTu03"/>
+	<e:Image width="561" horizontalCenter="0" source="ty_uiDi02" scale9Grid="21,20,1,1" top="202" bottom="3"/>
+	<gui:RichDisplayer id="time_rd" width="276" height="24" x="52" y="171" anchorOffsetY="0" anchorOffsetX="0"/>
+
+
+	<e:Group id="scroll_group" width="548" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="210" bottom="10"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

@@ -1,0 +1,13 @@
+{"file":"dantong_attack.png","frames":{
+"attack_3_body_00":{"x":321,"y":278,"w":159,"h":135,"offX":77,"offY":85,"sourceW":320,"sourceH":320},
+"attack_3_body_01":{"x":322,"y":0,"w":159,"h":129,"offX":77,"offY":91,"sourceW":320,"sourceH":320},
+"attack_3_body_02":{"x":482,"y":260,"w":160,"h":120,"offX":76,"offY":101,"sourceW":320,"sourceH":320},
+"attack_3_body_03":{"x":484,"y":382,"w":160,"h":108,"offX":76,"offY":115,"sourceW":320,"sourceH":320},
+"attack_3_body_04":{"x":322,"y":131,"w":160,"h":127,"offX":76,"offY":96,"sourceW":320,"sourceH":320},
+"attack_3_body_05":{"x":160,"y":278,"w":159,"h":135,"offX":77,"offY":85,"sourceW":320,"sourceH":320},
+"attack_7_body_00":{"x":0,"y":140,"w":159,"h":136,"offX":87,"offY":87,"sourceW":320,"sourceH":320},
+"attack_7_body_01":{"x":483,"y":0,"w":160,"h":124,"offX":87,"offY":100,"sourceW":320,"sourceH":320},
+"attack_7_body_02":{"x":161,"y":0,"w":159,"h":132,"offX":87,"offY":94,"sourceW":320,"sourceH":320},
+"attack_7_body_03":{"x":161,"y":134,"w":159,"h":132,"offX":87,"offY":93,"sourceW":320,"sourceH":320},
+"attack_7_body_04":{"x":0,"y":0,"w":159,"h":138,"offX":87,"offY":86,"sourceW":320,"sourceH":320},
+"attack_7_body_05":{"x":0,"y":278,"w":158,"h":136,"offX":87,"offY":87,"sourceW":320,"sourceH":320}}}

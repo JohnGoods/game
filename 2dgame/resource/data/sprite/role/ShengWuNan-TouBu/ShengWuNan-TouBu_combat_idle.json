@@ -1,0 +1,13 @@
+{"file":"ShengWuNan-TouBu_combat_idle.png","frames":{
+"combat_idle_3_head_00":{"x":164,"y":0,"w":58,"h":53,"offX":132,"offY":105,"sourceW":320,"sourceH":320},
+"combat_idle_3_head_01":{"x":164,"y":55,"w":57,"h":53,"offX":133,"offY":104,"sourceW":320,"sourceH":320},
+"combat_idle_3_head_02":{"x":168,"y":110,"w":54,"h":51,"offX":135,"offY":104,"sourceW":320,"sourceH":320},
+"combat_idle_3_head_03":{"x":111,"y":165,"w":52,"h":52,"offX":137,"offY":104,"sourceW":320,"sourceH":320},
+"combat_idle_3_head_04":{"x":168,"y":163,"w":52,"h":52,"offX":137,"offY":105,"sourceW":320,"sourceH":320},
+"combat_idle_3_head_05":{"x":111,"y":110,"w":55,"h":53,"offX":135,"offY":106,"sourceW":320,"sourceH":320},
+"combat_idle_7_head_00":{"x":57,"y":142,"w":52,"h":69,"offX":132,"offY":99,"sourceW":320,"sourceH":320},
+"combat_idle_7_head_01":{"x":0,"y":141,"w":55,"h":68,"offX":132,"offY":98,"sourceW":320,"sourceH":320},
+"combat_idle_7_head_02":{"x":0,"y":0,"w":56,"h":68,"offX":133,"offY":98,"sourceW":320,"sourceH":320},
+"combat_idle_7_head_03":{"x":0,"y":70,"w":55,"h":69,"offX":133,"offY":99,"sourceW":320,"sourceH":320},
+"combat_idle_7_head_04":{"x":111,"y":0,"w":51,"h":70,"offX":133,"offY":99,"sourceW":320,"sourceH":320},
+"combat_idle_7_head_05":{"x":57,"y":70,"w":52,"h":70,"offX":132,"offY":100,"sourceW":320,"sourceH":320}}}

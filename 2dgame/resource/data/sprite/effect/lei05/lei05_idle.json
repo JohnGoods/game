@@ -1,0 +1,8 @@
+{"file":"lei05_idle.png","frames":{
+"idle_0_body_00":{"x":966,"y":0,"w":32,"h":80,"offX":285,"offY":0,"sourceW":640,"sourceH":640},
+"idle_0_body_01":{"x":644,"y":521,"w":320,"h":515,"offX":162,"offY":14,"sourceW":640,"sourceH":640},
+"idle_0_body_02":{"x":644,"y":0,"w":320,"h":519,"offX":162,"offY":12,"sourceW":640,"sourceH":640},
+"idle_0_body_03":{"x":322,"y":0,"w":320,"h":521,"offX":162,"offY":12,"sourceW":640,"sourceH":640},
+"idle_0_body_04":{"x":0,"y":0,"w":320,"h":522,"offX":162,"offY":12,"sourceW":640,"sourceH":640},
+"idle_0_body_05":{"x":322,"y":523,"w":288,"h":182,"offX":194,"offY":234,"sourceW":640,"sourceH":640},
+"idle_0_body_06":{"x":0,"y":524,"w":206,"h":98,"offX":251,"offY":283,"sourceW":640,"sourceH":640}}}

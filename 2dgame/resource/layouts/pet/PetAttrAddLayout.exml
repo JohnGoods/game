@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetAttrAddLayout" width="600" height="660" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="600" height="660" x="0" y="0">
+		<e:Image source="ty_uiDi01" scale9Grid="141,178,5,5" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0" top="0"/>
+		<e:Label id="title" text="${PET_TXT36}" height="36" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" left="0" right="0" top="0" style="ht_title_font"/>
+		<gui:Button id="btn_close_top" label="" top="0" right="0" x="545" y="0" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</gui:Button>
+		<gui:Button id="btn_close" label="" right="0" bottom="0" x="517" y="576" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</gui:Button>
+		<e:Image source="04_chongWu.cw_chongWuDi01" verticalCenter="-36.5" horizontalCenter="0"/>
+		<e:Group id="force_wnd" width="193" height="30" anchorOffsetY="0" anchorOffsetX="0" top="60" horizontalCenter="0.5">
+			<e:Image source="ty_zhanLiDi01" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+			<gui:BatchImage id="force_num" height="30" width="97" y="0" x="48"/>
+		</e:Group>
+		<e:Group id="actor_wnd" width="120" height="150" x="240" y="130"/>
+		<gui:RichDisplayer id="elem_rd" width="193" height="30" anchorOffsetY="0" horizontalCenter="0.5" top="95" visible="false"/>
+		<e:Group id="qua_group" width="41" height="85" y="180" x="130" visible="false">
+			<e:Image source="cw_textDi01" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Label id="qua_txt0" text="${PET_SHENCHONG}" x="0" y="0" anchorOffsetX="0" width="41" style="ht_24_lc_stroke" height="85" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="level_wnd" width="50" height="159" y="150" x="420" visible="false">
+			<e:Image source="hb_textDi04" y="0" x="0" scaleX="1" scaleY="1"/>
+			<e:Label id="level_txt" text="" anchorOffsetY="0" height="30" anchorOffsetX="0" width="50" y="50" textColor="0x383838" verticalAlign="middle" textAlign="center" x="2" style="ht_22_lc"/>
+			<e:Label id="stage_txt" text="" anchorOffsetY="0" height="30" anchorOffsetX="0" width="50" y="80" textColor="0x383838" verticalAlign="middle" textAlign="center" x="2" style="ht_22_lc"/>
+		</e:Group>
+		<gui:RichDisplayer id="name_rd" width="250" height="30" horizontalCenter="0.5" y="305" visible="false"/>
+		<e:Group height="180" width="520" x="40" y="365">
+			<e:Image source="cw_text01" x="194" y="0" scaleX="1" scaleY="1"/>
+			<e:Image source="cz_uiLine01" scale9Grid="23,8,1,1" y="27" width="520" x="0" scaleX="1" scaleY="1"/>
+			<e:Group width="465" height="25" horizontalCenter="0" y="50">
+			<gui:RichDisplayer id="hp_rd" height="25" width="155" x="18" y="40" scaleX="1" scaleY="1"/>
+			<gui:RichDisplayer id="att_rd" height="25" width="155" x="168" y="40" scaleX="1" scaleY="1"/>
+			<gui:RichDisplayer id="def_rd" height="25" width="155" x="318" y="40" scaleX="1" scaleY="1"/>
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+			</e:Group>
+			<e:Image id="property_icon" source="01_zhuCheng03.cw_text02" horizontalCenter="0" y="86"/>
+			<e:Image source="cz_uiLine01" scale9Grid="23,8,1,1" y="113" width="520" x="0" scaleX="1" scaleY="1"/>
+			<e:Group width="465" height="25" horizontalCenter="0" y="135">
+			<gui:RichDisplayer id="grow_hp_rd" height="25" width="155" x="18" y="40" scaleX="1" scaleY="1"/>
+			<gui:RichDisplayer id="grow_att_rd" height="25" width="155" x="168" y="40" scaleX="1" scaleY="1"/>
+			<gui:RichDisplayer id="grow_def_rd" height="25" width="155" x="318" y="40" scaleX="1" scaleY="1"/>
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

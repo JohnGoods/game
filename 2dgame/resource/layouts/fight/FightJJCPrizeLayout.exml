@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightJJCPrizeLayout" width="640" height="660" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg_icon" height="600" source="ty_uiDi05" scale9Grid="325,112,9,11" width="640" y="60" x="0"/>
+	<e:Image id="result_icon" width="200" height="113" source="zd_shengLi" y="23" horizontalCenter="0"/>
+	<e:Image id="left_light" width="115" height="189" x="-24" y="108" source="ty_uiDi06"/>
+	<e:Image id="right_light" width="115" height="189" x="549" y="108" source="ty_uiDi07"/>
+	<e:Image id="prize_bg" width="509" height="364" y="141" source="ty_uiDi02" scale9Grid="20,19,1,1" x="66"/>
+	<gui:Button id="gain_btn" label="领取奖励" y="543" horizontalCenter="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Group id="scroll_group" width="494" height="348" x="75" anchorOffsetX="0" anchorOffsetY="0" y="149"/>
+	<e:Group id="JJC_group" width="494" x="75" height="180" y="280">
+		<e:Image source="01_zhuCheng04.jjc_text01" x="30" y="20"/>
+		<e:Image source="01_zhuCheng04.jjc_text02" x="30" y="75"/>
+		<e:Image source="01_zhuCheng04.jjc_text03" x="30" y="130"/>
+		<e:Group width="265" height="47" x="200" y="10">
+		<e:Image source="00_tongYong03.ty_shuRuDi01" scale9Grid="59,24,4,3" scaleX="1" scaleY="1" left="0" top="0" bottom="0" right="0"/>
+		<e:Label id="history_rank" text="" height="30" left="13" verticalCenter="0" width="239" style="ht_24_lc_stroke" textAlign="left" verticalAlign="middle"/>
+		</e:Group>
+		<e:Group width="265" height="47" x="200" y="65">
+		<e:Image source="00_tongYong03.ty_shuRuDi01" scale9Grid="59,24,4,3" scaleX="1" scaleY="1" left="0" top="0" bottom="0" right="0"/>
+		<gui:RichDisplayer id="cur_rank_rd" height="30" left="13" verticalCenter="0" width="239"/>
+		</e:Group>
+		<e:Group width="265" height="47" x="200" y="120">
+		<e:Image source="00_tongYong03.ty_shuRuDi01" scale9Grid="59,24,4,3" scaleX="1" scaleY="1" left="0" top="0" bottom="0" right="0"/>
+		<gui:RichDisplayer id="prize_rd" height="30" left="13" verticalCenter="0" width="239"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

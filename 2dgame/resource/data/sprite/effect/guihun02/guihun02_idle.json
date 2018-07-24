@@ -1,0 +1,8 @@
+{"file":"guihun02_idle.png","frames":{
+"idle_0_body_00":{"x":525,"y":221,"w":214,"h":201,"offX":65,"offY":47,"sourceW":320,"sourceH":320},
+"idle_0_body_01":{"x":0,"y":0,"w":294,"h":219,"offX":26,"offY":48,"sourceW":320,"sourceH":320},
+"idle_0_body_02":{"x":0,"y":221,"w":269,"h":192,"offX":43,"offY":61,"sourceW":320,"sourceH":320},
+"idle_0_body_03":{"x":271,"y":221,"w":252,"h":179,"offX":52,"offY":71,"sourceW":320,"sourceH":320},
+"idle_0_body_04":{"x":741,"y":221,"w":182,"h":177,"offX":69,"offY":70,"sourceW":320,"sourceH":320},
+"idle_0_body_05":{"x":296,"y":0,"w":191,"h":158,"offX":66,"offY":75,"sourceW":320,"sourceH":320},
+"idle_0_body_06":{"x":489,"y":0,"w":194,"h":123,"offX":62,"offY":93,"sourceW":320,"sourceH":320}}}

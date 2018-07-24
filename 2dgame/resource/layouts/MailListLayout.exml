@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MailListLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ty_uiDi01" left="0" right="0" top="0" bottom="0" scale9Grid="121,135,31,67"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="label_title" text="${EMAIL}" style="ht_title_font" textAlign="center" verticalAlign="middle" height="36" width="640" horizontalCenter="0" top="0"/>
+	<e:Image anchorOffsetX="0" width="528" anchorOffsetY="0" top="61" bottom="124" source="ty_uiDi02" scale9Grid="6,6,32,31" horizontalCenter="1" height="777"/>
+	<e:Scroller width="500" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-0.5" top="72" bottom="141">
+		<e:List id="list_email" width="500" height="688.24" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<gui:Button id="btn_close_top" label="" right="9" top="10">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Group id="group_bottom" bottom="17" horizontalCenter="0" width="600" x="20" y="876" scaleX="1" scaleY="1">
+		<e:Image source="ty_uiDi02" scale9Grid="5,5,32,31" left="0" right="0" top="0" bottom="0"/>
+		<gui:Button id="btn_close" label="" bottom="0" right="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<gui:Button id="getAllBtn" label="${EMAIL_GET_ALL}" width="162" horizontalCenter="0" verticalCenter="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt5"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_26_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+	</e:Group>
+</e:Skin>

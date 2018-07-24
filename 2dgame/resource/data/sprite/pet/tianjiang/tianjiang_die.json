@@ -1,0 +1,13 @@
+{"file":"tianjiang_die.png","frames":{
+"die_3_body_00":{"x":0,"y":0,"w":139,"h":178,"offX":67,"offY":66,"sourceW":320,"sourceH":320},
+"die_3_body_01":{"x":291,"y":0,"w":148,"h":158,"offX":57,"offY":66,"sourceW":320,"sourceH":320},
+"die_3_body_02":{"x":291,"y":160,"w":141,"h":154,"offX":58,"offY":66,"sourceW":320,"sourceH":320},
+"die_3_body_03":{"x":285,"y":316,"w":117,"h":126,"offX":68,"offY":78,"sourceW":320,"sourceH":320},
+"die_3_body_04":{"x":139,"y":318,"w":117,"h":126,"offX":66,"offY":76,"sourceW":320,"sourceH":320},
+"die_3_body_05":{"x":0,"y":335,"w":117,"h":126,"offX":64,"offY":74,"sourceW":320,"sourceH":320},
+"die_7_body_00":{"x":0,"y":180,"w":137,"h":153,"offX":116,"offY":71,"sourceW":320,"sourceH":320},
+"die_7_body_01":{"x":141,"y":0,"w":148,"h":163,"offX":116,"offY":71,"sourceW":320,"sourceH":320},
+"die_7_body_02":{"x":141,"y":165,"w":142,"h":151,"offX":121,"offY":82,"sourceW":320,"sourceH":320},
+"die_7_body_03":{"x":258,"y":444,"w":117,"h":97,"offX":136,"offY":125,"sourceW":320,"sourceH":320},
+"die_7_body_04":{"x":377,"y":446,"w":117,"h":97,"offX":138,"offY":127,"sourceW":320,"sourceH":320},
+"die_7_body_05":{"x":119,"y":446,"w":117,"h":97,"offX":140,"offY":129,"sourceW":320,"sourceH":320}}}

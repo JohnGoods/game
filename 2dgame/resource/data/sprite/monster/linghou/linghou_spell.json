@@ -1,0 +1,9 @@
+{"file":"linghou_spell.png","frames":{
+"spell_3_body_00":{"x":0,"y":389,"w":89,"h":93,"offX":88,"offY":123,"sourceW":320,"sourceH":320},
+"spell_3_body_01":{"x":70,"y":284,"w":89,"h":77,"offX":105,"offY":139,"sourceW":320,"sourceH":320},
+"spell_3_body_02":{"x":95,"y":0,"w":90,"h":129,"offX":101,"offY":87,"sourceW":320,"sourceH":320},
+"spell_3_body_03":{"x":95,"y":131,"w":73,"h":151,"offX":121,"offY":65,"sourceW":320,"sourceH":320},
+"spell_3_body_04":{"x":170,"y":131,"w":68,"h":139,"offX":123,"offY":77,"sourceW":320,"sourceH":320},
+"spell_3_body_05":{"x":0,"y":0,"w":93,"h":135,"offX":101,"offY":81,"sourceW":320,"sourceH":320},
+"spell_3_body_06":{"x":170,"y":272,"w":75,"h":115,"offX":115,"offY":101,"sourceW":320,"sourceH":320},
+"spell_3_body_07":{"x":0,"y":284,"w":68,"h":102,"offX":112,"offY":114,"sourceW":320,"sourceH":320}}}

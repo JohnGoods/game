@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OffLineLayout" width="617" height="824" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="617" height="824" horizontalCenter="0" verticalCenter="0">
+		<e:Image scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="lxsy_ztBg01" x="0" y="0"/>
+		<gui:RichDisplayer id="rd_time" width="270" height="24" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" horizontalCenter="0" bottom="415"/>
+		<e:Label id="label_instruc" text="" style="ht_24_lc" scaleX="1" scaleY="1" horizontalCenter="0" bottom="387" textColor="0x230202"/>
+		<e:Image source="cz_uiLine01" width="516" scale9Grid="14,8,20,1" scaleX="1" scaleY="1" horizontalCenter="-9.5" bottom="337"/>
+		<e:Image source="01_zhuCheng03.lxsy_text01" bottom="347" left="122"/>
+		<e:Image source="01_zhuCheng03.lxsy_text02" left="331" bottom="347"/>
+		<e:Group id="group_money" width="477.06" height="40" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-10.5" bottom="297">
+			<e:Image source="lxsy_icon01" scaleX="1" scaleY="1" left="0" verticalCenter="0"/>
+			<e:Group width="200" height="45.45" anchorOffsetY="0" verticalCenter="0" left="61">
+				<e:Image source="ty_shuRuDi01" scale9Grid="15,5,94,37" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+				<e:Label id="resource_money" text="5220" scaleX="1" scaleY="1" verticalCenter="0" width="164" verticalAlign="middle" textAlign="center" horizontalCenter="0" style="ht_24_lc"/>
+			</e:Group>
+			<e:Group width="200" height="45.45" anchorOffsetY="0" verticalCenter="0" right="6.060000000000002">
+				<e:Image source="ty_shuRuDi01" scale9Grid="15,5,94,37" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+				<e:Label id="yueka_money" text="0" verticalCenter="0" horizontalCenter="0" width="163" verticalAlign="middle" textAlign="left" style="ht_24_lc" textColor="0x48a308"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="group_exp" width="478.06" height="45.45" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-10.5" bottom="245">
+			<e:Image scaleX="1" scaleY="1" left="0" verticalCenter="0" source="lxsy_icon02"/>
+			<e:Group width="200" height="45.45" anchorOffsetY="0" verticalCenter="0" left="62">
+			<e:Image source="ty_shuRuDi01" scale9Grid="15,5,94,37" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+			<e:Label id="resource_exp" text="5220" scaleX="1" scaleY="1" width="159" horizontalCenter="0" verticalCenter="0" textAlign="center" style="ht_24_lc"/>
+			</e:Group>
+			<e:Group width="200" height="45.45" anchorOffsetY="0" verticalCenter="0" right="6.060000000000002">
+			<e:Image source="ty_shuRuDi01" scale9Grid="15,5,94,37" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+				<e:Label id="yueka_exp" text="0" scaleX="1" scaleY="1" width="163" horizontalCenter="0" textAlign="left" x="-94" verticalAlign="middle" verticalCenter="0" height="30" style="ht_24_lc" textColor="0x48a308"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="group_cloth" width="478.06" height="45.45" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-10.5" bottom="194">
+			<e:Image scaleX="1" scaleY="1" left="0" verticalCenter="0" source="lxsy_icon03"/>
+			<e:Group width="200" height="45.45" anchorOffsetY="0" verticalCenter="0" left="62">
+			<e:Image source="ty_shuRuDi01" scale9Grid="15,5,94,37" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+			<e:Label id="resource_cloth" text="5220" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" width="159" textAlign="center" style="ht_24_lc"/>
+			</e:Group>
+			<e:Label id="label_c_des" text="月卡增加离线收益6小时" scaleX="1" scaleY="1" verticalCenter="0" right="0" width="202" style="ht_18_lc" textColor="0x330404"/>
+		</e:Group>
+		<e:Image source="ty_uiDi02" scale9Grid="5,5,32,31" anchorOffsetX="0" width="546.54" anchorOffsetY="0" height="106.36" scaleX="1" scaleY="1" horizontalCenter="-12" bottom="20"/>
+		<gui:Button id="btn_awake" label="${ROLE_BTN_AWAKE}" horizontalCenter="138" bottom="132">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt9"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_sure" label="${RENAME_TXT4}" horizontalCenter="-16" x="219" scaleX="1" scaleY="1" bottom="26">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:RichDisplayer id="rd_des" width="403" height="24" horizontalCenter="-16" top="710"/>
+	</e:Group>
+</e:Skin>

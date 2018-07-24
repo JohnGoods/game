@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EscortPrizeLayout" width="640" height="600" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Group width="640" height="601" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" horizontalCenter="0">
+		<e:Image source="ty_uiDi05" top="0" left="0" right="0" bottom="0" scale9Grid="97,69,463,105"/>
+		<e:Label id="title" text="${ESCORT_PRIZE}" horizontalCenter="0" top="20" style="ht_24_lc_stroke"/>
+		<e:Group width="44" height="120" left="160" top="75">
+			<e:Image left="0" right="0" top="0" bottom="0" source="cw_textDi02"/>
+			<e:Label id="label_mache" text="" horizontalCenter="0" verticalCenter="0" width="26" height="83" textColor="0x210101" style="ht_20_lc" verticalAlign="middle" textAlign="center"/>
+		</e:Group>
+		<e:Group id="actor" width="1" height="1" x="338" y="106"/>
+		<e:Image source="01_zhuCheng03.ty_jiangLiText01" horizontalCenter="0" top="215"/>
+		<e:Image source="cz_uiLine01" scale9Grid="14,8,19,1" width="536" horizontalCenter="0" top="238"/>
+		<gui:RichDisplayer id="rd_des" width="321.52" height="51" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" top="253"/>
+		<e:Image source="ty_uiDi02" scale9Grid="5,5,32,31" anchorOffsetX="0" width="519.12" anchorOffsetY="0" height="172.37" horizontalCenter="0.3050000000000068" top="320"/>
+		<e:Group id="group_scroll" width="470" height="148" anchorOffsetX="0" horizontalCenter="0" top="331"/>
+		<gui:Button id="btn_get" label="${FIGHT_TXT9}" height="55.389999999999986" top="497" horizontalCenter="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Group id="group_double" width="115" height="97" x="450" y="84" anchorOffsetY="0">
+			<e:Label id="doubel_1" text="*2" anchorOffsetY="0" height="65" style="ht_26_lc" scaleX="1" scaleY="1" verticalAlign="middle" textAlign="left" textColor="0xff0000" anchorOffsetX="0" left="0" verticalCenter="0" width="38"/>
+			<e:Label id="doubel_2" text="${ESCPRT_DOUBLE_TIPS}" anchorOffsetY="0" height="20" scaleX="1" scaleY="1" left="30" verticalCenter="0" verticalAlign="middle" textAlign="left" textColor="0xFF0000" anchorOffsetX="0" width="213" style="ht_20_lc"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

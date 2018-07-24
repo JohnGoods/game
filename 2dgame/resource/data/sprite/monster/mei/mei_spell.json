@@ -1,0 +1,9 @@
+{"file":"mei_spell.png","frames":{
+"spell_3_body_00":{"x":0,"y":932,"w":282,"h":282,"offX":162,"offY":235,"sourceW":640,"sourceH":640},
+"spell_3_body_01":{"x":0,"y":1216,"w":277,"h":268,"offX":158,"offY":249,"sourceW":640,"sourceH":640},
+"spell_3_body_02":{"x":0,"y":1486,"w":276,"h":264,"offX":155,"offY":253,"sourceW":640,"sourceH":640},
+"spell_3_body_03":{"x":427,"y":922,"w":349,"h":308,"offX":155,"offY":214,"sourceW":640,"sourceH":640},
+"spell_3_body_04":{"x":0,"y":467,"w":425,"h":463,"offX":153,"offY":59,"sourceW":640,"sourceH":640},
+"spell_3_body_05":{"x":0,"y":0,"w":431,"h":465,"offX":153,"offY":57,"sourceW":640,"sourceH":640},
+"spell_3_body_06":{"x":433,"y":0,"w":429,"h":465,"offX":156,"offY":57,"sourceW":640,"sourceH":640},
+"spell_3_body_07":{"x":427,"y":467,"w":417,"h":453,"offX":163,"offY":57,"sourceW":640,"sourceH":640}}}

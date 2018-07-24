@@ -1,0 +1,109 @@
+{
+  "158a53f2225": {
+    "layerTreeExpandList": []
+  },
+  "158a9a7323f": {
+    "layerTreeExpandList": []
+  },
+  "158aa499896": {
+    "layerTreeExpandList": []
+  },
+  "158aa65b2d0": {
+    "layerTreeExpandList": []
+  },
+  "158aaef812d": {
+    "layerTreeExpandList": []
+  },
+  "158aaf149f4": {
+    "layerTreeExpandList": []
+  },
+  "global": {
+    "globalRulerEnable": true,
+    "gridColor": 8421504,
+    "gridEnabled": false,
+    "gridSize": 20,
+    "globalAdsorbEnable": false,
+    "globalAutoLayerMarkEnable": true,
+    "globalBindingDataTestObj": []
+  },
+  "15916a0c970": {
+    "guideLinesEnabled": false,
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  },
+  "1591ff896c0": {
+    "guideLinesEnabled": false,
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  },
+  "159a66195c2": {
+    "guideLinesEnabled": false,
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  },
+  "15a01dbff96": {
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1
+  },
+  "15a01dbff97": {
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  },
+  "15c19b10580": {
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  },
+  "15c966ef3b8": {
+    "guideLinesEnabled": false,
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  },
+  "15d074a650f": {
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  },
+  "15d83477cf4": {
+    "guideLines": [
+      {
+        "type": "v",
+        "pos": 163
+      }
+    ]
+  },
+  "15e0d263575": {
+    "bindingDataTestObj": []
+  }
+}

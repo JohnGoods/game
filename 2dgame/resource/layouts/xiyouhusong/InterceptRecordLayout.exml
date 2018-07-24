@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="InterceptRecordLayout" width="505" height="664" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="505" height="664" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ty_uiDi01" left="0" right="0" top="0" bottom="0" scale9Grid="129,107,28,70"/>
+		<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+		<e:Label id="label_wndName" text="${ESCORT_RECORD_TIPS}" horizontalCenter="0" top="0" style="ht_title_font" verticalAlign="middle" textAlign="center" height="36" width="500"/>
+		<e:Image source="ty_uiDi02" scale9Grid="5,5,32,31" anchorOffsetX="0" width="420" anchorOffsetY="0" horizontalCenter="0.5" bottom="80" height="585" top="52"/>
+		<e:Group id="group_scroll" width="380" anchorOffsetY="0" horizontalCenter="0.5" top="67" height="501">
+		</e:Group>
+		<gui:Button id="btn_back" label="" right="0" bottom="-3">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_close_top" label="" top="0" right="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+</e:Skin>

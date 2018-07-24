@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UpdateNoticeLayout" width="620" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi01" scale9Grid="118,151,20,44"/>
+	<e:Image y="0" horizontalCenter="0" source="ty_uiBiaoTiDi01"/>
+	<e:Label id="label_title" text="${NOTICE_TXT3}" style="ht_title_font" width="600" horizontalCenter="0" top="0" height="36" textAlign="center" verticalAlign="middle"/>
+	<e:Image width="538" height="555" y="73" scale9Grid="11,8,12,14" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" source="ty_uiDi02"/>
+	<gui:Button id="btn_close" label="" right="0" bottom="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close_top" label="" right="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Scroller width="518" height="518" x="51" y="89" anchorOffsetX="0" anchorOffsetY="0">
+		<gui:RichDisplayer id="content" height="485" y="1"/>
+	</e:Scroller>
+</e:Skin>

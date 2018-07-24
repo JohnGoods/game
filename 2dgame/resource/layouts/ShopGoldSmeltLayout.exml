@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopGoldSmeltLayout" width="600" height="728" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ty_uiDi01" scale9Grid="142,190,3,6" left="0" bottom="1" top="-1" right="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="title" text="${SHOP_GOLD_TXT1}" top="0" width="600" textAlign="center" verticalAlign="middle" height="36" horizontalCenter="0" style="ht_title_font"/>
+	<e:Group height="50" left="39" right="41" top="45">
+		<e:Image source="ty_textDi02" left="0" right="0" top="0" bottom="0" scale9Grid="25,25,2,3"/>
+		<gui:RichDisplayer id="rd_had" xmlns:gui="gui.*" height="20" anchorOffsetY="0" verticalCenter="0" y="10.999999999999993" scaleX="1" scaleY="1" right="13" width="166"/>
+	</e:Group>
+	<e:Image scale9Grid="23,20,1,2" anchorOffsetY="0" width="520" horizontalCenter="0" source="ty_uiDi02" top="108" height="459"/>
+	<gui:Button id="btn_close" label="" bottom="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close_top" label="" top="0" right="1">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Image width="105" height="29" source="sd_text01" horizontalCenter="0" top="572"/>
+	<e:Image width="515" height="16" source="cz_uiLine01" horizontalCenter="0" top="598" scale9Grid="14,8,19,1"/>
+	<e:Scroller id="scroll_Equip" anchorOffsetX="0" anchorOffsetY="0" top="123" left="50" right="55" height="424">
+		<e:List id="item_list" height="420"/>
+	</e:Scroller>
+	<e:Group id="grouo_access" height="30" y="638" left="0" right="0">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="20"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

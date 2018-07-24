@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubAppointLayout" width="630" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Group width="630" height="300" horizontalCenter="0" verticalCenter="0">
+		<e:Image scaleX="1" scaleY="1" source="ty_uiDi01" scale9Grid="99,133,75,143" left="0" right="0" bottom="0" top="0"/>
+		<e:Group width="550" height="200" y="60" horizontalCenter="0">
+			<e:Image scaleX="1" scaleY="1" source="ty_uiDi02" scale9Grid="12,13,20,18" left="0" top="0" bottom="0" right="0"/>
+			<e:Group width="480" height="46" scaleX="1" scaleY="1" y="40" horizontalCenter="0">
+				<e:Group width="160" height="46" x="32" y="3">
+					<e:RadioButton id="radio0" label="" width="45" x="-34.99999999999999" y="-40" scaleX="1" scaleY="1" height="46">
+						<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+						</e:Skin>
+						</e:skinName>
+					</e:RadioButton>
+					<e:Label id="text0" text="${CLUB_POS_1}" x="15" y="-25" width="100" scaleX="1" scaleY="1" height="30" style="ht_24_lc" textColor="0x3a3a3a"/>
+					<e:layout>
+						<e:HorizontalLayout verticalAlign="bottom"/>
+					</e:layout>
+				</e:Group>
+				<e:Group width="160" height="46" x="42" y="13">
+					<e:RadioButton id="radio1" label="" width="45" x="-34.99999999999999" y="-40" scaleX="1" scaleY="1" height="46">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+						</e:Skin>
+					</e:skinName>
+					</e:RadioButton>
+					<e:Label id="text1" text="${CLUB_POS_2}" x="15" y="-25" width="100" scaleX="1" scaleY="1" height="30" style="ht_24_lc" textColor="0x3A3A3A"/>
+					<e:layout>
+					<e:HorizontalLayout verticalAlign="bottom"/>
+					</e:layout>
+				</e:Group>
+				<e:Group width="160" height="46" x="52" y="23">
+					<e:RadioButton id="radio2" label="" width="45" x="-34.99999999999999" y="-40" scaleX="1" scaleY="1" height="46">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+						</e:Skin>
+					</e:skinName>
+					</e:RadioButton>
+					<e:Label id="text2" text="${CLUB_POS_3}" x="15" y="-25" width="100" scaleX="1" scaleY="1" height="30" style="ht_24_lc" textColor="0x3A3A3A"/>
+					<e:layout>
+					<e:HorizontalLayout verticalAlign="bottom"/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:HorizontalLayout gap="0"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<gui:Button id="appoint_btn" label="${CLUB_TXT88}" scaleX="1" scaleY="1" width="147" height="55" horizontalCenter="0" bottom="60">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_close" label="" right="0" x="565" scaleX="1" scaleY="1" width="55" top="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Label id="title" text="" horizontalCenter="0" top="0" height="35" width="630" textAlign="center" style="ht_title_font" textColor="0xffffff" verticalAlign="middle"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightPrizeLayout" width="640" height="660" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Image height="600" source="ty_uiDi05" scale9Grid="325,112,9,11" width="640" y="60" x="0"/>
+	<e:Image width="200" height="113" source="zd_shengLi" y="23" horizontalCenter="0"/>
+	<e:Image id="starBg0" width="43" height="43" x="207" y="21" source="zd_xingDi01" visible="false"/>
+	<e:Image id="starBg1" width="40" height="43" x="248" y="-1" source="zd_xingDi02" visible="false"/>
+	<e:Image id="starBg2" width="40" height="42" x="296" y="4" source="zd_xingDi03" visible="false"/>
+	<e:Image id="star0" width="43" height="43" x="207" y="21" source="zd_xing01" visible="false"/>
+	<e:Image id="star1" width="40" height="43" x="248" y="-1" source="zd_xing02" visible="false"/>
+	<e:Image id="star2" width="40" height="42" x="296" y="4" source="zd_xing03" visible="false"/>
+	<e:Image width="115" height="189" x="-24" y="108" source="ty_uiDi06"/>
+	<e:Image width="115" height="189" x="549" y="108" source="ty_uiDi07"/>
+	<e:Image width="509" height="364" y="141" source="ty_uiDi02" scale9Grid="20,19,1,1" x="66"/>
+	<gui:Button id="gain_btn" label="领取奖励" y="543" horizontalCenter="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Group id="scroll_group" width="494" height="348" x="75" y="149" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

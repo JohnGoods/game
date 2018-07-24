@@ -1,0 +1,13 @@
+{"file":"jinghun_attack.png","frames":{
+"attack_3_body_00":{"x":888,"y":0,"w":114,"h":127,"offX":110,"offY":108,"sourceW":320,"sourceH":320},
+"attack_3_body_01":{"x":888,"y":242,"w":128,"h":100,"offX":100,"offY":120,"sourceW":320,"sourceH":320},
+"attack_3_body_02":{"x":888,"y":129,"w":124,"h":111,"offX":86,"offY":104,"sourceW":320,"sourceH":320},
+"attack_3_body_03":{"x":0,"y":219,"w":221,"h":268,"offX":61,"offY":13,"sourceW":320,"sourceH":320},
+"attack_3_body_04":{"x":223,"y":347,"w":156,"h":152,"offX":125,"offY":144,"sourceW":320,"sourceH":320},
+"attack_3_body_05":{"x":888,"y":344,"w":100,"h":94,"offX":125,"offY":125,"sourceW":320,"sourceH":320},
+"attack_7_body_00":{"x":317,"y":0,"w":176,"h":115,"offX":32,"offY":102,"sourceW":320,"sourceH":320},
+"attack_7_body_01":{"x":723,"y":347,"w":163,"h":127,"offX":89,"offY":88,"sourceW":320,"sourceH":320},
+"attack_7_body_02":{"x":381,"y":347,"w":167,"h":136,"offX":119,"offY":81,"sourceW":320,"sourceH":320},
+"attack_7_body_03":{"x":0,"y":0,"w":315,"h":217,"offX":5,"offY":0,"sourceW":320,"sourceH":320},
+"attack_7_body_04":{"x":223,"y":219,"w":240,"h":126,"offX":6,"offY":91,"sourceW":320,"sourceH":320},
+"attack_7_body_05":{"x":550,"y":347,"w":171,"h":130,"offX":66,"offY":87,"sourceW":320,"sourceH":320}}}

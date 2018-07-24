@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightPrizePreviewLayout" width="220" height="110" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Image height="100" width="218" y="0" x="0" source="zd_tiShiDi01"/>
+	<gui:RichDisplayer id="title_rd" height="25" anchorOffsetX="0" anchorOffsetY="0" y="10" x="32" width="183"/>
+	<gui:RichDisplayer id="tips_rd" height="63" width="182" x="32" y="37"/>
+</e:Skin>

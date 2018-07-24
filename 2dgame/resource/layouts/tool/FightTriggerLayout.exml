@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightTriggerLayout" width="320" height="400" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="159a66195c2"/>
+	<e:Image source="frame_bg2" scale9Grid="23,22,14,12" left="0" right="0" top="0" bottom="0" touchEnabled="false"/>
+	<e:RadioButton id="btn_action_1" label="起手" y="110" anchorOffsetX="0" width="72" anchorOffsetY="0" height="35" left="11">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="countbutton_default" source.down="countbutton_pressed"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20"/>
+		</e:Skin>
+	</e:RadioButton>
+	<e:RadioButton id="btn_action_2" label="出手" y="174" anchorOffsetX="0" width="72" anchorOffsetY="0" height="35" left="11">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="countbutton_default" source.down="countbutton_pressed"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20"/>
+		</e:Skin>
+	</e:RadioButton>
+	<e:RadioButton id="btn_action_3" label="结束" y="232" anchorOffsetX="0" width="72" anchorOffsetY="0" height="35" left="11">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="countbutton_default" source.down="countbutton_pressed"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20"/>
+		</e:Skin>
+	</e:RadioButton>
+	<gui:Button id="btn_play" label="演示" x="108" y="352" anchorOffsetX="0" width="72" anchorOffsetY="0" height="35">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="countbutton_default"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20"/>
+		</e:Skin>
+	</gui:Button>
+	<gui:Button id="btn_save" label="保存" x="194" y="352" anchorOffsetX="0" width="72" anchorOffsetY="0" height="35">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="countbutton_default"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20"/>
+		</e:Skin>
+	</gui:Button>
+	<e:Image width="63" height="25" x="249" y="59" source="titleBackground" anchorOffsetX="0" anchorOffsetY="0"/>
+	<gui:Button id="btn_load" label="读取" x="229" y="13" anchorOffsetX="0" width="71.19" anchorOffsetY="0" height="35.59">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="countbutton_default"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Label text="技能名" x="5" y="60" size="20"/>
+	<e:Image width="137" height="25" x="63" y="57" source="titleBackground" anchorOffsetX="0" anchorOffsetY="0" />
+	<e:Label text="时间" x="207" y="60" size="20"/>
+	<e:Image source="frame_bg" x="90" y="107" anchorOffsetX="0" width="222" anchorOffsetY="0" height="238" scale9Grid="39,31,60,70"/>
+	<e:EditableText id="edit_skillname" width="125" height="23" text="" x="69" y="57" anchorOffsetX="0" anchorOffsetY="0" size="20" textAlign="left" verticalAlign="middle"/>
+	<e:EditableText id="edit_time" width="58" height="20" text="" x="252" y="63" size="20" anchorOffsetX="0"/>
+	<gui:Button id="btn_add" label="添加" x="134" y="314" anchorOffsetX="0" width="57" anchorOffsetY="0" height="23">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="countbutton_default"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20"/>
+		</e:Skin>
+	</gui:Button>
+	<gui:Button id="btn_remove" label="删除" x="212" y="314" anchorOffsetX="0" width="57" anchorOffsetY="0" height="23">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="countbutton_default"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20"/>
+		</e:Skin>
+	</gui:Button>
+	<e:Scroller width="208" height="200" x="96" y="113" anchorOffsetX="0" bounces="false">
+		<e:Group id="group_scroller">
+		</e:Group>
+	</e:Scroller>
+	<gui:ComboBox id="combox_skill" width="203" height="24" x="11" y="16" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:EditableText id="edit_skillid" width="125" height="23" text="" x="18" y="14" anchorOffsetX="0" anchorOffsetY="0" size="20" textAlign="left" verticalAlign="middle" prompt="输入技能ID" textColor="0x000000"/>
+</e:Skin>

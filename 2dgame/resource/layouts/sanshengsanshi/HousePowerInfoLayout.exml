@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HousePowerInfoLayout" width="500" height="660" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Group width="500" height="660" horizontalCenter="0" verticalCenter="0">
+		<e:Image scaleX="1" scaleY="1" width="500" height="660" horizontalCenter="0" verticalCenter="0" source="ty_uiDi01" scale9Grid="99,133,63,65"/>
+		<e:Image scaleX="1" scaleY="1" width="229" height="39" source="ty_uiBiaoTiDi01" horizontalCenter="0" top="0"/>
+		<e:Label id="title" text="房屋永久属性加成" width="500" height="36" horizontalCenter="0" top="0" textAlign="center" verticalAlign="middle" style="ht_title_font"/>
+		<e:Group width="240" height="40" y="50" horizontalCenter="0">
+			<e:Image width="59" height="33" x="10" scaleX="1" scaleY="1" source="zhanLi_l" verticalCenter="0"/>
+			<gui:BatchImage id="countdown" width="160" height="40" scaleX="1" scaleY="1" verticalCenter="0" x="75"/>
+		</e:Group>
+		<e:Image width="330" height="257" y="120" source="cw_chongWuDi01" horizontalCenter="0"/>
+		<e:Group id="actor_wnd" width="20" height="20" y="220" horizontalCenter="0"/>
+		<e:Group width="480" height="260" y="300" horizontalCenter="0">
+			<e:Image width="155" height="29" scaleX="1" scaleY="1" source="ssss_jiaChengText" horizontalCenter="0" y="10"/>
+			<e:Image width="480" height="16" horizontalCenter="0" source="cz_uiLine01" scale9Grid="13,8,20,1" x="0" y="40" scaleX="1" scaleY="1"/>
+			<e:Group width="480" height="70" y="50" horizontalCenter="0">
+				<e:Image width="480" height="16" horizontalCenter="0" bottom="0" source="cz_uiLine01" scale9Grid="13,8,20,1"/>
+				<e:Label id="pro_text1" text="shuxing:123456" style="ht_22_lc" textColor="0x000000" textAlign="left" x="15" verticalCenter="0"/>
+				<gui:RichDisplayer id="show_rd1" width="200" height="24" x="270" y="5"/>
+			</e:Group>
+			<e:Group width="480" height="70" y="120" horizontalCenter="0">
+				<e:Image width="480" height="16" horizontalCenter="0" bottom="0" source="cz_uiLine01" scale9Grid="13,8,20,1" x="0" y="-16.000000000000057" scaleX="1" scaleY="1"/>
+				<e:Label text="shuxing:123456" style="ht_22_lc" textColor="0x000000" id="pro_text2" x="15" y="5" scaleX="1" scaleY="1" textAlign="left"/>
+				<e:Label id="tip2" text="(高档住宅可激活此属性)" style="ht_22_lc" x="15" scaleX="1" scaleY="1" y="35" textColor="0xea6119"/>
+				<gui:RichDisplayer id="show_rd2" width="200" height="24" x="270" y="5" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group width="480" height="70" x="0" bottom="0">
+				<e:Image width="480" height="16" horizontalCenter="0" bottom="0" source="cz_uiLine01" scale9Grid="13,8,20,1" x="0" y="-86" scaleX="1" scaleY="1"/>
+				<e:Label text="shuxing:123456" style="ht_22_lc" textColor="0x000000" id="pro_text3" x="15" y="5" scaleX="1" scaleY="1" textAlign="left"/>
+				<e:Label id="tip3" text="(豪华住宅可激活此属性)" style="ht_22_lc" textColor="0xEA6119" x="15" scaleX="1" scaleY="1" y="35"/>
+				<gui:RichDisplayer id="show_rd3" width="200" height="24" x="270" y="5" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+		<gui:Button id="btn_close" label="" scaleX="1" scaleY="1" bottom="10" right="0" x="458.00000000000006" y="558">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+</e:Skin>

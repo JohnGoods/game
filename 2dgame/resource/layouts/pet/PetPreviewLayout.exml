@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetPreviewLayout" width="600" height="780" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="600" height="780" x="0" y="0">
+		<e:Image source="ty_uiDi01" scale9Grid="141,178,5,5" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+		<e:Label id="title" text="${PET_TXT1}" height="36" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" left="0" right="0" top="0" style="ht_title_font"/>
+		<gui:Button id="btn_close_top" label="" top="0" right="0" x="545" y="0" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</gui:Button>
+		<gui:Button id="btn_close" label="" right="0" bottom="0" x="517" y="576" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</gui:Button>
+		<e:Group id="force_wnd" width="193" height="30" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0.5" top="55">
+			<e:Image source="ty_zhanLiDi01" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+			<gui:BatchImage id="force_num" height="32" width="165" horizontalCenter="0" bottom="0"/>
+		</e:Group>
+		<gui:RichDisplayer id="elem_rd" width="100" height="30" y="120" x="60"/>
+		<e:Image scaleX="0.6" scaleY="0.6" source="cw_chongWuDi01" y="200" x="75"/>
+		<e:Group id="actor_wnd" width="1" height="1" x="175" y="270"/>
+		<gui:RichDisplayer id="name_rd" width="240" height="30" anchorOffsetY="0" y="278" x="50"/>
+		<e:Group id="qua_group" width="41" height="85" x="263" y="150">
+			<e:Image source="cw_textDi01" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Label id="qua_txt" text="${PET_SHENCHONG}" x="0" y="0" anchorOffsetX="0" width="41" style="ht_24_lc_stroke" height="85" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="sk_skill_wnd" width="200" height="190" anchorOffsetY="0" anchorOffsetX="0" y="118" x="320">
+			<e:Group id="sk_wnd" width="100" height="99" x="50" y="15">
+			</e:Group>
+			<e:Image id="sk_act_pic0" source="cw_text05" y="0" x="56"/>
+			<e:Image id="sk_act_pic1" y="98" x="40" source="ty_textDi05"/>
+			<gui:RichDisplayer id="sk_name" width="202" height="30" x="0" y="104"/>
+			<gui:RichDisplayer id="sk_des_rd" width="220" height="50" horizontalCenter="0" y="140"/>
+		</e:Group>
+		<e:Group id="sk_skill_group" width="540" height="240" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" y="335" visible="false">
+			<e:Image source="cw_text06" top="-20" horizontalCenter="0"/>
+			<e:Image source="cz_uiLine01" left="0" right="0" scale9Grid="23,8,1,1" top="3"/>
+			<e:Group anchorOffsetX="0" anchorOffsetY="0" width="500" x="20" height="220" y="18">
+			<e:Group width="160" height="108" x="25" y="33" id="sk_group0">
+				<e:Group id="sk_wnd0" width="100" height="99" x="30" y="0">
+				</e:Group>
+				<e:Image x="20" y="68" source="ty_textDi06" id="sk_pic0"/>
+				<gui:RichDisplayer id="sk_name0" width="160" height="30" x="0" y="72"/>
+			</e:Group>
+				<e:Group width="160" height="108" x="35" y="43" id="sk_group1">
+					<e:Group id="sk_wnd1" width="100" height="99" x="30" y="0"/>
+					<e:Image x="20" y="68" source="ty_textDi06" id="sk_pic1"/>
+					<gui:RichDisplayer width="160" height="30" x="0" y="72" id="sk_name1"/>
+				</e:Group>
+				<e:Group width="160" height="108" x="45" y="53" id="sk_group2">
+					<e:Group id="sk_wnd2" width="100" height="99" x="30" y="0"/>
+					<e:Image x="20" y="68" source="ty_textDi06" id="sk_pic2"/>
+					<gui:RichDisplayer width="160" height="30" x="0" y="72" id="sk_name2"/>
+				</e:Group>
+				<e:Group width="160" height="108" x="55" y="63" id="sk_group3">
+					<e:Group id="sk_wnd3" width="100" height="99" x="30" y="0"/>
+					<e:Image x="20" y="68" source="ty_textDi06" id="sk_pic3"/>
+					<gui:RichDisplayer width="160" height="30" x="0" y="72" id="sk_name3"/>
+				</e:Group>
+				<e:Group width="160" height="108" x="65" y="73" id="sk_group4">
+					<e:Group id="sk_wnd4" width="100" height="99" x="30" y="0"/>
+					<e:Image x="20" y="68" source="ty_textDi06" id="sk_pic4"/>
+					<gui:RichDisplayer width="160" height="30" x="0" y="72" id="sk_name4"/>
+				</e:Group>
+				<e:Group width="160" height="108" x="75" y="83" id="sk_group5">
+					<e:Group id="sk_wnd5" width="100" height="99" x="30" y="0"/>
+					<e:Image x="20" y="68" source="ty_textDi06" id="sk_pic5"/>
+					<gui:RichDisplayer width="160" height="30" x="0" y="72" id="sk_name5"/>
+				</e:Group>
+			<e:layout>
+				<e:TileLayout horizontalGap="10" verticalGap="4" requestedRowCount="2" requestedColumnCount="3"/>
+			</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Group id="fly_skill_group" width="540" height="240" y="335" horizontalCenter="0" visible="false">
+			<e:Image top="10" horizontalCenter="0" x="217" y="-355" scaleX="1" scaleY="1" source="cw_text17"/>
+			<e:Image source="cz_uiLine01" left="0" right="0" scale9Grid="23,8,1,1" top="40" x="-30" y="-332" scaleX="1" scaleY="1"/>
+			<e:Group id="fly_skill_wnd" width="430" height="90" horizontalCenter="0" scaleY="1" y="70" x="55" scaleX="1">
+				<e:layout>
+				<e:HorizontalLayout gap="80"/>
+				</e:layout>
+				<e:Group id="skill_wnd0" width="90" height="90" x="16" y="35">
+					<e:Image id="fly_skill_bg0" y="90" source="ty_textDi05" scaleX="1" scaleY="1" horizontalCenter="5"/>
+					<gui:RichDisplayer id="fly_skill_name0" width="202" height="30" y="96" scaleX="1" scaleY="1" horizontalCenter="1"/>
+				</e:Group>
+				<e:Group id="skill_wnd1" width="90" height="90" x="26" y="45">
+					<e:Image id="fly_skill_bg1" y="90" source="ty_textDi05" scaleX="1" scaleY="1" horizontalCenter="5"/>
+					<gui:RichDisplayer id="fly_skill_name1" width="202" height="30" y="96" scaleX="1" scaleY="1" horizontalCenter="1"/>
+				</e:Group>
+				<e:Group id="skill_wnd2" width="90" height="90" x="36" y="55">
+					<e:Image id="fly_skill_bg2" y="90" source="ty_textDi05" scaleX="1" scaleY="1" horizontalCenter="5"/>
+					<gui:RichDisplayer id="fly_skill_name2" width="202" height="30" y="96" scaleX="1" scaleY="1" horizontalCenter="1"/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+		<e:Group id="sk_attr_group" width="540" height="85" y="590" horizontalCenter="0">
+			<e:Image source="cw_text07" top="0" horizontalCenter="0.5"/>
+			<e:Image source="cz_uiLine01" y="23" left="0" right="0" scale9Grid="23,8,1,1"/>
+			<e:Group width="504" height="25" top="40" horizontalCenter="0">
+			<gui:RichDisplayer id="hp_rd" height="25" width="168" x="18" y="40" scaleX="1" scaleY="1"/>
+			<gui:RichDisplayer id="att_rd" height="25" width="168" x="168" y="40" scaleX="1" scaleY="1"/>
+			<gui:RichDisplayer id="def_rd" height="25" width="168" x="318" y="40" scaleX="1" scaleY="1"/>
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

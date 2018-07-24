@@ -1,0 +1,7 @@
+{"file":"XuanYun_idle.png","frames":{
+"idle_0_body_00":{"x":64,"y":69,"w":62,"h":32,"offX":127,"offY":194,"sourceW":320,"sourceH":320},
+"idle_0_body_01":{"x":189,"y":69,"w":65,"h":29,"offX":127,"offY":196,"sourceW":320,"sourceH":320},
+"idle_0_body_02":{"x":0,"y":35,"w":66,"h":32,"offX":129,"offY":194,"sourceW":320,"sourceH":320},
+"idle_0_body_03":{"x":0,"y":0,"w":67,"h":33,"offX":126,"offY":193,"sourceW":320,"sourceH":320},
+"idle_0_body_04":{"x":0,"y":69,"w":62,"h":34,"offX":127,"offY":192,"sourceW":320,"sourceH":320},
+"idle_0_body_05":{"x":128,"y":69,"w":59,"h":33,"offX":128,"offY":193,"sourceW":320,"sourceH":320}}}

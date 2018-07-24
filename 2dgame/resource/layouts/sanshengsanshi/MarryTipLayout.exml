@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MarryTipLayout" width="640" height="552" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Group width="640" height="552" horizontalCenter="0" verticalCenter="0">
+		<e:Image scaleX="1" scaleY="1" width="640" height="552" horizontalCenter="0" verticalCenter="0" scale9Grid="255,133,122,65" source="ssss_ztBg04"/>
+		<e:Label text="在天愿做比翼鸟，在地愿为连理枝 在这缠绵的时刻，敲响幸福的钟声 愿你俩白头到老！" y="288" width="330" height="68" x="158" style="ht_22_lc" textColor="0xd86e3c"/>
+		<e:Label text="注:结婚奖励通过邮件发送,请查收" y="380" style="ht_18_lc" width="300" horizontalCenter="0" textColor="0x4c3327"/>
+		<gui:Button id="btn" label="确定" scaleX="1" scaleY="1" width="117" y="410" horizontalCenter="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Group id="role1_group" width="80" height="80" x="180" y="160">
+			<e:Image source="ty_textDi05" y="75" scaleX="1" scaleY="1" x="-20"/>
+			<e:Label id="role1_name1" text="" height="30" width="100" textAlign="center" verticalAlign="middle" style="ht_24_lc" y="80" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="role2_group" width="80" height="80" x="380" y="160">
+			<e:Image source="ty_textDi05" y="75" scaleX="1" scaleY="1" x="-20"/>
+			<e:Label id="role1_name2" text="" height="30" width="100" textAlign="center" verticalAlign="middle" style="ht_24_lc" y="80" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

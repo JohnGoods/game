@@ -1,0 +1,11 @@
+{"file":"PoFuChenZhou_idle.png","frames":{
+"idle_0_body_00":{"x":1689,"y":491,"w":156,"h":150,"offX":264,"offY":0,"sourceW":640,"sourceH":640},
+"idle_0_body_01":{"x":1442,"y":491,"w":154,"h":258,"offX":265,"offY":0,"sourceW":640,"sourceH":640},
+"idle_0_body_02":{"x":993,"y":0,"w":448,"h":489,"offX":121,"offY":0,"sourceW":640,"sourceH":640},
+"idle_0_body_03":{"x":497,"y":480,"w":494,"h":479,"offX":66,"offY":0,"sourceW":640,"sourceH":640},
+"idle_0_body_04":{"x":0,"y":480,"w":495,"h":479,"offX":64,"offY":0,"sourceW":640,"sourceH":640},
+"idle_0_body_05":{"x":0,"y":0,"w":504,"h":478,"offX":57,"offY":1,"sourceW":640,"sourceH":640},
+"idle_0_body_06":{"x":993,"y":491,"w":447,"h":479,"offX":47,"offY":0,"sourceW":640,"sourceH":640},
+"idle_0_body_07":{"x":506,"y":0,"w":441,"h":197,"offX":40,"offY":250,"sourceW":640,"sourceH":640},
+"idle_0_body_08":{"x":506,"y":199,"w":433,"h":190,"offX":29,"offY":257,"sourceW":640,"sourceH":640},
+"idle_0_body_09":{"x":1442,"y":751,"w":245,"h":143,"offX":207,"offY":299,"sourceW":640,"sourceH":640}}}

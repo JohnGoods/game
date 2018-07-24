@@ -1,0 +1,13 @@
+{"file":"ShengBingNanPiFu10_combat_idle.png","frames":{
+"combat_idle_3_weapon_00":{"x":180,"y":196,"w":70,"h":108,"offX":102,"offY":139,"sourceW":320,"sourceH":320},
+"combat_idle_3_weapon_01":{"x":0,"y":403,"w":70,"h":107,"offX":102,"offY":138,"sourceW":320,"sourceH":320},
+"combat_idle_3_weapon_02":{"x":182,"y":0,"w":70,"h":107,"offX":101,"offY":137,"sourceW":320,"sourceH":320},
+"combat_idle_3_weapon_03":{"x":0,"y":294,"w":70,"h":107,"offX":101,"offY":138,"sourceW":320,"sourceH":320},
+"combat_idle_3_weapon_04":{"x":72,"y":294,"w":70,"h":107,"offX":101,"offY":139,"sourceW":320,"sourceH":320},
+"combat_idle_3_weapon_05":{"x":144,"y":306,"w":70,"h":107,"offX":102,"offY":140,"sourceW":320,"sourceH":320},
+"combat_idle_7_weapon_00":{"x":0,"y":196,"w":88,"h":96,"offX":81,"offY":139,"sourceW":320,"sourceH":320},
+"combat_idle_7_weapon_01":{"x":90,"y":196,"w":88,"h":96,"offX":81,"offY":138,"sourceW":320,"sourceH":320},
+"combat_idle_7_weapon_02":{"x":0,"y":0,"w":89,"h":96,"offX":80,"offY":137,"sourceW":320,"sourceH":320},
+"combat_idle_7_weapon_03":{"x":91,"y":0,"w":89,"h":96,"offX":80,"offY":138,"sourceW":320,"sourceH":320},
+"combat_idle_7_weapon_04":{"x":0,"y":98,"w":89,"h":96,"offX":80,"offY":139,"sourceW":320,"sourceH":320},
+"combat_idle_7_weapon_05":{"x":91,"y":98,"w":89,"h":96,"offX":80,"offY":140,"sourceW":320,"sourceH":320}}}

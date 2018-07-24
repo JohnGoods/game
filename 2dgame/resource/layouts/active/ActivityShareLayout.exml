@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityShareLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Group id="group_sign" width="294" height="266" right="6" top="6" anchorOffsetX="0">
+		<e:Image source="fx_ztUiDi02" scaleX="1" scaleY="1" right="10" top="30" visible="false"/>
+	</e:Group>
+	<e:Group id="group_bg" width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+	</e:Group>
+	<e:Group id="group_ui" width="420" height="420" verticalCenter="53" horizontalCenter="0">
+		<e:Image scale9Grid="142,190,3,6" scaleX="1" scaleY="1" source="fx_ztUiDi01" verticalCenter="0" horizontalCenter="0"/>
+		<e:Group width="379.94" height="257" anchorOffsetX="0" verticalCenter="36.5" horizontalCenter="5" anchorOffsetY="0">
+			<e:Group id="group_0" width="80" height="80" x="42" y="59"/>
+			<e:Group width="80" height="80" x="147" y="59" id="group_1"/>
+			<e:Group width="80" height="80" x="251.33" y="59" id="group_2"/>
+			<e:Group id="group_cd" width="224.09" height="40.91" x="74.94" y="171.64" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Label id="cd_time" text="00:00:00" textColor="0xff0202" width="91" verticalCenter="0.5450000000000017" left="7" anchorOffsetX="0" height="26" style="ht_20_lc_stroke"/>
+				<e:Label id="cd_time_title" text="${SHARE_CD_TITLE}" width="140" height="26" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-0.4549999999999983" left="81" style="ht_20_lc_stroke"/>
+			</e:Group>
+		</e:Group>
+		<gui:Button id="btn_close" label="关闭" scaleX="1" scaleY="1" horizontalCenter="0" bottom="31">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_close_top" label="" top="0" right="0" x="475" y="-288" scaleX="1" scaleY="1" visible="false">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+</e:Skin>

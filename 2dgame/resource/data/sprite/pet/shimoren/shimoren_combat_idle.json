@@ -1,0 +1,9 @@
+{"file":"shimoren_combat_idle.png","frames":{
+"combat_idle_3_body_00":{"x":0,"y":638,"w":207,"h":190,"offX":19,"offY":41,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_01":{"x":210,"y":636,"w":207,"h":193,"offX":19,"offY":38,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_02":{"x":210,"y":441,"w":208,"h":193,"offX":19,"offY":38,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_03":{"x":0,"y":441,"w":208,"h":195,"offX":19,"offY":36,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_00":{"x":0,"y":222,"w":207,"h":217,"offX":93,"offY":45,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_01":{"x":210,"y":220,"w":208,"h":219,"offX":93,"offY":42,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_02":{"x":210,"y":0,"w":209,"h":218,"offX":92,"offY":42,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_03":{"x":0,"y":0,"w":208,"h":220,"offX":92,"offY":40,"sourceW":320,"sourceH":320}}}

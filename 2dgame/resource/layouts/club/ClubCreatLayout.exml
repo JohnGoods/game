@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubCreatLayout" width="610" height="420" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Group width="610" height="420" horizontalCenter="0" verticalCenter="0">
+		<e:Image scaleX="1" scaleY="1" source="ty_uiDi01" left="0" bottom="0" top="0" right="0" scale9Grid="125,133,19,62"/>
+		<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+		<e:Label id="title" text="${CLUB_TXT23}" style="ht_title_font" verticalAlign="middle" textAlign="center" width="610" height="36" top="0" horizontalCenter="0"/>
+		<e:Group width="530" height="257" y="60" horizontalCenter="0">
+			<e:Image scaleX="1" scaleY="1" source="ty_uiDi02" scale9Grid="12,13,20,18" left="0" bottom="0" top="0" right="0"/>
+			<e:Label id="label_input_tip" text="${CLUB_TXT24}" anchorOffsetX="0" width="180" x="40" y="27" scaleX="1" scaleY="1" height="30" textAlign="center" verticalAlign="middle" style="ht_24_lc" textColor="0x353535"/>
+			<e:Image x="230" y="18" anchorOffsetX="0" width="240" anchorOffsetY="0" height="45" scale9Grid="18,9,11,18" scaleX="1" scaleY="1" source="ty_shuRuDi01"/>
+			<e:EditableText id="edit_input" width="230" height="30" text="" x="235" y="25" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			<e:Group width="250" height="160" x="10" y="80">
+				<gui:Button id="btn_1" label="" x="0" y="0" scaleX="1" scaleY="1" width="250" height="160">
+					<gui:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="bh_textDi02"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</gui:skinName>
+				</gui:Button>
+				<gui:RichDisplayer id="info_rd1" height="80" y="20" width="220" x="15" touchChildren="false" touchEnabled="false"/>
+				<gui:RichDisplayer id="club_rd1" height="30" scaleX="1" scaleY="1" bottom="15" width="220" horizontalCenter="0" touchChildren="false" touchEnabled="false"/>
+			</e:Group>
+			<e:Group width="250" height="160" x="270" y="80">
+				<gui:Button id="btn_2" label="" x="0" y="0" scaleX="1" scaleY="1" width="250" height="160">
+					<gui:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="bh_textDi02"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</gui:skinName>
+				</gui:Button>
+				<gui:RichDisplayer id="info_rd2" height="80" y="20" width="220" x="15" touchEnabled="false" touchChildren="false"/>
+				<gui:RichDisplayer id="club_rd2" height="30" scaleX="1" scaleY="1" bottom="15" width="220" horizontalCenter="0" touchEnabled="false" touchChildren="false"/>
+			</e:Group>
+		</e:Group>
+		<gui:Button id="creat_club_btn" label="${CLUB_TXT23}" scaleX="1" scaleY="1" horizontalCenter="0" width="147" height="55" bottom="30">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_close_top" label="" right="0" x="565" scaleX="1" scaleY="1" width="55" top="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_close" label="" scaleX="1" scaleY="1" bottom="0" right="0">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+</e:Skin>

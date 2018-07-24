@@ -1,0 +1,7 @@
+{"file":"shouji07_idle.png","frames":{
+"idle_0_body_00":{"x":0,"y":676,"w":141,"h":180,"offX":93,"offY":50,"sourceW":320,"sourceH":320},
+"idle_0_body_01":{"x":0,"y":0,"w":219,"h":229,"offX":58,"offY":47,"sourceW":320,"sourceH":320},
+"idle_0_body_02":{"x":0,"y":231,"w":184,"h":241,"offX":59,"offY":38,"sourceW":320,"sourceH":320},
+"idle_0_body_03":{"x":186,"y":240,"w":183,"h":241,"offX":57,"offY":39,"sourceW":320,"sourceH":320},
+"idle_0_body_04":{"x":221,"y":0,"w":187,"h":238,"offX":50,"offY":41,"sourceW":320,"sourceH":320},
+"idle_0_body_05":{"x":0,"y":474,"w":145,"h":200,"offX":96,"offY":46,"sourceW":320,"sourceH":320}}}

@@ -1,0 +1,13 @@
+{"file":"ShiZhuangNan04_combat_idle.png","frames":{
+"combat_idle_3_body_00":{"x":0,"y":409,"w":88,"h":82,"offX":111,"offY":140,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_01":{"x":0,"y":324,"w":89,"h":83,"offX":111,"offY":138,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_02":{"x":0,"y":238,"w":90,"h":84,"offX":113,"offY":136,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_03":{"x":92,"y":238,"w":90,"h":83,"offX":113,"offY":138,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_04":{"x":92,"y":323,"w":91,"h":82,"offX":110,"offY":140,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_05":{"x":91,"y":407,"w":90,"h":81,"offX":110,"offY":142,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_00":{"x":0,"y":79,"w":104,"h":78,"offX":117,"offY":136,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_01":{"x":106,"y":79,"w":105,"h":77,"offX":117,"offY":135,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_02":{"x":0,"y":0,"w":107,"h":77,"offX":114,"offY":134,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_03":{"x":109,"y":0,"w":106,"h":77,"offX":113,"offY":135,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_04":{"x":0,"y":159,"w":104,"h":77,"offX":115,"offY":136,"sourceW":320,"sourceH":320},
+"combat_idle_7_body_05":{"x":106,"y":158,"w":103,"h":78,"offX":116,"offY":137,"sourceW":320,"sourceH":320}}}

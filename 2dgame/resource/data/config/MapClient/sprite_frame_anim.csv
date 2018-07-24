@@ -1,0 +1,8 @@
+名字,显示名字,plist定义文件,多长时间一侦,缩放
+name_s,title_s,path_s,delay_n,scale_n
+shuichi,水1,data/map/pub/frame_anim/,150,2
+yxs,水2,data/map/pub/frame_anim/,150,2
+zss,水3,data/map/pub/frame_anim/,150,2
+qiao01,彩虹桥1,data/map/pub/frame_anim/,150,3
+qiao02,彩虹桥2,data/map/pub/frame_anim/,150,3
+qiao03,彩虹桥3,data/map/pub/frame_anim/,150,3

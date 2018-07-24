@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MiLuLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+	</w:Declarations>
+	<e:Image source="ty_uiDi01" scale9Grid="142,190,3,6" left="0" bottom="0" top="0" right="0"/>
+	<e:Image width="609" height="869" horizontalCenter="0" x="0" scaleX="1" scaleY="1" verticalCenter="0" source="scml_ztDi01"/>
+	<e:Group id="animation_group" left="0" right="0" top="0" bottom="0">
+		<e:Group id="milu_di_pos" width="652" height="378" x="-640" y="139" scaleX="1" scaleY="1"/>
+		<e:Group id="milu_di1" width="652" height="378" x="-650" y="139" scaleX="1" scaleY="1">
+			<e:Image id="milu_image_di" width="303" height="465" scaleX="1" scaleY="1" source="scml_miLu02" x="550" y="0" visible="false"/>
+			<e:Image width="326" height="378" scaleX="1" scaleY="1" y="1" source="scml_miLu03" left="0" x="0"/>
+			<e:Image width="191" height="203" scaleX="1" scaleY="1" x="120" source="scml_jianYing01" verticalCenter="0"/>
+			<e:Image scaleX="1" scaleY="1" source="scml_miLu03" y="1" right="0" x="314"/>
+			<e:Image width="191" height="203" scaleX="1" scaleY="1" x="280" verticalCenter="0" source="scml_jianYing02"/>
+			<e:Image width="191" height="203" scaleX="1" scaleY="1" x="440" source="scml_jianYing03" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="end_milu_di" width="652" height="378" x="-10" y="139" scaleX="1" scaleY="1"/>
+		<e:Image id="end_milu_image" width="235" height="423" scaleX="1" scaleY="1" x="-90.00000000000001" source="scml_miLu01" y="118.00000000000001" visible="false"/>
+		<gui:AnimBox id="bg_animBox1" width="350" height="500" y="80" horizontalCenter="60" x="205.00000000000003" scaleX="1" scaleY="1"/>
+		<e:Group id="milu_image_pos" width="235" height="423" x="183" y="118.00000000000001" scaleX="1" scaleY="1"/>
+		<e:Group id="milu_image" width="235" height="423" y="118.00000000000001" x="173" scaleX="1" scaleY="1">
+			<e:Image id="milu_image_book_di" width="303" height="465" scaleX="1" scaleY="1" source="scml_miLu02" x="20" y="20"/>
+			<e:Image width="235" height="423" scaleX="1" scaleY="1" source="scml_miLu01" x="0" y="0"/>
+		</e:Group>
+		<gui:AnimBox id="bg_animBox" width="500" height="450" horizontalCenter="0" y="40" x="70" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Image id="double_image" width="402" height="38" scaleX="1" scaleY="1" source="scml_tiShiText03" x="150" y="590"/>
+	<e:Image id="first_image" width="411" height="42" scaleX="1" scaleY="1" source="scml_tiShiText01" x="200" y="620"/>
+	<e:Image width="590" height="141" scaleX="1" scaleY="1" horizontalCenter="0" source="scml_anNiuDi01" bottom="20"/>
+	<e:Image width="590" height="80" scaleX="1" scaleY="1" horizontalCenter="0" source="scml_yuLangDi01" y="660"/>
+	<gui:Button id="reward_show_btn" label="" x="30" y="650">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="scml_jiangLiYuLang"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Group id="pet_show_group" width="480" height="90" x="130" y="668">
+	</e:Group>
+	<e:Group width="580" height="130" anchorOffsetX="0" anchorOffsetY="0" bottom="25" horizontalCenter="0">
+		<e:Image width="120" height="30" scaleX="1" scaleY="1" y="20" x="125" source="ty_kuaiJieDi01" scale9Grid="3,2,17,18"/>
+		<gui:RichDisplayer id="one_rd" width="120" height="30" x="125" y="18"/>
+		<gui:Button id="btn_one" label="召集1次" scaleX="1" scaleY="1" y="55" x="110">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Image width="120" height="30" scaleX="1" scaleY="1" source="ty_kuaiJieDi01" y="20" x="335" scale9Grid="3,2,17,18"/>
+		<gui:RichDisplayer id="ten_rd" width="120" height="30" x="335" y="18"/>
+		<gui:Button id="btn_ten" label="召集10次" y="55" x="320">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<gui:Button id="btn_close" label="" right="0" bottom="1">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Image source="ty_uiDi01" scale9Grid="107,132,45,88" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0" y="0"/>
+	<e:Image source="ty_textDi08" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="10,9,5,6" bottom="103" top="52" left="29" right="26"/>
+	<e:Image source="ty_uiDi02" anchorOffsetX="0" width="150" anchorOffsetY="0" scale9Grid="5,5,32,31" x="31" top="55" bottom="103"/>
+	<e:Image source="ty_paiHangBangDi" x="185" y="66"/>
+	<e:Group id="group_actorview" width="29" height="22" x="400" y="200" anchorOffsetX="0" anchorOffsetY="0" touchChildren="false" touchEnabled="false"/>
+	<gui:ActorView id="player_view" width="29" height="22" anchorOffsetX="0" anchorOffsetY="0" x="400" y="200"/>
+	<e:Group id="group_tab" anchorOffsetX="0" anchorOffsetY="0" width="155" x="29" top="60" bottom="107">
+		<e:layout>
+			<e:VerticalLayout paddingLeft="-8"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="xianwei_icon" width="110" height="52" x="340" y="150"/>
+	<gui:Button id="btn_close" label="" right="0" bottom="8">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close_top" label="" right="0" top="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</gui:Button>
+	<e:Image source="ty_tipsDi" x="34" anchorOffsetX="0" width="289" anchorOffsetY="0" height="46" scale9Grid="14,13,9,15" bottom="36"/>
+	<e:Label id="label_title" text="排行榜" anchorOffsetX="0" width="640" anchorOffsetY="0" height="36" textAlign="center" style="ht_title_font" verticalAlign="middle" top="0" horizontalCenter="0" touchEnabled="false"/>
+	<e:Label id="my_rank" text="" x="48" anchorOffsetX="0" width="246" anchorOffsetY="0" height="29" style="ht_24_lc" bottom="45"/>
+	<e:Scroller width="424" x="187" anchorOffsetX="0" anchorOffsetY="0" top="281" bottom="110">
+		<e:List id="list_rank"/>
+	</e:Scroller>
+</e:Skin>

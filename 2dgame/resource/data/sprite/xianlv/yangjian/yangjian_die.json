@@ -1,0 +1,11 @@
+{"file":"yangjian_die.png","frames":{
+"die_3_body_00":{"x":808,"y":0,"w":200,"h":244,"offX":22,"offY":18,"sourceW":320,"sourceH":320},
+"die_3_body_01":{"x":0,"y":0,"w":271,"h":228,"offX":3,"offY":22,"sourceW":320,"sourceH":320},
+"die_3_body_02":{"x":545,"y":0,"w":261,"h":218,"offX":6,"offY":24,"sourceW":320,"sourceH":320},
+"die_3_body_03":{"x":535,"y":390,"w":212,"h":168,"offX":26,"offY":47,"sourceW":320,"sourceH":320},
+"die_3_body_04":{"x":535,"y":220,"w":212,"h":168,"offX":24,"offY":45,"sourceW":320,"sourceH":320},
+"die_7_body_00":{"x":0,"y":230,"w":199,"h":266,"offX":95,"offY":26,"sourceW":320,"sourceH":320},
+"die_7_body_01":{"x":273,"y":0,"w":270,"h":214,"offX":43,"offY":28,"sourceW":320,"sourceH":320},
+"die_7_body_02":{"x":273,"y":216,"w":260,"h":214,"offX":51,"offY":27,"sourceW":320,"sourceH":320},
+"die_7_body_03":{"x":535,"y":560,"w":212,"h":116,"offX":80,"offY":102,"sourceW":320,"sourceH":320},
+"die_7_body_04":{"x":201,"y":432,"w":212,"h":116,"offX":82,"offY":104,"sourceW":320,"sourceH":320}}}

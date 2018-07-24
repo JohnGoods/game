@@ -1,0 +1,12 @@
+{"file":"SanYangKaiTai_idle.png","frames":{
+"idle_0_body_00":{"x":320,"y":730,"w":192,"h":154,"offX":201,"offY":219,"sourceW":640,"sourceH":640},
+"idle_0_body_01":{"x":0,"y":785,"w":318,"h":177,"offX":134,"offY":203,"sourceW":640,"sourceH":640},
+"idle_0_body_02":{"x":303,"y":555,"w":314,"h":173,"offX":136,"offY":206,"sourceW":640,"sourceH":640},
+"idle_0_body_03":{"x":619,"y":555,"w":312,"h":174,"offX":136,"offY":207,"sourceW":640,"sourceH":640},
+"idle_0_body_04":{"x":619,"y":731,"w":310,"h":172,"offX":138,"offY":208,"sourceW":640,"sourceH":640},
+"idle_0_body_05":{"x":0,"y":271,"w":447,"h":246,"offX":66,"offY":191,"sourceW":640,"sourceH":640},
+"idle_0_body_06":{"x":497,"y":0,"w":483,"h":275,"offX":68,"offY":158,"sourceW":640,"sourceH":640},
+"idle_0_body_07":{"x":0,"y":0,"w":495,"h":269,"offX":70,"offY":163,"sourceW":640,"sourceH":640},
+"idle_0_body_08":{"x":449,"y":277,"w":318,"h":276,"offX":140,"offY":157,"sourceW":640,"sourceH":640},
+"idle_0_body_09":{"x":0,"y":519,"w":301,"h":264,"offX":144,"offY":157,"sourceW":640,"sourceH":640},
+"idle_0_body_10":{"x":769,"y":277,"w":212,"h":217,"offX":194,"offY":200,"sourceW":640,"sourceH":640}}}

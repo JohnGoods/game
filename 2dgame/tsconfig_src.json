@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+        "target": "es5",
+		"locale": "zh-CN",
+        "outDir": "bin-debug",
+        "experimentalDecorators": true,
+        "lib": [
+            "es5",
+            "dom",
+            "es2015.promise"
+        ],
+        "types": []
+    },
+	
+   "exclude": [
+	  "node_modules",
+
+	  "libs/modules/engine2d/**/*.d.ts",
+      "src/engine2d/**/*.d.ts",
+	  "src/enginesdk/**/bin/*.d.ts"
+   ],
+   
+	"include": [
+      "src/**/*",
+	  "libs/**/*"
+   ]
+}

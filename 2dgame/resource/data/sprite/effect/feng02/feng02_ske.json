@@ -1,0 +1,25 @@
+{
+  "anims":[
+    {
+      "dirs":[
+        0
+      ],
+      "frameCount":8,
+      "interval":100,
+      "name":"idle"
+    }
+  ],
+  "bodyparts":[
+    {
+      "name":"body",
+      "offx":320,
+      "offy":320,
+      "order":0,
+      "shows":[]
+    }
+  ],
+  "name":"feng02",
+  "textures":[
+    "feng02_idle.png"
+  ]
+}

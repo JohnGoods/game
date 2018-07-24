@@ -1,0 +1,10 @@
+{"file":"10_riChang.png","frames":{
+"rc_loading01":{"x":0,"y":273,"w":390,"h":22,"offX":4,"offY":4,"sourceW":398,"sourceH":30},
+"rc_loadingDi01":{"x":0,"y":241,"w":398,"h":30,"offX":0,"offY":0,"sourceW":398,"sourceH":30},
+"rc_text01":{"x":332,"y":32,"w":64,"h":29,"offX":0,"offY":0,"sourceW":64,"sourceH":29},
+"rc_text02":{"x":332,"y":0,"w":64,"h":30,"offX":0,"offY":0,"sourceW":64,"sourceH":30},
+"rc_text03":{"x":392,"y":273,"w":105,"h":30,"offX":0,"offY":0,"sourceW":105,"sourceH":30},
+"rc_text04":{"x":400,"y":56,"w":76,"h":26,"offX":6,"offY":0,"sourceW":82,"sourceH":26},
+"rc_text05":{"x":400,"y":28,"w":79,"h":26,"offX":1,"offY":0,"sourceW":82,"sourceH":26},
+"rc_text06":{"x":400,"y":0,"w":80,"h":26,"offX":0,"offY":0,"sourceW":82,"sourceH":26},
+"rc_wuQiDi01":{"x":0,"y":0,"w":330,"h":239,"offX":0,"offY":0,"sourceW":330,"sourceH":239}}}

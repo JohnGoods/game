@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GlobalMiningJoinLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*">
+	<w:Config id="161c1d1ca3e"/>
+	<e:Image scale9Grid="140,178,2,4" source="ty_uiDi01" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="label_wndName" text="" width="640" height="36" textAlign="center" verticalAlign="middle" style="ht_title_font" top="0" horizontalCenter="0"/>
+	<e:Image width="594" source="ty_uiDi02" scale9Grid="20,20,2,2" horizontalCenter="0" top="49" bottom="162"/>
+	<gui:Scroller id="teamList_scroll" width="578" scrollPolicyV="on" scrollPolicyH="off" horizontalCenter="0" top="58" bottom="173">
+		<e:List id="teamList_list" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</gui:Scroller>
+
+
+
+
+
+	<e:Label id="tl1" text="${GLOBAL_MINING_TXT23}" left="0" right="0" textAlign="center" textColor="0xa52a2a" style="ht_28_lc" bottom="42"/>
+
+
+
+
+
+	<gui:Button id="create_btn" label="${GLOBAL_MINING_TXT24}" y="751" width="147" height="55" horizontalCenter="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+
+	</gui:Button>
+	<gui:Button id="refresh_btn" label="${GLOBAL_MINING_TXT50}" y="751" width="147" height="55" right="27">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt16"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+
+
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_back" label="" right="0" bottom="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+
+
+
+</e:Skin>

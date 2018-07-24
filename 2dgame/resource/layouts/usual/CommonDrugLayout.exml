@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonDrugLayout" width="560" height="660" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="560" height="660" horizontalCenter="0" verticalCenter="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi01" scale9Grid="126,132,29,55"/>
+		<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0" top="0"/>
+		<e:Label id="label_wndName" text="" top="0" verticalAlign="middle" textAlign="center" horizontalCenter="0" style="ht_title_font" width="560" height="36"/>
+		<gui:Button id="btn_back" label="" right="0" bottom="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Group id="group_top" width="256" height="93.33" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" top="87">
+			<gui:RichDisplayer id="rd_1" width="161.33" height="30" anchorOffsetY="0" anchorOffsetX="0" right="4" verticalCenter="20.335"/>
+			<e:Label id="label_name" text="" x="91" y="18" anchorOffsetX="0" width="157" height="24" style="ht_24_lc"/>
+		</e:Group>
+		<e:Group id="group_middle" width="305.67" height="189.33" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" verticalCenter="-48.5">
+			<e:Group id="group_plus" width="331" height="39" horizontalCenter="0" top="9">
+				<e:Image scale9Grid="23,7,22,23" y="0" scaleX="1" scaleY="1" source="ty_textDi03" left="0" right="0"/>
+				<e:Label id="label_1" text="${ROLE_MOUNT_DAN_TXT4}" height="39" style="ht_24_lc_stroke" textAlign="center" anchorOffsetX="0" width="182.33" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0" verticalAlign="middle"/>
+			</e:Group>
+			<gui:RichDisplayer id="rd_2" width="510" height="38.67" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group width="344" height="39" horizontalCenter="0" bottom="17.330000000000013">
+				<e:Image scale9Grid="23,7,22,23" scaleX="1" scaleY="1" source="ty_textDi03" top="0" bottom="0" left="0" right="0"/>
+				<gui:RichDisplayer id="rd_3" height="38.66" anchorOffsetY="0" verticalCenter="0" left="0" right="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group width="467.33" height="64" anchorOffsetY="0" anchorOffsetX="0" bottom="208" horizontalCenter="0">
+			<e:Group width="124" height="47" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0" x="172" y="-81">
+				<e:Image horizontalCenter="0" x="0" scaleX="1" scaleY="1" verticalCenter="0" source="ty_shuRuDi01"/>
+				<e:Label id="label_num" text="" style="ht_24_lc_stroke" verticalCenter="0" horizontalCenter="0"/>
+			</e:Group>
+			<gui:Button id="btn_cut" label="" verticalCenter="0" left="114">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_jianIcon01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<gui:Button id="btn_cut10" label="-10" verticalCenter="0" left="7">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt6"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+					</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<gui:Button id="btn_plus" label="" verticalCenter="0" right="114">
+				<gui:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_jiaIcon01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<gui:Button id="btn_plus10" label="+10" right="7" verticalCenter="0">
+				<gui:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt6"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+		</e:Group>
+		<e:Group id="group_bottom" width="251.99" height="106.66" anchorOffsetY="0" anchorOffsetX="0" bottom="82" horizontalCenter="0">
+			<gui:RichDisplayer id="rd_4" width="236" height="41.33" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0.0049999999999954525" top="3"/>
+			<gui:Button id="btn_use" label="使用" horizontalCenter="0" bottom="1.6599999999999966">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+					</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+		</e:Group>
+	</e:Group>
+</e:Skin>

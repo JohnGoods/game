@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Image scaleX="1" scaleY="1" source="ty_uiDi01" width="640" height="900" horizontalCenter="0" verticalCenter="0" scale9Grid="122,133,28,43"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="title" text="${CLUB_TXT1}" style="ht_title_font" verticalAlign="middle" textAlign="center" width="640" height="36" top="0" horizontalCenter="0"/>
+	<e:Group id="group1" width="560" height="740" y="55" scaleX="1" scaleY="1" horizontalCenter="0" visible="false">
+		<e:Group id="notice_group" width="250" height="340" left="0" top="0">
+		<e:Image scaleX="1" scaleY="1" width="250" height="340" y="0" source="ty_uiDi02" scale9Grid="11,10,20,15" x="0"/>
+		<e:Label id="notice_text" text="${CLUB_TXT12}" anchorOffsetX="0" scaleX="1" scaleY="1" textAlign="center" textColor="0x7d5032" style="ht_22_lc" left="0" right="0" top="10"/>
+		<e:Scroller width="230" height="260" y="37" horizontalCenter="0">
+			<gui:RichDisplayer id="notice_rd"/>
+		</e:Scroller>
+			<e:Group id="notice_change" width="100" height="30" right="5" bottom="3"/>
+			<e:Group id="event_record" width="100" height="30" left="5" bottom="3"/>
+		</e:Group>
+		<e:Group id="info_group" width="300" height="340" top="0" right="0">
+		<e:Label id="mingci" text="${CLUB_TXT13}" x="10" y="10" textColor="0x7d5032" style="ht_22_lc"/>
+		<e:Label id="bangzhu_name" text="${CLUB_TXT14}" x="10" y="50" textColor="0x7d5032" style="ht_22_lc"/>
+		<e:Label id="renshu" text="${CLUB_TXT15}" x="10" y="90" textColor="0x7d5032" style="ht_22_lc"/>
+		<e:Label id="zijin" text="${CLUB_TXT16}" x="10" y="130" textColor="0x7d5032" style="ht_22_lc"/>
+		<e:Label id="level" text="${CLUB_TXT17}" x="10" y="170" textColor="0x7d5032" style="ht_22_lc"/>
+			<e:Group id="club_list_bg" width="100" height="30" x="170" y="168"/>
+		<gui:Button id="apply_btn" label="${CLUB_TXT18}" x="25" y="210" width="117" height="51">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="juanxian_btn" label="${CLUB_TXT19}" x="155" y="210" width="117" height="51">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="people_info_btn" label="${CLUB_TXT20}" x="25" y="270" width="117" height="51">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="club_store_btn" label="${CLUB_STORE_TXT1}" x="155" y="270" width="117" height="51">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Image width="200" height="45" x="70" y="0" source="ty_shuRuDi01" scale9Grid="15,5,94,37"/>
+		<e:Image width="200" height="45" x="70" y="80" source="ty_shuRuDi01" scale9Grid="15,5,94,37"/>
+		<gui:Button id="btn_change" label="${CLUB_TXT79}" x="225" y="2" width="43" height="41">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt11"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Label id="mingci_text" text="" x="80" y="7" height="30" width="140" textAlign="left" verticalAlign="middle" style="ht_22_lc"/>
+		<gui:Button id="btn_zhao" label="${CLUB_TXT80}" x="225" y="82" width="43" height="41">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt11"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Label id="renshu_num_text" text="" x="80" y="87" height="30" width="140" textAlign="left" verticalAlign="middle" style="ht_22_lc"/>
+		</e:Group>
+		<e:Group id="function_group" width="560" height="375" horizontalCenter="0" verticalCenter="169">
+		<e:Group width="136" height="375" x="0" y="0">
+			<gui:Button id="activity_btn" label="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bh_xuanXiangBt01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<e:Label id="enter_txt1" text="${CLUB_TXT8}" x="7" y="0" scaleX="1" scaleY="1" width="30" textAlign="center" verticalAlign="middle" height="150" style="ht_24_lc_stroke"/>
+		</e:Group>
+		<e:Group width="136" height="375" x="0" y="0">
+			<gui:Button id="shop_btn" label="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bh_xuanXiangBt02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<e:Label id="enter_txt2" text="${CLUB_TXT9}" x="7" y="0" scaleX="1" scaleY="1" width="30" height="150" verticalAlign="middle" textAlign="center" style="ht_24_lc_stroke"/>
+		</e:Group>
+		<e:Group id="func_map" width="136" height="375" x="10" y="10">
+			<gui:Button id="map_btn" label="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bh_xuanXiangBt03"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<e:Label id="enter_txt3" text="${CLUB_TXT10}" x="7" y="0" scaleX="1" scaleY="1" width="30" height="150" textAlign="center" verticalAlign="middle" style="ht_24_lc_stroke"/>
+		</e:Group>
+		<e:Group width="136" height="375" x="20" y="20">
+			<gui:Button id="club_war_btn" label="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bh_xuanXiangBt04"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<e:Label id="enter_txt4" text="${CLUB_TXT11}" x="7" y="0" scaleX="1" scaleY="1" width="30" height="150" textAlign="center" verticalAlign="middle" style="ht_24_lc_stroke"/>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout gap="5"/>
+		</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="group2" width="560" height="740" y="50" scaleX="1" scaleY="1" horizontalCenter="0" visible="false">
+		<e:Group width="588" height="505" horizontalCenter="0" top="0">
+		<e:Image source="bh_ztDi01" top="0" horizontalCenter="0"/>
+		<e:Group width="130" height="130" x="55" y="285">
+			<e:Label id="inc_txt0" text="" style="ht_24_lc" scaleX="1" scaleY="1" textAlign="center" verticalAlign="middle" width="130" top="15" horizontalCenter="0" height="25" textColor="0xffffff"/>
+			<gui:RichDisplayer id="inc_rd0" width="120" height="70" anchorOffsetY="0" horizontalCenter="0" top="45"/>
+		</e:Group>
+		<e:Group width="130" height="130" x="222" y="285">
+			<e:Label id="inc_txt1" text="" style="ht_24_lc" scaleX="1" scaleY="1" horizontalCenter="0" top="15" width="130" textAlign="center" verticalAlign="middle" height="25" textColor="0xffffff"/>
+			<gui:RichDisplayer id="inc_rd1" width="120" height="70" anchorOffsetY="0" horizontalCenter="0" top="45"/>
+		</e:Group>
+		<e:Group width="130" height="130" x="400" y="285">
+			<e:Label id="inc_txt2" text="" style="ht_24_lc" scaleX="1" scaleY="1" horizontalCenter="0" top="15" width="130" textAlign="center" verticalAlign="middle" height="25" textColor="0xffffff"/>
+			<gui:RichDisplayer id="inc_rd2" width="120" height="70" anchorOffsetY="0" horizontalCenter="0" top="45"/>
+		</e:Group>
+		<e:Group width="560" height="90" scaleX="1" scaleY="1" horizontalCenter="0" bottom="0">
+			<gui:Button id="worship_btn0" label="${CLUB_TXT81}" x="45" scaleX="1" scaleY="1" y="5" width="117" height="51">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<gui:Button id="worship_btn1" label="${CLUB_TXT81}" x="215" scaleX="1" scaleY="1" y="5" width="117" height="51">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<gui:Button id="worship_btn2" label="${CLUB_TXT81}" x="395" scaleX="1" scaleY="1" y="5" width="117" height="51">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<gui:RichDisplayer id="worship_rd0" width="160" height="30" x="25" y="60" scaleX="1" scaleY="1"/>
+			<gui:RichDisplayer id="worship_rd1" width="160" height="30" x="197" y="60" scaleX="1" scaleY="1"/>
+			<gui:RichDisplayer id="worship_rd2" width="160" height="30" x="375" y="60" scaleX="1" scaleY="1"/>
+		</e:Group>
+		</e:Group>
+		<e:Group width="560" height="90" y="515" x="0" scaleX="1" scaleY="1">
+		<gui:ProgressBar id="exp_progress" width="547" height="30" horizontalCenter="0" y="15" includeInLayout="true">
+			<gui:skinName>
+			<e:Skin minWidth="30" minHeight="18">
+				<e:Image scale9Grid="1,1,4,4" width="100%" height="100%" verticalCenter="0" source="hb_loadingDi01"/>
+				<e:Image id="thumb" height="100%" width="100%" source="hb_loading01"/>
+				<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle" size="15" fontFamily="Tahoma" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke" textColor="0xffffff"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:ProgressBar>
+		<gui:Button id="reward_btn0" label="" x="142" y="0" width="54">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bh_liBao01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</gui:Button>
+		<gui:Button id="reward_btn1" label="" y="0" x="324">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bh_liBao01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</gui:Button>
+		<gui:Button id="reward_btn2" label="" y="0" x="507">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bh_liBao01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</gui:Button>
+		<gui:RichDisplayer id="today_worship_rd" width="250" height="30" x="10" y="60"/>
+		<gui:RichDisplayer id="today_worship_count_rd" width="250" height="30" x="300" y="60"/>
+		</e:Group>
+		<e:Group id="record_wnd" scaleX="1" scaleY="1" width="560" horizontalCenter="0" height="125" y="615">
+		<e:Image width="107" height="29" source="bh_text03" horizontalCenter="0" top="0"/>
+		<e:Image width="560" height="16" source="cz_uiLine01" horizontalCenter="0" scale9Grid="14,8,19,1" top="25"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="group3" width="560" height="750" y="45" scaleX="1" scaleY="1" horizontalCenter="0" visible="false">
+		<e:Group id="dungeon_group" height="311" scaleX="1" scaleY="1" width="560" x="0" bottom="440">
+		<gui:Button id="dungeon_left_btn" label="" scaleX="1" scaleY="1" width="45" left="-25" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_jianTou01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</gui:Button>
+		<gui:Button id="dungeon_right_btn" label="" scaleX="1" scaleY="1" width="45" right="-25" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_jianTou02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</gui:Button>
+		</e:Group>
+		<e:Group id="monster_reward_group" width="560" height="80" horizontalCenter="0" y="308">
+		<e:Image source="ty_uiDi02" scale9Grid="5,5,32,31" left="0" top="0" bottom="0" right="0"/>
+		<e:Label id="prize_txt" text="${CLUB_TXT87}" verticalCenter="0" style="ht_26_lc" left="10" textColor="0x303030" width="52" height="52"/>
+		<e:Group id="item_reward_wnd" width="480" height="80" scaleX="1" scaleY="1" right="0" verticalCenter="0">
+			<e:layout>
+			<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		</e:Group>
+		<e:Group width="560" height="60" horizontalCenter="0" verticalCenter="45">
+		<gui:RichDisplayer id="help_rd" height="20" left="0" right="0" top="0"/>
+		<e:Label id="monster_level_text" text="" horizontalCenter="0" width="200" textAlign="center" verticalAlign="middle" top="20" textColor="0xffffff" height="30" style="ht_24_lc"/>
+		<e:Image height="16" source="cz_uiLine01" scale9Grid="14,8,19,1" left="0" right="0" bottom="0"/>
+		</e:Group>
+		<e:Group id="team_group" width="640" height="300" horizontalCenter="0" top="452">
+		<gui:RichDisplayer id="fight_count_rd" width="180" height="60" bottom="10" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="group4" width="560" height="740" y="55" scaleX="1" scaleY="1" horizontalCenter="0" visible="false">
+		<gui:RichDisplayer id="skill_level_rd" width="200" height="30" right="10" top="0"/>
+		<e:Group width="458" height="458" horizontalCenter="0" y="35">
+		<e:Image width="458" height="458" source="bh_jiNengDi01" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group id="skill_info_group" width="458" height="458" y="0" x="0">
+			<e:Group id="skill_wnd0" width="80" height="80" scaleX="1" scaleY="1" horizontalCenter="0" top="-35">
+			<e:Image source="ty_jiNengDi05" verticalCenter="0" horizontalCenter="0"/>
+				<e:Image source="09_bangHui.bg_skill01" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="select_0" source="03_huoBan.hb_jiNengXuanZhong" verticalCenter="0" horizontalCenter="0"/>
+			<e:Group id="lv_wnd0" width="34" height="34" left="-5" top="-5">
+				<e:Image source="ty_daoJuLvDi01" x="0" y="0"/>
+				<e:Label id="lv_0" text="" horizontalCenter="0" verticalCenter="0" height="34" width="34" style="ht_20_lc_stroke" textAlign="center" verticalAlign="middle"/>
+			</e:Group>
+			</e:Group>
+			<e:Group id="skill_wnd1" width="80" height="80" scaleX="1" scaleY="1" top="30" right="30">
+			<e:Image source="ty_jiNengDi05" verticalCenter="0" horizontalCenter="0" x="-169" y="150" scaleX="1" scaleY="1"/>
+				<e:Image source="09_bangHui.bg_skill02" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="select_1" source="03_huoBan.hb_jiNengXuanZhong" verticalCenter="0" horizontalCenter="0" x="-185.00000000000003" y="133.00000000000003" scaleX="1" scaleY="1"/>
+			<e:Group width="34" height="34" id="lv_wnd1" left="-5" top="-5">
+				<e:Image source="ty_daoJuLvDi01" x="0" y="0"/>
+				<e:Label text="" horizontalCenter="0" verticalCenter="0" height="34" width="34" id="lv_1" style="ht_20_lc_stroke" textAlign="center" verticalAlign="middle"/>
+			</e:Group>
+			</e:Group>
+			<e:Group id="skill_wnd2" width="80" height="80" scaleX="1" scaleY="1" verticalCenter="0" right="-35">
+			<e:Image source="ty_jiNengDi05" verticalCenter="0" horizontalCenter="0" x="-169" y="150" scaleX="1" scaleY="1"/>
+				<e:Image source="09_bangHui.bg_skill03" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="select_2" source="03_huoBan.hb_jiNengXuanZhong" verticalCenter="0" horizontalCenter="0" x="-91.00000000000006" y="-185" scaleX="1" scaleY="1"/>
+			<e:Group width="34" height="34" id="lv_wnd2" left="-5" top="-5" x="-70.00000000000006" y="-164" scaleX="1" scaleY="1">
+				<e:Image source="ty_daoJuLvDi01" x="0" y="0"/>
+				<e:Label text="" horizontalCenter="0" verticalCenter="0" height="34" width="34" id="lv_2" style="ht_20_lc_stroke" textAlign="center" verticalAlign="middle"/>
+			</e:Group>
+			</e:Group>
+			<e:Group id="skill_wnd3" width="80" height="80" scaleX="1" scaleY="1" bottom="30" right="30">
+			<e:Image source="ty_jiNengDi05" verticalCenter="0" horizontalCenter="0" x="-169" y="150" scaleX="1" scaleY="1"/>
+				<e:Image source="09_bangHui.bg_skill04" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="select_3" source="03_huoBan.hb_jiNengXuanZhong" verticalCenter="0" horizontalCenter="0" x="39" y="-185.00000000000003" scaleX="1" scaleY="1"/>
+			<e:Group width="34" height="34" id="lv_wnd3" left="-5" top="-5" x="60.00000000000006" y="-164.00000000000006" scaleX="1" scaleY="1">
+				<e:Image source="ty_daoJuLvDi01" x="0" y="0"/>
+				<e:Label text="" horizontalCenter="0" verticalCenter="0" height="34" width="34" id="lv_3" textAlign="center" verticalAlign="middle" style="ht_20_lc_stroke"/>
+			</e:Group>
+			</e:Group>
+			<e:Group id="skill_wnd4" width="80" height="80" scaleX="1" scaleY="1" horizontalCenter="0" bottom="-35">
+			<e:Image source="ty_jiNengDi05" verticalCenter="0" horizontalCenter="0" x="-169" y="150" scaleX="1" scaleY="1"/>
+				<e:Image source="09_bangHui.bg_skill05" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="select_4" source="03_huoBan.hb_jiNengXuanZhong" verticalCenter="0" horizontalCenter="0" x="133" y="-91" scaleX="1" scaleY="1"/>
+			<e:Group width="34" height="34" id="lv_wnd4" left="-5" top="-5" x="154" y="-69.99999999999994" scaleX="1" scaleY="1">
+				<e:Image source="ty_daoJuLvDi01" x="0" y="0"/>
+				<e:Label text="" horizontalCenter="0" verticalCenter="0" height="34" width="34" id="lv_4" style="ht_20_lc_stroke" textAlign="center" verticalAlign="middle"/>
+			</e:Group>
+			</e:Group>
+			<e:Group id="skill_wnd5" width="80" height="80" scaleX="1" scaleY="1" left="30" bottom="30">
+			<e:Image source="ty_jiNengDi05" verticalCenter="0" horizontalCenter="0" x="-169" y="150" scaleX="1" scaleY="1"/>
+				<e:Image source="09_bangHui.bg_skill06" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="select_5" source="03_huoBan.hb_jiNengXuanZhong" verticalCenter="0" horizontalCenter="0" x="133.00000000000003" y="38.99999999999994" scaleX="1" scaleY="1"/>
+			<e:Group width="34" height="34" id="lv_wnd5" left="-5" top="-5" x="154" y="59.99999999999994" scaleX="1" scaleY="1">
+				<e:Image source="ty_daoJuLvDi01" x="0" y="0"/>
+				<e:Label text="" horizontalCenter="0" verticalCenter="0" height="34" width="34" id="lv_5" textAlign="center" verticalAlign="middle" style="ht_20_lc_stroke"/>
+			</e:Group>
+			</e:Group>
+			<e:Group id="skill_wnd6" width="80" height="80" scaleX="1" scaleY="1" verticalCenter="0" left="-35">
+			<e:Image source="ty_jiNengDi05" verticalCenter="0" horizontalCenter="0" x="-169" y="150" scaleX="1" scaleY="1"/>
+				<e:Image source="09_bangHui.bg_skill07" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="select_6" source="03_huoBan.hb_jiNengXuanZhong" verticalCenter="0" horizontalCenter="0" x="39" y="133" scaleX="1" scaleY="1"/>
+			<e:Group width="34" height="34" id="lv_wnd6" left="-5" top="-5" x="60" y="154.00000000000006" scaleX="1" scaleY="1">
+				<e:Image source="ty_daoJuLvDi01" x="0" y="0"/>
+				<e:Label text="" horizontalCenter="0" verticalCenter="0" height="34" width="34" id="lv_6" style="ht_20_lc_stroke" textAlign="center" verticalAlign="middle"/>
+			</e:Group>
+			</e:Group>
+			<e:Group id="skill_wnd7" width="80" height="80" scaleX="1" scaleY="1" left="30" top="30">
+			<e:Image source="ty_jiNengDi05" verticalCenter="0" horizontalCenter="0" x="-169" y="150" scaleX="1" scaleY="1"/>
+				<e:Image source="09_bangHui.bg_skill08" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="select_7" source="03_huoBan.hb_jiNengXuanZhong" verticalCenter="0" horizontalCenter="0" x="-91" y="133.00000000000003" scaleX="1" scaleY="1"/>
+			<e:Group width="34" height="34" id="lv_wnd7" left="-5" top="-5" x="-35" y="-34.999999999999986" scaleX="1" scaleY="1">
+				<e:Image source="ty_daoJuLvDi01" x="0" y="0"/>
+				<e:Label text="" horizontalCenter="0" verticalCenter="0" height="34" width="34" id="lv_7" textAlign="center" verticalAlign="middle" style="ht_20_lc_stroke"/>
+			</e:Group>
+			</e:Group>
+		</e:Group>
+		<e:Group id="skill_des_wnd" width="310" height="170" scaleX="1" scaleY="1" x="77" y="150">
+			<e:Image width="217" height="50" source="hb_textDi02" horizontalCenter="0" top="0"/>
+			<gui:BatchImage id="force_batch" height="30" width="180" y="10" x="65"/>
+			<e:Group width="260" height="60" y="62" x="25">
+			<gui:RichDisplayer id="skill_cur_rd" width="110" height="60" x="-170.00000000000006" y="-50" scaleX="1" scaleY="1"/>
+			<e:Image width="40" height="36" source="xl_jianTou01" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="10" x="-35.00000000000006" y="17"/>
+			<gui:RichDisplayer id="skill_next_rd" width="110" height="60" x="0" y="10"/>
+			<e:layout>
+				<e:HorizontalLayout gap="0" verticalAlign="middle"/>
+			</e:layout>
+			</e:Group>
+			<gui:RichDisplayer id="cost_rd" width="310" height="30" horizontalCenter="0" bottom="0"/>
+		</e:Group>
+		</e:Group>
+		<e:Group width="560" height="185" horizontalCenter="0" bottom="0">
+		<e:Image width="82" height="29" source="bh_text05" horizontalCenter="0" top="0"/>
+		<e:Image width="560" height="16" horizontalCenter="0" source="cz_uiLine01" scale9Grid="14,8,19,1" top="25"/>
+		<e:Group id="attr_wnd" height="60" width="560" horizontalCenter="0" verticalCenter="-15">
+			<e:layout>
+			<e:TileLayout horizontalGap="0" verticalGap="0"/>
+			</e:layout>
+		</e:Group>
+			<gui:Button id="btn_upgrade" label="${PET_TXT5}" horizontalCenter="0" width="147" height="55" bottom="12">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+					</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+		</e:Group>
+	</e:Group>
+	<e:Group id="bottom_group" width="600" height="90" scaleX="1" scaleY="1" horizontalCenter="0" bottom="12">
+		<e:Image source="ty_uiDi02" left="0" right="0" bottom="0" top="0" scale9Grid="19,20,5,6"/>
+		<e:Group id="tab_group" width="486" height="51" scaleX="1" scaleY="1" verticalCenter="0" left="10">
+		<e:RadioButton id="radio1" label="${CLUB_TXT4}" width="117" x="0" y="0" scaleX="1" scaleY="1" height="51">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="radio2" label="${CLUB_TXT5}" width="117" x="125" y="0" scaleX="1" scaleY="1" height="51">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="radio3" label="${CLUB_TXT6}" width="117" x="250" y="0" scaleX="1" scaleY="1" height="51">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="radio4" label="${CLUB_TXT7}" width="117" x="375" y="0" scaleX="1" scaleY="1" height="51">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+		</e:Group>
+	</e:Group>
+	<gui:Button id="btn_close" label="" scaleX="1" scaleY="1" bottom="10" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close_top" label="" right="0" x="565" scaleX="1" scaleY="1" width="55" top="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_tips" label="" top="0" left="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_guiZhe"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

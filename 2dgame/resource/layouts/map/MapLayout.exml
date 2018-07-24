@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MapLayout" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="touch_wnd" width="640" top="0" bottom="0" horizontalCenter="0"/>
+	<e:Group height="620" width="640" horizontalCenter="0" y="80">
+		<e:Scroller id="scroller" width="640" height="515" scrollPolicyH="on" scrollPolicyV="off" x="0" y="53" bounces="false">
+			<e:Group id="map_wnd" width="2850">
+				<e:Image source="sjdt_diTuDi01" x="0" y="0"/>
+				<e:Image source="sjdt_diTuDi02" x="1024" y="0"/>
+				<e:Image source="sjdt_diTuDi03" x="2048" y="0"/>
+			</e:Group>
+		</e:Scroller>
+		<e:Image id="l_reel" source="sjdt_juanZhou01" left="0" top="0" bottom="0" scale9Grid="2,77,16,464" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="r_reel" source="sjdt_juanZhou02" right="0" top="0" bottom="0" scale9Grid="2,77,17,464" x="619" y="0" scaleX="1" scaleY="1"/>
+		<gui:Button id="btn_close" label="" top="25" right="20">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Image source="01_zhuCheng03.sjdt_text02" y="36" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

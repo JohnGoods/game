@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainCityLayout" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:gui="gui.*" xmlns:tween="egret.tween.*">
+	<w:Declarations></w:Declarations>
+	<e:Image verticalCenter="0" source="zjm_zhuCheng" horizontalCenter="0"/>
+	<e:Group id="build_wnd" top="0" bottom="0" left="0" right="0">
+		<gui:Button id="club_btn" label="" scaleX="1" scaleY="1" verticalCenter="-125" horizontalCenter="-94.5">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zjm_jianZhu03" source.down="zjm_jianZhu03_down"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<gui:Button id="activity_btn" label="" verticalCenter="9" horizontalCenter="231">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zjm_jianZhu01" source.down="zjm_jianZhu01_down"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<gui:Button id="champion_btn" label="" verticalCenter="14" horizontalCenter="104.5">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zjm_jianZhu02" source.down="zjm_jianZhu02_down"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<gui:Button id="cross_btn" label="" verticalCenter="76.5" horizontalCenter="-195.5">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zjm_jianZhu04" source.down="zjm_jianZhu04_down"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<gui:Button id="fuben_btn" label="" verticalCenter="201" horizontalCenter="-155">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zjm_jianZhu05" source.down="zjm_jianZhu05_down"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<gui:Button id="boss_btn" label="" verticalCenter="-215" horizontalCenter="156.5">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zjm_jianZhu06" source.down="zjm_jianZhu06_down"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<e:Image id="club_btn_img" source="01_zhuCheng02.zjm_jianZhuText01" verticalCenter="-139.5" horizontalCenter="-24" touchEnabled="false" width="52" height="117"/>
+		<e:Image id="champion_btn_img" source="01_zhuCheng02.zjm_jianZhuText02" horizontalCenter="72" verticalCenter="-11.5" touchEnabled="false" width="52" height="117"/>
+		<e:Image id="activity_btn_img" source="01_zhuCheng02.zjm_jianZhuText03" verticalCenter="-19" horizontalCenter="277.5" touchEnabled="false" width="55" height="118"/>
+		<e:Image id="boss_btn_img" source="01_zhuCheng02.zjm_jianZhuText04" verticalCenter="-166" horizontalCenter="235" touchEnabled="false" width="55" height="118"/>
+		<e:Image id="cross_btn_img" source="01_zhuCheng02.zjm_jianZhuText05" verticalCenter="39" horizontalCenter="-134.5" touchEnabled="false" width="55" height="118"/>
+		<e:Image id="fuben_btn_img" source="01_zhuCheng02.zjm_jianZhuText06" verticalCenter="195" horizontalCenter="-57.5" touchEnabled="false" width="55" height="118"/>
+		<e:Group id="shop_group" height="83" left="0" right="0" bottom="26">
+			<gui:Button id="btn_yuanbao" label="" x="329" y="25">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="zjm_Bt12"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<gui:Button id="btn_equip" label="" x="339" y="35">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="zjm_Bt13"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<gui:Button id="btn_pet" label="" x="369" y="65">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="zjm_Bt62"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<gui:Button id="btn_jingji" label="" x="359" y="55">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="zjm_Bt15"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<gui:Button id="btn_tianxian" label="" x="369" y="65">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="zjm_Bt16"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<gui:Button id="btn_marry" label="" x="379" y="75">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="zjm_Bt17"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<gui:Button id="btn_suit" label="" x="389" y="85">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="zjm_Bt18"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<e:layout>
+				<e:HorizontalLayout gap="3" horizontalAlign="center"/>
+			</e:layout>
+		</e:Group>
+		<gui:Button id="btn_friends" label="" x="559" bottom="117">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_Bt10"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="judian_btn" label="" bottom="117" left="7">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_Bt54"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_xingling" label="" bottom="117" left="98">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_Bt61"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<e:Group id="group_actList" height="200" left="0" right="0" touchEnabled="false" y="120">
+		<e:layout>
+			<e:TileLayout requestedColumnCount="7" rowAlign="top" columnAlign="left" horizontalAlign="left" verticalAlign="middle" verticalGap="20"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,11 @@
+{"file":"zengzhangtianwang_die.png","frames":{
+"die_3_body_00":{"x":275,"y":243,"w":214,"h":264,"offX":18,"offY":17,"sourceW":320,"sourceH":320},
+"die_3_body_01":{"x":275,"y":0,"w":268,"h":241,"offX":0,"offY":16,"sourceW":320,"sourceH":320},
+"die_3_body_02":{"x":0,"y":255,"w":225,"h":163,"offX":16,"offY":63,"sourceW":320,"sourceH":320},
+"die_3_body_03":{"x":0,"y":420,"w":225,"h":162,"offX":12,"offY":60,"sourceW":320,"sourceH":320},
+"die_3_body_04":{"x":227,"y":509,"w":225,"h":162,"offX":8,"offY":56,"sourceW":320,"sourceH":320},
+"die_7_body_00":{"x":0,"y":0,"w":273,"h":253,"offX":17,"offY":21,"sourceW":320,"sourceH":320},
+"die_7_body_01":{"x":545,"y":0,"w":258,"h":248,"offX":62,"offY":20,"sourceW":320,"sourceH":320},
+"die_7_body_02":{"x":0,"y":584,"w":223,"h":162,"offX":84,"offY":83,"sourceW":320,"sourceH":320},
+"die_7_body_03":{"x":225,"y":673,"w":222,"h":162,"offX":89,"offY":87,"sourceW":320,"sourceH":320},
+"die_7_body_04":{"x":0,"y":748,"w":222,"h":161,"offX":93,"offY":92,"sourceW":320,"sourceH":320}}}

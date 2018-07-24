@@ -1,0 +1,56 @@
+【语法】
+1.数组索引以0开头
+
+2.map存储的key，都是字符串。和lua不一样,lua的key可以是table，也可以是整数
+  例如：for (let npcId in this.npc_list) {}，这里npcId是字符串。
+  索引map，如果是整型，会转换成字符串。 npc_list[1000]和npc_list["1000"]是一样的。
+  
+3.如果设置map[key] = null，还是会被for循环遍历。lua的不会遍历。
+	例如：this.npc_list[1000] = null 
+			  for (let npcId in this.npc_list) {}，npcId为1000的还是会被遍历
+	用delete才能真正置空。delete this.npc_list[1000]，就不会被遍历
+
+4.0==false，false != null
+
+
+【程序开发】
+1.参照BaseWnd文件的"TemplateFrame"模版。
+2.BaseWnd调用showWnd，onShow有可能不会马上被执行。只有布局文件加载到内存了，onShow才会调用。参考BaseWnd.loadComplete
+3.工具类
+	数学操作：MathUtil
+	字符串操作：StringUtil
+	JS数组、字典操作、isNaN、parseFloat、parseInt：JsUtil
+	定时器:Timer
+	lua兼容:LuaCompatible
+
+【UI流程】
+1.wing_imageset.res.json文件只是布局时候才有用。把美术图放在对应目录下，然后用ResDepot拉一次， wing_imageset.res.json会刷新
+2.在imagest.csv和imaget_set_list.csv添加新的文件。游戏内用到的资源通过这里获取
+
+
+
+
+【常用快捷键】
+1. ctrl+p 打开指定界面
+2.F5调试运行
+3.格式化代码：Alt+Shitf+F 或者 右键->设置文档格式
+
+
+【lua转typeScript】
+1.打开 tool/lua2ts目录
+2.把lua代码copy到input.txt,运行lua2ts.cmd，结果输出到output.txt。（也可以用lua编辑器打开lua2ts.lua,运行）
+
+
+
+【网站参考】
+1.示例地址：
+http://developer.egret.com/cn/example/egret2d/index.html#010-disp-basic
+
+2.引擎API：
+http://developer.egret.com/cn/apidoc/
+
+3.EUI使用具体说明：
+http://developer.egret.com/cn/github/egret-docs/extension/EUI/outline/introduction/index.html
+
+4.javaScript语法（优先学习Array、String）
+http://www.w3school.com.cn/jsref/index.asp

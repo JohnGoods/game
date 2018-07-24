@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CampaignBossLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*">
+	<w:Config id="161c1d1ca3e"/>
+	<e:Image scale9Grid="140,178,2,4" source="ty_uiDi01" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="title" text="${CAMPAIGN_TXT6}" horizontalCenter="0" top="0" width="640" textAlign="center" verticalAlign="middle" style="ht_title_font" height="36"/>
+	<e:Group width="313" height="159" x="40" y="48" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi02" scale9Grid="21,20,1,1"/>
+		<e:Image width="106" height="29" x="14" y="6" source="gk_text02"/>
+		<e:Group id="link_wnd" width="120" height="30" x="185" y="7"/>
+
+		<e:Image width="307" height="16" y="32" source="cz_uiLine01" scale9Grid="22,2,2,12" horizontalCenter="0"/>
+		<e:Group height="90" width="283" horizontalCenter="0" y="55">
+		<gui:RichDisplayer id="rank_rd" width="30" height="90" x="9" y="5"/>
+		<gui:RichDisplayer id="name_rd" width="155" height="90" x="19" y="15"/>
+		<gui:RichDisplayer id="pass_rd" width="98" height="90" x="29" y="25"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group width="232" height="159" x="364" y="48" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi02" scale9Grid="21,20,1,1" x="-381" y="-50" scaleX="1" scaleY="1"/>
+		<e:Image width="106" height="29" y="5" source="gk_text03" horizontalCenter="0"/>
+		<e:Image width="221" height="16" y="32" source="cz_uiLine01" scale9Grid="22,2,2,12" horizontalCenter="0"/>
+		<gui:RichDisplayer id="help_rd" width="214" height="50" anchorOffsetX="0" anchorOffsetY="0" top="55" horizontalCenter="0"/>
+		<gui:Button id="help_btn" label="${CAMPAIGN_TXT8}" horizontalCenter="5" bottom="8" width="86" height="41">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt6"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<e:Group width="610" height="371" horizontalCenter="0" verticalCenter="-48">
+		<e:Image source="gk_ztBOSSDi01" horizontalCenter="-1" verticalCenter="0"/>
+
+		<e:Image width="352" height="39" source="ty_textDi03" scale9Grid="33,4,1,31" horizontalCenter="0" bottom="51"/>
+		<e:Label id="camp_name" text="" horizontalCenter="0" width="352" textAlign="center" style="ht_26_lc" height="30" verticalAlign="middle" bottom="55"/>
+		<e:Group id="pass_prize_wnd" width="123" height="140" x="474" y="44" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image width="123" height="140" source="gk_tongGuanDi01" top="0" left="0"/>
+		<e:Image height="28" source="gk_text01" width="99" top="-5" left="8"/>
+			<e:Group id="pass_item_wnd" width="80" height="80" horizontalCenter="-3.5" verticalCenter="-5" scaleX="0.9" scaleY="0.9"/>
+		<gui:ProgressBar id="pass_imb" width="112" height="27" bottom="6" horizontalCenter="-4">
+			<gui:skinName>
+				<e:Skin minWidth="30" minHeight="18">
+				<e:Image scale9Grid="1,1,4,4" width="100%" height="100%" verticalCenter="0" source="gk_loadingDi01"/>
+				<e:Image id="thumb" height="100%" width="100%" source="gk_loading01"/>
+				<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle" size="15" fontFamily="Tahoma" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke" textColor="0xffffff"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:ProgressBar>
+		</e:Group>
+		<e:Group id="actor_wnd" width="120" height="150" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Group id="item_drop_group" width="558" height="165" anchorOffsetX="0" horizontalCenter="0" bottom="135">
+		<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi02" scale9Grid="21,20,1,1" x="-41" y="-600" scaleX="1" scaleY="1"/>
+		<e:Image width="352" height="39" source="ty_textDi03" scale9Grid="33,4,1,31" horizontalCenter="0" top="10"/>
+		<e:Image width="57" height="29" source="gk_text04" horizontalCenter="0" top="16"/>
+		<e:Image width="495" height="46" source="gk_jiangLiDi01" horizontalCenter="0" bottom="-10"/>
+		<e:Group id="drop_item_wnd" width="412" height="80" horizontalCenter="0" verticalCenter="17">
+			<e:layout>
+				<e:HorizontalLayout gap="3"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+
+	<e:Group id="bottom_wnd" height="102" left="22" right="22" bottom="20">
+		<e:Image left="0" right="0" bottom="0" top="0" scale9Grid="22,22,1,1" source="ty_uiDi02"/>
+		<gui:Button id="fight_btn" label="${BOSS_TXT27}" horizontalCenter="0" verticalCenter="2">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt10"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_26_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Label id="fight_tips" text="" style="ht_30_lc" left="0" right="0" textAlign="center" textColor="0x45332b" verticalCenter="0" height="30"/>
+		<e:Group id="video_group" width="147" height="55" x="25" scaleX="1" scaleY="1" verticalCenter="0">
+			<gui:Button id="video_btn" label="录像" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" visible="false">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt5"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_28_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<e:Image width="180" height="30" touchEnabled="false" horizontalCenter="0" y="-20" source="ty_textDi01" scale9Grid="6,4,7,10"/>
+			<e:Label id="passpower" text="123456" x="-6" y="-20" width="160" textAlign="center" verticalAlign="middle" height="30" textColor="0xAFDD30" style="ht_20_lc_stroke"/>
+			<e:Label id="passname" text="" x="-15" y="15" width="180" textAlign="center" verticalAlign="middle" height="30" style="ht_20_lc_stroke" textColor="0xffffff" visible="false"/>
+		</e:Group>
+
+	</e:Group>
+
+
+
+
+
+
+
+
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close" label="" right="0" bottom="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

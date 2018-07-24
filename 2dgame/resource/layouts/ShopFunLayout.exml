@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopFunLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ty_uiDi01" scale9Grid="142,190,3,6" left="1" bottom="1" top="-1" right="-1"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="title" text="仙君商店" top="0" horizontalCenter="0" width="640" textAlign="center" verticalAlign="middle" height="36" style="ht_title_font"/>
+	<e:Group height="50" left="40" right="40" top="45">
+		<e:Image source="ty_textDi02" left="0" right="0" top="0" bottom="0" scale9Grid="25,25,2,3"/>
+		<gui:RichDisplayer id="rd_limit" xmlns:gui="gui.*" height="20" left="14" width="332" verticalCenter="0"/>
+		<gui:RichDisplayer id="rd_had" xmlns:gui="gui.*" height="20" anchorOffsetY="0" verticalCenter="0" y="10.999999999999993" scaleX="1" scaleY="1" right="13" width="166"/>
+	</e:Group>
+	<e:Group id="group_tempcell" left="29" right="29" top="102" anchorOffsetY="0" bottom="112" width="590" anchorOffsetX="0">
+		<e:Image source="ty_uiDi02" bottom="0" top="0" scale9Grid="21,21,2,2" left="0" right="0"/>
+		<e:Scroller id="scroller" width="560" top="9" bottom="13" horizontalCenter="0">
+			<e:List id="fun_list"/>
+		</e:Scroller>
+	</e:Group>
+	<gui:Button id="btn_close" label="" right="0" bottom="13">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

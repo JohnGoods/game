@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MoneyChargeLayout" width="447" height="324" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="447" height="324" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ty_uiDi01" left="0" right="0" top="0" bottom="0" height="304" scale9Grid="117,104,30,72"/>
+		<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0" top="0"/>
+		<e:Label id="label_wndName" text="${ACCESS_TXT1}" width="447" textAlign="center" top="0" horizontalCenter="0" height="36" style="ht_title_font" verticalAlign="middle"/>
+		<e:Image source="ty_uiDi02" scale9Grid="5,5,32,31" anchorOffsetX="0" width="353.09" anchorOffsetY="0" height="208.51" horizontalCenter="0" top="49"/>
+		<gui:Button id="btn_back" label="" right="0" bottom="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_close_top" label="" top="0" right="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Label id="label_vip" text="${ACCESS_TXT5}" horizontalCenter="0" bottom="30" style="ht_22_lc" width="246" verticalAlign="bottom" textAlign="center" textColor="0x8b4513"/>
+		<e:Label id="label_1" text="${ACCESS_TXT3}" width="262" style="ht_22_lc" horizontalCenter="0" top="56" textAlign="center" textColor="0x8b4513"/>
+		<gui:RichDisplayer id="rd_money" width="236.36" height="36.36" anchorOffsetY="0" anchorOffsetX="0" top="86" horizontalCenter="0"/>
+		<gui:RichDisplayer id="rd_cost" width="234.76" height="36.36" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" top="127"/>
+		<e:Label id="label_num" text="" width="103" style="ht_22_lc" horizontalCenter="0" textAlign="center" top="230"/>
+		<gui:Button id="btn_charge" label="${ACCESS_TXT6}" horizontalCenter="0" top="169">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+</e:Skin>

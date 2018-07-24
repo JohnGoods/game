@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubActiveLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Group width="640" height="900" horizontalCenter="0" verticalCenter="0">
+		<e:Image scaleX="1" scaleY="1" source="ty_uiDi01" left="0" right="0" top="0" bottom="0" scale9Grid="129,133,29,36"/>
+		<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+		<e:Label id="title" text="${CLUB_TXT27}" style="ht_title_font" verticalAlign="middle" textAlign="center" width="640" height="36" top="0" horizontalCenter="0"/>
+		<e:Group id="info_wnd" width="560" scaleX="1" scaleY="1" horizontalCenter="0" height="735" y="50" visible="false">
+			<e:Group width="560" height="425" anchorOffsetY="0" horizontalCenter="0" top="0">
+				<e:Image scaleX="1" scaleY="1" source="ty_uiDi02" scale9Grid="11,10,20,15" left="0" top="0" bottom="0" right="0"/>
+				<e:Image width="290" height="40" source="ty_textDi03" horizontalCenter="0" scale9Grid="24,12,21,15" top="10"/>
+				<gui:RichDisplayer id="club_active_level_rd" width="290" height="30" horizontalCenter="0" top="20"/>
+				<e:Group id="cur_next_group" width="540" height="160" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="-70">
+					<e:Group id="cur_group" width="240" height="160" x="0" y="0">
+					<e:Label id="cur_tip" text="${CLUB_TXT30}" horizontalCenter="0" top="0" textColor="0x7d5532" style="ht_26_lc" height="30" width="240" textAlign="center" verticalAlign="middle"/>
+					<gui:RichDisplayer id="cur_rd" width="210" height="120" bottom="0" left="30">
+					</gui:RichDisplayer>
+					</e:Group>
+					<e:Image width="40" height="36" source="xl_jianTou01" verticalCenter="0" horizontalCenter="0"/>
+					<e:Group id="next_group" width="240" height="160" x="320" y="0">
+					<e:Label id="next_tip" text="${CLUB_TXT31}" horizontalCenter="0" top="0" textColor="0x7d5532" style="ht_26_lc" width="240" height="30" textAlign="center" verticalAlign="middle"/>
+					<gui:RichDisplayer id="next_rd" width="210" height="120" y="40" scaleX="1" scaleY="1" left="30"/>
+					</e:Group>
+					<e:layout>
+						<e:HorizontalLayout gap="10" verticalAlign="middle"/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="progressBar_group" width="560" height="40" scaleX="1" scaleY="1" horizontalCenter="0" x="0" y="235">
+					<gui:ProgressBar id="exp_progress" width="547" height="30" horizontalCenter="0" y="5" includeInLayout="true" x="7" scaleX="1" scaleY="1">
+					<gui:skinName>
+						<e:Skin minWidth="30" minHeight="18">
+						<e:Image scale9Grid="1,1,4,4" width="100%" height="100%" verticalCenter="0" source="hb_loadingDi01"/>
+						<e:Image id="thumb" height="100%" width="100%" source="hb_loading01"/>
+						</e:Skin>
+					</gui:skinName>
+					</gui:ProgressBar>
+					<e:Label id="exp_txt" text="" height="28" verticalCenter="0" width="540" horizontalCenter="0" style="ht_18_lc_stroke" textAlign="center" verticalAlign="middle"/>
+				</e:Group>
+				<e:Group id="level_reward_group" width="560" height="145" horizontalCenter="0" x="0" scaleX="1" scaleY="1" y="280">
+					<e:Image width="106" height="30" source="bh_text01" horizontalCenter="0" top="0"/>
+					<e:Image width="560" height="16" y="25" source="cz_uiLine01" scale9Grid="14,8,19,1" horizontalCenter="0"/>
+					<gui:Button id="upgrade_btn" label="${PET_TXT5}" x="400" y="62" scaleX="1" scaleY="1">
+					<gui:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+						</e:Skin>
+					</gui:skinName>
+					</gui:Button>
+					<e:Group id="info_prize_wnd" width="252" height="80" x="20" y="50">
+						<e:layout>
+							<e:HorizontalLayout gap="6"/>
+						</e:layout>
+					</e:Group>
+					<e:Label id="full_lv_txt" text="" y="75" style="ht_30_lc" textColor="0xFF0000" textAlign="center" verticalAlign="middle" width="300" height="30" horizontalCenter="0"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="task_group" width="560" height="300" x="0" y="435">
+				<e:Group id="task_top_group" width="540" height="40" top="0" horizontalCenter="0">
+					<e:Label id="txt1" text="${CLUB_TXT93}" x="50" verticalCenter="0" textColor="0x7d5532" style="ht_26_lc" width="150" height="40" textAlign="center" verticalAlign="middle"/>
+					<e:Label id="txt2" text="${CLUB_TXT94}" x="180" verticalCenter="0" textColor="0x7d5532" style="ht_26_lc" width="120" height="40" textAlign="center" verticalAlign="middle"/>
+					<e:Label id="txt3" text="${CLUB_TXT95}" x="280" verticalCenter="0" textColor="0x7d5532" style="ht_26_lc" width="150" height="40" textAlign="center" verticalAlign="middle"/>
+					<e:Group id="link_wnd" width="120" height="40" x="415" y="7">
+					</e:Group>
+					<e:layout>
+						<e:HorizontalLayout gap="0"/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="task_list_group" width="560" height="260" scaleX="1" scaleY="1" bottom="0" horizontalCenter="0">
+					<e:Image scaleX="1" scaleY="1" source="ty_uiDi02" scale9Grid="11,10,20,15" left="0" right="0" bottom="0" top="0"/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+		<e:Group id="prize_wnd" width="560" height="735" y="50" scaleX="1" scaleY="1" horizontalCenter="0" visible="false">
+			<e:Image scaleX="1" scaleY="1" source="ty_uiDi02" scale9Grid="11,10,20,15" left="0" top="0" bottom="0" right="0"/>
+		</e:Group>
+		<e:Group id="bottom_group" width="600" scaleX="1" scaleY="1" horizontalCenter="0" bottom="15" height="90">
+			<e:Image source="ty_textDi08" scale9Grid="5,5,13,14" left="0" right="0" top="0" bottom="0"/>
+			<e:Group width="240" height="51" left="20" verticalCenter="0">
+				<e:RadioButton id="tab1" label="${CLUB_TXT27}" x="-251" verticalCenter="0" width="117" height="51" y="3" scaleX="1" scaleY="1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+						</e:Skin>
+					</e:skinName>
+				</e:RadioButton>
+				<e:RadioButton id="tab2" label="${CLUB_TXT28}" x="-121" verticalCenter="0" width="117" height="51" y="3" scaleX="1" scaleY="1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+						</e:Skin>
+					</e:skinName>
+				</e:RadioButton>
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<gui:Button id="btn_close" label="" right="0" x="537" scaleX="1" scaleY="1" bottom="10">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_close_top" label="" right="0" top="0" x="565" y="800" scaleX="1" scaleY="1">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+</e:Skin>

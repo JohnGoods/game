@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OpenXMLayout" width="640" height="660" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*">
+	<w:Config id="161c1d1ca3e"/>
+
+	<e:Image width="565" height="476" horizontalCenter="0" scale9Grid="21,20,1,1" source="kfhd_xiongMaoDi01" y="180"/>
+	<e:Group id="view_group" width="10" height="10" y="442" horizontalCenter="0"/>
+	<gui:RichDisplayer id="time_rd" width="276" height="24" x="52" y="190" anchorOffsetY="0" anchorOffsetX="0"/>
+	<e:Image width="217" height="50" y="228" horizontalCenter="0" source="hb_textDi02"/>
+	<e:Label id="title" text="Label" y="238" left="0" right="0" textAlign="center" style="ht_24_lc" textColor="0x45332b"/>
+	<e:Group id="pro_group" width="464" height="30" y="111" horizontalCenter="0"/>
+	<e:Image id="arr_icon" width="42" height="48" x="119" y="92" source="hb_bt_jingSheng01"/>
+	<e:Label id="camp0" text="Label" x="106" y="150" textColor="0x45332b" textAlign="center" style="ht_22_lc"/>
+	<e:Label text="Label" x="201" y="150" id="camp1" textColor="0x45332b" textAlign="center" style="ht_22_lc"/>
+	<e:Label text="Label" x="296" y="150" id="camp2" textColor="0x45332b" textAlign="center" style="ht_22_lc"/>
+	<e:Label text="Label" x="390" y="150" id="camp3" textColor="0x45332b" textAlign="center" style="ht_22_lc"/>
+	<e:Label text="Label" x="485" y="150" id="camp4" textColor="0x45332b" textAlign="center" style="ht_22_lc"/>
+	<gui:Button id="pre_btn" label="" x="37" y="15" width="45" height="66">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_jianTou01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="next_btn" label="" x="562" y="15" width="45" height="66">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_jianTou02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+
+
+
+	<e:Image width="99" height="28" y="456" source="gk_text01" horizontalCenter="0"/>
+	<e:Image height="16" y="481" source="cz_uiLine01" scale9Grid="21,2,2,12" width="379" horizontalCenter="0"/>
+	<e:Group id="video_group" width="147" height="55" x="70" scaleX="1" scaleY="1" y="595">
+		<gui:Button id="video_btn" label="录像" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" visible="false">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt5"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_28_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<e:Image width="180" height="30" touchEnabled="false" horizontalCenter="0" y="-20" source="ty_textDi01" scale9Grid="4,4,10,9"/>
+		<e:Label id="passpower" text="123456" x="-6" y="-20" width="160" textAlign="center" verticalAlign="middle" height="30" textColor="0xAFDD30" style="ht_20_lc_stroke"/>
+		<e:Label id="passname" text="" x="-15" y="15" width="180" textAlign="center" verticalAlign="middle" height="30" textColor="0xFFFFFF" style="ht_20_lc_stroke" scaleX="1" scaleY="1" visible="false"/>
+	</e:Group>
+	<gui:Button id="fight_btn" label="Button" y="595" horizontalCenter="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_26_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Image id="killed_icon" width="67" height="64" x="416" y="312" source="boss_text01" anchorOffsetX="0" anchorOffsetY="0"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

@@ -1,0 +1,5 @@
+索引,说明,"钱货币id(1，银两,3，元宝,2，绑定元宝）",价格,成功奖励,失败奖励
+typeIndex_kn,readme_c,unit,price,winPrize_t,losePrize_t
+10,低级押注,2,3000,"{""worldPoint"",15},{""item"",60003,40},{""bindRmb"",3000}","{""worldPoint"",10},{""item"",60003,30}"
+11,中级押注,3,3000,"{""worldPoint"",30},{""item"",60003,50},{""rmb"",3000}","{""worldPoint"",18},{""item"",60003,30},{""rmb"",1500}"
+12,高级押注,3,5000,"{""worldPoint"",50},{""item"",20015,60},{""rmb"",5000}","{""worldPoint"",30},{""item"",20015,40},{""rmb"",2500}"

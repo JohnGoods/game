@@ -1,0 +1,10 @@
+#资源组,#资源路径,资源类型,备注
+groupName_s,path_s,type_s,readme_c
+#进入游戏前加载,,,
+entergame,ui/imageset/00_tongYong01.png,image,通用
+entergame,ui/imageset/00_tongYong02.png,image,通用
+entergame,ui/imageset/00_tongYong03.png,image,通用
+entergame,ui/imageset/01_zhuCheng.png,image,主城
+entergame,ui/imageset/01_zhuCheng02.png,image,主城
+entergame,ui/imageset/01_zhuCheng03.png,image,主城
+entergame,ui/image/liXianShouYi/lxsy_ztBg01.png,image,离线奖励

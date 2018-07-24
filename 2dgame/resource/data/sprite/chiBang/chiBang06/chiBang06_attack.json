@@ -1,0 +1,13 @@
+{"file":"chiBang06_attack.png","frames":{
+"attack_3_wing_00":{"x":264,"y":213,"w":133,"h":189,"offX":63,"offY":61,"sourceW":320,"sourceH":320},
+"attack_3_wing_01":{"x":264,"y":404,"w":134,"h":185,"offX":60,"offY":61,"sourceW":320,"sourceH":320},
+"attack_3_wing_02":{"x":0,"y":428,"w":127,"h":185,"offX":61,"offY":61,"sourceW":320,"sourceH":320},
+"attack_3_wing_03":{"x":0,"y":615,"w":124,"h":178,"offX":63,"offY":61,"sourceW":320,"sourceH":320},
+"attack_3_wing_04":{"x":129,"y":613,"w":125,"h":181,"offX":64,"offY":62,"sourceW":320,"sourceH":320},
+"attack_3_wing_05":{"x":129,"y":426,"w":133,"h":185,"offX":61,"offY":63,"sourceW":320,"sourceH":320},
+"attack_7_wing_00":{"x":0,"y":0,"w":134,"h":214,"offX":132,"offY":58,"sourceW":320,"sourceH":320},
+"attack_7_wing_01":{"x":273,"y":0,"w":134,"h":211,"offX":136,"offY":59,"sourceW":320,"sourceH":320},
+"attack_7_wing_02":{"x":0,"y":216,"w":127,"h":210,"offX":142,"offY":63,"sourceW":320,"sourceH":320},
+"attack_7_wing_03":{"x":264,"y":591,"w":124,"h":184,"offX":143,"offY":65,"sourceW":320,"sourceH":320},
+"attack_7_wing_04":{"x":136,"y":212,"w":126,"h":212,"offX":140,"offY":60,"sourceW":320,"sourceH":320},
+"attack_7_wing_05":{"x":136,"y":0,"w":135,"h":210,"offX":134,"offY":59,"sourceW":320,"sourceH":320}}}

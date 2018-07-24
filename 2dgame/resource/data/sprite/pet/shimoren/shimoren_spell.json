@@ -1,0 +1,13 @@
+{"file":"shimoren_spell.png","frames":{
+"spell_3_body_00":{"x":0,"y":428,"w":207,"h":186,"offX":19,"offY":45,"sourceW":320,"sourceH":320},
+"spell_3_body_01":{"x":454,"y":638,"w":176,"h":217,"offX":43,"offY":13,"sourceW":320,"sourceH":320},
+"spell_3_body_02":{"x":268,"y":222,"w":184,"h":223,"offX":71,"offY":6,"sourceW":320,"sourceH":320},
+"spell_3_body_03":{"x":0,"y":0,"w":266,"h":253,"offX":54,"offY":40,"sourceW":320,"sourceH":320},
+"spell_3_body_04":{"x":790,"y":0,"w":230,"h":223,"offX":87,"offY":44,"sourceW":320,"sourceH":320},
+"spell_3_body_05":{"x":770,"y":225,"w":248,"h":193,"offX":59,"offY":42,"sourceW":320,"sourceH":320},
+"spell_7_body_00":{"x":770,"y":420,"w":207,"h":217,"offX":93,"offY":45,"sourceW":320,"sourceH":320},
+"spell_7_body_01":{"x":209,"y":447,"w":164,"h":224,"offX":113,"offY":42,"sourceW":320,"sourceH":320},
+"spell_7_body_02":{"x":454,"y":428,"w":184,"h":208,"offX":64,"offY":42,"sourceW":320,"sourceH":320},
+"spell_7_body_03":{"x":268,"y":0,"w":265,"h":220,"offX":0,"offY":40,"sourceW":320,"sourceH":320},
+"spell_7_body_04":{"x":535,"y":206,"w":233,"h":220,"offX":0,"offY":44,"sourceW":320,"sourceH":320},
+"spell_7_body_05":{"x":535,"y":0,"w":253,"h":204,"offX":7,"offY":42,"sourceW":320,"sourceH":320}}}

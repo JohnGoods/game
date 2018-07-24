@@ -1,0 +1,7 @@
+{"file":"fomen02_idle.png","frames":{
+"idle_0_body_00":{"x":622,"y":666,"w":141,"h":230,"offX":254,"offY":133,"sourceW":640,"sourceH":640},
+"idle_0_body_01":{"x":401,"y":0,"w":354,"h":363,"offX":146,"offY":48,"sourceW":640,"sourceH":640},
+"idle_0_body_02":{"x":0,"y":365,"w":400,"h":299,"offX":117,"offY":122,"sourceW":640,"sourceH":640},
+"idle_0_body_03":{"x":0,"y":0,"w":399,"h":331,"offX":122,"offY":92,"sourceW":640,"sourceH":640},
+"idle_0_body_04":{"x":0,"y":666,"w":314,"h":323,"offX":167,"offY":85,"sourceW":640,"sourceH":640},
+"idle_0_body_05":{"x":316,"y":666,"w":304,"h":310,"offX":172,"offY":88,"sourceW":640,"sourceH":640}}}

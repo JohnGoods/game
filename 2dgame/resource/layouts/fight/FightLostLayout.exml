@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightLostLayout" width="640" height="660" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Image height="600" scale9Grid="325,112,9,11" width="640" y="60" x="0" source="ty_uiDi08"/>
+	<e:Image width="175" height="108" y="23" source="zd_bai" horizontalCenter="0"/>
+	<e:Label id="label_title" text="你可以尝试通过以下方式变强" y="180" anchorOffsetX="0" width="400" textAlign="center" horizontalCenter="0" textColor="0x91553f" style="ht_24_lc" bold="true"/>
+	<e:Group id="btn_group" width="480" height="130" y="270" x="80">
+		<gui:Button id="meiri_btn" label="" x="10" y="25" visible="false">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_Bt01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="shouchong_btn" label="" width="70" height="80" x="10" scaleX="1" scaleY="1" verticalCenter="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_Bt27"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="chongwu_btn" label="" width="108" height="107" x="120" scaleX="1" scaleY="1" verticalCenter="0">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_Bt24"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="zhuangbei_btn" label="" width="87" height="83" x="250" scaleX="1" scaleY="1" verticalCenter="0">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjm_Bt13"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="skill_btn" label="" width="88" height="77" x="380" scaleX="1" scaleY="1" verticalCenter="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hb_Bt08"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<gui:Button id="exit_btn" label="退出" y="545" horizontalCenter="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Group id="champion_group" width="640" x="0" height="660" y="0" visible="false">
+		<e:Image id="prize_bg" width="509" height="364" y="141" x="66" scaleX="1" scaleY="1" source="ty_textDi01" scale9Grid="10,10,1,1"/>
+		<gui:Button id="gain_btn" label="领取奖励" y="543" horizontalCenter="0" x="247" scaleX="1" scaleY="1">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Group id="scroll_group" width="494" height="348" x="75" anchorOffsetX="0" anchorOffsetY="0" y="149" scaleX="1" scaleY="1"/>
+		<e:Group id="JJC_group" width="494" x="75" height="180" y="280" scaleX="1" scaleY="1">
+			<e:Image source="01_zhuCheng04.jjc_text01" x="30" y="20"/>
+			<e:Image source="01_zhuCheng04.jjc_text02" x="30" y="75"/>
+			<e:Image source="01_zhuCheng04.jjc_text03" x="30" y="130"/>
+			<e:Group width="265" height="47" x="200" y="10">
+			<e:Image source="00_tongYong03.ty_shuRuDi01" scale9Grid="59,24,4,3" scaleX="1" scaleY="1" left="0" top="0" bottom="0" right="0"/>
+			<e:Label id="history_rank" text="" height="30" left="13" verticalCenter="0" width="239" style="ht_24_lc_stroke" textAlign="left" verticalAlign="middle"/>
+			</e:Group>
+			<e:Group width="265" height="47" x="200" y="65">
+			<e:Image source="00_tongYong03.ty_shuRuDi01" scale9Grid="59,24,4,3" scaleX="1" scaleY="1" left="0" top="0" bottom="0" right="0"/>
+			<gui:RichDisplayer id="cur_rank_rd" height="30" left="13" verticalCenter="0" width="239"/>
+			</e:Group>
+			<e:Group width="265" height="47" x="200" y="120">
+			<e:Image source="00_tongYong03.ty_shuRuDi01" scale9Grid="59,24,4,3" scaleX="1" scaleY="1" left="0" top="0" bottom="0" right="0"/>
+			<gui:RichDisplayer id="prize_rd" height="30" left="13" verticalCenter="0" width="239"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

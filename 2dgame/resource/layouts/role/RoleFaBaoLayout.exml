@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleFaBaoLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image scaleX="1" scaleY="1" top="0" bottom="0" source="ty_uiDi01" left="0" right="0" scale9Grid="118,133,35,58"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="title" text="" verticalAlign="middle" textAlign="center" horizontalCenter="0" top="0" height="36" width="640" style="ht_title_font"/>
+	<e:Group id="group_fabao" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image width="565" height="736" horizontalCenter="0" top="60" x="38" y="60" scaleX="1" scaleY="1" source="fb_ztUIDi01"/>
+		<e:Group id="actor" width="20" height="20" y="275" x="310"/>
+		<e:Group width="128" height="130" left="153" top="85">
+			<e:Group width="128" height="128" id="fabao_1" horizontalCenter="0" top="0">
+				<e:Image id="image_di_1" source="ty_faBaoDi01" horizontalCenter="3" verticalCenter="0"/>
+				<e:Image id="image_sprite_1" source="ty_faBaoDi01" horizontalCenter="3" verticalCenter="0"/>
+			</e:Group>
+			<e:Image id="image_select_1" width="133" height="133" source="hb_jiNengXuanZhong" scaleX="1" scaleY="1" horizontalCenter="-2" top="8"/>
+			<e:Image id="name_bg_1" height="34" bottom="0" source="fb_faBaoTextDi01" scale9Grid="11,4,72,26" left="0" right="0"/>
+			<e:Label id="name_1" text="金刚盔" verticalAlign="middle" textAlign="center" textColor="0xfce307" width="220" bottom="15" horizontalCenter="0" style="ht_22_lc_stroke"/>
+			<e:Image source="ty_textDi01" scaleX="1" scaleY="1" scale9Grid="2,2,16,16" right="16" bottom="30" width="33" id="level_bg_1"/>
+			<e:Label id="label_level_1" text="100" anchorOffsetX="0" width="30" anchorOffsetY="0" height="21.33" style="ht_16_lc" bottom="27" right="16" textAlign="center"/>
+		</e:Group>
+		<e:Group height="130" top="188" left="65" width="128">
+			<e:Group width="128" height="128" id="fabao_2" horizontalCenter="0" top="0">
+			<e:Image id="image_di_2" source="ty_faBaoDi01" horizontalCenter="3" verticalCenter="0"/>
+				<e:Image id="image_sprite_2" source="ty_faBaoDi01" horizontalCenter="3" verticalCenter="0"/>
+			</e:Group>
+			<e:Image id="image_select_2" width="133" height="133" source="hb_jiNengXuanZhong" scaleX="1" scaleY="1" horizontalCenter="-2" top="8"/>
+			<e:Image id="name_bg_2" height="34" bottom="0" source="fb_faBaoTextDi01" scale9Grid="11,4,72,26" left="0" right="0"/>
+			<e:Label id="name_2" text="金刚盔" verticalAlign="middle" textAlign="center" textColor="0xFCE307" width="220" bottom="15" horizontalCenter="0" style="ht_22_lc_stroke"/>
+			<e:Image source="ty_textDi01" scaleX="1" scaleY="1" scale9Grid="2,2,16,16" right="16" bottom="30" width="33" id="level_bg_2"/>
+			<e:Label id="label_level_2" text="100" anchorOffsetX="0" width="30" anchorOffsetY="0" height="21.33" style="ht_16_lc" bottom="27" right="16" textAlign="center"/>
+		</e:Group>
+		<e:Group height="130" top="85" right="153" width="128">
+			<e:Group width="128" height="128" id="fabao_3" horizontalCenter="0" top="0">
+			<e:Image id="image_di_3" source="ty_faBaoDi01" horizontalCenter="3" verticalCenter="0"/>
+				<e:Image id="image_sprite_3" source="ty_faBaoDi01" horizontalCenter="3" verticalCenter="0"/>
+			</e:Group>
+			<e:Image id="image_select_3" width="133" height="133" source="hb_jiNengXuanZhong" scaleX="1" scaleY="1" horizontalCenter="-2" top="8"/>
+			<e:Image id="name_bg_3" height="34" bottom="0" source="fb_faBaoTextDi01" scale9Grid="11,4,72,26" left="0" right="0"/>
+			<e:Label id="name_3" text="金刚盔" verticalAlign="middle" textAlign="center" textColor="0xFCE307" width="220" bottom="15" horizontalCenter="0" style="ht_22_lc_stroke"/>
+			<e:Image source="ty_textDi01" scaleX="1" scaleY="1" scale9Grid="2,2,16,16" right="16" bottom="30" width="33" id="level_bg_3"/>
+			<e:Label id="label_level_3" text="100" anchorOffsetX="0" width="30" anchorOffsetY="0" height="21.33" style="ht_16_lc" bottom="27" right="17" textAlign="center"/>
+		</e:Group>
+		<e:Group height="130" top="188" right="65" width="128">
+			<e:Group width="128" height="128" id="fabao_4" horizontalCenter="0" top="0">
+			<e:Image id="image_di_4" source="ty_faBaoDi01" horizontalCenter="3" verticalCenter="0"/>
+				<e:Image id="image_sprite_4" source="ty_faBaoDi01" horizontalCenter="3" verticalCenter="0"/>
+			</e:Group>
+			<e:Image id="image_select_4" width="133" height="133" source="hb_jiNengXuanZhong" scaleX="1" scaleY="1" horizontalCenter="-2" top="8"/>
+			<e:Image id="name_bg_4" height="34" bottom="0" source="fb_faBaoTextDi01" scale9Grid="11,4,72,26" left="0" right="0"/>
+			<e:Label id="name_4" text="金刚盔" verticalAlign="middle" textAlign="center" textColor="0xFCE307" width="220" bottom="15" horizontalCenter="0" style="ht_22_lc_stroke"/>
+			<e:Image source="ty_textDi01" scaleX="1" scaleY="1" scale9Grid="2,2,16,16" right="16" bottom="30" width="33" id="level_bg_4"/>
+			<e:Label id="label_level_4" text="100" anchorOffsetX="0" width="30" anchorOffsetY="0" height="21.33" style="ht_16_lc" bottom="27" right="16" textAlign="center"/>
+		</e:Group>
+		<e:Group id="shengji" width="461.91" height="303.43" anchorOffsetX="0" anchorOffsetY="0" top="427" horizontalCenter="0" visible="false">
+			<e:Group width="220" height="200" scaleX="1" scaleY="1" left="0" top="0">
+			<e:Image source="fb_faBaoDi02" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" top="0" left="0" right="0" bottom="0" scale9Grid="9,11,11,182"/>
+			<e:Image width="105" height="29" source="sz_text01" top="0" y="0" scaleX="1" scaleY="1" horizontalCenter="0"/>
+			<e:Image width="140" height="16" source="cz_uiLine01" scale9Grid="15,8,18,1" scaleX="1" scaleY="1" horizontalCenter="0" top="22"/>
+			</e:Group>
+			<e:Group width="220" height="200" scaleX="1" scaleY="1" top="0" y="10" right="0">
+			<e:Image source="fb_faBaoDi02" scale9Grid="9,11,11,182" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" top="0" left="0" right="0" bottom="0"/>
+			<e:Image width="140" height="16" source="cz_uiLine01" scale9Grid="15,8,18,1" scaleX="1" scaleY="1" horizontalCenter="0" top="22"/>
+			<e:Image source="fb_faBaoText01" top="0" horizontalCenter="0"/>
+			</e:Group>
+			<e:Scroller id="scroll" scaleX="1" scaleY="1" width="442.91" height="156" top="40" horizontalCenter="0">
+				<e:Group id="group_scroll">
+					<gui:RichDisplayer id="rd_effect_1" width="200" height="218.12" x="0" y="0" anchorOffsetY="0">
+					</gui:RichDisplayer>
+					<gui:RichDisplayer id="rd_effect_2" width="199" height="214.61" y="0" x="242.91000000000003" anchorOffsetY="0" anchorOffsetX="0"/>
+					<e:layout>
+						<e:TileLayout horizontalGap="42"/>
+					</e:layout>
+				</e:Group>
+			</e:Scroller>
+			<e:Group id="des_scroll" anchorOffsetY="0" height="156" top="41" width="442.91" horizontalCenter="0.044999999999987494" visible="false">
+			</e:Group>
+			<e:Image width="40" height="36" source="xl_jianTou01" horizontalCenter="0" x="211" y="81" scaleX="1" scaleY="1"/>
+			<gui:RichDisplayer id="rd_had" width="200" height="60" anchorOffsetY="0" left="117" bottom="23"/>
+			<e:CheckBox id="cBox_upgrade" label="" bottom="62" right="131.91">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:CheckBox>
+			<e:Label id="uotoby" text="${AUTO_BUY}" bottom="72" textAlign="left" verticalAlign="middle" style="ht_20_lc" left="336" width="158.91" textColor="0xeff8ff"/>
+			<gui:Button id="btn_up" label="${ROLE_TXT23}" right="38.91" bottom="6">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+		</e:Group>
+		<e:Group id="fabao" width="440" height="288" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="436" visible="false">
+			<e:Label id="label_fabao_des" text="${FABAO_TXT1}" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1" width="620" horizontalCenter="0" textColor="0xffffff" style="ht_22_lc_stroke" top="-92"/>
+		</e:Group>
+		<e:Group id="group_bImage" width="200" height="30" y="67" anchorOffsetY="0" horizontalCenter="0">
+			<gui:BatchImage id="bImage" width="159" height="30" scaleX="1" scaleY="1" y="0" x="21"/>
+		</e:Group>
+		<e:Group id="no_count_fabao" width="432" height="269.33" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="435">
+			<e:Label id="text_1" text="${FABAO_NO_COUNT_TXT1}" x="50" y="84" style="ht_22_lc_stroke" textColor="0xffa500"/>
+			<e:Label id="text_2" text="${FABAO_NO_COUNT_TXT2}" x="91" y="117" style="ht_22_lc_stroke" textColor="0xFFA500"/>
+			<e:Label id="text_3" text="${FABAO_NO_COUNT_TXT3}" x="131" y="148" style="ht_22_lc_stroke" textColor="0x00ff00"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="group_dazao" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image width="565" height="736" horizontalCenter="0" top="60" source="fb_ztUIDi01" x="38" y="60" scaleX="1" scaleY="1"/>
+		<e:Group id="dazao_putong" height="265" anchorOffsetY="0" anchorOffsetX="0" top="77" right="290" width="230">
+			<e:Image left="0" right="0" top="0" bottom="0" scale9Grid="6,7,40,47" source="fb_daZaoDi01"/>
+			<e:Image width="29" height="94" left="11" top="20" source="fb_faBaoText02"/>
+			<e:Group height="96" right="9" anchorOffsetX="0" width="170" top="0">
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+				</e:layout>
+				<e:Group id="group_mat_1" width="80" height="96" x="6" y="7">
+					<e:Label id="mat_name_1" text="Label" verticalAlign="middle" textAlign="center" left="0" right="0" bottom="0" style="ht_16_lc_stroke"/>
+				</e:Group>
+				<e:Group width="80" height="96" x="26" y="27" id="group_mat_2">
+					<e:Label text="Label" verticalAlign="middle" textAlign="center" left="0" right="0" bottom="0" id="mat_name_2" style="ht_16_lc_stroke"/>
+				</e:Group>
+			</e:Group>
+			<gui:Button id="btn_putong" label="" top="120" right="24">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="fb_faBaoBT01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<e:Label id="label_laiyuan" text="${FABAO_DAZAO_TXT4}" height="20" style="ht_20_lc" bottom="15" right="123" width="231" verticalAlign="middle" textAlign="right" textColor="0x00ff00"/>
+			<gui:RichDisplayer id="rd_mat_1" height="20" bottom="13" right="74" width="40">
+				<e:Rect width="40" height="2" horizontalCenter="0" bottom="0" fillColor="0x00ff00" strokeColor="0x00ff00"/>
+			</gui:RichDisplayer>
+			<gui:RichDisplayer id="rd_mat_2" width="40" height="20" right="21" bottom="13">
+				<e:Rect width="40" height="2" horizontalCenter="0" bottom="0" fillColor="0x00ff00" strokeColor="0x00ff00"/>
+			</gui:RichDisplayer>
+		</e:Group>
+		<e:Group id="dazao_wanmei" width="230" height="265" anchorOffsetY="0" anchorOffsetX="0" top="77" right="59">
+			<e:Image left="0" right="0" top="0" bottom="0" scale9Grid="6,7,40,47" x="-328" y="-92" scaleX="1" scaleY="1" source="fb_daZaoDi02"/>
+			<e:Image width="29" height="94" left="11" top="20" source="fb_faBaoText03"/>
+			<e:Group height="100" width="170" top="0" right="9">
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+				</e:layout>
+				<e:Group width="80" height="96" x="-25" y="27" id="group_mat_3" scaleX="1" scaleY="1">
+					<e:Label text="Label" verticalAlign="middle" textAlign="center" left="0" right="0" bottom="0" id="mat_name_3" style="ht_16_lc_stroke"/>
+				</e:Group>
+			</e:Group>
+			<gui:Button id="btn_wanmei" label="" top="120" right="24">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="fb_faBaoBT02"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<e:CheckBox id="cBox_dazao" label="" top="94" left="78">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:CheckBox>
+			<e:Label id="label_auto" text="${AUTO_BUY}" style="ht_20_lc" top="108" left="121" textColor="0xFFFFFF"/>
+			<gui:RichDisplayer id="rd_twice" height="20" right="0" bottom="13" width="188"/>
+		</e:Group>
+		<gui:RichDisplayer id="rd_dazao_des" height="20" left="0" right="0" top="347"/>
+		<e:Group id="dazao" width="440" height="288" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="436" x="100" y="436" scaleX="1" scaleY="1"/>
+		<e:Image width="149" height="26" horizontalCenter="0" top="371" source="fb_faBaoText04"/>
+		<e:Group id="no_count_dazao" width="432" height="269.33" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="435">
+			<e:Label id="text_0" text="${FABAO_NO_COUNT_TXT1}" x="50" y="84" style="ht_22_lc_stroke" textColor="0xFFA500"/>
+			<e:Label id="text_4" text="${FABAO_NO_COUNT_TXT2}" x="91" y="117" style="ht_22_lc_stroke" textColor="0xFFA500"/>
+			<e:Label id="text_5" text="${FABAO_NO_COUNT_TXT3}" x="131" y="148" style="ht_22_lc_stroke" textColor="0x00FF00"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="group_fenjie" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image scale9Grid="25,25,2,3" horizontalCenter="0" top="53" source="ty_textDi02" width="572" height="50"/>
+		<e:Label id="fenjie_label" text="${FABAO_FENJIE_TXT1}" height="20" textAlign="left" width="370" style="ht_20_lc" top="68" left="53" textColor="0xffffff"/>
+		<e:Group id="fenjie_scroll" width="578" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="107" height="540">
+			<e:Image source="ty_uiDi02" scale9Grid="5,5,32,31" anchorOffsetY="0" scaleX="1" scaleY="1" top="0" bottom="0" left="0" right="0"/>
+		</e:Group>
+		<e:Group width="584" height="46" anchorOffsetY="0" anchorOffsetX="0" top="650" horizontalCenter="0">
+			<e:Group width="80" height="46" top="569" left="64" anchorOffsetX="0" x="4" y="0" scaleX="1" scaleY="1">
+			<e:CheckBox id="cBox_fenjie_6" label="" left="0" top="-5">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:CheckBox>
+			<e:Label id="fenjie_label_6" text="${FABAO_QUALITY_TXT6}" left="41" verticalCenter="0" width="36" style="ht_16_lc" height="16" textColor="0xed0b0b"/>
+			</e:Group>
+			<e:Group width="80" height="46" top="569" left="64" anchorOffsetX="0" x="14" y="10" scaleX="1" scaleY="1">
+			<e:CheckBox id="cBox_fenjie_5" label="" left="0" top="-5">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:CheckBox>
+			<e:Label id="fenjie_label_5" text="${FABAO_QUALITY_TXT5}" left="41" verticalCenter="0" width="36" style="ht_16_lc" height="16" textColor="0xed752a"/>
+			</e:Group>
+			<e:Group width="80" height="46" top="569" left="64" anchorOffsetX="0" x="24" y="20" scaleX="1" scaleY="1">
+			<e:CheckBox id="cBox_fenjie_4" label="" top="-5" left="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:CheckBox>
+			<e:Label id="fenjie_label_4" text="${FABAO_QUALITY_TXT4}" left="41" verticalCenter="0" width="36" style="ht_16_lc" height="16" textColor="0xf70ca8"/>
+			</e:Group>
+			<e:Group width="80" height="46" top="569" left="64" anchorOffsetX="0" x="34" y="30" scaleX="1" scaleY="1">
+			<e:CheckBox id="cBox_fenjie_3" label="" left="0" top="-5">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:CheckBox>
+			<e:Label id="fenjie_label_3" text="${FABAO_QUALITY_TXT3}" left="41" verticalCenter="0" width="36" style="ht_16_lc" height="16" textColor="0x093ef2"/>
+			</e:Group>
+			<e:Group width="80" height="46" top="569" left="64" anchorOffsetX="0" x="44" y="40" scaleX="1" scaleY="1">
+			<e:CheckBox id="cBox_fenjie_2" label="" top="-5" left="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:CheckBox>
+			<e:Label id="fenjie_label_2" text="${FABAO_QUALITY_TXT2}" left="41" verticalCenter="0" width="36" style="ht_16_lc" height="16" textColor="0x006400"/>
+			</e:Group>
+			<e:Group width="80" height="46" top="569" left="64" anchorOffsetX="0" x="54" y="50" scaleX="1" scaleY="1">
+			<e:CheckBox id="cBox_fenjie_1" label="" top="-5" left="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:CheckBox>
+			<e:Label id="fenjie_label_1" text="${FABAO_QUALITY_TXT1}" left="41" verticalCenter="0" width="36" style="ht_16_lc" height="16" textColor="0x281d1d"/>
+			</e:Group>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="6"/>
+			</e:layout>
+		</e:Group>
+		<gui:Button id="btn_fenjie" label="${FABAO_TITLE_TXT4}" bottom="127" left="454">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Label id="label_fenjie_1" text="${FABAO_FENJIE_TXT2}" textColor="0x0e55ef" width="288" top="702" left="31" style="ht_20_lc"/>
+		<e:Label id="label_fenjie_2" text="${FABAO_FENJIE_TXT3}" style="ht_20_lc" width="234" textAlign="left" verticalAlign="middle" left="38" bottom="140" textColor="0x140b0b"/>
+		<e:Group width="224.43" height="41" left="208" bottom="130" anchorOffsetX="0" x="212" y="729" scaleX="1" scaleY="1">
+			<e:Image top="0" bottom="0" source="ty_uiDi02" scale9Grid="5,5,32,31" anchorOffsetX="0" height="41" left="0" right="0"/>
+			<e:Label id="label_count" text="12" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="0" width="78" height="20" style="ht_20_lc" textColor="0x110d0d"/>
+		</e:Group>
+	</e:Group>
+	<gui:Button id="btn_quality" label="" top="91" left="39" width="88" visible="false">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="cw_Bt01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Group id="group_bottom" width="603.04" height="85.39" anchorOffsetY="0" anchorOffsetX="0" bottom="18" horizontalCenter="-0.5">
+		<e:Image source="ty_uiDi02" scale9Grid="6,5,31,31" scaleX="1" scaleY="1" top="0" bottom="0" anchorOffsetY="0" left="0" right="0"/>
+		<e:Group id="group" width="503.76" height="60.61" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0.46999999999999886" x="3">
+		<e:RadioButton id="fabao1" label="${FABAO_TITLE_TXT1}" horizontalCenter="-263.67" bottom="66.33000000000001" x="-498" y="0" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="tab_2" label="${FABAO_TITLE_TXT2}" horizontalCenter="-171.67000000000002" bottom="72.33000000000001" x="-375" y="0" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="tab_3" label="${FABAO_TITLE_TXT3}" x="-123" y="0" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="tab_4" label="${FABAO_TITLE_TXT4}" x="-113" y="10" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+		</e:Group>
+	</e:Group>
+	<gui:Button id="btn_close_top" label="" right="0" top="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close" label="" scaleX="1" scaleY="1" bottom="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_tips" label="" left="0" top="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_guiZhe"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

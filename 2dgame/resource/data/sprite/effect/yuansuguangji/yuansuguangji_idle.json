@@ -1,0 +1,9 @@
+{"file":"yuansuguangji_idle.png","frames":{
+"idle_0_body_00":{"x":0,"y":1147,"w":640,"h":375,"offX":0,"offY":254,"sourceW":640,"sourceH":640},
+"idle_0_body_01":{"x":548,"y":589,"w":640,"h":371,"offX":0,"offY":258,"sourceW":640,"sourceH":640},
+"idle_0_body_02":{"x":1136,"y":0,"w":628,"h":337,"offX":0,"offY":271,"sourceW":640,"sourceH":640},
+"idle_0_body_03":{"x":0,"y":0,"w":588,"h":570,"offX":52,"offY":3,"sourceW":640,"sourceH":640},
+"idle_0_body_04":{"x":0,"y":572,"w":546,"h":573,"offX":37,"offY":3,"sourceW":640,"sourceH":640},
+"idle_0_body_05":{"x":590,"y":0,"w":544,"h":587,"offX":44,"offY":3,"sourceW":640,"sourceH":640},
+"idle_0_body_06":{"x":1190,"y":339,"w":362,"h":527,"offX":140,"offY":3,"sourceW":640,"sourceH":640},
+"idle_0_body_07":{"x":1766,"y":0,"w":279,"h":483,"offX":196,"offY":3,"sourceW":640,"sourceH":640}}}

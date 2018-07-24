@@ -1,0 +1,34 @@
+{
+  "anims":[
+    {
+      "dirs":[
+        0
+      ],
+      "frameCount":9,
+      "interval":100,
+      "name":"3"
+    },
+    {
+      "dirs":[
+        0
+      ],
+      "frameCount":9,
+      "interval":100,
+      "name":"7"
+    }
+  ],
+  "bodyparts":[
+    {
+      "name":"body",
+      "offx":320,
+      "offy":320,
+      "order":0,
+      "shows":[]
+    }
+  ],
+  "name":"guang04",
+  "textures":[
+    "guang04_3.png",
+    "guang04_7.png"
+  ]
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityRemindLayout" width="160" height="58" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*">
+	<w:Config id="161c1d1ca3e"/>
+	<e:Image source="boss_tiXingDi01" scale9Grid="48,21,1,1" left="0" right="0" top="0" bottom="0"/>
+	<gui:RichDisplayer id="tips_rd" width="145" height="29" x="8" y="8"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

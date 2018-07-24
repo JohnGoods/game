@@ -1,0 +1,7 @@
+{"file":"loading.png","frames":{
+"loading_01":{"x":0,"y":257,"w":108,"h":123,"offX":23,"offY":21,"sourceW":146,"sourceH":148},
+"loading_02":{"x":0,"y":0,"w":110,"h":128,"offX":21,"offY":18,"sourceW":146,"sourceH":148},
+"loading_03":{"x":112,"y":0,"w":109,"h":128,"offX":22,"offY":16,"sourceW":146,"sourceH":148},
+"loading_04":{"x":0,"y":382,"w":108,"h":122,"offX":23,"offY":21,"sourceW":146,"sourceH":148},
+"loading_05":{"x":0,"y":130,"w":110,"h":125,"offX":21,"offY":18,"sourceW":146,"sourceH":148},
+"loading_06":{"x":112,"y":130,"w":109,"h":126,"offX":22,"offY":16,"sourceW":146,"sourceH":148}}}

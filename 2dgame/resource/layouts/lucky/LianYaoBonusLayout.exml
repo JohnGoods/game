@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LianYaoBonusLayout" width="390" height="320" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+	</w:Declarations>
+	<e:Group width="390" height="320" horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" scaleX="1" scaleY="1" height="320" width="390" verticalCenter="0" source="ty_tipsDi" scale9Grid="9,8,21,22"/>
+		<e:Label id="title" text="奖励说明" width="300" textAlign="center" verticalAlign="middle" height="36" style="ht_title_font" y="5" scaleX="1" scaleY="1" horizontalCenter="0" textColor="0xffffff" x="45.00000000000001"/>
+		<e:Image width="350" height="16" y="41" source="cz_uiLine01" scale9Grid="13,8,20,1" horizontalCenter="0"/>
+		<e:Label text="炼妖壶概率说明" x="30" y="60" textColor="0x91ff02" style="ht_20_lc"/>
+		<gui:RichDisplayer id="rd" width="330" height="200" x="30" y="85"/>
+		<gui:Button id="btn_close" label="" width="640" height="900" horizontalCenter="0" verticalCenter="-2" x="-125" y="-292" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

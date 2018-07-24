@@ -1,0 +1,7 @@
+功能名称,功能简介,最小任务ID,最大任务ID,图片,,
+name_c,introduce_c,mintask_n,maxtask_n,image_s,func_s,param_t
+#亲吻潘神,亲吻潘神就可以变成人形了哦1025 1060,1009,1019,xsyd_tiShi01,openui,"""GoddessKissFrame"", "
+#蜕变,蜕变,2005,2060,xsyd_tiShi02,addtips,"""通关第3章第12关，罗杰斯即可蜕变！"", "
+#升阶,升阶,1020,1060,xsyd_tiShi03,addtips,"""通关第1章第12关，罗杰斯即可升阶！"", "
+#守护,守护,1065,1120,xsyd_tiShi04,addtips,"""通关第2章第12关，即可拥有守护！"", "
+二转,二转,2065,3030,xsyd_tiShi05,addtips,"""通关【海底逃生】15层后可进入圣地获取二转材料哦！"", "

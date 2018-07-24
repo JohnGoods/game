@@ -1,0 +1,16 @@
+奖励索引,说明,奖励条件,奖励内容,是否发送邮件
+index_kn,readme_s,condition_t,prize_t,isMail
+1,输入好友邀请码（最多3个）可获得,active=1,"{""item"",40023,5}",0
+2,输入好友邀请码，好友达成首次充值可获得,"vip={1,1}","{""item"",40023,5}",0
+3,5名被邀请的好友达到10级,"inviteCountAndLevel={5,10}","{""item"",40023,10}",0
+4,10名被邀请的好友达到10级,"inviteCountAndLevel={10,10}","{""item"",40023,15}",0
+5,5名被邀请的好友达到20级,"inviteCountAndLevel={5,20}","{""item"",70008,4},",0
+6,10名被邀请的好友达到20级,"inviteCountAndLevel={10,20}","{""item"",70008,5},",0
+7,5名名被邀请的好友达到30级,"inviteCountAndLevel={5,30}","{""item"",40023,30}",0
+8,10名被邀请的好友达到30级,"inviteCountAndLevel={10,30}","{""item"",40023,40}",0
+9,5名被邀请的好友达到40级,"inviteCountAndLevel={5,40}","{""item"",20059,16},",0
+10,10名被邀请的好友达到40级,"inviteCountAndLevel={10,40}","{""item"",20059,20},",0
+11,5名被邀请的好友达到50级,"inviteCountAndLevel={5,50}","{""item"",20055,8},",0
+12,10名被邀请的好友达到50级,"inviteCountAndLevel={10,50}","{""item"",20055,12},",0
+13,5名被邀请的好友达到60级,"inviteCountAndLevel={5,60}","{""item"",40014,20},",0
+14,10名被邀请的好友达到60级,"inviteCountAndLevel={10,60}","{""item"",40014,25},",0

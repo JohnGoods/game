@@ -1,0 +1,7 @@
+{"file":"guang01_idle.png","frames":{
+"idle_0_body_00":{"x":289,"y":328,"w":119,"h":119,"offX":100,"offY":99,"sourceW":320,"sourceH":320},
+"idle_0_body_01":{"x":0,"y":328,"w":147,"h":150,"offX":86,"offY":85,"sourceW":320,"sourceH":320},
+"idle_0_body_02":{"x":0,"y":166,"w":162,"h":160,"offX":77,"offY":85,"sourceW":320,"sourceH":320},
+"idle_0_body_03":{"x":0,"y":0,"w":162,"h":164,"offX":77,"offY":82,"sourceW":320,"sourceH":320},
+"idle_0_body_04":{"x":149,"y":328,"w":138,"h":138,"offX":98,"offY":102,"sourceW":320,"sourceH":320},
+"idle_0_body_05":{"x":289,"y":449,"w":100,"h":45,"offX":107,"offY":132,"sourceW":320,"sourceH":320}}}

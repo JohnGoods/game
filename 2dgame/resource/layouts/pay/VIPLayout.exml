@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VIPLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image scaleX="1" scaleY="1" top="0" bottom="0" left="0" right="0" source="ty_uiDi01" scale9Grid="119,133,23,56"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="title" text="${VIP_TXT1}" verticalAlign="middle" textAlign="center" horizontalCenter="0" top="0" width="640" height="36" style="ht_title_font"/>
+	<e:Group width="547" height="80" top="35" horizontalCenter="0.5">
+		<e:Image id="cur_vip_icon" top="0" left="-10" width="123" x="-11.000000000000007" y="-15" scaleX="1" scaleY="1" source="cz_vip00"/>
+		<e:Image horizontalCenter="0" top="27" source="cz_jianTou"/>
+		<e:Image id="next_vip_icon" right="10" top="0" width="123" source="cz_vip01"/>
+		<e:ProgressBar id="exp_imb" width="547" height="30" value="100" horizontalCenter="0" bottom="0">
+			<e:skinName>
+			<e:Skin minWidth="30" minHeight="18">
+				<e:Image scale9Grid="1,1,4,4" width="100%" height="100%" verticalCenter="0" source="hb_loadingDi01"/>
+				<e:Image id="thumb" height="100%" width="100%" source="hb_loading01"/>
+				<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle" size="15" fontFamily="Tahoma" horizontalCenter="0" verticalCenter="0" textColor="0xffffff" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ProgressBar>
+	</e:Group>
+	<gui:Button id="btn_charge" label="" top="124" right="48" height="51">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="cz_Bt02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:RichDisplayer id="tips_rd" width="300" anchorOffsetY="0" left="50" top="136" height="30"/>
+	<e:Group width="570" height="330" horizontalCenter="0" top="185">
+		<e:Image source="ty_uiDi02" left="0" top="0" right="0" bottom="0" scale9Grid="20,20,5,4"/>
+		<e:Group width="184" height="52" horizontalCenter="0" top="0">
+			<e:Image id="cur_vip_pic" width="123" scaleX="1" scaleY="1" verticalCenter="0" left="0" source="cz_vip00"/>
+			<e:Image scaleX="1" scaleY="1" right="0" bottom="2" source="cz_text03"/>
+		</e:Group>
+		<gui:Button id="btn_left" label="" verticalCenter="0" left="-10">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_jianTou01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_right" label="" right="-10" width="45" verticalCenter="0">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_jianTou02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Image scale9Grid="13,8,21,1" width="320" horizontalCenter="0" top="45" source="cz_uiLine01"/>
+		<e:Scroller height="230" y="80" width="450" x="60">
+			<gui:RichDisplayer id="content_rd"/>
+		</e:Scroller>
+	</e:Group>
+	<e:Group width="576" height="375" horizontalCenter="0" bottom="0">
+		<e:Image height="375" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0" source="cz_ztBg02"/>
+		<e:Image id="power_icon" horizontalCenter="0" top="60" source="cz_VIPLiBao01"/>
+		<e:Image left="50" source="cz_text04" bottom="110"/>
+		<e:Group id="group_prize" width="440" height="102" anchorOffsetY="0" anchorOffsetX="0" left="78" bottom="106">
+			<e:layout>
+				<e:HorizontalLayout gap="10" horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Image id="get_icon" source="01_zhuCheng03.bh_text02" y="300" x="228"/>
+		<gui:Button id="btn_get" label="${PAY_TXT7}" horizontalCenter="0" bottom="20">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<gui:Button id="btn_close_top" label="" right="0" top="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close" label="" scaleX="1" scaleY="1" right="-3.96" bottom="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

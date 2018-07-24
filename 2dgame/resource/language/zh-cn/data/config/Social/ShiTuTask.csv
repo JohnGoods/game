@@ -1,0 +1,11 @@
+任务索引,任务名,次数上限,完成条件,师傅任务奖励
+ID_kn,name_s,maxCount,condition_t,prize_t
+100,每日登陆,1,"""PlayerLogin"",1","{""prestige"",10}"
+101,装备熔炼,10,"""RoleEqRonglian"",1","{""prestige"",10}"
+102,经验妖魔,5,"""ActZongKuiFight"",1","{""prestige"",10}"
+103,组队副本,5,"""ActTeamCopyFight"",1","{""prestige"",10}"
+104,个人BOSS,5,"""ActPersonBossFight"",1","{""prestige"",10}"
+105,全民BOSS,3,"""ActAllpersonBossFight"",1","{""prestige"",10}"
+106,武林擂台,5,"""ActWulinleitaiFight"",1","{""prestige"",10}"
+107,材料副本,5,"""ActMaterialFightWin"",1","{""prestige"",10}"
+108,押镖,1,"""ActActivityEscort"",1","{""prestige"",10}"

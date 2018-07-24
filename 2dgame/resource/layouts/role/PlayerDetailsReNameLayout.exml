@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayerDetailsReNameLayout" width="500" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Group width="500" height="300" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="0">
+		<e:Image source="ty_uiDi01" left="0" right="0" top="0" bottom="0" scale9Grid="126,126,22,62"/>
+		<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+		<e:Label id="label_wndName" text="${RENAME_TXT2}" horizontalCenter="0" top="0" style="ht_title_font" width="500" height="36"/>
+		<e:Image source="ty_uiDi02" scale9Grid="5,5,32,31" anchorOffsetX="0" width="404.67" anchorOffsetY="0" height="173" horizontalCenter="0.5" top="65"/>
+		<e:Group width="286.67" height="50" anchorOffsetY="0" anchorOffsetX="0" top="75" horizontalCenter="0">
+			<e:Label id="label_rename" text="${RENAME_TXT2}" verticalCenter="0" style="ht_24_lc" textColor="0x680c0c" anchorOffsetX="0" width="73" left="0" height="24"/>
+			<e:Group width="189" height="47" verticalCenter="0" left="72">
+			<e:Image source="ty_shuRuDi01" scale9Grid="15,5,94,37" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+				<e:EditableText id="input_name" width="164" height="36" text="" anchorOffsetX="0" anchorOffsetY="0" size="24" verticalAlign="middle" textAlign="left" verticalCenter="0" horizontalCenter="0" alpha="1"/>
+			</e:Group>
+		</e:Group>
+		<gui:RichDisplayer id="rd_cost" width="315.33" height="30" anchorOffsetY="0" anchorOffsetX="0" left="94" bottom="71"/>
+		<gui:Button id="btn_close" xmlns:gui="gui.*" label="" right="0" top="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_sure" label="${RENAME_TXT4}" left="87" bottom="109">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke" text=""/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_cancel" label="${RENAME_TXT5}" right="86" bottom="108">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+</e:Skin>

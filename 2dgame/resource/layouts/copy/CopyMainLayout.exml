@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CopyMainLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*">
+	<w:Config id="161c1d1ca3e"/>
+	<e:Image scale9Grid="140,178,2,4" source="ty_uiDi01" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="label_wndName" text="" width="640" height="36" textAlign="center" verticalAlign="middle" style="ht_title_font" top="0" horizontalCenter="0"/>
+
+	<e:Group id="bottom_group_root" height="87" left="22" right="22" bottom="20">
+		<e:Image left="0" right="0" bottom="0" top="0" scale9Grid="22,22,1,1" source="ty_uiDi02"/>
+		<e:Group id="bottom_group" height="51" bottom="15" left="15" width="498">
+			<e:RadioButton id="cailiao_check" label="${COPY_TXT1}" x="0" y="0" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="dohailonggong" label="${COPY_TXT2}" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="xiaoleiyinsi" label="${COPY_TXT3}" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="tiantingshilian" label="${COPY_TXT4}" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ty_tongYongBt4" source.down="ty_tongYongBt3"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:layout>
+			<e:HorizontalLayout gap="10" paddingLeft="0" horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="cailiao_group" anchorOffsetX="0" anchorOffsetY="0" top="41" bottom="116" left="20" right="23" visible="false">
+		<gui:Grid9Image source="ty_uiDi02" scale9Grid="19,19,5,3" anchorOffsetX="0" anchorOffsetY="0" top="15" right="12" left="14" bottom="5"/>
+
+		<e:Scroller id="cailiao_scroll_group" top="15" bottom="5" left="14" right="12" bounces="false">
+			<e:List id="cailiao_scroll_list"/>
+		</e:Scroller>
+		<gui:Button id="cailiao_shop" label="" x="-50" y="-40">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fb_Bt01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<e:Group id="longwang_group" width="597" height="743" x="30" y="51" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+
+
+
+
+
+
+		<gui:Button id="quanmin_chall_add" label="" x="241" y="2">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_jiaIcon01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Image width="603" height="562" x="-29" y="-52" scale9Grid="28,23,4,2" source="fb_ztBg01"/>
+		<gui:Button id="longwang_pre" label="" x="-12" y="201">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_jianTou03"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="longwang_next" label="" x="559" y="201">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_jianTou04"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Group id="longwang_pirze_group" width="556" height="100" x="14" y="405" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image left="0" right="0" top="0" bottom="0" scale9Grid="10,12,1,1" source="zjm_shuRuDi01"/>
+			<e:Label text="首通奖励" x="15" y="23" style="ht_24_lc_stroke" width="49" textColor="0xffa500"/>
+			<e:Label text="通关奖励" x="255" y="23" style="ht_24_lc_stroke" width="49" textColor="0xfdf5e6"/>
+		</e:Group>
+		<e:Label id="longwang_cur" text="第25关" x="24" y="374" style="ht_22_lc_stroke"/>
+		<e:Group id="longwang_copy1" width="95" height="95" x="237" y="25">
+			<e:Image id="longwang_copy1_img" width="95" height="95" x="0" y="0" source="fb_lwbz_baoZang01" scaleX="1" scaleY="1"/>
+			<gui:Grid9Image id="longwang_copy1_check" width="133" height="133" x="-19" y="-20" source="hb_jiNengXuanZhong"/>
+			<e:Image id="longwang_copy1_starBg1" width="27" height="26" x="11" y="62" source="ty_starDi01"/>
+			<e:Image id="longwang_copy1_starBg2" width="27" height="26" x="35" y="62" source="ty_starDi01"/>
+			<e:Image id="longwang_copy1_starBg3" width="27" height="26" x="58" y="62" source="ty_starDi01"/>
+			<e:Image id="longwang_copy1_star1" width="27" height="26" x="11" y="62" source="ty_star01"/>
+			<e:Image id="longwang_copy1_star2" width="27" height="26" x="35" y="62" source="ty_star01"/>
+			<e:Image id="longwang_copy1_star3" width="27" height="26" x="58" y="62" source="ty_star01"/>
+			<e:Image id="longwang_copy1_gained" width="85" height="26" x="6" y="37" source="ty_text02"/>
+		</e:Group>
+		<e:Group id="longwang_copy2" width="95" height="95" x="352" y="54">
+			<e:Image id="longwang_copy2_img" width="95" height="95" x="0" y="0" source="fb_lwbz_baoZang01" scaleX="1" scaleY="1"/>
+			<gui:Grid9Image id="longwang_copy2_check" width="133" height="133" x="-19" y="-20" source="hb_jiNengXuanZhong"/>
+			<e:Image id="longwang_copy2_starBg1" width="27" height="26" x="11" y="62" source="ty_starDi01"/>
+			<e:Image id="longwang_copy2_starBg2" width="27" height="26" x="35" y="62" source="ty_starDi01"/>
+			<e:Image id="longwang_copy2_starBg3" width="27" height="26" x="58" y="62" source="ty_starDi01"/>
+			<e:Image id="longwang_copy2_star1" width="27" height="26" x="11" y="62" source="ty_star01"/>
+			<e:Image id="longwang_copy2_star2" width="27" height="26" x="35" y="62" source="ty_star01"/>
+			<e:Image id="longwang_copy2_star3" width="27" height="26" x="58" y="62" source="ty_star01"/>
+			<e:Image id="longwang_copy2_gained" width="85" height="26" x="6" y="37" source="ty_text02"/>
+		</e:Group>
+		<e:Group id="longwang_copy3" width="95" height="95" x="414" y="143">
+			<e:Image id="longwang_copy3_img" width="95" height="95" x="0" y="0" source="fb_lwbz_baoZang01" scaleX="1" scaleY="1"/>
+			<gui:Grid9Image id="longwang_copy3_check" width="133" height="133" x="-19" y="-20" source="hb_jiNengXuanZhong"/>
+			<e:Image id="longwang_copy3_starBg1" width="27" height="26" x="11" y="62" source="ty_starDi01"/>
+			<e:Image id="longwang_copy3_starBg2" width="27" height="26" x="35" y="62" source="ty_starDi01"/>
+			<e:Image id="longwang_copy3_starBg3" width="27" height="26" x="58" y="62" source="ty_starDi01"/>
+			<e:Image id="longwang_copy3_star1" width="27" height="26" x="11" y="62" source="ty_star01"/>
+			<e:Image id="longwang_copy3_star2" width="27" height="26" x="35" y="62" source="ty_star01"/>
+			<e:Image id="longwang_copy3_star3" width="27" height="26" x="58" y="62" source="ty_star01"/>
+			<e:Image id="longwang_copy3_gained" width="85" height="26" x="6" y="37" source="ty_text02"/>
+		</e:Group>
+		<e:Group id="longwang_copy4" width="95" height="95" x="354" y="237">
+			<e:Image id="longwang_copy4_img" width="95" height="95" x="0" y="0" source="fb_lwbz_baoZang01" scaleX="1" scaleY="1"/>
+			<gui:Grid9Image id="longwang_copy4_check" width="133" height="133" x="-19" y="-20" source="hb_jiNengXuanZhong"/>
+			<e:Image id="longwang_copy4_starBg1" width="27" height="26" x="11" y="62" source="ty_starDi01"/>
+			<e:Image id="longwang_copy4_starBg2" width="27" height="26" x="35" y="62" source="ty_starDi01"/>
+			<e:Image id="longwang_copy4_starBg3" width="27" height="26" x="58" y="62" source="ty_starDi01"/>
+			<e:Image id="longwang_copy4_star1" width="27" height="26" x="11" y="62" source="ty_star01"/>
+			<e:Image id="longwang_copy4_star2" width="27" height="26" x="35" y="62" source="ty_star01"/>
+			<e:Image id="longwang_copy4_star3" width="27" height="26" x="58" y="62" source="ty_star01"/>
+			<e:Image id="longwang_copy4_gained" width="85" height="26" x="6" y="37" source="ty_text02"/>
+		</e:Group>
+		<e:Group id="longwang_copy5" width="95" height="95" x="249" y="281">
+			<e:Image id="longwang_copy5_img" width="95" height="95" x="0" y="0" source="fb_lwbz_baoZang01" scaleX="1" scaleY="1"/>
+			<gui:Grid9Image id="longwang_copy5_check" width="133" height="133" x="-19" y="-20" source="hb_jiNengXuanZhong"/>
+			<e:Image id="longwang_copy5_starBg1" width="27" height="26" x="11" y="62" source="ty_starDi01"/>
+			<e:Image id="longwang_copy5_starBg2" width="27" height="26" x="35" y="62" source="ty_starDi01"/>
+			<e:Image id="longwang_copy5_starBg3" width="27" height="26" x="58" y="62" source="ty_starDi01"/>
+			<e:Image id="longwang_copy5_star1" width="27" height="26" x="11" y="62" source="ty_star01"/>
+			<e:Image id="longwang_copy5_star2" width="27" height="26" x="35" y="62" source="ty_star01"/>
+			<e:Image id="longwang_copy5_star3" width="27" height="26" x="58" y="62" source="ty_star01"/>
+			<e:Image id="longwang_copy5_gained" width="85" height="26" x="6" y="37" source="ty_text02"/>
+		</e:Group>
+		<e:Group id="longwang_copy6" width="95" height="95" x="138" y="259">
+			<e:Image id="longwang_copy6_img" width="95" height="95" x="0" y="0" source="fb_lwbz_baoZang01" scaleX="1" scaleY="1"/>
+			<gui:Grid9Image id="longwang_copy6_check" width="133" height="133" x="-19" y="-20" source="hb_jiNengXuanZhong"/>
+			<e:Image id="longwang_copy6_starBg1" width="27" height="26" x="11" y="62" source="ty_starDi01"/>
+			<e:Image id="longwang_copy6_starBg2" width="27" height="26" x="35" y="62" source="ty_starDi01"/>
+			<e:Image id="longwang_copy6_starBg3" width="27" height="26" x="58" y="62" source="ty_starDi01"/>
+			<e:Image id="longwang_copy6_star1" width="27" height="26" x="11" y="62" source="ty_star01"/>
+			<e:Image id="longwang_copy6_star2" width="27" height="26" x="35" y="62" source="ty_star01"/>
+			<e:Image id="longwang_copy6_star3" width="27" height="26" x="58" y="62" source="ty_star01"/>
+			<e:Image id="longwang_copy6_gained" width="85" height="26" x="6" y="37" source="ty_text02"/>
+		</e:Group>
+		<e:Image width="187" height="41" x="382" y="3" source="fb_biaoTiDi02"/>
+		<e:Label id="longwang_copy_name" text="宝藏图1" x="388" y="10" width="174" verticalAlign="middle" textAlign="center" style="ht_24_lc_stroke"/>
+		<gui:RichDisplayer id="longwang_copy_starRd" width="91" height="29" x="472" y="48" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label id="longwang_copy_rank" text="Label" x="441" y="368" italic="true" textColor="0x00ff00" style="ht_28_lc_stroke" textAlign="right" width="116" visible="false"/>
+		<e:Label text="解锁宝图" x="27" y="527" textColor="0x45332b" anchorOffsetX="0" width="46" style="ht_22_lc"/>
+		<e:Group id="longwang_pro_group" width="481" height="38" x="85" y="531" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Group id="longwang_baotu_group1" width="73" height="59" x="86" y="521" anchorOffsetX="0" anchorOffsetY="0">
+			<gui:Button id="longwang_baotu_btn1" label="" x="0">
+				<gui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="fb_baoXiang01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<e:Image width="27" height="26" x="12" y="59" source="ty_star01"/>
+			<e:Label id="longwang_baotu_star1" text="8" x="37" y="62" textColor="0x45332b" style="ht_22_lc"/>
+			<e:Image id="longwang__baotu_gained1" width="85" height="26" x="-6" y="33" source="ty_text02"/>
+		</e:Group>
+		<e:Group id="longwang_baotu_group2" width="73" height="59" x="286" y="521" anchorOffsetX="0" anchorOffsetY="0">
+			<gui:Button id="longwang_baotu_btn2" label="" x="0">
+				<gui:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="fb_baoXiang01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<e:Image width="27" height="26" x="12" y="59" source="ty_star01"/>
+			<e:Label id="longwang_baotu_star2" text="8" x="37" y="62" textColor="0x45332B" style="ht_22_lc"/>
+			<e:Image id="longwang__baotu_gained2" width="85" height="26" x="-6" y="33" source="ty_text02"/>
+		</e:Group>
+		<e:Group id="longwang_baotu_group3" width="73" height="59" x="475" y="521" anchorOffsetX="0" anchorOffsetY="0">
+			<gui:Button id="longwang_baotu_btn3" label="" x="0">
+				<gui:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="fb_baoXiang01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+			<e:Image width="27" height="26" x="12" y="59" source="ty_star01"/>
+			<e:Label id="longwang_baotu_star3" text="8" x="37" y="62" textColor="0x45332B" style="ht_22_lc"/>
+			<e:Image id="longwang__baotu_gained3" width="85" height="26" x="-6" y="33" source="ty_text02"/>
+		</e:Group>
+
+		<e:CheckBox id="longwang_auto_check" label="" x="380" y="597">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:CheckBox>
+		<e:Label id="longwang_auto_tl" text="点击自动挖宝" x="420" y="613" textColor="0x45332b" style="ht_22_lc"/>
+		<e:Group id="video_group1" width="147" height="55" x="20" y="20">
+			<gui:Button id="longwang_video_btn" label="录像" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" visible="false">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt5"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_28_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<e:Image width="180" height="30" touchEnabled="false" horizontalCenter="0" y="-20" source="ty_textDi01" scale9Grid="5,4,9,9"/>
+			<e:Label id="longwang_power" text="123456" x="-6" y="-20" width="160" textAlign="center" verticalAlign="middle" height="30" textColor="0xafdd30" style="ht_20_lc_stroke"/>
+			<e:Label id="longwang_name" text="" x="-15" y="15" width="180" textAlign="center" verticalAlign="middle" height="30" textColor="0xFFFFFF" style="ht_20_lc_stroke" scaleX="1" scaleY="1" visible="false"/>
+		</e:Group>
+		<gui:Button id="longwang_onekey" label="一键挖宝" y="671" x="220">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt5"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_28_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="longwang_wabao" label="挖宝" y="671" x="400">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_28_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Image width="180" height="20" x="205" y="652" source="ty_textDi01" scale9Grid="6,4,6,12"/>
+		<e:Label text="三星通关可一键挖宝" x="220" y="654" textColor="0xadff30" style="ht_16_lc_stroke"/>
+		<e:Label id="longwang_rank" text="Label" x="435" y="374" textAlign="right" width="125" style="ht_22_lc_stroke"/>
+		<e:Group id="first_item_group" width="80" height="80" x="70" y="610">
+			<e:Image width="180" height="50" x="-50" y="70" source="ty_textDi01" scale9Grid="6,4,6,12" scaleX="1" scaleY="1"/>
+			<gui:RichDisplayer id="first_tip_rd" width="180" height="50" x="-50" y="68" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="leiyin_group" width="597" height="743" x="30" y="51" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<e:Image width="564" height="729" x="7" y="2" source="fb_ztBg02"/>
+
+
+		<e:Group id="leiyin_copy_group2" width="180" height="147" x="54" y="54" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="leiyin_copy_mon_group2" width="124" height="71" y="0" horizontalCenter="0"/>
+			<e:Image width="180" height="125" x="0" y="66" source="ty_shuRuDi01" scale9Grid="62,21,1,1"/>
+			<e:Label id="leiyin_copy_name2" text="Label" y="78" left="0" right="0" style="ht_22_lc_stroke" textAlign="center"/>
+			<e:Image width="79" height="29" y="-36" source="sjdt_text01" horizontalCenter="0" id="leiyin_copy_pass2"/>
+		</e:Group>
+		<e:Group id="leiyin_copy_group1" width="180" height="147" x="325" y="307" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="leiyin_copy_mon_group1" width="124" height="71" y="0" horizontalCenter="0"/>
+			<e:Image height="125" y="66" source="ty_shuRuDi01" scale9Grid="62,21,1,1" left="0" right="0"/>
+			<e:Label id="leiyin_copy_name1" text="Label" y="78" left="0" right="0" style="ht_22_lc_stroke" textAlign="center"/>
+			<e:Image width="79" height="29" y="-36" source="sjdt_text01" horizontalCenter="0" id="leiyin_copy_pass1"/>
+		</e:Group>
+		<e:Group id="leiyin_copy_group0" width="180" height="147" x="77" y="530" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="leiyin_copy_mon_group0" width="124" height="71" y="0" horizontalCenter="0"/>
+			<e:Image height="125" y="66" source="ty_shuRuDi01" scale9Grid="62,21,1,1" left="0" right="0"/>
+			<e:Label text="Label" y="78" left="0" right="0" style="ht_22_lc_stroke" textAlign="center" id="leiyin_copy_name0"/>
+			<e:Image id="leiyin_copy_pass0" width="79" height="29" y="-36" source="sjdt_text01" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="leiyin_rank_group" width="244" height="122" x="324" y="3" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image left="0" right="0" top="0" bottom="0" source="zjm_shuRuDi01" scale9Grid="9,8,1,1"/>
+			<e:Label text="关卡排名" x="8" y="4" style="ht_22_lc_stroke"/>
+			<e:Label id="leiyin_rank_tl0" text="查看排行" x="129" y="4" style="ht_22_lc_stroke" textAlign="right" anchorOffsetX="0" width="106" textColor="0x00ff00"/>
+			<gui:RichDisplayer id="leiyin_rank_rd" width="218" height="74" x="14" y="40" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+
+
+
+		<gui:Button id="leiyin_fight_btn" label="挑战" x="369" y="642">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="leiyin_shop" label="" x="-62" y="-50">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fb_Bt02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Group id="video_group2" width="147" height="55" x="369" y="147" scaleX="1" scaleY="1">
+			<gui:Button id="leiying_video_btn" label="录像" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" visible="false">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt5"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_28_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<e:Image width="180" height="30" touchEnabled="false" horizontalCenter="0" y="-20" source="ty_textDi01" scale9Grid="5,4,8,10"/>
+			<e:Label id="leiying_power" text="123456" x="-6" y="-20" width="160" textAlign="center" verticalAlign="middle" height="30" textColor="0xAFDD30" style="ht_20_lc_stroke"/>
+			<e:Label id="leiying_name" text="" x="-15" y="15" width="180" textAlign="center" verticalAlign="middle" height="30" textColor="0xFFFFFF" style="ht_20_lc_stroke" scaleX="1" scaleY="1" visible="false"/>
+		</e:Group>
+		<e:CheckBox id="leiyin_auto_check" label="" x="347" y="578">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:CheckBox>
+		<e:Label id="leiyin_auto_tl" text="点击自动挑战" x="393" y="591" textColor="0xffffff" style="ht_22_lc_stroke"/>
+
+
+
+	</e:Group>
+	<e:Group id="tianting_group" width="579" height="743" x="30" y="51" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<e:Image width="564" height="510" y="1" source="fb_ztBg03" horizontalCenter="0"/>
+		<e:Label id="tianting_all_pass" text="${COPY_TXT42}" y="457" left="0" right="0" textAlign="center" style="ht_28_lc_stroke"/>
+		<e:Group id="tianting_layer_group0" width="242" height="185" y="304" x="15">
+			<e:Image left="0" right="0" top="0" bottom="0" source="fb_guaiWuDi01"/>
+			<e:Group id="tianting_mon_group0" width="100" height="100" y="8" horizontalCenter="0"/>
+			<e:Image width="131" height="41" y="107" source="fb_biaoTiDi03" horizontalCenter="0"/>
+			<e:Label id="tianting_layer_name0" text="第5层" x="56" y="116" width="131" textColor="0x45332b" textAlign="center" style="ht_24_lc"/>
+			<e:Image id="tianting_layer_pass0" width="76" height="115" y="-12" source="fb_text01" horizontalCenter="0"/>
+			<e:Image id="tianting_layer_cur0" width="86" height="104" y="-80" source="fb_jianTou01" horizontalCenter="0"/>
+			<e:Group id="tianting_content_group0" width="145" height="91" x="94" y="-93" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Image id="tianting_centent_bg0" source="fb_duiHuaDi01" scale9Grid="64,36,3,7" width="145" height="91" y="0" x="0"/>
+				<gui:RichDisplayer id="tianting_centent_rd0" width="124" height="60" x="11" y="9" anchorOffsetX="0" anchorOffsetY="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="tianting_layer_group1" width="242" height="185" y="118" x="176">
+			<e:Image left="0" right="0" top="0" bottom="0" source="fb_guaiWuDi01"/>
+			<e:Group width="100" height="100" y="8" horizontalCenter="0" id="tianting_mon_group1"/>
+			<e:Image width="131" height="41" y="107" source="fb_biaoTiDi03" horizontalCenter="0"/>
+			<e:Label text="第5层" x="56" y="116" width="131" textColor="0x45332B" textAlign="center" style="ht_24_lc" id="tianting_layer_name1"/>
+			<e:Image width="76" height="115" y="-12" source="fb_text01" horizontalCenter="0" id="tianting_layer_pass1"/>
+			<e:Image width="86" height="104" y="-80" source="fb_jianTou01" horizontalCenter="0" id="tianting_layer_cur1"/>
+			<e:Group id="tianting_content_group1" width="145" height="91" x="94" y="-93" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Image id="tianting_centent_bg1" source="fb_duiHuaDi01" scale9Grid="68,29,2,2" width="145" x="0" height="91" y="0"/>
+				<gui:RichDisplayer id="tianting_centent_rd1" width="124" height="60" x="11" y="9" anchorOffsetX="0" anchorOffsetY="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="tianting_layer_group2" width="242" height="185" y="304" x="326">
+			<e:Image left="0" right="0" top="0" bottom="0" source="fb_guaiWuDi01"/>
+			<e:Group width="100" height="100" y="8" horizontalCenter="0" id="tianting_mon_group2"/>
+			<e:Image width="131" height="41" y="107" source="fb_biaoTiDi03" horizontalCenter="0"/>
+			<e:Label text="第5层" x="56" y="116" width="131" textColor="0x45332B" textAlign="center" style="ht_24_lc" id="tianting_layer_name2"/>
+			<e:Image width="76" height="115" y="-12" source="fb_text01" horizontalCenter="0" id="tianting_layer_pass2"/>
+			<e:Image width="86" height="104" y="-80" source="fb_jianTou01" horizontalCenter="0" id="tianting_layer_cur2"/>
+			<e:Group id="tianting_content_group2" width="145" height="91" x="94" y="-93" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Image id="tianting_centent_bg2" source="fb_duiHuaDi01" scale9Grid="63,31,4,6" width="145" x="0" height="91" y="0"/>
+				<gui:RichDisplayer id="tianting_centent_rd2" width="124" height="60" x="11" y="9" anchorOffsetX="0" anchorOffsetY="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="tianting_pro_group" width="491" height="30" y="531" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<gui:ProgressBar id="tianting_baotu_bam" left="0" right="0" top="0" bottom="0"/>
+		</e:Group>
+		<e:Group id="tianting_baotu_group0" width="73" height="59" x="87" y="521" anchorOffsetX="0" anchorOffsetY="0">
+			<gui:Button id="tianting_baotu_btn0" label="" x="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fb_baoXiang01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<e:Label id="tianting_baotu_layer0" text="3层" y="62" textColor="0x45332B" style="ht_20_lc" textAlign="center" left="0" right="0"/>
+			<e:Image id="tianting_baotu_gained0" width="85" height="26" x="-6" y="33" source="ty_text02"/>
+		</e:Group>
+		<e:Group id="tianting_baotu_group1" width="73" height="59" x="257" y="521" anchorOffsetX="0" anchorOffsetY="0">
+			<gui:Button id="tianting_baotu_btn1" label="" x="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fb_baoXiang01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<e:Label id="tianting_baotu_layer1" text="6层" y="62" textColor="0x45332B" style="ht_20_lc" textAlign="center" left="0" right="0"/>
+			<e:Image id="tianting_baotu_gained1" width="85" height="26" x="-6" y="33" source="ty_text02"/>
+		</e:Group>
+		<e:Group id="tianting_baotu_group2" width="73" height="59" x="426" y="521" anchorOffsetX="0" anchorOffsetY="0">
+			<gui:Button id="tianting_baotu_btn2" label="" x="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fb_baoXiang01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<e:Label id="tianting_baotu_layer2" text="9层" y="62" textColor="0x45332B" textAlign="center" left="0" right="0" style="ht_20_lc"/>
+			<e:Image id="tianting_baotu_gained2" width="85" height="26" x="-6" y="33" source="ty_text02"/>
+		</e:Group>
+		<e:Label text="最大层数:" x="14" y="621" textColor="0x45332b" style="ht_22_lc" width="120" textAlign="right"/>
+		<e:Label id="tianting_max_layer" text="7层" x="139" y="621" width="113" height="20" textColor="0x009200" style="ht_22_lc"/>
+		<e:Label id="tianting_rank" text="查看排行" x="215" y="621" width="113" height="20" textColor="0x009200" style="ht_22_lc"/>
+		<e:CheckBox id="tianting_auto_check" label="" x="369" y="602">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_xuanZheDi01" source.down="ty_xuanZhe01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:CheckBox>
+		<e:Label id="tianting_auto_tl" text="点击自动挑战" x="410" y="618" textColor="0x45332B" style="ht_22_lc" width="166"/>
+		<e:Group id="video_group3" width="147" height="55" x="55" y="671" scaleX="1" scaleY="1">
+			<gui:Button id="tianting_video_btn" label="录像" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" visible="false">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt5"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_28_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<e:Image width="180" height="30" touchEnabled="false" horizontalCenter="0" y="-20" source="ty_textDi01" scale9Grid="7,4,7,9"/>
+			<e:Label id="tianting_power" text="123456" x="-6" y="-20" width="160" textAlign="center" verticalAlign="middle" height="30" textColor="0xAFDD30" style="ht_20_lc_stroke"/>
+			<e:Label id="tianting_name" text="" x="-15" y="15" width="180" textAlign="center" verticalAlign="middle" height="30" textColor="0xFFFFFF" style="ht_20_lc_stroke" scaleX="1" scaleY="1" visible="false"/>
+		</e:Group>
+		<gui:Button id="tianting_onekey" label="一键扫荡" y="671" x="220">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt5"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_28_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="tianting_fight" label="挑战" y="671" x="385">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_28_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="tianting_pre" label="" x="-12" y="526">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_jianTou03"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="tianting_next" label="" x="559" y="526">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_jianTou04"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+
+
+
+	</e:Group>
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_back" label="" right="0" bottom="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CampaignBossQiuZhuLayout" width="640" height="400" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*">
+	<w:Config id="161c1d1ca3e"/>
+
+	<e:Group width="640" height="400" horizontalCenter="0" verticalCenter="0">
+		<e:Image scale9Grid="140,178,2,4" source="ty_uiDi01" height="400" width="640" y="0" x="0" scaleX="1" scaleY="1"/>
+		<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0" x="209" y="0" scaleX="1" scaleY="1"/>
+		<e:Label id="title" text="协助" height="36" style="ht_title_font" top="0" horizontalCenter="0" textAlign="center" verticalAlign="middle" width="640"/>
+		<e:Image source="ty_uiDi02" scale9Grid="21,20,1,1" scaleX="1" scaleY="1" height="260" width="580" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="word_help" text="发送到世界频道" width="240" height="35" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" y="133" horizontalCenter="0" textColor="0x62ce0a" style="ht_30_lc_stroke"/>
+		<e:Label id="club_help" text="发送到帮会频道" width="240" height="35" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" y="213" horizontalCenter="0" textColor="0x62ce0a" style="ht_30_lc_stroke"/>
+		<e:Rect width="220" height="5" y="170" horizontalCenter="0" fillColor="0x62ce0a" strokeColor="0x000000" strokeWeight="1"/>
+		<e:Rect width="220" height="5" y="250" horizontalCenter="0" fillColor="0x62ce0a" strokeColor="0x000000" strokeWeight="1"/>
+		<gui:Button id="btn_close" label="" top="0" right="0" x="585" y="0" scaleX="1" scaleY="1">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

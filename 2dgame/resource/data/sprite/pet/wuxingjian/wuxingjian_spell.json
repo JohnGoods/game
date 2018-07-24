@@ -1,0 +1,13 @@
+{"file":"wuxingjian_spell.png","frames":{
+"spell_3_body_00":{"x":485,"y":0,"w":19,"h":123,"offX":151,"offY":67,"sourceW":320,"sourceH":320},
+"spell_3_body_01":{"x":431,"y":306,"w":47,"h":83,"offX":136,"offY":93,"sourceW":320,"sourceH":320},
+"spell_3_body_02":{"x":469,"y":391,"w":36,"h":67,"offX":130,"offY":46,"sourceW":320,"sourceH":320},
+"spell_3_body_03":{"x":431,"y":188,"w":56,"h":116,"offX":110,"offY":7,"sourceW":320,"sourceH":320},
+"spell_3_body_04":{"x":0,"y":0,"w":269,"h":219,"offX":41,"offY":9,"sourceW":320,"sourceH":320},
+"spell_3_body_05":{"x":0,"y":221,"w":265,"h":211,"offX":45,"offY":24,"sourceW":320,"sourceH":320},
+"spell_7_body_00":{"x":489,"y":125,"w":19,"h":116,"offX":150,"offY":68,"sourceW":320,"sourceH":320},
+"spell_7_body_01":{"x":436,"y":0,"w":47,"h":129,"offX":137,"offY":72,"sourceW":320,"sourceH":320},
+"spell_7_body_02":{"x":431,"y":391,"w":36,"h":71,"offX":154,"offY":77,"sourceW":320,"sourceH":320},
+"spell_7_body_03":{"x":271,"y":188,"w":56,"h":19,"offX":158,"offY":74,"sourceW":320,"sourceH":320},
+"spell_7_body_04":{"x":271,"y":0,"w":163,"h":186,"offX":52,"offY":18,"sourceW":320,"sourceH":320},
+"spell_7_body_05":{"x":267,"y":221,"w":162,"h":191,"offX":43,"offY":13,"sourceW":320,"sourceH":320}}}

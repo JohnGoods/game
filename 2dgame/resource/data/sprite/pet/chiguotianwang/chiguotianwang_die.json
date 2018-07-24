@@ -1,0 +1,11 @@
+{"file":"chiguotianwang_die.png","frames":{
+"die_3_body_00":{"x":754,"y":186,"w":166,"h":202,"offX":61,"offY":43,"sourceW":320,"sourceH":320},
+"die_3_body_01":{"x":0,"y":0,"w":198,"h":189,"offX":66,"offY":44,"sourceW":320,"sourceH":320},
+"die_3_body_02":{"x":0,"y":191,"w":196,"h":187,"offX":63,"offY":40,"sourceW":320,"sourceH":320},
+"die_3_body_03":{"x":200,"y":0,"w":194,"h":185,"offX":60,"offY":37,"sourceW":320,"sourceH":320},
+"die_3_body_04":{"x":561,"y":186,"w":191,"h":182,"offX":60,"offY":36,"sourceW":320,"sourceH":320},
+"die_7_body_00":{"x":397,"y":186,"w":162,"h":219,"offX":92,"offY":44,"sourceW":320,"sourceH":320},
+"die_7_body_01":{"x":198,"y":191,"w":197,"h":184,"offX":57,"offY":55,"sourceW":320,"sourceH":320},
+"die_7_body_02":{"x":396,"y":0,"w":195,"h":184,"offX":61,"offY":57,"sourceW":320,"sourceH":320},
+"die_7_body_03":{"x":593,"y":0,"w":194,"h":168,"offX":64,"offY":74,"sourceW":320,"sourceH":320},
+"die_7_body_04":{"x":789,"y":0,"w":191,"h":164,"offX":67,"offY":78,"sourceW":320,"sourceH":320}}}

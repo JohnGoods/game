@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightActionLayout" width="320" height="400" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="frame_bg2" top="0" bottom="0" left="0" right="0"  scale9Grid="7,7,47,47" touchEnabled="false"/>
+	<e:Image source="frame_bg" scale9Grid="37,41,69,64" width="100" anchorOffsetY="0" left="0" top="8" bottom="55" height="350"/>
+	<gui:Button id="btn_play" label="演示" x="144" anchorOffsetX="0" width="78" anchorOffsetY="0" height="35" y="349">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="countbutton_default"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_ok" label="${CONFIRM_INFO}" x="231" anchorOffsetX="0" width="80" anchorOffsetY="0" height="35" y="349">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="countbutton_default"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</gui:Button>
+	<e:Image source="frame_bg" x="104" y="11" anchorOffsetX="0" width="206" anchorOffsetY="0" height="333"/>
+	<e:Scroller width="206" height="315" x="108" y="17" anchorOffsetY="0" bounces="false">
+		<e:Group id="group_scroller">
+			<e:Label text="通用属性" x="58" y="7" size="20" textColor="0xffff00"/>
+			<e:Label text="动作属性" x="51" y="192" size="20" textColor="0xFFFF00"/>
+			<e:Label text="开始时间" x="6" y="30" size="20"/>
+			<e:Label text="时长" x="6" y="62" size="20"/>
+			<e:Label text="事件名" x="6" y="94" size="20"/>
+			<e:Label text="开始事件" x="6" y="125" size="20"/>
+			<e:Label text="结束事件" x="6" y="157" size="20"/>
+			<e:Image source="titleBackground" y="30" anchorOffsetX="0" width="100" anchorOffsetY="0" height="25" x="91" locked="true"/>
+			<e:Image source="titleBackground" y="61" anchorOffsetX="0" width="100" anchorOffsetY="0" height="25" x="91" locked="true"/>
+			<e:Image source="titleBackground" y="92" anchorOffsetX="0" width="100" anchorOffsetY="0" height="25" x="91" locked="true"/>
+			<e:Image source="titleBackground" y="123" anchorOffsetX="0" width="45" anchorOffsetY="0" height="25" x="91" locked="true"/>
+			<e:Image source="titleBackground" y="122" anchorOffsetX="0" width="45" anchorOffsetY="0" height="25" x="145" locked="true"/>
+			<e:Image source="titleBackground" y="156" anchorOffsetX="0" width="45" anchorOffsetY="0" height="25" x="92" locked="true"/>
+			<e:Image source="titleBackground" y="155" anchorOffsetX="0" width="45" anchorOffsetY="0" height="25" x="146" locked="true"/>
+			<e:EditableText id="edit_startTime" width="100" height="25" text="" x="92" y="29" size="20"/>
+			<e:EditableText id="edit_during" width="100" height="25" text="" x="91" y="60" size="20"/>
+			<e:EditableText id="edit_name" width="100" height="25" text="" x="90" y="91" size="20"/>
+			<e:EditableText id="edit_startevent_action" width="44" height="26" text="" x="93" y="123" size="20" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:EditableText id="edit_startevent_event" width="44" height="26" text="" x="147" y="121" size="20" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:EditableText id="edit_finishevent_action" width="44" height="26" text="" x="92" y="155" size="20" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:EditableText id="edit_finishevent_event" width="44" height="26" text="" x="147" y="155" size="20" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+	</e:Scroller>
+	
+	<e:Scroller width="99" height="330" x="1" y="8" anchorOffsetX="0" anchorOffsetY="0">
+	<e:List id="list_actionList" width="90" height="325" x="5" y="12" anchorOffsetX="0" anchorOffsetY="0">
+		<e:itemRendererSkinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" scale9Grid="1,3,8,8" alpha.disabled="0.5" source="" source.down="selected"/>
+			<e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8" size="20" textColor="0xFFFF00" text="{data}" verticalAlign="middle" textAlign="left"/>
+		</e:Skin>
+		</e:itemRendererSkinName>
+		<e:layout>
+		<e:VerticalLayout gap="0" horizontalAlign="left" verticalAlign="top"/>
+		</e:layout>
+		<e:ArrayCollection>
+		<e:Array/>
+		</e:ArrayCollection>
+	</e:List>
+	</e:Scroller>
+</e:Skin>

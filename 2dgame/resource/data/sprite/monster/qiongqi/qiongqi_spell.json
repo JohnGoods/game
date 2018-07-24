@@ -1,0 +1,9 @@
+{"file":"qiongqi_spell.png","frames":{
+"spell_3_body_00":{"x":0,"y":533,"w":447,"h":465,"offX":50,"offY":95,"sourceW":640,"sourceH":640},
+"spell_3_body_01":{"x":0,"y":1000,"w":459,"h":419,"offX":50,"offY":113,"sourceW":640,"sourceH":640},
+"spell_3_body_02":{"x":461,"y":1004,"w":453,"h":382,"offX":80,"offY":150,"sourceW":640,"sourceH":640},
+"spell_3_body_03":{"x":624,"y":529,"w":488,"h":473,"offX":22,"offY":75,"sourceW":640,"sourceH":640},
+"spell_3_body_04":{"x":0,"y":0,"w":622,"h":531,"offX":0,"offY":77,"sourceW":640,"sourceH":640},
+"spell_3_body_05":{"x":1248,"y":0,"w":622,"h":524,"offX":0,"offY":80,"sourceW":640,"sourceH":640},
+"spell_3_body_06":{"x":624,"y":0,"w":622,"h":527,"offX":0,"offY":83,"sourceW":640,"sourceH":640},
+"spell_3_body_07":{"x":1248,"y":526,"w":474,"h":504,"offX":31,"offY":87,"sourceW":640,"sourceH":640}}}

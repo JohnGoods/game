@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StrongholdMapLayout" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" width="640" height="960" horizontalCenter="0" verticalCenter="0" scrollPolicyH="on" scrollPolicyV="off" bounces="false">
+		<e:Group id="group_map" width="1536" height="963">
+			<e:Image scaleX="1" scaleY="1" source="pf_xiaoDiTu" y="0" x="0" width="1536" height="963"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" source="pf_xiaoDiTuBiaoTi" touchEnabled="false" left="0" top="0"/>
+	<gui:Button id="btn_close" label="" bottom="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

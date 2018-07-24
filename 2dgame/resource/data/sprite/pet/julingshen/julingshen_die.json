@@ -1,0 +1,9 @@
+{"file":"julingshen_die.png","frames":{
+"die_3_body_00":{"x":0,"y":0,"w":198,"h":173,"offX":57,"offY":61,"sourceW":320,"sourceH":320},
+"die_3_body_01":{"x":350,"y":197,"w":156,"h":188,"offX":72,"offY":45,"sourceW":320,"sourceH":320},
+"die_3_body_02":{"x":153,"y":214,"w":146,"h":180,"offX":74,"offY":47,"sourceW":320,"sourceH":320},
+"die_3_body_03":{"x":0,"y":366,"w":128,"h":159,"offX":84,"offY":54,"sourceW":320,"sourceH":320},
+"die_7_body_00":{"x":200,"y":0,"w":148,"h":212,"offX":71,"offY":64,"sourceW":320,"sourceH":320},
+"die_7_body_01":{"x":350,"y":0,"w":152,"h":195,"offX":94,"offY":56,"sourceW":320,"sourceH":320},
+"die_7_body_02":{"x":0,"y":175,"w":151,"h":189,"offX":98,"offY":61,"sourceW":320,"sourceH":320},
+"die_7_body_03":{"x":301,"y":387,"w":114,"h":164,"offX":119,"offY":74,"sourceW":320,"sourceH":320}}}

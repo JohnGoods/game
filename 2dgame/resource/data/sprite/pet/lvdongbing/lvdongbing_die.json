@@ -1,0 +1,9 @@
+{"file":"lvdongbing_die.png","frames":{
+"die_3_body_00":{"x":0,"y":159,"w":121,"h":192,"offX":92,"offY":71,"sourceW":320,"sourceH":320},
+"die_3_body_01":{"x":123,"y":159,"w":112,"h":192,"offX":92,"offY":66,"sourceW":320,"sourceH":320},
+"die_3_body_02":{"x":324,"y":0,"w":103,"h":179,"offX":95,"offY":73,"sourceW":320,"sourceH":320},
+"die_3_body_03":{"x":237,"y":126,"w":80,"h":135,"offX":104,"offY":93,"sourceW":320,"sourceH":320},
+"die_7_body_00":{"x":0,"y":0,"w":151,"h":157,"offX":91,"offY":78,"sourceW":320,"sourceH":320},
+"die_7_body_01":{"x":153,"y":0,"w":169,"h":124,"offX":95,"offY":112,"sourceW":320,"sourceH":320},
+"die_7_body_02":{"x":0,"y":353,"w":159,"h":118,"offX":96,"offY":116,"sourceW":320,"sourceH":320},
+"die_7_body_03":{"x":237,"y":263,"w":82,"h":87,"offX":134,"offY":133,"sourceW":320,"sourceH":320}}}

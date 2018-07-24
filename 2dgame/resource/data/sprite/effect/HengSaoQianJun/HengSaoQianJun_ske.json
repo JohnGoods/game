@@ -1,0 +1,34 @@
+{
+  "anims":[
+    {
+      "dirs":[
+        0
+      ],
+      "frameCount":9,
+      "interval":100,
+      "name":"3"
+    },
+    {
+      "dirs":[
+        0
+      ],
+      "frameCount":9,
+      "interval":100,
+      "name":"7"
+    }
+  ],
+  "bodyparts":[
+    {
+      "name":"body",
+      "offx":160,
+      "offy":210,
+      "order":0,
+      "shows":[]
+    }
+  ],
+  "name":"HengSaoQianJun",
+  "textures":[
+    "HengSaoQianJun_3.png",
+    "HengSaoQianJun_7.png"
+  ]
+}

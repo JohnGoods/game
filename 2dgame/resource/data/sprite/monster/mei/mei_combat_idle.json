@@ -1,0 +1,9 @@
+{"file":"mei_combat_idle.png","frames":{
+"combat_idle_3_body_00":{"x":581,"y":0,"w":282,"h":282,"offX":162,"offY":235,"sourceW":640,"sourceH":640},
+"combat_idle_3_body_01":{"x":575,"y":559,"w":289,"h":269,"offX":158,"offY":248,"sourceW":640,"sourceH":640},
+"combat_idle_3_body_02":{"x":0,"y":569,"w":293,"h":265,"offX":155,"offY":252,"sourceW":640,"sourceH":640},
+"combat_idle_3_body_03":{"x":0,"y":286,"w":289,"h":269,"offX":155,"offY":248,"sourceW":640,"sourceH":640},
+"combat_idle_3_body_04":{"x":575,"y":284,"w":291,"h":273,"offX":153,"offY":244,"sourceW":640,"sourceH":640},
+"combat_idle_3_body_05":{"x":0,"y":0,"w":290,"h":284,"offX":153,"offY":233,"sourceW":640,"sourceH":640},
+"combat_idle_3_body_06":{"x":292,"y":0,"w":287,"h":282,"offX":156,"offY":235,"sourceW":640,"sourceH":640},
+"combat_idle_3_body_07":{"x":292,"y":284,"w":281,"h":283,"offX":163,"offY":234,"sourceW":640,"sourceH":640}}}

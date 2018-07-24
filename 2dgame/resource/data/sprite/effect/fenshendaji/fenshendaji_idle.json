@@ -1,0 +1,8 @@
+{"file":"fenshendaji_idle.png","frames":{
+"idle_0_body_00":{"x":371,"y":747,"w":191,"h":246,"offX":207,"offY":192,"sourceW":640,"sourceH":640},
+"idle_0_body_01":{"x":985,"y":0,"w":288,"h":313,"offX":174,"offY":145,"sourceW":640,"sourceH":640},
+"idle_0_body_02":{"x":0,"y":560,"w":369,"h":395,"offX":141,"offY":97,"sourceW":640,"sourceH":640},
+"idle_0_body_03":{"x":533,"y":0,"w":450,"h":477,"offX":108,"offY":50,"sourceW":640,"sourceH":640},
+"idle_0_body_04":{"x":0,"y":0,"w":531,"h":558,"offX":76,"offY":4,"sourceW":640,"sourceH":640},
+"idle_0_body_05":{"x":533,"y":479,"w":619,"h":266,"offX":21,"offY":327,"sourceW":640,"sourceH":640},
+"idle_0_body_06":{"x":564,"y":747,"w":177,"h":204,"offX":0,"offY":364,"sourceW":640,"sourceH":640}}}

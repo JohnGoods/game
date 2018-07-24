@@ -1,0 +1,5 @@
+{"file":"feidao_idle.png","frames":{
+"idle_0_body_00":{"x":0,"y":0,"w":159,"h":163,"offX":98,"offY":118,"sourceW":320,"sourceH":320},
+"idle_0_body_01":{"x":0,"y":394,"w":135,"h":109,"offX":98,"offY":118,"sourceW":320,"sourceH":320},
+"idle_0_body_02":{"x":0,"y":165,"w":143,"h":114,"offX":96,"offY":114,"sourceW":320,"sourceH":320},
+"idle_0_body_03":{"x":0,"y":281,"w":144,"h":111,"offX":98,"offY":116,"sourceW":320,"sourceH":320}}}

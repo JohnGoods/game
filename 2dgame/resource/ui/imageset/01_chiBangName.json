@@ -1,0 +1,11 @@
+{"file":"01_chiBangName.png","frames":{
+"cb_name01_1":{"x":85,"y":0,"w":40,"h":222,"offX":0,"offY":0,"sourceW":41,"sourceH":222},
+"cb_name01_2":{"x":163,"y":220,"w":36,"h":218,"offX":2,"offY":2,"sourceW":41,"sourceH":222},
+"cb_name02_1":{"x":43,"y":224,"w":40,"h":222,"offX":0,"offY":0,"sourceW":41,"sourceH":222},
+"cb_name02_2":{"x":165,"y":0,"w":36,"h":218,"offX":2,"offY":2,"sourceW":41,"sourceH":222},
+"cb_name03_1":{"x":43,"y":0,"w":40,"h":222,"offX":0,"offY":0,"sourceW":41,"sourceH":222},
+"cb_name03_2":{"x":127,"y":0,"w":36,"h":218,"offX":2,"offY":2,"sourceW":41,"sourceH":222},
+"cb_name04_1":{"x":0,"y":224,"w":41,"h":222,"offX":0,"offY":0,"sourceW":41,"sourceH":222},
+"cb_name04_2":{"x":124,"y":224,"w":37,"h":218,"offX":2,"offY":2,"sourceW":41,"sourceH":222},
+"cb_name05_1":{"x":0,"y":0,"w":41,"h":222,"offX":0,"offY":0,"sourceW":41,"sourceH":222},
+"cb_name05_2":{"x":85,"y":224,"w":37,"h":218,"offX":2,"offY":2,"sourceW":41,"sourceH":222}}}

@@ -1,0 +1,11 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/ui/tool/wing_imageset.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/ui/ui_theme.thm.json"
+}

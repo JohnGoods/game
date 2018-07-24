@@ -1,0 +1,13 @@
+{"file":"shimoren_attack.png","frames":{
+"attack_3_body_00":{"x":497,"y":435,"w":198,"h":181,"offX":24,"offY":45,"sourceW":320,"sourceH":320},
+"attack_3_body_01":{"x":0,"y":659,"w":170,"h":205,"offX":49,"offY":19,"sourceW":320,"sourceH":320},
+"attack_3_body_02":{"x":497,"y":222,"w":172,"h":211,"offX":77,"offY":12,"sourceW":320,"sourceH":320},
+"attack_3_body_03":{"x":0,"y":0,"w":266,"h":245,"offX":54,"offY":40,"sourceW":320,"sourceH":320},
+"attack_3_body_04":{"x":535,"y":0,"w":225,"h":220,"offX":92,"offY":44,"sourceW":320,"sourceH":320},
+"attack_3_body_05":{"x":762,"y":0,"w":239,"h":188,"offX":64,"offY":42,"sourceW":320,"sourceH":320},
+"attack_7_body_00":{"x":762,"y":190,"w":198,"h":215,"offX":98,"offY":41,"sourceW":320,"sourceH":320},
+"attack_7_body_01":{"x":244,"y":441,"w":161,"h":222,"offX":109,"offY":38,"sourceW":320,"sourceH":320},
+"attack_7_body_02":{"x":0,"y":451,"w":172,"h":206,"offX":70,"offY":38,"sourceW":320,"sourceH":320},
+"attack_7_body_03":{"x":268,"y":0,"w":265,"h":219,"offX":0,"offY":36,"sourceW":320,"sourceH":320},
+"attack_7_body_04":{"x":268,"y":221,"w":227,"h":218,"offX":0,"offY":40,"sourceW":320,"sourceH":320},
+"attack_7_body_05":{"x":0,"y":247,"w":242,"h":202,"offX":13,"offY":38,"sourceW":320,"sourceH":320}}}

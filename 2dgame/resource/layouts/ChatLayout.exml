@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatLayout" width="640" height="840" currentState="normal" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing"  states="normal,noinput" >
+	<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi01" height="840" width="640" scale9Grid="122,138,13,28"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="title" text="私聊" style="ht_title_font" verticalAlign="middle" textAlign="center" width="640" height="36" top="0" horizontalCenter="0" touchEnabled="false"/>
+	<e:Group id="friendRootWnd" left="40" right="40" top="55" bottom="205">
+		<e:Image anchorOffsetY="0" source="ty_uiDi02" scale9Grid="6,6,23,27" left="0" right="0" top="0" bottom="0"/>
+		<e:Image x="175" height="40" width="350" source="lt_siLiaoDi04" scale9Grid="12,11,12,27" y="10" visible="false"/>
+		<e:Label id="nameLabel" text="" y="15" anchorOffsetX="0" width="300" anchorOffsetY="0" height="30" textAlign="left" verticalAlign="middle" x="180" style="ht_24_lc_stroke" visible="false"/>
+		<gui:Button id="plrInfoBtn" label="" scaleX="0.8" scaleY="0.8" y="13" x="490" visible="false">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lt_wanJiaXinXi"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Image x="0" width="170" anchorOffsetY="0" source="07_liaoTian.lt_siLiaoDi" scale9Grid="12,14,147,40" top="0" bottom="0"/>
+		<e:Label id="friendTitle" text="${CHAT_TXT4}" x="4" y="1" anchorOffsetX="0" width="130" style="ht_20_lc_stroke" anchorOffsetY="0" height="26" textAlign="center" verticalAlign="middle" visible="false"/>
+		<gui:Button id="findFriend" label="${CHAT_TXT5}" x="0" width="170" height="50" bottom="0" visible="false">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_20_lc_stroke" text=""/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Group id="group_friends" width="170" anchorOffsetX="0" anchorOffsetY="0" x="0" top="0" bottom="0"/>
+		<e:Group id="group_friendschat" width="390" anchorOffsetX="0" anchorOffsetY="0" x="170" top="0" bottom="0"/>
+	</e:Group>
+	<e:Group id="sendRootWnd" anchorOffsetY="0" anchorOffsetX="0" bottom="117" width="560" height="73" x="40">
+		<e:Image scale9Grid="6,6,23,27" width="560" height="73" anchorOffsetY="0" source="ty_uiDi02" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<gui:Button id="btn_send" label="${CHAT_SEND}" x="458" anchorOffsetX="0" width="94" anchorOffsetY="0" height="49" verticalCenter="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="" style="ht_24_lc_stroke" borderColor="0xd16b25"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_display" label="${ZHANSHI}" x="430" anchorOffsetX="0" width="94" anchorOffsetY="0" height="49" verticalCenter="0" visible="false">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="" style="ht_24_lc_stroke" borderColor="0xd16b25"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Group id="edit_bg" width="440" height="45" verticalCenter="0" x="10">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" scale9Grid="18,9,11,18" scaleX="1" scaleY="1" width="440" x="0" height="45" y="0" source="ty_shuRuDi01"/>
+			<e:EditableText id="edit_input" width="400" height="35" text="" x="5" y="5" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			<gui:Button id="btn_biaoqing" label="" y="6" scaleX="1" scaleY="1" right="2">
+				<gui:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="lt_bt_biaoQing01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</gui:skinName>
+			</gui:Button>
+		</e:Group>
+	</e:Group>
+	<gui:Button id="btn_close" label="" x="530" width="83" height="84" bottom="26">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close_top" label="" x="580" y="-3">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close_top1" label="" x="520" y="-3" visible="false">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_suoXiao"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	
+	
+</e:Skin>

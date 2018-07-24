@@ -1,0 +1,9 @@
+{"file":"zhaocaimao_attack.png","frames":{
+"attack_3_body_00":{"x":0,"y":311,"w":99,"h":121,"offX":105,"offY":98,"sourceW":320,"sourceH":320},
+"attack_3_body_01":{"x":155,"y":258,"w":112,"h":115,"offX":98,"offY":115,"sourceW":320,"sourceH":320},
+"attack_3_body_02":{"x":192,"y":0,"w":241,"h":125,"offX":79,"offY":111,"sourceW":320,"sourceH":320},
+"attack_3_body_03":{"x":192,"y":127,"w":223,"h":129,"offX":97,"offY":107,"sourceW":320,"sourceH":320},
+"attack_7_body_00":{"x":417,"y":127,"w":90,"h":121,"offX":104,"offY":107,"sourceW":320,"sourceH":320},
+"attack_7_body_01":{"x":101,"y":375,"w":97,"h":123,"offX":121,"offY":105,"sourceW":320,"sourceH":320},
+"attack_7_body_02":{"x":0,"y":0,"w":190,"h":165,"offX":130,"offY":58,"sourceW":320,"sourceH":320},
+"attack_7_body_03":{"x":0,"y":167,"w":153,"h":142,"offX":160,"offY":64,"sourceW":320,"sourceH":320}}}

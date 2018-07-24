@@ -1,0 +1,5 @@
+{"file":"hanbinglang_combat_idle.png","frames":{
+"combat_idle_3_body_00":{"x":0,"y":304,"w":144,"h":148,"offX":78,"offY":67,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_01":{"x":0,"y":153,"w":144,"h":149,"offX":79,"offY":64,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_02":{"x":145,"y":0,"w":143,"h":150,"offX":80,"offY":63,"sourceW":320,"sourceH":320},
+"combat_idle_3_body_03":{"x":0,"y":0,"w":143,"h":151,"offX":79,"offY":65,"sourceW":320,"sourceH":320}}}

@@ -1,0 +1,14 @@
+平台key,类型（1单次奖励；2多次奖励 每次需要间隔30分钟；3多次每次需要间隔1小时；4多次每次需要间隔2小时；5多次每次需要间隔4小时；6多次每次需要间隔6小时;7 8小时;8 10小时;9 12小时）,key说明,奖励
+platForm_ks,stype,read_c,reward_t
+qqFristShare,1,qq首次分享,"{""rmbGold"",10}"
+qqDailyShare,2,qq每日分享,"{""funds"",10000}"
+WXFirstShare,1,微信首次分享,"{""rmbGold"",10}"
+WXDailyShare,2,微信每日分享,"{""funds"",10000}"
+FBScore,1,faceBook评价,"{""rmbGold"",50}"
+FBFristShare,1,faceBook首次分享,"{""rmbGold"",10}"
+LFirstShare,1,line首次分享,"{""rmbGold"",10}"
+shopScore,1,商城评分,"{""rmbGold"",50}"
+FanScore,1,粉丝团奖励,"{""rmbGold"",50}"
+FBDailyShare,2,faceBook每日分享,"{""funds"",10000}"
+h5DailyShare,6,h5分享,"{""bindRmb"",2000},{""funds"",200000},{""item"",40004,1}"
+h5Attention,1,h5关注,"{""item"",20013,15},{""item"",20014,15},{""bindRmb"",2000}"

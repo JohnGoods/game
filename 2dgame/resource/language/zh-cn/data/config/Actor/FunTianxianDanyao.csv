@@ -1,0 +1,10 @@
+名字,位置索引,消耗物品id,索引位置物品名称,物品消耗数量,每次升级加多少属性
+Name_ks,Index_kn,itemid_n,itemname_s,itemnum_n,effects_t
+TianXianDanYao,1,60025,生命丹,1,"{'maxhp',500}"
+TianXianDanYao,2,60026,攻击丹,1,"{'demage',72}"
+TianXianDanYao,3,60027,防御丹,1,"{'hujia',80}"
+TianXianDanYao,4,60028,命中丹,1,"{'hitrate',2},{'demage',62}"
+TianXianDanYao,5,60029,闪避丹,1,"{'dodge',2},{'demage',62}"
+TianXianDanYao,6,60030,暴击丹,1,"{'critrate',2},{'demage',62}"
+TianXianDanYao,7,60031,抗暴丹,1,"{'critratedec',2},{'maxhp',62}"
+TianXianDanYao,8,60032,攻速丹,1,"{'maxhp',500},{'speed',1}"

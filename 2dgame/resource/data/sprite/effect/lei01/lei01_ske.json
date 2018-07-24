@@ -1,0 +1,34 @@
+{
+  "anims":[
+    {
+      "dirs":[
+        0
+      ],
+      "frameCount":8,
+      "interval":100,
+      "name":"3"
+    },
+    {
+      "dirs":[
+        0
+      ],
+      "frameCount":8,
+      "interval":100,
+      "name":"7"
+    }
+  ],
+  "bodyparts":[
+    {
+      "name":"body",
+      "offx":320,
+      "offy":320,
+      "order":0,
+      "shows":[]
+    }
+  ],
+  "name":"lei01",
+  "textures":[
+    "lei01_3.png",
+    "lei01_7.png"
+  ]
+}

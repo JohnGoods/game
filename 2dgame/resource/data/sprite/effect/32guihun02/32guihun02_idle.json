@@ -1,0 +1,9 @@
+{"file":"32guihun02_idle.png","frames":{
+"idle_0_body_00":{"x":378,"y":182,"w":109,"h":47,"offX":88,"offY":125,"sourceW":320,"sourceH":320},
+"idle_0_body_01":{"x":355,"y":360,"w":150,"h":138,"offX":85,"offY":93,"sourceW":320,"sourceH":320},
+"idle_0_body_02":{"x":0,"y":361,"w":156,"h":144,"offX":83,"offY":88,"sourceW":320,"sourceH":320},
+"idle_0_body_03":{"x":184,"y":360,"w":169,"h":150,"offX":76,"offY":81,"sourceW":320,"sourceH":320},
+"idle_0_body_04":{"x":201,"y":182,"w":175,"h":176,"offX":72,"offY":78,"sourceW":320,"sourceH":320},
+"idle_0_body_05":{"x":0,"y":191,"w":182,"h":168,"offX":68,"offY":76,"sourceW":320,"sourceH":320},
+"idle_0_body_06":{"x":0,"y":0,"w":199,"h":189,"offX":60,"offY":67,"sourceW":320,"sourceH":320},
+"idle_0_body_07":{"x":201,"y":0,"w":202,"h":180,"offX":58,"offY":67,"sourceW":320,"sourceH":320}}}

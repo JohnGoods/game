@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetUnionLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ty_uiDi01" scale9Grid="142,190,3,6" left="0" bottom="0" top="0" right="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0" top="0"/>
+	<e:Label id="title" text="${PET_UNION_TXT1}" top="0" horizontalCenter="0" width="640" height="36" style="ht_title_font" textAlign="center" verticalAlign="middle"/>
+	<e:Group height="120" y="47" left="50" right="40">
+		<e:Image source="00_tongYong03.ty_uiDi02" left="0" bottom="0" top="0" right="0" scale9Grid="19,20,6,4"/>
+		<e:Scroller id="scroller" height="120" verticalCenter="0" left="0" right="0" scrollPolicyH="on" scrollPolicyV="off">
+			<e:List id="pet_scroll"/>
+		</e:Scroller>
+		<gui:Button id="left_btn" label="" left="-30" verticalCenter="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_jianTou03"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="right_btn" label="" right="-30" verticalCenter="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_jianTou04"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<e:Group width="590" height="156" horizontalCenter="0" y="176">
+		<e:Image source="00_tongYong03.ty_uiDi02" left="0" top="0" bottom="0" right="0" scale9Grid="20,21,3,3"/>
+		<e:Label id="no_record" text="${PET_UNION_TXT3}" height="30" textAlign="center" verticalAlign="middle" width="590" horizontalCenter="0" style="ht_24_lc_stroke" y="58" visible="false"/>
+		<e:Scroller id="record_scroller" left="10" right="10" top="1" bottom="1">
+			<e:List id="record_scroll"/>
+		</e:Scroller>
+	</e:Group>
+	<e:Group width="592" height="451" bottom="110" horizontalCenter="0">
+		<e:Image source="pf_heChengDi01" horizontalCenter="0" x="3" scaleX="1" scaleY="1" verticalCenter="0"/>
+		<gui:RichDisplayer id="tips_rd" width="520" height="20" left="37" top="13"/>
+		<e:Group id="material_wnd" width="186" height="390" x="389" y="50">
+			<e:Scroller width="186" height="390" x="0" y="0">
+				<e:Group id="item_list">
+					<e:layout>
+						<e:TileLayout horizontalGap="6" verticalGap="10" requestedColumnCount="2"/>
+					</e:layout>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="mark_wnd" width="215" height="410" x="375" y="40" anchorOffsetY="0"/>
+		<gui:Button id="tips_btn" label="" left="13" top="48">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hd_Bt04"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Group id="item_bg0" width="64" height="64" x="154" y="60"/>
+		<e:Group id="item_bg1" width="64" height="64" x="252" y="120"/>
+		<e:Group id="item_bg2" width="64" height="64" x="252" y="228"/>
+		<e:Group id="item_bg3" width="64" height="64" x="154" y="288"/>
+		<e:Group id="item_bg4" width="64" height="64" x="55" y="228"/>
+		<e:Group id="item_bg5" width="64" height="64" x="55" y="120"/>
+		<gui:Button id="union_btn" label="${PET_UNION_TXT2}" y="370" x="113" width="147" height="55">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<gui:Button id="relation_btn" label="" top="0" left="-6">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="cw_Bt01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close" label="" right="0" bottom="13">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

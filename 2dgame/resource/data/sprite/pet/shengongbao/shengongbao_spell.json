@@ -1,0 +1,13 @@
+{"file":"shengongbao_spell.png","frames":{
+"spell_3_body_00":{"x":343,"y":520,"w":155,"h":201,"offX":67,"offY":30,"sourceW":320,"sourceH":320},
+"spell_3_body_01":{"x":362,"y":758,"w":197,"h":199,"offX":12,"offY":0,"sourceW":320,"sourceH":320},
+"spell_3_body_02":{"x":736,"y":758,"w":197,"h":182,"offX":11,"offY":0,"sourceW":320,"sourceH":320},
+"spell_3_body_03":{"x":0,"y":0,"w":203,"h":261,"offX":75,"offY":52,"sourceW":320,"sourceH":320},
+"spell_3_body_04":{"x":0,"y":263,"w":202,"h":255,"offX":75,"offY":58,"sourceW":320,"sourceH":320},
+"spell_3_body_05":{"x":181,"y":758,"w":179,"h":235,"offX":92,"offY":78,"sourceW":320,"sourceH":320},
+"spell_7_body_00":{"x":186,"y":520,"w":155,"h":225,"offX":98,"offY":4,"sourceW":320,"sourceH":320},
+"spell_7_body_01":{"x":500,"y":520,"w":194,"h":148,"offX":117,"offY":45,"sourceW":320,"sourceH":320},
+"spell_7_body_02":{"x":696,"y":520,"w":194,"h":145,"offX":120,"offY":41,"sourceW":320,"sourceH":320},
+"spell_7_body_03":{"x":0,"y":520,"w":184,"h":236,"offX":41,"offY":0,"sourceW":320,"sourceH":320},
+"spell_7_body_04":{"x":0,"y":758,"w":179,"h":236,"offX":42,"offY":0,"sourceW":320,"sourceH":320},
+"spell_7_body_05":{"x":561,"y":758,"w":173,"h":219,"offX":55,"offY":13,"sourceW":320,"sourceH":320}}}

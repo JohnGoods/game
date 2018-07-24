@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubEventRecordLayout" width="600" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="600" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ty_uiDi01" scale9Grid="142,190,3,6" left="0" bottom="0" top="0" right="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+		<e:Label id="title" text="${CLUB_TXT112}" top="0" horizontalCenter="0" width="600" textAlign="center" verticalAlign="middle" height="36" x="0" y="0" scaleX="1" scaleY="1" style="ht_title_font"/>
+		<e:Group id="scroll_wnd" top="55" left="45" right="45" anchorOffsetY="0" bottom="75">
+			<e:Image source="ty_uiDi02" left="0" top="0" right="0" bottom="0" scale9Grid="20,21,4,3"/>
+		</e:Group>
+		<gui:Button id="btn_close" label="" right="0" bottom="13" x="517" y="653" scaleX="1" scaleY="1">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_close_top" label="" top="0" right="0" x="545" y="0" scaleX="1" scaleY="1">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+</e:Skin>

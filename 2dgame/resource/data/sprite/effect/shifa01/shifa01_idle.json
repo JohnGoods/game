@@ -1,0 +1,8 @@
+{"file":"shifa01_idle.png","frames":{
+"idle_0_body_00":{"x":0,"y":124,"w":121,"h":128,"offX":94,"offY":97,"sourceW":320,"sourceH":320},
+"idle_0_body_01":{"x":123,"y":124,"w":119,"h":126,"offX":89,"offY":101,"sourceW":320,"sourceH":320},
+"idle_0_body_02":{"x":244,"y":124,"w":119,"h":117,"offX":84,"offY":108,"sourceW":320,"sourceH":320},
+"idle_0_body_03":{"x":365,"y":124,"w":115,"h":106,"offX":88,"offY":113,"sourceW":320,"sourceH":320},
+"idle_0_body_04":{"x":232,"y":0,"w":89,"h":86,"offX":113,"offY":123,"sourceW":320,"sourceH":320},
+"idle_0_body_05":{"x":131,"y":0,"w":99,"h":105,"offX":108,"offY":109,"sourceW":320,"sourceH":320},
+"idle_0_body_06":{"x":0,"y":0,"w":129,"h":122,"offX":94,"offY":100,"sourceW":320,"sourceH":320}}}

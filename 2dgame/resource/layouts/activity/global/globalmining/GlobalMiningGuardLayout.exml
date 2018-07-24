@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GlobalMiningGuardLayout" width="640" height="510" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*">
+	<w:Config id="161c1d1ca3e"/>
+	<e:Image scale9Grid="140,178,2,4" source="ty_uiDi01" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="label_wndName" text="" width="640" height="36" textAlign="center" verticalAlign="middle" style="ht_title_font" top="0" horizontalCenter="0"/>
+	<e:Image width="577" height="276" y="49" source="ty_uiDi02" scale9Grid="20,20,2,2" horizontalCenter="0"/>
+	<e:Label id="tl0" text="${GLOBAL_MINING_TXT14}" y="63" left="0" right="0" textAlign="center" textColor="0x45332b" style="ht_24_lc"/>
+
+	<e:Group id="team_group0" width="180" height="201" x="42" y="114">
+		<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi03" scale9Grid="26,28,1,1"/>
+		<e:Image width="90" height="90" source="ty_renWuKuang01" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0"/>
+		<e:Image id="team_icon0" width="90" height="90" source="zctx_90001" left="0" top="0"/>
+		<e:Label id="team_name0" text="Label" x="10" y="107" textColor="0x45332b" width="169" style="ht_20_lc"/>
+		<e:Label id="team_level0" text="Label" x="10" y="137" textColor="0x45332B" width="169" style="ht_20_lc"/>
+		<e:Label id="team_force0" text="Label" x="10" y="168" textColor="0x45332B" width="169" style="ht_20_lc"/>
+		<e:Image id="team_leader_icon" width="40" height="68" x="81" y="8" source="bh_textDi04"/>
+		<e:Label id="team_leader_tl" text="队长" x="91" y="16" width="28" style="ht_22_lc_stroke"/>
+		<gui:ProgressBar id="hp_pro0" width="150" height="17" y="81" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="team_group1" width="180" height="201" x="230" y="114">
+		<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi03" scale9Grid="26,28,1,1"/>
+		<e:Image width="90" height="90" source="ty_renWuKuang01" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0" x="-230" y="-526" scaleX="1" scaleY="1"/>
+		<e:Image id="team_icon1" width="90" height="90" source="zctx_90001" left="0" top="0" x="-230" y="-526" scaleX="1" scaleY="1"/>
+		<e:Label id="team_name1" text="Label" x="10" y="107" textColor="0x45332B" width="169" scaleX="1" scaleY="1" style="ht_20_lc"/>
+		<e:Label id="team_level1" text="Label" x="10" y="137" textColor="0x45332B" width="169" scaleX="1" scaleY="1" style="ht_20_lc"/>
+		<e:Label id="team_force1" text="Label" x="10" y="168" textColor="0x45332B" width="169" scaleX="1" scaleY="1" style="ht_20_lc"/>
+		<gui:ProgressBar width="150" height="17" y="81" horizontalCenter="0" id="hp_pro1"/>
+
+	</e:Group>
+	<e:Group id="team_group2" width="180" height="201" x="417" y="114">
+		<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi03" scale9Grid="26,28,1,1"/>
+		<e:Image width="90" height="90" source="ty_renWuKuang01" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0" x="-417" y="-526" scaleX="1" scaleY="1"/>
+		<e:Image id="team_icon2" width="90" height="90" source="zctx_90001" left="0" top="0" x="-417" y="-526" scaleX="1" scaleY="1"/>
+		<e:Label id="team_name2" text="Label" x="10" y="107" textColor="0x45332B" width="169" scaleX="1" scaleY="1" style="ht_20_lc"/>
+		<e:Label id="team_level2" text="Label" x="10" y="137" textColor="0x45332B" width="169" scaleX="1" scaleY="1" style="ht_20_lc"/>
+		<e:Label id="team_force2" text="Label" x="10" y="168" textColor="0x45332B" width="169" scaleX="1" scaleY="1" style="ht_20_lc"/>
+		<gui:ProgressBar width="150" height="17" y="81" horizontalCenter="0" id="hp_pro2"/>
+
+	</e:Group>
+	<e:Label id="tl1" text="${GLOBAL_MINING_TXT12}" y="420" left="0" right="0" textAlign="center" textColor="0xa52a2a" style="ht_28_lc"/>
+
+
+
+
+
+	<gui:Button id="cancel_btn" label="${GLOBAL_MINING_TXT15}" x="134" y="348" width="147" height="55">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+
+	</gui:Button>
+
+	<gui:Button id="fight_btn" label="${GLOBAL_MINING_TXT16}" x="364" y="348" width="147" height="55">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_back" label="" right="0" bottom="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Image width="488" height="16" y="90" source="cz_uiLine01" scale9Grid="21,2,1,12" horizontalCenter="0"/>
+
+
+</e:Skin>

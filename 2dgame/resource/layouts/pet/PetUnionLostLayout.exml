@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetUnionLostLayout" width="640" height="500" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*">
+	<e:Image height="319" width="507" horizontalCenter="0" verticalCenter="0" source="ty_heChengShiBai"/>
+	<gui:Button id="btn_close" label="确定" y="411" horizontalCenter="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_22_lc_stroke"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

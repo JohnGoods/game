@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonSkinPropertyLayout" width="600" height="730" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:gui="gui.*">
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" width="600" x="0" height="730" y="0">
+		<e:Image source="ty_uiDi01" top="0" bottom="0" left="0" right="0" scale9Grid="104,105,47,74"/>
+		<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+		<e:Label id="title" text="" verticalAlign="middle" textAlign="center" top="0" horizontalCenter="0" style="ht_title_font" height="36" width="600"/>
+		<e:Group anchorOffsetX="0" height="30" width="192" top="65" horizontalCenter="0">
+			<e:Image source="05_xianLv.xl_renWuDi" horizontalCenter="0" x="-51" scaleX="1" scaleY="1" top="0"/>
+			<e:Image right="0" left="0" source="ty_zhanLiDi01" top="0"/>
+			<e:Group id="group_wnd" height="30" width="134" horizontalCenter="0" verticalCenter="0">
+			<gui:BatchImage id="bImage" height="30" y="1" scaleX="1" scaleY="1" anchorOffsetY="0" width="85" x="25"/>
+			</e:Group>
+		</e:Group>
+		<e:Image source="01_zhuCheng03.xl_text02" top="366" horizontalCenter="0"/>
+		<e:Image source="cz_uiLine01" scale9Grid="14,8,19,1" width="515" horizontalCenter="0" top="389"/>
+		<e:Image source="cz_uiLine01" scale9Grid="14,8,19,1" width="515" horizontalCenter="0" top="467"/>
+		<gui:RichDisplayer id="rd_1" width="492.91" height="48.48" anchorOffsetY="0" anchorOffsetX="0" top="413" horizontalCenter="0"/>
+		<gui:Button id="btn_back" label="" scaleX="1" scaleY="1" right="0" bottom="0">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_close_top" label="" scaleX="1" scaleY="1" right="0" top="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Group id="actor" width="1" height="1" y="255" x="319"/>
+		<e:Image id="title_icon" width="160" height="60" y="224" horizontalCenter="0" source="chengHao_icon09"/>
+	</e:Group>
+</e:Skin>

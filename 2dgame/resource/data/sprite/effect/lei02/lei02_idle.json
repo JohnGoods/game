@@ -1,0 +1,9 @@
+{"file":"lei02_idle.png","frames":{
+"idle_0_body_00":{"x":654,"y":181,"w":77,"h":228,"offX":126,"offY":0,"sourceW":320,"sourceH":320},
+"idle_0_body_01":{"x":422,"y":181,"w":105,"h":229,"offX":108,"offY":5,"sourceW":320,"sourceH":320},
+"idle_0_body_02":{"x":239,"y":0,"w":144,"h":236,"offX":92,"offY":4,"sourceW":320,"sourceH":320},
+"idle_0_body_03":{"x":0,"y":0,"w":237,"h":239,"offX":42,"offY":0,"sourceW":320,"sourceH":320},
+"idle_0_body_04":{"x":0,"y":241,"w":270,"h":178,"offX":23,"offY":61,"sourceW":320,"sourceH":320},
+"idle_0_body_05":{"x":385,"y":0,"w":144,"h":179,"offX":85,"offY":60,"sourceW":320,"sourceH":320},
+"idle_0_body_06":{"x":272,"y":238,"w":148,"h":177,"offX":84,"offY":61,"sourceW":320,"sourceH":320},
+"idle_0_body_07":{"x":529,"y":181,"w":123,"h":163,"offX":92,"offY":69,"sourceW":320,"sourceH":320}}}

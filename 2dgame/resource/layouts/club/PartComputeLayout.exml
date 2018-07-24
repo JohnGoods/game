@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartComputeLayout" width="580" height="485" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="580" height="485" y="0" x="0">
+		<e:Image source="ty_uiDi01" scale9Grid="142,190,3,6" left="0" bottom="0" top="0" right="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0" top="0" x="179" y="0" scaleX="1" scaleY="1"/>
+		<e:Label id="title" text="${CLUB_STORE_TXT7}" top="0" horizontalCenter="0" width="580" height="36" style="ht_title_font" textAlign="center" verticalAlign="middle" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Group id="item_wnd" width="220" height="80" y="70" horizontalCenter="0">
+			<gui:RichDisplayer id="item_name_rd" height="60" y="10" width="160" x="90"/>
+		</e:Group>
+		<gui:RichDisplayer id="item_des_rd" width="400" height="60" y="169" horizontalCenter="0"/>
+		<e:Group width="500" height="64" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" top="260">
+			<e:Group width="124" height="47" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0">
+			<e:Image source="ty_shuRuDi01" horizontalCenter="0" x="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+			<e:Label id="count_txt" text="1" style="ht_24_lc_stroke" verticalCenter="0" horizontalCenter="0"/>
+			</e:Group>
+			<gui:Button id="btn_cut1" label="" verticalCenter="0" left="118">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ty_jianIcon01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<gui:Button id="btn_cut10" label="-10" verticalCenter="0" left="7">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt6"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<gui:Button id="btn_plus1" label="" verticalCenter="0" right="118">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ty_jiaIcon01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+			<gui:Button id="btn_plus10" label="+10" right="7" verticalCenter="0">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt6"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+			</gui:Button>
+		</e:Group>
+		<gui:Button id="btn_close" label="" right="0" bottom="13" x="497" y="383" scaleX="1" scaleY="1">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="btn_close_top" label="" top="0" right="0" x="525" y="0" scaleX="1" scaleY="1">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<e:Image source="00_tongYong03.cz_uiLine01" y="240" width="520" horizontalCenter="0" scale9Grid="23,8,1,1"/>
+		<gui:Button id="sure_btn" label="${SURE}" y="360" horizontalCenter="0" width="147">
+			<gui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+				</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+</e:Skin>

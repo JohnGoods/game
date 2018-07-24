@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossBefallLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing" xmlns:itemRender="itemRender.*">
+	<w:Config id="161c1d1ca3e"/>
+	<e:Image x="-1.33" width="640" scale9Grid="140,178,2,4" source="ty_uiDi01" top="0" bottom="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="label_wndName" text="" width="640" height="36" textAlign="center" verticalAlign="middle" style="ht_title_font" top="0" horizontalCenter="0"/>
+	<e:Image height="78" source="ty_uiDi02" scale9Grid="18,18,2,2" left="20" right="19" bottom="15"/>
+	<gui:RichDisplayer id="tips_rd" height="54" bottom="19" left="91" right="121"/>
+	<e:Group id="scroll_group" width="525" height="320" x="57" y="47">
+	</e:Group>
+	<gui:Button id="jie_shop_btn" label="" x="-31" y="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="boss_Bt02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="pre_btn" label="" x="11" y="199">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_jianTou01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="next_btn" label="" x="582" y="199">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_jianTou02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Group id="item_group" width="565" height="102" x="34" y="377">
+		<e:Image source="ty_uiDi02" scale9Grid="18,18,2,2" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+		<e:Label text="几率掉落" x="14" y="20" textColor="0x45332b" anchorOffsetX="0" width="65"/>
+	</e:Group>
+	<e:Label id="cur_name" text="Label" y="487" anchorOffsetX="0" left="0" right="0" textAlign="center" style="ht_24_lc_stroke" textColor="0xd49600"/>
+	<e:Image width="558" height="16" y="508" source="cz_uiLine01" scale9Grid="22,2,2,12" horizontalCenter="0"/>
+	<e:Group id="record_group" width="580" height="266" y="530" anchorOffsetX="0" horizontalCenter="0">
+		<e:Image height="125" y="1" left="0" right="0" source="ty_textDi08" scale9Grid="11,11,1,1"/>
+		<e:Image height="125" y="135" left="0" right="0" source="ty_textDi08" scale9Grid="11,11,1,1"/>
+		<e:Image width="255" height="42" y="3" source="boss_biaoTiDi01" scale9Grid="56,5,3,32" horizontalCenter="0"/>
+		<e:Label id="tl0" text="${BOSS_TXT71}" y="11" left="0" right="0" textAlign="center" textColor="0x45332b" style="ht_24_lc"/>
+		<e:Image width="255" height="42" y="137" source="boss_biaoTiDi01" scale9Grid="56,5,3,32" horizontalCenter="0"/>
+		<e:Label id="tl1" text="${BOSS_TXT70}" y="145" left="0" right="0" textAlign="center" textColor="0x45332B" style="ht_24_lc"/>
+		<e:Group id="record_first_group" height="77" y="49" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0">
+			<e:Label id="tl2" text="${BOSS_TXT72}" x="5" y="8" textColor="0x45332b" style="ht_20_lc" textAlign="right" width="72"/>
+			<e:Label id="tl3" text="${BOSS_TXT73}" x="5" y="41" textColor="0x45332B" style="ht_20_lc" textAlign="right" width="72"/>
+			<e:Label id="record_round0" text="9回合" x="76" y="41" style="ht_20_lc" textAlign="left" width="147" textColor="0x009200"/>
+			<e:Label id="tl4" text="${BOSS_TXT74}" x="233" y="41" textColor="0x45332B" style="ht_20_lc" textAlign="right" width="93"/>
+			<e:Label id="record_time0" text="2018-5-30 16:13:14" x="325" y="41" textColor="0x009200" style="ht_20_lc" textAlign="left" width="252"/>
+			<e:Label id="record_team0" text="队伍队伍队伍、队伍队伍队伍、队伍队伍队伍" x="76" y="8" textColor="0x45332B" textAlign="left" width="500" style="ht_20_lc"/>
+		</e:Group>
+		<e:Group id="record_last_group" height="77" y="184" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0">
+			<e:Label id="tl5" text="${BOSS_TXT72}" x="5" y="8" textColor="0x45332B" style="ht_20_lc" textAlign="right" width="72"/>
+			<e:Label id="tl6" text="${BOSS_TXT73}" x="5" y="41" textColor="0x45332B" style="ht_20_lc" textAlign="right" width="72"/>
+			<e:Label id="record_round1" text="9回合" x="76" y="41" textColor="0x009200" style="ht_20_lc" textAlign="left" width="147"/>
+			<e:Label id="tl7" text="${BOSS_TXT74}" x="233" y="41" textColor="0x45332B" style="ht_20_lc" textAlign="right" width="93"/>
+			<e:Label text="2018-5-30 16:13:14" x="325" y="41" textColor="0x009200" style="ht_20_lc" textAlign="left" width="252" id="record_time1"/>
+			<e:Label text="队伍队伍队伍、队伍队伍队伍、队伍队伍队伍" x="76" y="8" textColor="0x45332B" style="ht_20_lc" textAlign="left" width="500" id="record_team1"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="sweap_group" width="577" height="60" x="33" y="738" visible="false">
+		<gui:Button id="sweap_btn" label="${COPY_TXT7}" x="29" y="3" scaleX="1" scaleY="1">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke" textAlign="center"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+		<gui:Button id="oneKey_sweap_btn" label="${BOSS_TXT48}" x="388" y="3" scaleX="1" scaleY="1">
+			<gui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+			</gui:skinName>
+		</gui:Button>
+	</e:Group>
+	<e:Group id="team_group" width="640" height="300" x="0" y="520" visible="false">
+
+
+	</e:Group>
+	<e:Group id="link_group" width="142" height="26" x="417" y="486" anchorOffsetX="0" anchorOffsetY="0"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_back" label="" right="0" bottom="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

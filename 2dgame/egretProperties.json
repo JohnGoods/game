@@ -1,0 +1,57 @@
+{
+	"engineVersion": "5.2.4",
+	"compilerVersion": "5.2.4",
+	"template": {},
+	"target": {
+		"current": "web"
+	},
+	"eui": {
+		"exmlRoot": [
+			"resource"
+		],
+		"themes": [
+			"resource/ui/ui_theme.thm.json"
+		],
+		"exmlPublishPolicy": "commonjs"
+	},
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "eui"
+		},
+		{
+			"name": "assetsmanager"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "socket"
+		},
+		{
+			"name": "promise"
+		},
+		{
+			"name": "engine2d",
+			"path": "../engine2d/libs/engine2d"
+		},
+		{
+			"name": "stringformat",
+			"path": "./libs/stringformat"
+		},
+		{
+			"name": "jszip",
+			"path": "./libs/jszip"
+		},
+		{
+			"name": "FileSaver",
+			"path": "./libs/FileSaver"
+		},
+		{
+			"name": "clipboard",
+			"path": "./libs/clipboard"
+		}
+	]
+}

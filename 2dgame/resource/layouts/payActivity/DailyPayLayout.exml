@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyPayLayout" width="640" height="820" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mrcz_renWu" x="0" y="0"/>
+	<e:Label text="天天充值！豪礼天天领!" x="324" y="127" anchorOffsetX="0" width="164" anchorOffsetY="0" height="87" style="ht_28_lc" textColor="0x070000" textAlign="center"/>
+	<e:Image source="18_sanShengSanShi.ssss_qiuHunDi01" x="9" y="267" anchorOffsetY="0" height="550" scale9Grid="77,108,464,60"/>
+	<e:Image source="mrcz_text01" x="241" y="296"/>
+	<e:Image source="18_sanShengSanShi.ssss_dengLong01" x="-2" y="268"/>
+	<e:Image source="18_sanShengSanShi.ssss_dengLong02" x="532" y="271"/>
+	<gui:Button id="btn_close" label="" x="572" y="259">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:RadioButton id="pay_select1" label="充任意金额" x="286" y="348">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mrcz_biaoQian02" source.down="mrcz_biaoQian01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke" text=""/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="pay_select2" label="充48元" x="427" y="347">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mrcz_biaoQian02" source.down="mrcz_biaoQian01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:Image source="mrcz_uiDi01" x="52" y="386" anchorOffsetX="0" width="529" anchorOffsetY="0" height="271" scale9Grid="31,24,13,20"/>
+	<e:Group id="group_prize" width="476" height="230" x="84" y="391" anchorOffsetX="0" anchorOffsetY="0">
+		<e:layout>
+			<e:TileLayout requestedRowCount="2" requestedColumnCount="3" paddingLeft="0" horizontalGap="15" verticalGap="0"/>
+		</e:layout>
+		<e:Group id="group_prize0" x="9" y="3" anchorOffsetX="0" width="141" anchorOffsetY="0" height="135">
+			<e:Image source="18_sanShengSanShi.SSSS_LiWuDi01" x="19" y="15"/>
+		</e:Group>
+		<e:Group id="group_prize1" x="19" y="13" anchorOffsetX="0" width="141" anchorOffsetY="0" height="135">
+			<e:Image source="18_sanShengSanShi.SSSS_LiWuDi01" x="19" y="15"/>
+		</e:Group>
+		<e:Group id="group_prize2" x="29" y="23" anchorOffsetX="0" width="141" anchorOffsetY="0" height="135">
+			<e:Image source="18_sanShengSanShi.SSSS_LiWuDi01" x="19" y="15"/>
+		</e:Group>
+		<e:Group id="group_prize3" x="39" y="33" anchorOffsetX="0" width="141" anchorOffsetY="0" height="135">
+			<e:Image source="18_sanShengSanShi.SSSS_LiWuDi01" x="19" y="15"/>
+		</e:Group>
+		<e:Group id="group_prize4" x="49" y="43" anchorOffsetX="0" width="141" anchorOffsetY="0" height="135">
+			<e:Image source="18_sanShengSanShi.SSSS_LiWuDi01" x="19" y="15"/>
+		</e:Group>
+		<e:Group id="group_prize5" x="59" y="53" anchorOffsetX="0" width="141" anchorOffsetY="0" height="135">
+			<e:Image source="18_sanShengSanShi.SSSS_LiWuDi01" x="19" y="15"/>
+		</e:Group>
+	</e:Group>
+	<gui:Button id="btn_pay" label="充点小钱" x="216" y="712">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt10"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="" style="ht_28_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Image id="red_point" anchorOffsetX="0" width="40" anchorOffsetY="0" height="40" source="zjm_hongDian01" y="700" x="385" touchEnabled="false"/>
+	<e:Image id="red_point1" anchorOffsetX="0" width="40" anchorOffsetY="0" height="40" source="zjm_hongDian01" x="405" touchEnabled="false" scaleX="1" scaleY="1" y="340"/>
+	<e:Image id="red_point2" anchorOffsetX="0" width="40" anchorOffsetY="0" height="40" source="zjm_hongDian01" x="530" touchEnabled="false" scaleX="1" scaleY="1" y="340"/>
+	<gui:RichDisplayer id="rd_payinfo" width="341" height="33" y="671" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0.5"/>
+</e:Skin>

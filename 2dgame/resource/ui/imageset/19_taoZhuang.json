@@ -1,0 +1,16 @@
+{"file":"19_taoZhuang.png","frames":{
+"tz_Bt01_down":{"x":294,"y":0,"w":100,"h":102,"offX":0,"offY":4,"sourceW":100,"sourceH":106},
+"tz_Bt01_up":{"x":257,"y":342,"w":100,"h":102,"offX":0,"offY":4,"sourceW":100,"sourceH":106},
+"tz_Bt02_down":{"x":359,"y":204,"w":100,"h":98,"offX":0,"offY":7,"sourceW":100,"sourceH":106},
+"tz_Bt02_up":{"x":294,"y":104,"w":100,"h":98,"offX":0,"offY":7,"sourceW":100,"sourceH":106},
+"tz_Bt03_down":{"x":257,"y":237,"w":100,"h":103,"offX":0,"offY":2,"sourceW":100,"sourceH":106},
+"tz_Bt03_up":{"x":0,"y":372,"w":100,"h":103,"offX":0,"offY":2,"sourceW":100,"sourceH":106},
+"tz_Bt04_down":{"x":396,"y":95,"w":100,"h":93,"offX":0,"offY":12,"sourceW":100,"sourceH":106},
+"tz_Bt04_up":{"x":396,"y":0,"w":100,"h":93,"offX":0,"offY":12,"sourceW":100,"sourceH":106},
+"tz_Bt05_down":{"x":359,"y":399,"w":100,"h":93,"offX":0,"offY":12,"sourceW":100,"sourceH":106},
+"tz_Bt05_up":{"x":359,"y":304,"w":100,"h":93,"offX":0,"offY":12,"sourceW":100,"sourceH":106},
+"tz_taoZhuangDi01":{"x":0,"y":0,"w":292,"h":235,"offX":0,"offY":0,"sourceW":292,"sourceH":235},
+"tz_taoZhuangDi02":{"x":173,"y":237,"w":82,"h":245,"offX":0,"offY":0,"sourceW":82,"sourceH":245},
+"tz_text01":{"x":0,"y":477,"w":103,"h":29,"offX":0,"offY":0,"sourceW":103,"sourceH":29},
+"tz_text02":{"x":461,"y":190,"w":103,"h":27,"offX":0,"offY":2,"sourceW":103,"sourceH":29},
+"tz_textDi01":{"x":0,"y":237,"w":171,"h":133,"offX":0,"offY":0,"sourceW":171,"sourceH":133}}}

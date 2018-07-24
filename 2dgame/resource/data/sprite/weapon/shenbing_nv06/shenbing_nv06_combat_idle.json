@@ -1,0 +1,13 @@
+{"file":"shenbing_nv06_combat_idle.png","frames":{
+"combat_idle_3_weapon_00":{"x":126,"y":102,"w":126,"h":99,"offX":91,"offY":135,"sourceW":320,"sourceH":320},
+"combat_idle_3_weapon_01":{"x":254,"y":178,"w":126,"h":99,"offX":91,"offY":134,"sourceW":320,"sourceH":320},
+"combat_idle_3_weapon_02":{"x":290,"y":365,"w":121,"h":97,"offX":93,"offY":135,"sourceW":320,"sourceH":320},
+"combat_idle_3_weapon_03":{"x":382,"y":178,"w":123,"h":101,"offX":95,"offY":135,"sourceW":320,"sourceH":320},
+"combat_idle_3_weapon_04":{"x":0,"y":0,"w":124,"h":104,"offX":94,"offY":136,"sourceW":320,"sourceH":320},
+"combat_idle_3_weapon_05":{"x":126,"y":0,"w":128,"h":100,"offX":92,"offY":135,"sourceW":320,"sourceH":320},
+"combat_idle_7_weapon_00":{"x":0,"y":203,"w":143,"h":86,"offX":62,"offY":133,"sourceW":320,"sourceH":320},
+"combat_idle_7_weapon_01":{"x":145,"y":279,"w":143,"h":86,"offX":62,"offY":134,"sourceW":320,"sourceH":320},
+"combat_idle_7_weapon_02":{"x":290,"y":281,"w":144,"h":82,"offX":61,"offY":137,"sourceW":320,"sourceH":320},
+"combat_idle_7_weapon_03":{"x":256,"y":0,"w":144,"h":87,"offX":61,"offY":132,"sourceW":320,"sourceH":320},
+"combat_idle_7_weapon_04":{"x":256,"y":89,"w":144,"h":87,"offX":61,"offY":130,"sourceW":320,"sourceH":320},
+"combat_idle_7_weapon_05":{"x":0,"y":367,"w":144,"h":85,"offX":61,"offY":133,"sourceW":320,"sourceH":320}}}

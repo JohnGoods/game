@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginServerListLayout" width="620" height="810" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" right="0" top="0" bottom="0" scale9Grid="132,113,23,99" source="dl_uiDi02"/>
+	<e:Image horizontalCenter="0" source="dl_uiBiaoTiDi01"/>
+	<e:Image source="27_dengLu.dl_uiDi01" x="40" y="46" anchorOffsetX="0" width="240" anchorOffsetY="0" height="732" scale9Grid="14,10,13,15"/>
+	<e:Scroller width="210" height="710" x="56" y="52" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="list_regionlist" y="-12" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-120" width="171">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object null=""/>
+			</e:Array>
+		</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Image source="27_dengLu.dl_uiDi01" x="287" y="46" anchorOffsetX="0" width="290" anchorOffsetY="0" height="732" scale9Grid="14,10,13,15"/>
+	<e:Scroller width="265" height="710" x="301" y="52" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="list_serverlist" y="-12" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-120" width="171">
+		<e:ArrayCollection>
+			<e:Array>
+			<e:Object null=""/>
+			</e:Array>
+		</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<gui:Button id="btn_close" label="" anchorOffsetX="0" anchorOffsetY="0" right="0" bottom="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dl_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<e:Label id="label_title" text="选择区服" anchorOffsetX="0" width="610" textAlign="center" horizontalCenter="0" height="36" style="ht_title_font" top="0"/>
+	<gui:Button id="btn_close_top" label="" right="0" top="0">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

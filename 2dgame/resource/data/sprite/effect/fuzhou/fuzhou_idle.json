@@ -1,0 +1,15 @@
+{"file":"fuzhou_idle.png","frames":{
+"idle_0_body_00":{"x":675,"y":227,"w":98,"h":133,"offX":268,"offY":235,"sourceW":640,"sourceH":640},
+"idle_0_body_01":{"x":886,"y":0,"w":108,"h":125,"offX":262,"offY":228,"sourceW":640,"sourceH":640},
+"idle_0_body_02":{"x":0,"y":638,"w":133,"h":147,"offX":246,"offY":221,"sourceW":640,"sourceH":640},
+"idle_0_body_03":{"x":193,"y":489,"w":156,"h":190,"offX":234,"offY":177,"sourceW":640,"sourceH":640},
+"idle_0_body_04":{"x":525,"y":0,"w":197,"h":220,"offX":214,"offY":142,"sourceW":640,"sourceH":640},
+"idle_0_body_05":{"x":271,"y":0,"w":252,"h":260,"offX":193,"offY":134,"sourceW":640,"sourceH":640},
+"idle_0_body_06":{"x":0,"y":0,"w":269,"h":254,"offX":193,"offY":103,"sourceW":640,"sourceH":640},
+"idle_0_body_07":{"x":0,"y":256,"w":191,"h":246,"offX":250,"offY":100,"sourceW":640,"sourceH":640},
+"idle_0_body_08":{"x":193,"y":262,"w":156,"h":225,"offX":250,"offY":122,"sourceW":640,"sourceH":640},
+"idle_0_body_09":{"x":724,"y":0,"w":160,"h":225,"offX":255,"offY":117,"sourceW":640,"sourceH":640},
+"idle_0_body_10":{"x":525,"y":222,"w":148,"h":238,"offX":256,"offY":114,"sourceW":640,"sourceH":640},
+"idle_0_body_11":{"x":351,"y":262,"w":143,"h":238,"offX":256,"offY":111,"sourceW":640,"sourceH":640},
+"idle_0_body_12":{"x":886,"y":127,"w":119,"h":110,"offX":269,"offY":226,"sourceW":640,"sourceH":640},
+"idle_0_body_13":{"x":0,"y":504,"w":154,"h":132,"offX":253,"offY":214,"sourceW":640,"sourceH":640}}}

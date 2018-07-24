@@ -1,0 +1,13 @@
+{"file":"shenbing_nv03_spell.png","frames":{
+"spell_3_weapon_00":{"x":0,"y":105,"w":103,"h":87,"offX":134,"offY":164,"sourceW":320,"sourceH":320},
+"spell_3_weapon_01":{"x":195,"y":86,"w":121,"h":48,"offX":25,"offY":160,"sourceW":320,"sourceH":320},
+"spell_3_weapon_02":{"x":0,"y":194,"w":111,"h":56,"offX":40,"offY":164,"sourceW":320,"sourceH":320},
+"spell_3_weapon_03":{"x":213,"y":0,"w":91,"h":84,"offX":58,"offY":166,"sourceW":320,"sourceH":320},
+"spell_3_weapon_04":{"x":291,"y":136,"w":52,"h":96,"offX":95,"offY":171,"sourceW":320,"sourceH":320},
+"spell_3_weapon_05":{"x":437,"y":0,"w":28,"h":92,"offX":129,"offY":168,"sourceW":320,"sourceH":320},
+"spell_7_weapon_00":{"x":91,"y":0,"w":120,"h":65,"offX":37,"offY":135,"sourceW":320,"sourceH":320},
+"spell_7_weapon_01":{"x":238,"y":136,"w":51,"h":101,"offX":129,"offY":176,"sourceW":320,"sourceH":320},
+"spell_7_weapon_02":{"x":0,"y":0,"w":89,"h":103,"offX":86,"offY":168,"sourceW":320,"sourceH":320},
+"spell_7_weapon_03":{"x":105,"y":67,"w":88,"h":78,"offX":83,"offY":172,"sourceW":320,"sourceH":320},
+"spell_7_weapon_04":{"x":113,"y":147,"w":123,"h":50,"offX":47,"offY":174,"sourceW":320,"sourceH":320},
+"spell_7_weapon_05":{"x":306,"y":0,"w":129,"h":30,"offX":37,"offY":172,"sourceW":320,"sourceH":320}}}

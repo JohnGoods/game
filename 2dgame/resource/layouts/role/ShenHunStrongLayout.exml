@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShenHunStrongLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ty_uiDi01" scale9Grid="142,190,3,6" left="0" bottom="0" top="0" right="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0"/>
+	<e:Label id="title" text="${SHENHUN_TITLE_TXT2}" top="4" horizontalCenter="0" width="640" textAlign="center" verticalAlign="middle" height="36" style="ht_title_font"/>
+	<e:Group width="600" height="520" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" y="59">
+		<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi02" scale9Grid="5,5,32,31"/>
+		<e:Image source="sh_ztQiangHuaDi" y="15" horizontalCenter="0"/>
+		<e:Group width="128" height="128" top="19" horizontalCenter="5">
+			<e:Image id="item_bg" left="0" right="0" top="0" bottom="0" source="ty_faBaoDi02"/>
+			<gui:AnimBox id="anim" width="70" height="70" horizontalCenter="-3" verticalCenter="10"/>
+			<e:Image id="item_icon" width="80" height="80" source="item_70001" horizontalCenter="-5" verticalCenter="10"/>
+			<e:Image id="item_add" source="ty_jinJieShu01" width="80" height="80" horizontalCenter="0" y="36"/>
+			<e:Label id="label_name" text="Label" y="1" left="0" right="0" style="ht_24_lc_stroke" verticalAlign="middle" textAlign="center"/>
+		</e:Group>
+		<e:Image source="sh_jinDuDi01" y="198" horizontalCenter="0"/>
+		<e:Image source="sh_shuZhiDi01" scale9Grid="41,35,44,60" anchorOffsetX="0" width="270" anchorOffsetY="0" height="253.33" left="18" top="258"/>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" height="253.33" top="258" right="18" width="270" source="sh_shuZhiDi02" scale9Grid="9,35,45,60"/>
+		<e:Image source="xl_jianTou01" x="284" y="369"/>
+		<e:Image source="sh_qiangHuaDengJi" horizontalCenter="-67" top="202"/>
+		<gui:RichDisplayer id="rd_tolevel" width="200" height="20" top="206" horizontalCenter="92"/>
+		<e:Scroller width="540" height="209" anchorOffsetX="0" top="294" horizontalCenter="0">
+			<e:Group id="des_group" width="540" height="209">
+				<gui:RichDisplayer id="rd_skill_1" width="250" height="302" top="0" left="0"/>
+				<gui:RichDisplayer id="rd_skill_2" width="250" height="278" y="0" right="0"/>
+				<e:layout>
+					<e:TileLayout horizontalGap="38"/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+		<e:Group width="547" height="30" y="233" horizontalCenter="0">
+			<e:ProgressBar id="pro_plus" width="547" height="30" value="20" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin minWidth="30" minHeight="18">
+				<e:Image scale9Grid="1,1,4,4" width="100%" height="100%" verticalCenter="0" source="hb_loadingDi01"/>
+				<e:Image id="thumb" height="100%" width="100%" source="sh_jinDu01"/>
+				<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle" size="15" fontFamily="Tahoma" textColor="0x707070" horizontalCenter="0" verticalCenter="0" visible="false"/>
+				</e:Skin>
+			</e:skinName>
+			</e:ProgressBar>
+			<e:ProgressBar id="pro" width="547" height="30" value="15" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin minWidth="30" minHeight="18">
+				<e:Image scale9Grid="1,1,4,4" width="100%" height="100%" verticalCenter="0" source="hb_loadingDi01" visible="false"/>
+				<e:Image id="thumb" height="100%" width="100%" source="hb_loading01"/>
+				<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle" size="15" fontFamily="Tahoma" textColor="0x707070" horizontalCenter="0" verticalCenter="0" visible="false"/>
+				</e:Skin>
+			</e:skinName>
+			</e:ProgressBar>
+			<e:Label id="label_add" text="Label" style="ht_24_lc_stroke" verticalCenter="0" textColor="0xeff8ff" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group width="600" anchorOffsetX="0" anchorOffsetY="0" bottom="102" horizontalCenter="0" top="586">
+		<e:Image left="0" right="0" top="0" bottom="0" source="ty_uiDi02" scale9Grid="5,5,32,31" x="-20" y="-598" scaleX="1" scaleY="1"/>
+		<e:Scroller left="0" right="0" top="7" bottom="5">
+			<e:List id="item_list"/>
+		</e:Scroller>
+	</e:Group>
+	<gui:Button id="btn_close" label="" right="0" bottom="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_strong" label="${SHENHUN_TXT1}" bottom="24" width="147" height="55" left="139">
+		<gui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+			</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_onekey" label="${SHENHUN_TXT13}" bottom="24" width="147" height="55" right="139">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>

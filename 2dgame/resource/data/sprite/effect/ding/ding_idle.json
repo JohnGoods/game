@@ -1,0 +1,8 @@
+{"file":"ding_idle.png","frames":{
+"idle_0_body_00":{"x":605,"y":696,"w":278,"h":196,"offX":182,"offY":203,"sourceW":640,"sourceH":640},
+"idle_0_body_01":{"x":0,"y":682,"w":301,"h":283,"offX":178,"offY":119,"sourceW":640,"sourceH":640},
+"idle_0_body_02":{"x":0,"y":400,"w":318,"h":280,"offX":167,"offY":117,"sourceW":640,"sourceH":640},
+"idle_0_body_03":{"x":0,"y":0,"w":417,"h":398,"offX":105,"offY":71,"sourceW":640,"sourceH":640},
+"idle_0_body_04":{"x":419,"y":338,"w":381,"h":356,"offX":124,"offY":99,"sourceW":640,"sourceH":640},
+"idle_0_body_05":{"x":419,"y":0,"w":439,"h":336,"offX":96,"offY":143,"sourceW":640,"sourceH":640},
+"idle_0_body_06":{"x":303,"y":696,"w":300,"h":257,"offX":168,"offY":153,"sourceW":640,"sourceH":640}}}

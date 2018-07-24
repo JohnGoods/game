@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubStoreLayout" width="640" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:gui="gui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ty_uiDi01" scale9Grid="142,190,3,6" left="0" bottom="0" top="0" right="0"/>
+	<e:Image source="ty_uiBiaoTiDi01" horizontalCenter="0" top="0"/>
+	<e:Label id="title" text="${CLUB_STORE_TXT1}" top="0" horizontalCenter="0" width="640" height="36" style="ht_title_font" textAlign="center" verticalAlign="middle"/>
+	<e:Group left="30" top="50" right="30" height="755" anchorOffsetY="0">
+		<e:Image source="00_tongYong03.ty_uiDi02" left="0" top="0" bottom="0" right="0" scale9Grid="21,21,1,1"/>
+		<e:Scroller width="560" x="10" anchorOffsetY="0" height="688" y="66">
+			<e:List id="scroll"/>
+		</e:Scroller>
+		<e:Group height="66" left="0" right="0" top="0">
+			<e:Image source="00_tongYong03.ty_textDi02" left="0" top="0" bottom="0" right="0" scale9Grid="25,26,2,2"/>
+			<gui:RichDisplayer id="tips_rd" height="50" width="560" left="20" verticalCenter="2"/>
+		</e:Group>
+	</e:Group>
+	<e:Label id="count_txt" text="" y="830" height="30" textAlign="center" verticalAlign="middle" style="ht_24_lc" width="200" horizontalCenter="20"/>
+	<gui:Button id="part_record_btn" label="${CLUB_STORE_TXT2}" x="30" y="820" width="147">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ty_tongYongBt1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" style="ht_24_lc_stroke"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close" label="" right="0" bottom="13">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+	<gui:Button id="btn_close_top" label="" top="0" right="0">
+		<gui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="ty_bt_back02"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</gui:skinName>
+	</gui:Button>
+</e:Skin>
